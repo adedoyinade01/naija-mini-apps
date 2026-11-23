@@ -106,10 +106,19 @@ def test_modern_afrobeats_mode(tmp_path):
     ins = analyze.run(spot, tmp_path / "i.json", afrobeats_csv=modern)
     assert ins["target"] == "afrobeats" and ins["afrobeat"]["tracks"] == 400
     assert "acousticness" not in ins["hitModel"]["browserModel"]["features"]  # not in this dataset
-    assert [e["era"] for e in ins["eras"]] == ["Afrobeats 2008 - 2010", "Afrobeats 2011 - 2013", "Afrobeats 2014 - 2016", "Afrobeats 2017 - 2019"]
+    assert [e["era"] for e in ins["eras"]] == ["2008–10", "2011–13", "2014–16", "2017–19"]
     assert "afrobeat" not in ins["genres"]  # Spotify's tag is dropped in modern mode
     assert ins["hitModel"]["cvAuc"]["logisticRegression"]["mean"] > 0.6
 
     def no_nan(c):
         raise AssertionError(f"invalid JSON constant {c}")
     json.loads((tmp_path / "i.json").read_text(), parse_constant=no_nan)
+
+
+def test_era_of():
+    assert analyze.era_of("Afrobeats 2017") == ("2017", 2017)
+    assert analyze.era_of("Afrobeats 2008 - 2010") == ("2008–10", 2008)
+    assert analyze.era_of("Naija Old Skool 2000's") == ("2000s", 2000)
+    assert analyze.era_of("Naija Heat 2020") == ("2020", 2020)
+    for skip in ["This is Wizkid", "Naija Mix 2012-2016", "Best Afropop Songs of the 2010s", "Zlatan Ibile"]:
+        assert analyze.era_of(skip) is None

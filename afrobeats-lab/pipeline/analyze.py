@@ -80,9 +80,23 @@ def features_in(df: pd.DataFrame, wanted: list[str]) -> list[str]:
     return [f for f in wanted if f in df.columns and df[f].notna().mean() > 0.95]
 
 
-def era_key(name: str) -> tuple:
-    years = re.findall(r"(19|20)(\d{2})", str(name))
-    return (int(years[0][0] + years[0][1]) if years else 9999, str(name))
+def era_of(playlist: str):
+    """Map a playlist name to an era label, or None if it isn't an era playlist.
+
+    'Afrobeats 2017' -> '2017', 'Afrobeats 2008 - 2010' -> '2008–10', "Naija Old Skool 2000's" -> '2000s'.
+    Artist playlists ('This is Wizkid') and broad mixes ('...2010s', '2012-2016') are skipped.
+    """
+    name = str(playlist)
+    if re.search(r"(19|20)\d0'?s\b", name):
+        decade = re.search(r"((19|20)\d0)'?s", name).group(1)
+        return None if decade == "2010" else (f"{decade}s", int(decade))
+    years = [int(y) for y in re.findall(r"\b((?:19|20)\d{2})\b", name)]
+    if not years:
+        return None
+    lo, hi = min(years), max(years)
+    if hi - lo > 2:
+        return None
+    return (str(lo) if lo == hi else f"{lo}–{str(hi)[2:]}", lo)
 
 
 # ---------------------------------------------------------------- analysis
@@ -110,7 +124,7 @@ def afro_stats(afro: pd.DataFrame) -> dict:
            .head(10)[["track_name", "artists", "popularity"]])
     artists = (afro.assign(artist=afro["artists"].astype(str).str.split(";").str[0])
                .groupby("artist")["popularity"].agg(["mean", "count"])
-               .query("count >= 3").sort_values("mean", ascending=False).head(10).round(1))
+               .query("count >= 5").sort_values("mean", ascending=False).head(10).round(1))
     return {
         "tracks": int(len(afro)),
         "medianTempo": round(float(afro["tempo"].median()), 1),
@@ -125,14 +139,14 @@ def afro_stats(afro: pd.DataFrame) -> dict:
 
 
 def eras(afro: pd.DataFrame) -> list[dict]:
-    """How the sound changed across era playlists (modern dataset only)."""
+    """How the sound changed across year/era playlists (modern dataset only)."""
     if "playlist" not in afro:
         return []
     feats = features_in(afro, ["danceability", "energy", "valence", "speechiness", "tempo"])
-    g = afro.groupby("playlist")
+    mapped = afro.assign(_era=afro["playlist"].map(era_of)).dropna(subset=["_era"])
+    mapped = mapped.assign(_label=mapped["_era"].str[0], _start=mapped["_era"].str[1])
     out = []
-    for name in sorted(g.groups, key=era_key):
-        grp = g.get_group(name)
+    for name, grp in sorted(mapped.groupby("_label"), key=lambda kv: kv[1]["_start"].iloc[0]):
         if len(grp) < 15:
             continue
         top = grp.sort_values("popularity", ascending=False).iloc[0]
