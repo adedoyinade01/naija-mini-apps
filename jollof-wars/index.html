@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Jollof Wars · Live</title>
+<meta name="description" content="The live, global Jollof vote. Nigeria vs Ghana. Pick a side.">
+<link rel="stylesheet" href="../style.css">
+<style>
+.wrap{max-width:640px}
+.card+.card{margin-top:14px}
+h3{font-size:15px;margin-bottom:14px;display:flex;justify-content:space-between;align-items:center}
+h3 small{color:var(--muted);font-weight:400;font-size:12px}
+.live{display:inline-flex;align-items:center;gap:6px;font-size:12px;color:var(--muted)}
+.live i{width:8px;height:8px;border-radius:50%;background:#555}
+.live.on i{background:var(--red);box-shadow:0 0 0 0 rgba(255,93,93,.6);animation:pulse 1.6s infinite}
+@keyframes pulse{70%{box-shadow:0 0 0 8px rgba(255,93,93,0)}100%{box-shadow:0 0 0 0 rgba(255,93,93,0)}}
+.score{display:flex;justify-content:space-between;align-items:flex-end;margin-bottom:10px}
+.score .side{font-weight:800;font-size:clamp(26px,7vw,40px);letter-spacing:-.02em;line-height:1}
+.score .side small{display:block;font-size:13px;font-weight:500;color:var(--muted);margin-top:4px;letter-spacing:0}
+.score .r{text-align:right}
+.bar{display:flex;height:18px;border-radius:99px;overflow:hidden;background:#0f1411}
+.bar span{transition:width .8s cubic-bezier(.2,.8,.2,1)}
+.b-ng{background:var(--green)}.b-gh{background:var(--gold)}.b-peace{background:#5b6b62}
+.totals{display:flex;justify-content:space-between;font-size:13px;color:var(--muted);margin-top:8px}
+.sides{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+.pick{background:#0f1411;border:2px solid var(--line);border-radius:var(--radius);padding:20px 12px;text-align:center;cursor:pointer;color:var(--text);font:inherit;transition:border-color .15s,transform .1s}
+.pick:hover{transform:translateY(-2px)}
+.pick .flag{font-size:40px;display:block;margin-bottom:4px}
+.pick.ng.on,.pick.ng:hover{border-color:var(--green)}
+.pick.gh.on,.pick.gh:hover{border-color:var(--gold)}
+.neutral{margin-top:10px;width:100%;background:none;border:1px dashed var(--line);color:var(--muted);font:inherit;padding:11px;border-radius:14px;cursor:pointer}
+.neutral.on,.neutral:hover{border-color:var(--muted);color:var(--text)}
+.castrow{display:grid;grid-template-columns:1fr auto;gap:10px;margin-top:14px}
+select{background:#0f1411;border:1px solid var(--line);border-radius:12px;color:var(--text);font:inherit;padding:12px}
+.msg{font-size:14px;color:var(--muted);margin-top:10px;min-height:20px}
+.msg.ok{color:var(--green)}.msg.err{color:var(--red)}
+.statement .text{font-size:clamp(19px,4.6vw,24px);font-weight:700;line-height:1.35;margin:4px 0 16px}
+.hourly{display:flex;align-items:flex-end;gap:3px;height:90px}
+.hourly div{flex:1;display:flex;flex-direction:column-reverse;border-radius:3px 3px 0 0;overflow:hidden;min-height:2px;background:#1a211d}
+.hourly div span{display:block}
+.axis{display:flex;justify-content:space-between;font-size:11px;color:var(--muted);margin-top:6px}
+table{width:100%;border-collapse:collapse;font-size:14px}
+td{padding:8px 0;border-top:1px solid var(--line)}
+td.n{text-align:right;color:var(--muted);width:60px;font-variant-numeric:tabular-nums}
+.mini{display:flex;height:8px;border-radius:99px;overflow:hidden;background:#0f1411;width:100%}
+.offline{background:rgba(242,180,58,.08);border:1px solid rgba(242,180,58,.3);border-radius:14px;padding:14px;font-size:14px;color:var(--muted)}
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <a class="back" href="../">← all apps</a>
+  <span class="tag">🍛 the eternal war</span>
+  <h1>Jollof Wars</h1>
+  <p class="sub">The live, global vote. One device, one vote. Change your mind any time, traitor.</p>
+
+  <section class="card" id="board">
+    <h3>Live score <span class="live" id="live"><i></i><span id="liveText">connecting…</span></span></h3>
+    <div class="score">
+      <div class="side" style="color:var(--green)"><span id="pNg">–</span><small>🇳🇬 Nigeria</small></div>
+      <div class="side r" style="color:var(--gold)"><span id="pGh">–</span><small>Ghana 🇬🇭</small></div>
+    </div>
+    <div class="bar"><span class="b-ng" id="bNg" style="width:0"></span><span class="b-peace" id="bPeace" style="width:0"></span><span class="b-gh" id="bGh" style="width:0"></span></div>
+    <div class="totals"><span id="total">0 votes</span><span id="peace">🕊️ 0 cowards</span></div>
+  </section>
+
+  <section class="card offline hidden" id="offline">
+    Live voting is offline right now. You can still get your war statement and post it. <span id="offlineWhy"></span>
+  </section>
+
+  <section class="card">
+    <h3>Pick your side <small id="mine"></small></h3>
+    <div class="sides">
+      <button class="pick ng" data-s="ng"><span class="flag">🇳🇬</span><b>Nigerian Jollof</b></button>
+      <button class="pick gh" data-s="gh"><span class="flag">🇬🇭</span><b>Ghanaian Jollof</b></button>
+    </div>
+    <button class="neutral" data-s="peace">🕊️ I'm a coward (I like both)</button>
+    <div class="castrow" id="castRow">
+      <select id="country" aria-label="Where are you voting from?"></select>
+      <button class="btn" id="cast" disabled>Cast vote</button>
+    </div>
+    <div class="msg" id="msg"></div>
+  </section>
+
+  <section class="card statement hidden" id="statement">
+    <h3>Your war statement <small id="stLabel"></small></h3>
+    <div class="text pop" id="stText"></div>
+    <div class="row"><button class="btn" id="post">Post it on X</button><button class="btn ghost" id="reroll">Another one</button></div>
+  </section>
+
+  <section class="card live-only">
+    <h3>Last 24 hours <small>votes per hour</small></h3>
+    <div class="hourly" id="hourly"></div>
+    <div class="axis"><span>24h ago</span><span>12h</span><span>now</span></div>
+  </section>
+
+  <section class="card live-only">
+    <h3>By country <small>top 15</small></h3>
+    <table id="countries"></table>
+  </section>
+
+  <p class="foot">built by <a href="https://x.com/Aded0yin_">@Aded0yin_</a> · Python + SQLite backend · no rice was harmed</p>
+</main>
+<script src="config.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

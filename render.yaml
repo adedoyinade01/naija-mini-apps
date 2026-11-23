@@ -1,0 +1,15 @@
+# One-click deploy of the Jollof Wars API on Render (render.com → New → Blueprint)
+services:
+  - type: web
+    name: jollof-wars-api
+    runtime: python
+    plan: free
+    rootDir: jollof-wars/backend
+    buildCommand: pip install -r requirements.txt
+    startCommand: uvicorn app:app --host 0.0.0.0 --port $PORT
+    healthCheckPath: /api/health
+    envVars:
+      - key: IP_SALT
+        generateValue: true
+      - key: ALLOWED_ORIGINS
+        value: https://YOUR-USERNAME.github.io

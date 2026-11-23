@@ -1,0 +1,4345 @@
+{
+ "artists": [
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": 6677475,
+   "group": "mainstream",
+   "id": "3wcj11K77LjEY1PkEazffa",
+   "image": "https://i.scdn.co/image/ab6761610000e5ebb4e44d0f4e3e47af2cf06f3f",
+   "listeners": 40400000,
+   "listenersChange": null,
+   "name": "Burna Boy",
+   "series": [
+    [
+     "2026-11-23",
+     40400000,
+     6677475
+    ]
+   ],
+   "totalStreams": 11275931319
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": 4830074,
+   "group": "mainstream",
+   "id": "46pWGuE3dSwY3bMMXGBvVS",
+   "image": "https://i.scdn.co/image/ab6761610000e5ebd3c02a2a399fade619a9ae5c",
+   "listeners": 26600000,
+   "listenersChange": null,
+   "name": "Rema",
+   "series": [
+    [
+     "2026-11-23",
+     26600000,
+     4830074
+    ]
+   ],
+   "totalStreams": 6889234126
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": 3390738,
+   "group": "mainstream",
+   "id": "3ZpEKRjHaHANcpk10u6Ntq",
+   "image": "https://i.scdn.co/image/ab6761610000e5ebc2074e9ac0e35662936cde67",
+   "listeners": 18600000,
+   "listenersChange": null,
+   "name": "Ayra Starr",
+   "series": [
+    [
+     "2026-11-23",
+     18600000,
+     3390738
+    ]
+   ],
+   "totalStreams": 4175644138
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": 5722049,
+   "group": "mainstream",
+   "id": "3tVQdUvClmAT7URs9V3rsp",
+   "image": "https://i.scdn.co/image/ab6761610000e5ebe6ef803356b45ee5a9fa7a8a",
+   "listeners": 15300000,
+   "listenersChange": null,
+   "name": "Wizkid",
+   "series": [
+    [
+     "2026-11-23",
+     15300000,
+     5722049
+    ]
+   ],
+   "totalStreams": 11644651223
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": 3004178,
+   "group": "mainstream",
+   "id": "0Y3agQaa6g2r0YmHPOO9rh",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb2bf250c3e92f9e7542efd95c",
+   "listeners": 10100000,
+   "listenersChange": null,
+   "name": "Davido",
+   "series": [
+    [
+     "2026-11-23",
+     10100000,
+     3004178
+    ]
+   ],
+   "totalStreams": 3932690806
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": 5243388,
+   "group": "mainstream",
+   "id": "3a1tBryiczPAZpgoZN9Rzg",
+   "image": "https://i.scdn.co/image/ab6761610000e5ebff54cbafa23b728b49954587",
+   "listeners": 9300000,
+   "listenersChange": null,
+   "name": "Asake",
+   "series": [
+    [
+     "2026-11-23",
+     9300000,
+     5243388
+    ]
+   ],
+   "totalStreams": 4717165048
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": 993960,
+   "group": "mainstream",
+   "id": "4ovtyvs7j1jSmwhkBGHqSr",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb690d9ec39523c7159ada0426",
+   "listeners": 4500000,
+   "listenersChange": null,
+   "name": "Olamide",
+   "series": [
+    [
+     "2026-11-23",
+     4500000,
+     993960
+    ]
+   ],
+   "totalStreams": 1565893234
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": 2977480,
+   "group": "mainstream",
+   "id": "4zmZ8lVLzGc84S4v2B1rLx",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb9902f473df31601d5938e0bd",
+   "listeners": 4300000,
+   "listenersChange": null,
+   "name": "Seyi Vibez",
+   "series": [
+    [
+     "2026-11-23",
+     4300000,
+     2977480
+    ]
+   ],
+   "totalStreams": 2158426319
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": 750384,
+   "group": "mainstream",
+   "id": "4TKhxSkqClXrdtUWgKqHVU",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb22810feeeab2be7a87df8dac",
+   "listeners": 4000000,
+   "listenersChange": null,
+   "name": "Shallipopi",
+   "series": [
+    [
+     "2026-11-23",
+     4000000,
+     750384
+    ]
+   ],
+   "totalStreams": 997732137
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": 1622805,
+   "group": "UG",
+   "id": "1VBjib1ykqXxss9Tw5YuR9",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb0589fb53142908a7b80392d5",
+   "listeners": 3800000,
+   "listenersChange": null,
+   "name": "Mavo",
+   "series": [
+    [
+     "2026-11-23",
+     3800000,
+     1622805
+    ]
+   ],
+   "totalStreams": 852958300
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": 1137906,
+   "group": "mainstream",
+   "id": "3LOm0AZjpwVQebvkyanjDy",
+   "image": "https://i.scdn.co/image/ab6761610000e5ebc5220e1882a3fd5e34203b97",
+   "listeners": 3800000,
+   "listenersChange": null,
+   "name": "ODUMODUBLVCK",
+   "series": [
+    [
+     "2026-11-23",
+     3800000,
+     1137906
+    ]
+   ],
+   "totalStreams": 1424574790
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": 323343,
+   "group": "UG",
+   "id": "6eEW31SqGa8zKe3ibfTCdH",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb8cb6f41a7b13a707841505ba",
+   "listeners": 744100,
+   "listenersChange": null,
+   "name": "Zaylevelten",
+   "series": [
+    [
+     "2026-11-23",
+     744100,
+     323343
+    ]
+   ],
+   "totalStreams": 134335350
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": 68313,
+   "group": "UG",
+   "id": "35l6bXa97M4hhvQ3e058PZ",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb7d34e50e32f6894e29414e4f",
+   "listeners": 735200,
+   "listenersChange": null,
+   "name": "Wave$tar",
+   "series": [
+    [
+     "2026-11-23",
+     735200,
+     68313
+    ]
+   ],
+   "totalStreams": 26809207
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": 83499,
+   "group": "UG",
+   "id": "4Z3LLYwCpB9OKKaSttnapP",
+   "image": "https://i.scdn.co/image/ab6761610000e5ebb536aa4594353ea47262195e",
+   "listeners": 682200,
+   "listenersChange": null,
+   "name": "Priesst",
+   "series": [
+    [
+     "2026-11-23",
+     682200,
+     83499
+    ]
+   ],
+   "totalStreams": 41868378
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": null,
+   "group": "UG",
+   "id": "3CyKLwlqtYmQxNt4cWflKx",
+   "image": "https://i.scdn.co/image/ab6761610000e5ebd2f15ec28e3f9abe7933da50",
+   "listeners": 659100,
+   "listenersChange": null,
+   "name": "scottyolorin",
+   "series": [
+    [
+     "2026-11-23",
+     659100,
+     null
+    ]
+   ],
+   "totalStreams": null
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": null,
+   "group": "UG",
+   "id": "5KbCVC6DvprtEp30AA093z",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb06437ff341bf0a8ccae0f4d4",
+   "listeners": 625000,
+   "listenersChange": null,
+   "name": "DaveTheOracle",
+   "series": [
+    [
+     "2026-11-23",
+     625000,
+     null
+    ]
+   ],
+   "totalStreams": null
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": null,
+   "group": "UG",
+   "id": "2DL38TZNK8x8hxvnxNkQB5",
+   "image": "https://i.scdn.co/image/ab6761610000e5eba5cc4e33e731174780247105",
+   "listeners": 472300,
+   "listenersChange": null,
+   "name": "Kobilou",
+   "series": [
+    [
+     "2026-11-23",
+     472300,
+     null
+    ]
+   ],
+   "totalStreams": null
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": null,
+   "group": "UG",
+   "id": "4Hz1UttsadDCW4xA41XKoV",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb18bde92e1943afe5484189cf",
+   "listeners": 293300,
+   "listenersChange": null,
+   "name": "Egertton",
+   "series": [
+    [
+     "2026-11-23",
+     293300,
+     null
+    ]
+   ],
+   "totalStreams": null
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": null,
+   "group": "UG",
+   "id": "00dT0myy0kbq152QWIzRPI",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb5bc9a7b7020e2866ddc2a594",
+   "listeners": 204700,
+   "listenersChange": null,
+   "name": "Igwe Aka",
+   "series": [
+    [
+     "2026-11-23",
+     204700,
+     null
+    ]
+   ],
+   "totalStreams": null
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": null,
+   "group": "UG",
+   "id": "3EC3itx7VHQg0KYhuPsp5O",
+   "image": "https://i.scdn.co/image/ab6761610000e5ebcc4a82a159a014ba962e5347",
+   "listeners": 67600,
+   "listenersChange": null,
+   "name": "Danpapa GTA",
+   "series": [
+    [
+     "2026-11-23",
+     67600,
+     null
+    ]
+   ],
+   "totalStreams": null
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": null,
+   "group": "UG",
+   "id": "6CS6NjMmo93ligNiiZ97LZ",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb0d66bf6883bb4b0cb1e70647",
+   "listeners": 52400,
+   "listenersChange": null,
+   "name": "Luwa.Mp4",
+   "series": [
+    [
+     "2026-11-23",
+     52400,
+     null
+    ]
+   ],
+   "totalStreams": null
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": null,
+   "group": "UG",
+   "id": "4ZnAdq8niwc3MnthK4ujdr",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb270302326e1d6d721cda2ccb",
+   "listeners": 36500,
+   "listenersChange": null,
+   "name": "Fimi",
+   "series": [
+    [
+     "2026-11-23",
+     36500,
+     null
+    ]
+   ],
+   "totalStreams": null
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": null,
+   "group": "UG",
+   "id": "5toMJY8OHE9np3f4Hh0wCy",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb56e73888fad89848c5be7e19",
+   "listeners": 17100,
+   "listenersChange": null,
+   "name": "Ravington",
+   "series": [
+    [
+     "2026-11-23",
+     17100,
+     null
+    ]
+   ],
+   "totalStreams": null
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": null,
+   "group": "UG",
+   "id": "2m2F5XHtELzEyWZLPRkBIc",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb240524395e1f099d573ecd44",
+   "listeners": 5400,
+   "listenersChange": null,
+   "name": "Billar Stoner",
+   "series": [
+    [
+     "2026-11-23",
+     5400,
+     null
+    ]
+   ],
+   "totalStreams": null
+  },
+  {
+   "changeSince": null,
+   "dailyChange": null,
+   "dailyStreams": null,
+   "group": "UG",
+   "id": "4Ti6mbkoRqJT5KIlPC98Ux",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb676437caf964e80371036a91",
+   "listeners": 19,
+   "listenersChange": null,
+   "name": "BLNDE",
+   "series": [
+    [
+     "2026-11-23",
+     19,
+     null
+    ]
+   ],
+   "totalStreams": null
+  }
+ ],
+ "climbers": [
+  {
+   "artist": "Burna Boy",
+   "change": 0.0,
+   "daily": 1878472,
+   "group": "mainstream",
+   "id": "0kosUz0jePvjiz4ctmR6wL",
+   "new": false,
+   "total": 590130857,
+   "track": "Dai Dai"
+  },
+  {
+   "artist": "Wizkid",
+   "change": 0.0,
+   "daily": 1572562,
+   "group": "mainstream",
+   "id": "1zi7xx7UVEFkmKfv06H8x0",
+   "new": false,
+   "total": 4579199401,
+   "track": "One Dance"
+  },
+  {
+   "artist": "Rema",
+   "change": 0.0,
+   "daily": 719777,
+   "group": "mainstream",
+   "id": "4Z5KKoBGxpJo8YbDcGQXd5",
+   "new": false,
+   "total": 213773854,
+   "track": "Secondhand (feat. Rema)"
+  },
+  {
+   "artist": "Rema",
+   "change": 0.0,
+   "daily": 520264,
+   "group": "mainstream",
+   "id": "1s7oOCT8vauUh01PbJD6ps",
+   "new": false,
+   "total": 1993129202,
+   "track": "Calm Down (with Selena Gomez)"
+  },
+  {
+   "artist": "Burna Boy",
+   "change": 0.0,
+   "daily": 426148,
+   "group": "mainstream",
+   "id": "0WsC4ETIXyiHDMXRaPMvKe",
+   "new": false,
+   "total": 341903195,
+   "track": "wgft (feat. Burna Boy)"
+  },
+  {
+   "artist": "Rema",
+   "change": 0.0,
+   "daily": 415763,
+   "group": "mainstream",
+   "id": "2aLQ89nVUJgLjn3tlmjaxN",
+   "new": false,
+   "total": 27831920,
+   "track": "Oh No"
+  },
+  {
+   "artist": "Ayra Starr",
+   "change": 0.0,
+   "daily": 407180,
+   "group": "mainstream",
+   "id": "6a9Z1jUms915w4O7N1PxjY",
+   "new": false,
+   "total": 963792782,
+   "track": "Santa"
+  },
+  {
+   "artist": "Ayra Starr",
+   "change": 0.0,
+   "daily": 354469,
+   "group": "mainstream",
+   "id": "4AxG1T6UJJ4xCX4Wz6JDLG",
+   "new": false,
+   "total": 176820577,
+   "track": "People (feat. Ayra Starr & Omah Lay)"
+  },
+  {
+   "artist": "Ayra Starr",
+   "change": 0.0,
+   "daily": 296405,
+   "group": "mainstream",
+   "id": "1SgQOAxmkXQOboaBqaOjjZ",
+   "new": false,
+   "total": 108687401,
+   "track": "BOOMPALA (feat. Ayra Starr)"
+  },
+  {
+   "artist": "Asake",
+   "change": 0.0,
+   "daily": 287370,
+   "group": "mainstream",
+   "id": "7hiRlw64LXcHpGAVJ6eUzv",
+   "new": false,
+   "total": 80428594,
+   "track": "Gratitude"
+  },
+  {
+   "artist": "Rema",
+   "change": 0.0,
+   "daily": 269966,
+   "group": "mainstream",
+   "id": "1qObCJRmQydvmwO6Z0BMbK",
+   "new": false,
+   "total": 24546753,
+   "track": "TEA"
+  },
+  {
+   "artist": "Ayra Starr",
+   "change": 0.0,
+   "daily": 248077,
+   "group": "mainstream",
+   "id": "4iJJOsuXC9Y3Xp3wrmfl24",
+   "new": false,
+   "total": 39907462,
+   "track": "Heaven Baby (feat. ZAYN)"
+  },
+  {
+   "artist": "Ayra Starr",
+   "change": 0.0,
+   "daily": 245800,
+   "group": "mainstream",
+   "id": "1xs8bOvm3IzEYmcLJVOc34",
+   "new": false,
+   "total": 596857890,
+   "track": "Rush"
+  },
+  {
+   "artist": "Seyi Vibez",
+   "change": 0.0,
+   "daily": 243243,
+   "group": "mainstream",
+   "id": "29lRRXMfpgZCVKib8gFLEU",
+   "new": false,
+   "total": 25566570,
+   "track": "Back 2 U"
+  },
+  {
+   "artist": "Davido",
+   "change": 0.0,
+   "daily": 241888,
+   "group": "mainstream",
+   "id": "37BTNKEaW6aUvsKH3O2UUt",
+   "new": false,
+   "total": 44588419,
+   "track": "B4 B4 (with Mayorkun & FOLA)"
+  }
+ ],
+ "crossovers": [
+  {
+   "date": "2025-11-28",
+   "mainstream": "ODUMODUBLVCK",
+   "track": "Idansk1 tw0",
+   "tracks": 2,
+   "ug": "Zaylevelten"
+  },
+  {
+   "date": "2025-11-26",
+   "mainstream": "Davido",
+   "track": "Galorizzy",
+   "tracks": 1,
+   "ug": "Mavo"
+  },
+  {
+   "date": "2025-10-24",
+   "mainstream": "Wizkid",
+   "track": "MONEY CONSTANT",
+   "tracks": 1,
+   "ug": "Mavo"
+  },
+  {
+   "date": "2025-09-26",
+   "mainstream": "Shallipopi",
+   "track": "Escaladizzy II",
+   "tracks": 1,
+   "ug": "Mavo"
+  },
+  {
+   "date": "2025-09-26",
+   "mainstream": "Ayra Starr",
+   "track": "Escaladizzy II",
+   "tracks": 1,
+   "ug": "Mavo"
+  }
+ ],
+ "days": 1,
+ "firstDay": "2026-11-23",
+ "groupSeries": [
+  {
+   "UG": 2097960,
+   "date": "2026-11-23",
+   "mainstream": 34727632
+  }
+ ],
+ "groups": [
+  "UG",
+  "mainstream"
+ ],
+ "namesToWatch": [
+  {
+   "id": "3hXlGRJuBMCg9xJ41BSWkf",
+   "latest": "2026-11-16",
+   "name": "ARTSALGHUL",
+   "tracks": 9,
+   "with": [
+    "Danpapa GTA",
+    "DaveTheOracle",
+    "Egertton",
+    "Igwe Aka",
+    "Wave$tar",
+    "scottyolorin"
+   ]
+  },
+  {
+   "id": "6HsmnOUuab7e2X11UKrZ9Y",
+   "latest": "2026-07-31",
+   "name": "JoeyXcv",
+   "tracks": 11,
+   "with": [
+    "DaveTheOracle",
+    "Egertton",
+    "Kobilou",
+    "Luwa.Mp4",
+    "scottyolorin"
+   ]
+  },
+  {
+   "id": "5L1Xcdtf6MxLmEvpGMw3g4",
+   "latest": "2026-08-14",
+   "name": "Ayjay bobo",
+   "tracks": 4,
+   "with": [
+    "DaveTheOracle",
+    "Kobilou",
+    "Zaylevelten",
+    "scottyolorin"
+   ]
+  },
+  {
+   "id": "4mCGYkTmNnEsnTrIr3atNB",
+   "latest": "2026-06-19",
+   "name": "Straffitti",
+   "tracks": 4,
+   "with": [
+    "Egertton",
+    "Wave$tar",
+    "scottyolorin"
+   ]
+  },
+  {
+   "id": "6eGNSDjuuUepYdy32k1zXS",
+   "latest": "2026-10-28",
+   "name": "Aibrid",
+   "tracks": 7,
+   "with": [
+    "Kobilou",
+    "scottyolorin"
+   ]
+  },
+  {
+   "id": "5CSSzEHLGMcRVwq340BpHl",
+   "latest": "2026-10-21",
+   "name": "Zen Univrse",
+   "tracks": 7,
+   "with": [
+    "DaveTheOracle",
+    "scottyolorin"
+   ]
+  },
+  {
+   "id": "15GgEOJiFyjQm4tZ4D7qih",
+   "latest": "2026-11-05",
+   "name": "Cruel Santino",
+   "tracks": 6,
+   "with": [
+    "Mavo",
+    "Zaylevelten"
+   ]
+  },
+  {
+   "id": "5yJLqKU6LRfzliSQIVnJMI",
+   "latest": "2026-10-30",
+   "name": "Kashcoming",
+   "tracks": 6,
+   "with": [
+    "Mavo",
+    "Zaylevelten"
+   ]
+  },
+  {
+   "id": "12kjvw4e3gLp6qVHO65n7W",
+   "latest": "2026-11-16",
+   "name": "Blaqbonez",
+   "tracks": 5,
+   "with": [
+    "Igwe Aka",
+    "Wave$tar"
+   ]
+  },
+  {
+   "id": "2hg21aqtw66FhKSo3Uzbne",
+   "latest": "2026-10-01",
+   "name": "Famous Pluto",
+   "tracks": 5,
+   "with": [
+    "Mavo",
+    "Zaylevelten"
+   ]
+  },
+  {
+   "id": "2aWCLZqio9v0uUZEATR1Rv",
+   "latest": "2026-11-20",
+   "name": "Semzi",
+   "tracks": 4,
+   "with": [
+    "DaveTheOracle",
+    "scottyolorin"
+   ]
+  },
+  {
+   "id": "1zeUMAJrOoMdWjU0BErMzn",
+   "latest": "2026-11-20",
+   "name": "Tochi Bedford",
+   "tracks": 4,
+   "with": [
+    "Igwe Aka",
+    "Luwa.Mp4"
+   ]
+  }
+ ],
+ "network": {
+  "edges": [
+   {
+    "a": "00dT0myy0kbq152QWIzRPI",
+    "b": "1zeUMAJrOoMdWjU0BErMzn",
+    "example": "KAPOW",
+    "first": "2026-01-14",
+    "weight": 3
+   },
+   {
+    "a": "00dT0myy0kbq152QWIzRPI",
+    "b": "12kjvw4e3gLp6qVHO65n7W",
+    "example": "I LOVE THIS (feat. Igwe Aka)",
+    "first": "2026-10-16",
+    "weight": 2
+   },
+   {
+    "a": "00dT0myy0kbq152QWIzRPI",
+    "b": "3hXlGRJuBMCg9xJ41BSWkf",
+    "example": "CHASE",
+    "first": "2026-07-21",
+    "weight": 1
+   },
+   {
+    "a": "00dT0myy0kbq152QWIzRPI",
+    "b": "7MJaBrtUNMCVWliXOa7mwk",
+    "example": "EGONOMICS - Remix",
+    "first": "2026-06-05",
+    "weight": 1
+   },
+   {
+    "a": "00dT0myy0kbq152QWIzRPI",
+    "b": "3QAWvRmq1TMLuNtDKVyRaW",
+    "example": "BACKASSI",
+    "first": "2026-04-03",
+    "weight": 1
+   },
+   {
+    "a": "00dT0myy0kbq152QWIzRPI",
+    "b": "12ArazR86wktMkxzm5h9T1",
+    "example": "NICE SCARS",
+    "first": "2025-08-15",
+    "weight": 2
+   },
+   {
+    "a": "00dT0myy0kbq152QWIzRPI",
+    "b": "6aIZIwesnYKR6ZN1fIerPZ",
+    "example": "that's right daddy (feat. Igwe Aka & Mercury)",
+    "first": "2024-04-26",
+    "weight": 2
+   },
+   {
+    "a": "00dT0myy0kbq152QWIzRPI",
+    "b": "6NV0b1K9BhoZYSBk9ZPnWv",
+    "example": "Wake Up and Get Sexy",
+    "first": "2026-02-20",
+    "weight": 4
+   },
+   {
+    "a": "00dT0myy0kbq152QWIzRPI",
+    "b": "7ebBg3BuRFa2satTcY8whC",
+    "example": "Wake Up and Get Sexy",
+    "first": "2026-02-20",
+    "weight": 2
+   },
+   {
+    "a": "00dT0myy0kbq152QWIzRPI",
+    "b": "4YISTUJnoZtAy6LjgOpRL7",
+    "example": "CONTEXT CLUE",
+    "first": "2026-04-17",
+    "weight": 2
+   },
+   {
+    "a": "00dT0myy0kbq152QWIzRPI",
+    "b": "3GvLzHTwSpsLgPcYB9ywgJ",
+    "example": "Bonnie",
+    "first": "2026-10-04",
+    "weight": 1
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "4Xi6LSfFqv26XgP9NKN26U",
+    "example": "Poison (Panya)",
+    "first": "2026-07-24",
+    "weight": 1
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "3rCVow8RScBBIyrdceDOiw",
+    "example": "BB Lifestyle",
+    "first": "2026-07-17",
+    "weight": 2
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "5yJLqKU6LRfzliSQIVnJMI",
+    "example": "Too Busy",
+    "first": "2025-09-26",
+    "weight": 4
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "2hg21aqtw66FhKSo3Uzbne",
+    "example": "Kilogram",
+    "first": "2025-09-26",
+    "weight": 3
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "35l6bXa97M4hhvQ3e058PZ",
+    "example": "Escaladizzy",
+    "first": "2025-06-06",
+    "weight": 2
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "4TKhxSkqClXrdtUWgKqHVU",
+    "example": "Escaladizzy II",
+    "first": "2025-09-26",
+    "weight": 1
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "4mSWNal2Ixxf1zrXSTLoep",
+    "example": "Escaladizzy II",
+    "first": "2025-09-26",
+    "weight": 1
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "3ZpEKRjHaHANcpk10u6Ntq",
+    "example": "Escaladizzy II",
+    "first": "2025-09-26",
+    "weight": 1
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "5RklmjJAxQsqQFyOTi9ih5",
+    "example": "Eko",
+    "first": "2025-04-01",
+    "weight": 1
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "7MJaBrtUNMCVWliXOa7mwk",
+    "example": "Flexing",
+    "first": "2026-11-17",
+    "weight": 1
+   },
+   {
+    "a": "15GgEOJiFyjQm4tZ4D7qih",
+    "b": "1VBjib1ykqXxss9Tw5YuR9",
+    "example": "Attack",
+    "first": "2025-10-03",
+    "weight": 4
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "2hs1DM1Lbd7OA9VDQgeEbc",
+    "example": "Happy Birthday",
+    "first": "2026-11-01",
+    "weight": 2
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "64oW4P0vsDhlorOxZKQi6a",
+    "example": "MONEY CONSTANT",
+    "first": "2025-10-24",
+    "weight": 1
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "MONEY CONSTANT",
+    "first": "2025-10-24",
+    "weight": 1
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "6eEW31SqGa8zKe3ibfTCdH",
+    "example": "Wuse Tu",
+    "first": "2025-11-28",
+    "weight": 2
+   },
+   {
+    "a": "048LktY5zMnakWq7PTtFrz",
+    "b": "1VBjib1ykqXxss9Tw5YuR9",
+    "example": "BODY (danz)",
+    "first": "2026-08-07",
+    "weight": 1
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "2IK173RXLiCSQ8fhDlAb3s",
+    "example": "Attack",
+    "first": "2025-10-03",
+    "weight": 2
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "1kMPdZQVdUhMDKDWOJM5iK",
+    "example": "Attack",
+    "first": "2025-10-03",
+    "weight": 2
+   },
+   {
+    "a": "0Y3agQaa6g2r0YmHPOO9rh",
+    "b": "1VBjib1ykqXxss9Tw5YuR9",
+    "example": "Galorizzy",
+    "first": "2025-11-26",
+    "weight": 1
+   },
+   {
+    "a": "2DL38TZNK8x8hxvnxNkQB5",
+    "b": "6Nvwcz7r9589I7Or9aUm0z",
+    "example": "Loupiano",
+    "first": "2025-08-05",
+    "weight": 2
+   },
+   {
+    "a": "2DL38TZNK8x8hxvnxNkQB5",
+    "b": "5L1Xcdtf6MxLmEvpGMw3g4",
+    "example": "Abj City Vibrations",
+    "first": "2025-09-19",
+    "weight": 1
+   },
+   {
+    "a": "2DL38TZNK8x8hxvnxNkQB5",
+    "b": "4NXlTtV4GszpwfV6yaw0gk",
+    "example": "Lagos Love",
+    "first": "2025-05-28",
+    "weight": 2
+   },
+   {
+    "a": "1yRmB6bRwWKqs5zQnCYYUP",
+    "b": "2DL38TZNK8x8hxvnxNkQB5",
+    "example": "Lagos Love",
+    "first": "2025-05-28",
+    "weight": 2
+   },
+   {
+    "a": "2DL38TZNK8x8hxvnxNkQB5",
+    "b": "6eGNSDjuuUepYdy32k1zXS",
+    "example": "PA¥ M€",
+    "first": "2026-07-15",
+    "weight": 7
+   },
+   {
+    "a": "2DL38TZNK8x8hxvnxNkQB5",
+    "b": "3CyKLwlqtYmQxNt4cWflKx",
+    "example": "GLACIER GIRL",
+    "first": "2026-06-26",
+    "weight": 3
+   },
+   {
+    "a": "1VBjib1ykqXxss9Tw5YuR9",
+    "b": "2DL38TZNK8x8hxvnxNkQB5",
+    "example": "Nonstop",
+    "first": "2024-08-05",
+    "weight": 5
+   },
+   {
+    "a": "2DL38TZNK8x8hxvnxNkQB5",
+    "b": "3A3QkRXKzYGGowaAdKdo7Y",
+    "example": "October (PS32)",
+    "first": "2021-11-12",
+    "weight": 2
+   },
+   {
+    "a": "14HBQIzTET0elsL8NO3Xtl",
+    "b": "2DL38TZNK8x8hxvnxNkQB5",
+    "example": "October (PS32)",
+    "first": "2021-11-12",
+    "weight": 2
+   },
+   {
+    "a": "2DL38TZNK8x8hxvnxNkQB5",
+    "b": "5KbCVC6DvprtEp30AA093z",
+    "example": "GLACIER GIRL",
+    "first": "2026-06-26",
+    "weight": 1
+   },
+   {
+    "a": "2DL38TZNK8x8hxvnxNkQB5",
+    "b": "6HsmnOUuab7e2X11UKrZ9Y",
+    "example": "PLAYA",
+    "first": "2025-11-24",
+    "weight": 3
+   },
+   {
+    "a": "2DL38TZNK8x8hxvnxNkQB5",
+    "b": "6CS6NjMmo93ligNiiZ97LZ",
+    "example": "REAL LIFE",
+    "first": "2026-07-31",
+    "weight": 1
+   },
+   {
+    "a": "35l6bXa97M4hhvQ3e058PZ",
+    "b": "3CyKLwlqtYmQxNt4cWflKx",
+    "example": "Top Swag",
+    "first": "2026-10-16",
+    "weight": 1
+   },
+   {
+    "a": "35l6bXa97M4hhvQ3e058PZ",
+    "b": "5KbCVC6DvprtEp30AA093z",
+    "example": "Top Swag",
+    "first": "2026-10-16",
+    "weight": 1
+   },
+   {
+    "a": "35l6bXa97M4hhvQ3e058PZ",
+    "b": "3hXlGRJuBMCg9xJ41BSWkf",
+    "example": "ar1gato 2 you",
+    "first": "2026-03-30",
+    "weight": 3
+   },
+   {
+    "a": "12kjvw4e3gLp6qVHO65n7W",
+    "b": "35l6bXa97M4hhvQ3e058PZ",
+    "example": "Prayers Up (feat. KindlyNxsh & Wave$tar)",
+    "first": "2025-10-18",
+    "weight": 3
+   },
+   {
+    "a": "10G2iWM2FoafpNGqXZ9QMR",
+    "b": "35l6bXa97M4hhvQ3e058PZ",
+    "example": "Prayers Up (feat. KindlyNxsh & Wave$tar)",
+    "first": "2025-10-18",
+    "weight": 2
+   },
+   {
+    "a": "35l6bXa97M4hhvQ3e058PZ",
+    "b": "7urO0i2T8Ta9E9xAuOD1d6",
+    "example": "amatem. (feat. ARTSALGHUL, WAVE$TAR & Bkay)",
+    "first": "2026-11-16",
+    "weight": 2
+   },
+   {
+    "a": "35l6bXa97M4hhvQ3e058PZ",
+    "b": "4mCGYkTmNnEsnTrIr3atNB",
+    "example": "CANACETAMOL",
+    "first": "2025-11-26",
+    "weight": 1
+   },
+   {
+    "a": "35l6bXa97M4hhvQ3e058PZ",
+    "b": "5toMJY8OHE9np3f4Hh0wCy",
+    "example": "Funeral Disco",
+    "first": "2024-03-19",
+    "weight": 4
+   },
+   {
+    "a": "35l6bXa97M4hhvQ3e058PZ",
+    "b": "4vqK18ff2fID1b43nhIKK6",
+    "example": "Swear!",
+    "first": "2024-07-01",
+    "weight": 1
+   },
+   {
+    "a": "2w34rjWGumCU3vOiCVd3J6",
+    "b": "35l6bXa97M4hhvQ3e058PZ",
+    "example": "Swear!",
+    "first": "2024-07-01",
+    "weight": 1
+   },
+   {
+    "a": "35l6bXa97M4hhvQ3e058PZ",
+    "b": "3YZW6xRMNPj57dx36Eb2Yd",
+    "example": "Swear!",
+    "first": "2024-07-01",
+    "weight": 1
+   },
+   {
+    "a": "35l6bXa97M4hhvQ3e058PZ",
+    "b": "6SL6GEDCDVZFEvo3ewugni",
+    "example": "Swear!",
+    "first": "2024-07-01",
+    "weight": 1
+   },
+   {
+    "a": "2k4BorccGemzBPjIRkT5Pa",
+    "b": "3CyKLwlqtYmQxNt4cWflKx",
+    "example": "NONSTOP",
+    "first": "2026-11-20",
+    "weight": 1
+   },
+   {
+    "a": "2aWCLZqio9v0uUZEATR1Rv",
+    "b": "3CyKLwlqtYmQxNt4cWflKx",
+    "example": "Amina",
+    "first": "2026-06-18",
+    "weight": 3
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "68R39izwNAztATrXMOqkJS",
+    "example": "LOSE CONTROL/LIGHTLY WITH YOU",
+    "first": "2026-11-20",
+    "weight": 1
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "3QAWvRmq1TMLuNtDKVyRaW",
+    "example": "FALL MY HAND",
+    "first": "2026-11-20",
+    "weight": 1
+   },
+   {
+    "a": "2w34rjWGumCU3vOiCVd3J6",
+    "b": "3CyKLwlqtYmQxNt4cWflKx",
+    "example": "FL STUDIO",
+    "first": "2026-03-27",
+    "weight": 3
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "4Hz1UttsadDCW4xA41XKoV",
+    "example": "MOLADE",
+    "first": "2025-11-27",
+    "weight": 2
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "3hXlGRJuBMCg9xJ41BSWkf",
+    "example": "RANGE",
+    "first": "2026-03-27",
+    "weight": 1
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "5KbCVC6DvprtEp30AA093z",
+    "example": "FAAJI",
+    "first": "2026-05-29",
+    "weight": 7
+   },
+   {
+    "a": "0P8jodpczL0pVKzYMkJKpX",
+    "b": "3CyKLwlqtYmQxNt4cWflKx",
+    "example": "Not Lacoco (Scotty’s Interlude)",
+    "first": "2026-09-11",
+    "weight": 1
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "75yvKMzpIeYGyw5ElkoLYw",
+    "example": "G-Shock",
+    "first": "2026-08-14",
+    "weight": 2
+   },
+   {
+    "a": "2f8rjDwhSy9IDL6sB6BEEE",
+    "b": "3CyKLwlqtYmQxNt4cWflKx",
+    "example": "Massacre The Show",
+    "first": "2026-09-04",
+    "weight": 1
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "7CsM9AfybVr427qxwYCDVl",
+    "example": "Purple Kup",
+    "first": "2026-07-24",
+    "weight": 2
+   },
+   {
+    "a": "33KPqwPnEKJY6Tm9WfJQKq",
+    "b": "3CyKLwlqtYmQxNt4cWflKx",
+    "example": "Money (feat. Scottyolorin)",
+    "first": "2026-07-01",
+    "weight": 1
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "5CuyARGesDksvuWHiMQdX2",
+    "example": "4:44 FREESTYLE",
+    "first": "2026-06-19",
+    "weight": 1
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "5CSSzEHLGMcRVwq340BpHl",
+    "example": "4:44 FREESTYLE",
+    "first": "2026-06-19",
+    "weight": 2
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "4mCGYkTmNnEsnTrIr3atNB",
+    "example": "TẸ WO",
+    "first": "2025-11-26",
+    "weight": 2
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "4mSWNal2Ixxf1zrXSTLoep",
+    "example": "TE WO II",
+    "first": "2026-06-19",
+    "weight": 1
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "5L1Xcdtf6MxLmEvpGMw3g4",
+    "example": "WHATS POPPING?¿",
+    "first": "2026-08-14",
+    "weight": 1
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "6eGNSDjuuUepYdy32k1zXS",
+    "example": "8 FIGUR£$",
+    "first": "2026-10-28",
+    "weight": 1
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "7pzMp7mAU2KRlAjtYuKoje",
+    "example": "Swag Up",
+    "first": "2026-11-05",
+    "weight": 1
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "5oOifbswnej7XvdPuZ9ktd",
+    "example": "Swag Up",
+    "first": "2026-11-05",
+    "weight": 1
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "6qCxa9ZvMnoVevYR6cubyW",
+    "example": "Omopeski",
+    "first": "2025-10-24",
+    "weight": 1
+   },
+   {
+    "a": "1igmgiNroMhNQQx9Rp4uoI",
+    "b": "3CyKLwlqtYmQxNt4cWflKx",
+    "example": "Para",
+    "first": "2026-09-04",
+    "weight": 2
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "6HsmnOUuab7e2X11UKrZ9Y",
+    "example": "SWAG TALKIN!",
+    "first": "2025-12-19",
+    "weight": 3
+   },
+   {
+    "a": "3CyKLwlqtYmQxNt4cWflKx",
+    "b": "3XImQNx9nOoiOs1VXqy3RH",
+    "example": "SWAG TALKIN!",
+    "first": "2025-12-19",
+    "weight": 1
+   },
+   {
+    "a": "3EC3itx7VHQg0KYhuPsp5O",
+    "b": "4XE6eLUu1pp5rcI1cpDpWy",
+    "example": "I NO TALK",
+    "first": "2026-10-16",
+    "weight": 1
+   },
+   {
+    "a": "1GGdQAntXMPS3MoWPgSeCo",
+    "b": "3EC3itx7VHQg0KYhuPsp5O",
+    "example": "GBADUN",
+    "first": "2026-07-02",
+    "weight": 2
+   },
+   {
+    "a": "3EC3itx7VHQg0KYhuPsp5O",
+    "b": "3hXlGRJuBMCg9xJ41BSWkf",
+    "example": "Canaculate",
+    "first": "2026-09-18",
+    "weight": 1
+   },
+   {
+    "a": "2wzsad2d81hK0eP1qgcxHK",
+    "b": "3EC3itx7VHQg0KYhuPsp5O",
+    "example": "Onigbo",
+    "first": "2026-09-18",
+    "weight": 1
+   },
+   {
+    "a": "3EC3itx7VHQg0KYhuPsp5O",
+    "b": "63lJOb0iO8hB6Hw0oSglnu",
+    "example": "Survive",
+    "first": "2026-07-22",
+    "weight": 2
+   },
+   {
+    "a": "3EC3itx7VHQg0KYhuPsp5O",
+    "b": "4if5dwAkHl7FZNCJTIB5e9",
+    "example": "Party",
+    "first": "2026-05-22",
+    "weight": 1
+   },
+   {
+    "a": "3EC3itx7VHQg0KYhuPsp5O",
+    "b": "5RklmjJAxQsqQFyOTi9ih5",
+    "example": "Party",
+    "first": "2026-05-22",
+    "weight": 1
+   },
+   {
+    "a": "3EC3itx7VHQg0KYhuPsp5O",
+    "b": "3M4rkbZStvMavZQt8lElw2",
+    "example": "dey my body",
+    "first": "2026-04-06",
+    "weight": 2
+   },
+   {
+    "a": "2f8rjDwhSy9IDL6sB6BEEE",
+    "b": "3EC3itx7VHQg0KYhuPsp5O",
+    "example": "dey my body",
+    "first": "2026-04-06",
+    "weight": 2
+   },
+   {
+    "a": "2GfYq2uTYP3vG4QbQkdSPm",
+    "b": "3EC3itx7VHQg0KYhuPsp5O",
+    "example": "fulani pt1",
+    "first": "2025-01-01",
+    "weight": 2
+   },
+   {
+    "a": "3EC3itx7VHQg0KYhuPsp5O",
+    "b": "7DxRMFU4AqEIwjILkhSFDk",
+    "example": "4G - Remix",
+    "first": "2024-09-27",
+    "weight": 2
+   },
+   {
+    "a": "3ZpEKRjHaHANcpk10u6Ntq",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "2 Sugar (feat. Ayra Starr)",
+    "first": "2022-11-11",
+    "weight": 2
+   },
+   {
+    "a": "3ZpEKRjHaHANcpk10u6Ntq",
+    "b": "46pWGuE3dSwY3bMMXGBvVS",
+    "example": "Who's Dat Girl (feat. Rema)",
+    "first": "2025-10-17",
+    "weight": 2
+   },
+   {
+    "a": "3ZpEKRjHaHANcpk10u6Ntq",
+    "b": "5ZsFI1h6hIdQRw2ti0hz81",
+    "example": "Heaven Baby (feat. ZAYN)",
+    "first": "2026-08-13",
+    "weight": 2
+   },
+   {
+    "a": "3ZpEKRjHaHANcpk10u6Ntq",
+    "b": "5H1nN1SzW0qNeUEZvuXjAj",
+    "example": "Hot Body (feat. Danny Ocean) - Remix",
+    "first": "2026-08-13",
+    "weight": 2
+   },
+   {
+    "a": "3ZpEKRjHaHANcpk10u6Ntq",
+    "b": "3a1tBryiczPAZpgoZN9Rzg",
+    "example": "Goodbye (Warm Up)(feat. Asake)",
+    "first": "2024-05-30",
+    "weight": 1
+   },
+   {
+    "a": "3ZpEKRjHaHANcpk10u6Ntq",
+    "b": "7FNnA9vBm6EKceENgCGRMb",
+    "example": "Woman Commando (feat. Anitta & Coco Jones)",
+    "first": "2024-05-30",
+    "weight": 1
+   },
+   {
+    "a": "3ZpEKRjHaHANcpk10u6Ntq",
+    "b": "4zmZ8lVLzGc84S4v2B1rLx",
+    "example": "Bad Vibes (feat. Seyi Vibez)",
+    "first": "2024-05-30",
+    "weight": 1
+   },
+   {
+    "a": "1fctva4kpRbg2k3v7kwRuS",
+    "b": "3ZpEKRjHaHANcpk10u6Ntq",
+    "example": "Santa",
+    "first": "2024-04-03",
+    "weight": 4
+   },
+   {
+    "a": "1mcTU81TzQhprhouKaTkpq",
+    "b": "3ZpEKRjHaHANcpk10u6Ntq",
+    "example": "Santa",
+    "first": "2024-04-03",
+    "weight": 4
+   },
+   {
+    "a": "3ZpEKRjHaHANcpk10u6Ntq",
+    "b": "6Kp3KWPiVgi33DkJqo9T4g",
+    "example": "Lonely Refix",
+    "first": "2022-10-21",
+    "weight": 2
+   },
+   {
+    "a": "3ZpEKRjHaHANcpk10u6Ntq",
+    "b": "6trIghKwHRUyxwvm66HLHH",
+    "example": "Snitch",
+    "first": "2021-08-06",
+    "weight": 2
+   },
+   {
+    "a": "048LktY5zMnakWq7PTtFrz",
+    "b": "3ZpEKRjHaHANcpk10u6Ntq",
+    "example": "Beggie Beggie",
+    "first": "2021-08-06",
+    "weight": 3
+   },
+   {
+    "a": "0FK1hXdXst70HD11n5J26z",
+    "b": "3ZpEKRjHaHANcpk10u6Ntq",
+    "example": "treat u right",
+    "first": "2026-07-02",
+    "weight": 2
+   },
+   {
+    "a": "2mLA48B366zkELXYx7hcDN",
+    "b": "3ZpEKRjHaHANcpk10u6Ntq",
+    "example": "Where Do We Go - Peggy Gou Remix",
+    "first": "2026-04-28",
+    "weight": 2
+   },
+   {
+    "a": "3ZpEKRjHaHANcpk10u6Ntq",
+    "b": "4JM1zsVj1pt38Q8mhv5teI",
+    "example": "Colorado",
+    "first": "2026-04-10",
+    "weight": 1
+   },
+   {
+    "a": "3ZpEKRjHaHANcpk10u6Ntq",
+    "b": "4gzpq5DPGxSnKTe4SA8HAU",
+    "example": "GOOD FEELiNGS",
+    "first": "2024-10-03",
+    "weight": 2
+   },
+   {
+    "a": "3ZpEKRjHaHANcpk10u6Ntq",
+    "b": "5yOvAmpIR7hVxiS6Ls5DPO",
+    "example": "People (feat. Ayra Starr & Omah Lay)",
+    "first": "2023-03-31",
+    "weight": 1
+   },
+   {
+    "a": "2SrSdSvpminqmStGELCSNd",
+    "b": "3ZpEKRjHaHANcpk10u6Ntq",
+    "example": "Need You",
+    "first": "2022-11-25",
+    "weight": 1
+   },
+   {
+    "a": "3ZpEKRjHaHANcpk10u6Ntq",
+    "b": "4TKhxSkqClXrdtUWgKqHVU",
+    "example": "Escaladizzy II",
+    "first": "2025-09-26",
+    "weight": 1
+   },
+   {
+    "a": "3ZpEKRjHaHANcpk10u6Ntq",
+    "b": "4mSWNal2Ixxf1zrXSTLoep",
+    "example": "Escaladizzy II",
+    "first": "2025-09-26",
+    "weight": 1
+   },
+   {
+    "a": "3a1tBryiczPAZpgoZN9Rzg",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "MMS",
+    "first": "2024-08-08",
+    "weight": 3
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "3vUMXQ9kPnZAQkMkZZ7Hfh",
+    "example": "Après Minuit (feat. Tiakola)",
+    "first": "2024-11-22",
+    "weight": 1
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "5FkUhnHQ0KC63549LHHtst",
+    "example": "Slip N Slide (feat. Skillibeng & Shenseea)",
+    "first": "2022-11-11",
+    "weight": 2
+   },
+   {
+    "a": "2p1fiYHYiXz9qi0JJyxBzN",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "Longtime (feat. Skepta)",
+    "first": "2020-10-29",
+    "weight": 3
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "4Gso3d4CscCijv0lmajZWs",
+    "example": "Special (feat. Don Toliver)",
+    "first": "2022-11-11",
+    "weight": 4
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "Jahs Love is True (feat. Wizkid)",
+    "first": "2013-08-12",
+    "weight": 4
+   },
+   {
+    "a": "3QJzdZJYIAcoET1GcfpNGi",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "Blessed (feat. Damian Marley)",
+    "first": "2020-10-29",
+    "weight": 2
+   },
+   {
+    "a": "3Y7RZ31TRPVadSFVy1o8os",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "Smile (feat. H.E.R.)",
+    "first": "2020-10-29",
+    "weight": 2
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "7HkdQ0gt53LP4zmHsL0nap",
+    "example": "Piece of Me (feat. Ella Mai)",
+    "first": "2020-10-29",
+    "weight": 2
+   },
+   {
+    "a": "0iqznAW9pzZ7KOjx8aCMWo",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "True Love (feat. Tay Iwar & Projexx)",
+    "first": "2020-10-29",
+    "weight": 2
+   },
+   {
+    "a": "2DFzMI8SSWPYBBSxVF7b2N",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "True Love (feat. Tay Iwar & Projexx)",
+    "first": "2020-10-29",
+    "weight": 2
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "687cZJR45JO7jhk1LHIbgq",
+    "example": "Essence (feat. Tems)",
+    "first": "2020-10-29",
+    "weight": 4
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "6h3iqdnfBKV2jRhUJz0oto",
+    "example": "Roma (feat. Terri)",
+    "first": "2020-10-29",
+    "weight": 2
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "3zaDigUwjHvjOkSn0NDf9x",
+    "example": "Mood (feat. BNXN)",
+    "first": "2021-08-27",
+    "weight": 1
+   },
+   {
+    "a": "1uNFoZAHBGtllmzznpCI3s",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "Essence (feat. Justin Bieber & Tems)",
+    "first": "2021-08-27",
+    "weight": 2
+   },
+   {
+    "a": "3TVXtAsR1Inumwj472S9r4",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "One Dance",
+    "first": "2016-05-06",
+    "weight": 2
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "7bXgB6jMjp9ATFy66eO08Z",
+    "example": "African Bad Gyal (feat. Chris Brown)",
+    "first": "2017-07-14",
+    "weight": 2
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "7c0XG5cIJTrrAgEC3ULPiq",
+    "example": "One For Me (feat. Ty Dolla $ign)",
+    "first": "2017-07-14",
+    "weight": 2
+   },
+   {
+    "a": "1c61yiH4iYE7cHtjAYSUu3",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "Slow Whine",
+    "first": "2011-06-12",
+    "weight": 3
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "6acbdy69rtlv8m9EW31MYl",
+    "example": "Bombay",
+    "first": "2014-09-17",
+    "weight": 1
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "67nwj3Y5sZQLl72VNUHEYE",
+    "example": "Murder",
+    "first": "2014-09-17",
+    "weight": 1
+   },
+   {
+    "a": "1ixqGowpDM21RwyJmJ7hpv",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "Eme Boyz",
+    "first": "2011-06-12",
+    "weight": 1
+   },
+   {
+    "a": "1fYVmAFB7sC7eDoF3mJXla",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "For Me",
+    "first": "2011-06-12",
+    "weight": 2
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "46pWGuE3dSwY3bMMXGBvVS",
+    "example": "Feel Alright",
+    "first": "2026-11-19",
+    "weight": 2
+   },
+   {
+    "a": "2BPwxhCvvcb8xDl8GWIjbh",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "Anxious (feat. Odeal & Wizkid)",
+    "first": "2026-05-23",
+    "weight": 2
+   },
+   {
+    "a": "1CoZyIx7UvdxT5c8UkMzHd",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "Alive (feat. Wizkid)",
+    "first": "2026-07-02",
+    "weight": 1
+   },
+   {
+    "a": "2NUz5P42WqkxilbI8ocN76",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "Stay For The Night",
+    "first": "2026-06-12",
+    "weight": 2
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "64oW4P0vsDhlorOxZKQi6a",
+    "example": "STATE OF MIND",
+    "first": "2026-05-15",
+    "weight": 1
+   },
+   {
+    "a": "2hlmm7s2ICUX0LVIhVFlZQ",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "forever be mine (feat. Wizkid)",
+    "first": "2025-08-08",
+    "weight": 1
+   },
+   {
+    "a": "0iEtIxbK0KxaSlF7G42ZOp",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "Borrowed Love (feat. Swae Lee & WizKid)",
+    "first": "2018-11-06",
+    "weight": 3
+   },
+   {
+    "a": "1vyhD5VmyZ7KMfW5gqLgo5",
+    "b": "3tVQdUvClmAT7URs9V3rsp",
+    "example": "Only You (feat. WizKid, Offset & J Balvin)",
+    "first": "2018-11-06",
+    "weight": 1
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "6Ip8FS7vWT1uKkJSweANQK",
+    "example": "System (feat. WizKid)",
+    "first": "2021-07-22",
+    "weight": 1
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "4sbXXFzEWJY2zsZjelerjX",
+    "example": "Danger",
+    "first": "2020-09-25",
+    "weight": 1
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "4JM1zsVj1pt38Q8mhv5teI",
+    "example": "Cash Flow (feat. Wizkid)",
+    "first": "2025-11-28",
+    "weight": 1
+   },
+   {
+    "a": "1URnnhqYAYcrqrcwql10ft",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "Sittin' On Top Of The World (feat. 21 Savage)",
+    "first": "2023-08-24",
+    "weight": 2
+   },
+   {
+    "a": "3wcj11K77LjEY1PkEazffa",
+    "b": "6Ip8FS7vWT1uKkJSweANQK",
+    "example": "Location (feat. Burna Boy)",
+    "first": "2019-03-08",
+    "weight": 2
+   },
+   {
+    "a": "3wcj11K77LjEY1PkEazffa",
+    "b": "4zmZ8lVLzGc84S4v2B1rLx",
+    "example": "Giza (feat. Seyi Vibez)",
+    "first": "2023-08-24",
+    "weight": 1
+   },
+   {
+    "a": "3wcj11K77LjEY1PkEazffa",
+    "b": "6l3HvQ5sa6mXTsMTB19rO5",
+    "example": "Thanks (feat. J. Cole)",
+    "first": "2023-08-24",
+    "weight": 2
+   },
+   {
+    "a": "3FdLhnmXynPvZkbILPpB6d",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "Glory (feat. Ladysmith Black Mambazo)",
+    "first": "2022-07-07",
+    "weight": 2
+   },
+   {
+    "a": "2a0uxJgbvvIRI4GX8pYfcr",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "Cloak & Dagger (feat. J Hus)",
+    "first": "2022-07-07",
+    "weight": 1
+   },
+   {
+    "a": "1E5hfn5BduN2nnoZCJmUVG",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "Different Size (feat. Victony)",
+    "first": "2022-07-07",
+    "weight": 1
+   },
+   {
+    "a": "3wcj11K77LjEY1PkEazffa",
+    "b": "62DmErcU7dqZbJaDqwsqzR",
+    "example": "Toni-Ann Singh (feat. Popcaan)",
+    "first": "2022-07-07",
+    "weight": 1
+   },
+   {
+    "a": "3wcj11K77LjEY1PkEazffa",
+    "b": "6eUKZXaKkcviH0Ku9w2n3V",
+    "example": "Own It (feat. Ed Sheeran & Burna Boy)",
+    "first": "2019-12-13",
+    "weight": 2
+   },
+   {
+    "a": "1vyhD5VmyZ7KMfW5gqLgo5",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "Rollercoaster (feat. J Balvin)",
+    "first": "2022-07-07",
+    "weight": 1
+   },
+   {
+    "a": "2SrSdSvpminqmStGELCSNd",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "Own It (feat. Ed Sheeran & Burna Boy)",
+    "first": "2019-12-13",
+    "weight": 2
+   },
+   {
+    "a": "1CoZyIx7UvdxT5c8UkMzHd",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "Gum Body (feat. Jorja Smith)",
+    "first": "2019-07-25",
+    "weight": 1
+   },
+   {
+    "a": "3wcj11K77LjEY1PkEazffa",
+    "b": "4mSWNal2Ixxf1zrXSTLoep",
+    "example": "Killin Dem (feat. Zlatan)",
+    "first": "2019-07-25",
+    "weight": 1
+   },
+   {
+    "a": "3QJzdZJYIAcoET1GcfpNGi",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "Different (feat. Damian Marley & AngÃ©lique Kidjo)",
+    "first": "2019-07-25",
+    "weight": 1
+   },
+   {
+    "a": "3wcj11K77LjEY1PkEazffa",
+    "b": "6acbdy69rtlv8m9EW31MYl",
+    "example": "Duro Ni Be (feat. Phyno)",
+    "first": "2015-03-13",
+    "weight": 1
+   },
+   {
+    "a": "1fYVmAFB7sC7eDoF3mJXla",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "On A Very Good Day (feat. Wande Coal)",
+    "first": "2015-03-13",
+    "weight": 1
+   },
+   {
+    "a": "3wcj11K77LjEY1PkEazffa",
+    "b": "4YIOi9aFNviV1jRQeiNZgO",
+    "example": "Don't Run (feat. Reminisce & Olamide)",
+    "first": "2013-08-12",
+    "weight": 1
+   },
+   {
+    "a": "3wcj11K77LjEY1PkEazffa",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Don't Run (feat. Reminisce & Olamide)",
+    "first": "2013-08-12",
+    "weight": 3
+   },
+   {
+    "a": "0EmeFodog0BfCgMzAIvKQp",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "Dai Dai - SPINALL Remix",
+    "first": "2026-06-24",
+    "weight": 5
+   },
+   {
+    "a": "2NtQA3PY9chI8l65ejZLTP",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "Dai Dai - SPINALL Remix",
+    "first": "2026-06-24",
+    "weight": 2
+   },
+   {
+    "a": "1uNFoZAHBGtllmzznpCI3s",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "Loved By You (feat. Burna Boy)",
+    "first": "2021-03-19",
+    "weight": 1
+   },
+   {
+    "a": "2hlmm7s2ICUX0LVIhVFlZQ",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "wgft (feat. Burna Boy)",
+    "first": "2025-08-08",
+    "weight": 1
+   },
+   {
+    "a": "0iEtIxbK0KxaSlF7G42ZOp",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "just like me",
+    "first": "2024-01-12",
+    "weight": 1
+   },
+   {
+    "a": "3a1tBryiczPAZpgoZN9Rzg",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "Sungba (feat. Burna Boy) - Remix",
+    "first": "2022-09-07",
+    "weight": 1
+   },
+   {
+    "a": "3wcj11K77LjEY1PkEazffa",
+    "b": "4sbXXFzEWJY2zsZjelerjX",
+    "example": "Donne-moi l’accord",
+    "first": "2020-09-25",
+    "weight": 1
+   },
+   {
+    "a": "3wcj11K77LjEY1PkEazffa",
+    "b": "4gzpq5DPGxSnKTe4SA8HAU",
+    "example": "WE PRAY",
+    "first": "2024-10-03",
+    "weight": 2
+   },
+   {
+    "a": "3wcj11K77LjEY1PkEazffa",
+    "b": "6eXZu6O7nAUA5z6vLV8NKI",
+    "example": "WE PRAY",
+    "first": "2024-10-03",
+    "weight": 2
+   },
+   {
+    "a": "0jIWKlfmD4Ew7HeVVrq03g",
+    "b": "3wcj11K77LjEY1PkEazffa",
+    "example": "WE PRAY",
+    "first": "2024-10-03",
+    "weight": 2
+   },
+   {
+    "a": "3wcj11K77LjEY1PkEazffa",
+    "b": "7vXDAI8JwjW531ouMGbfcp",
+    "example": "WE PRAY",
+    "first": "2024-10-03",
+    "weight": 2
+   },
+   {
+    "a": "46pWGuE3dSwY3bMMXGBvVS",
+    "b": "4TKhxSkqClXrdtUWgKqHVU",
+    "example": "BENIN BOYS",
+    "first": "2024-07-10",
+    "weight": 1
+   },
+   {
+    "a": "3LOm0AZjpwVQebvkyanjDy",
+    "b": "46pWGuE3dSwY3bMMXGBvVS",
+    "example": "WAR MACHINE",
+    "first": "2024-07-10",
+    "weight": 1
+   },
+   {
+    "a": "46pWGuE3dSwY3bMMXGBvVS",
+    "b": "4IVAbR2w4JJNJDDRFP3E83",
+    "example": "Hold Me",
+    "first": "2021-05-18",
+    "weight": 2
+   },
+   {
+    "a": "1QsdzIKkTT5gDFj8GB1cIX",
+    "b": "46pWGuE3dSwY3bMMXGBvVS",
+    "example": "Wine",
+    "first": "2021-05-18",
+    "weight": 2
+   },
+   {
+    "a": "46pWGuE3dSwY3bMMXGBvVS",
+    "b": "7bXgB6jMjp9ATFy66eO08Z",
+    "example": "Time N Affection",
+    "first": "2021-05-18",
+    "weight": 2
+   },
+   {
+    "a": "46pWGuE3dSwY3bMMXGBvVS",
+    "b": "4Xi6LSfFqv26XgP9NKN26U",
+    "example": "FYN",
+    "first": "2021-05-18",
+    "weight": 2
+   },
+   {
+    "a": "1fctva4kpRbg2k3v7kwRuS",
+    "b": "46pWGuE3dSwY3bMMXGBvVS",
+    "example": "Beamer (Bad Boys)",
+    "first": "2020-07-10",
+    "weight": 1
+   },
+   {
+    "a": "30SVAanrbFS6o0cIVDZ9ta",
+    "b": "46pWGuE3dSwY3bMMXGBvVS",
+    "example": "Bang Bang",
+    "first": "2026-11-20",
+    "weight": 1
+   },
+   {
+    "a": "3vUMXQ9kPnZAQkMkZZ7Hfh",
+    "b": "46pWGuE3dSwY3bMMXGBvVS",
+    "example": "Best",
+    "first": "2026-09-23",
+    "weight": 2
+   },
+   {
+    "a": "46pWGuE3dSwY3bMMXGBvVS",
+    "b": "7FNnA9vBm6EKceENgCGRMb",
+    "example": "Goals",
+    "first": "2026-05-21",
+    "weight": 1
+   },
+   {
+    "a": "46pWGuE3dSwY3bMMXGBvVS",
+    "b": "5FkUhnHQ0KC63549LHHtst",
+    "example": "Ballerina (with Rema, Skillibeng, & Disco Neil)",
+    "first": "2026-02-27",
+    "weight": 1
+   },
+   {
+    "a": "46pWGuE3dSwY3bMMXGBvVS",
+    "b": "4Gso3d4CscCijv0lmajZWs",
+    "example": "Secondhand (feat. Rema)",
+    "first": "2026-01-27",
+    "weight": 2
+   },
+   {
+    "a": "3zaDigUwjHvjOkSn0NDf9x",
+    "b": "46pWGuE3dSwY3bMMXGBvVS",
+    "example": "Fi Kan We Kan",
+    "first": "2025-07-02",
+    "weight": 1
+   },
+   {
+    "a": "46pWGuE3dSwY3bMMXGBvVS",
+    "b": "75VKfyoBlkmrJFDqo1o2VY",
+    "example": "Compromise (feat. Rema)",
+    "first": "2022-08-04",
+    "weight": 1
+   },
+   {
+    "a": "46pWGuE3dSwY3bMMXGBvVS",
+    "b": "6Xgp2XMz1fhVYe7i6yNAax",
+    "example": "For Her (feat. Rema)",
+    "first": "2026-08-14",
+    "weight": 1
+   },
+   {
+    "a": "46pWGuE3dSwY3bMMXGBvVS",
+    "b": "4JM1zsVj1pt38Q8mhv5teI",
+    "example": "Lalala",
+    "first": "2025-11-28",
+    "weight": 1
+   },
+   {
+    "a": "3Huh90qZ5dI2w5I4JjaQtF",
+    "b": "4Hz1UttsadDCW4xA41XKoV",
+    "example": "MIDNIGHT",
+    "first": "2026-07-10",
+    "weight": 1
+   },
+   {
+    "a": "4Hz1UttsadDCW4xA41XKoV",
+    "b": "6uc997vTKJPHyK4i66liS4",
+    "example": "Issokayy",
+    "first": "2025-10-17",
+    "weight": 2
+   },
+   {
+    "a": "4Hz1UttsadDCW4xA41XKoV",
+    "b": "4XE6eLUu1pp5rcI1cpDpWy",
+    "example": "MY SKELLY",
+    "first": "2026-07-10",
+    "weight": 1
+   },
+   {
+    "a": "4Hz1UttsadDCW4xA41XKoV",
+    "b": "4qYpTEJThZ8FC8KzyFrSWW",
+    "example": "Big Professor",
+    "first": "2026-11-19",
+    "weight": 1
+   },
+   {
+    "a": "38XiDu0kK3Z5jdHUDqBzNT",
+    "b": "4Hz1UttsadDCW4xA41XKoV",
+    "example": "Jo Kin Jo",
+    "first": "2026-11-13",
+    "weight": 1
+   },
+   {
+    "a": "33KPqwPnEKJY6Tm9WfJQKq",
+    "b": "4Hz1UttsadDCW4xA41XKoV",
+    "example": "Signs",
+    "first": "2026-07-03",
+    "weight": 1
+   },
+   {
+    "a": "3hXlGRJuBMCg9xJ41BSWkf",
+    "b": "4Hz1UttsadDCW4xA41XKoV",
+    "example": "PRESS AM",
+    "first": "2026-01-23",
+    "weight": 2
+   },
+   {
+    "a": "4Hz1UttsadDCW4xA41XKoV",
+    "b": "4mCGYkTmNnEsnTrIr3atNB",
+    "example": "PAAK AM",
+    "first": "2026-06-19",
+    "weight": 1
+   },
+   {
+    "a": "4Hz1UttsadDCW4xA41XKoV",
+    "b": "6qCxa9ZvMnoVevYR6cubyW",
+    "example": "FLAMMABLE",
+    "first": "2025-04-20",
+    "weight": 2
+   },
+   {
+    "a": "2wzsad2d81hK0eP1qgcxHK",
+    "b": "4Hz1UttsadDCW4xA41XKoV",
+    "example": "Tinubizzy",
+    "first": "2026-11-13",
+    "weight": 1
+   },
+   {
+    "a": "4Hz1UttsadDCW4xA41XKoV",
+    "b": "6HsmnOUuab7e2X11UKrZ9Y",
+    "example": "HONEYCOMB",
+    "first": "2026-01-31",
+    "weight": 2
+   },
+   {
+    "a": "3XImQNx9nOoiOs1VXqy3RH",
+    "b": "4Hz1UttsadDCW4xA41XKoV",
+    "example": "ONLY 1",
+    "first": "2026-07-31",
+    "weight": 1
+   },
+   {
+    "a": "26kmsdjrNWCC8srvp8NHVp",
+    "b": "4Hz1UttsadDCW4xA41XKoV",
+    "example": "FLAMMABLE",
+    "first": "2025-04-20",
+    "weight": 1
+   },
+   {
+    "a": "0BQyOgobSOkQ7u4vTG7fPJ",
+    "b": "4Z3LLYwCpB9OKKaSttnapP",
+    "example": "Soldier",
+    "first": "2025-11-07",
+    "weight": 3
+   },
+   {
+    "a": "0R0U0reEPZrIBPCu9dp1Jf",
+    "b": "4Z3LLYwCpB9OKKaSttnapP",
+    "example": "Soldier",
+    "first": "2025-11-07",
+    "weight": 2
+   },
+   {
+    "a": "1E5hfn5BduN2nnoZCJmUVG",
+    "b": "4Z3LLYwCpB9OKKaSttnapP",
+    "example": "Akonuche - Remix",
+    "first": "2026-01-23",
+    "weight": 2
+   },
+   {
+    "a": "23R4AtMwVv0pbJYB1joioW",
+    "b": "4Z3LLYwCpB9OKKaSttnapP",
+    "example": "Akonuche - Remix",
+    "first": "2026-01-23",
+    "weight": 2
+   },
+   {
+    "a": "0X1sGf1y8XCupQFDUkiPmB",
+    "b": "4Z3LLYwCpB9OKKaSttnapP",
+    "example": "Tomorrow - Kurima Version",
+    "first": "2025-08-02",
+    "weight": 2
+   },
+   {
+    "a": "2s187JqHC9kipPLBLWXubl",
+    "b": "4Z3LLYwCpB9OKKaSttnapP",
+    "example": "Church Mind",
+    "first": "2026-06-26",
+    "weight": 2
+   },
+   {
+    "a": "4Z3LLYwCpB9OKKaSttnapP",
+    "b": "5ywjxFhmhHGQBsK3DundNf",
+    "example": "Eyes on the Prize",
+    "first": "2026-11-20",
+    "weight": 1
+   },
+   {
+    "a": "47fErV0VDIx6PmuhtWGTYu",
+    "b": "4Z3LLYwCpB9OKKaSttnapP",
+    "example": "Boy Bye",
+    "first": "2024-05-29",
+    "weight": 2
+   },
+   {
+    "a": "4Z3LLYwCpB9OKKaSttnapP",
+    "b": "4zlOuiD2KEU4fv1wSBQ3Jn",
+    "example": "Boy Bye",
+    "first": "2024-05-29",
+    "weight": 2
+   },
+   {
+    "a": "0rckUWPb0n9j1nRlGFvjHt",
+    "b": "4Z3LLYwCpB9OKKaSttnapP",
+    "example": "Boy Bye",
+    "first": "2024-05-29",
+    "weight": 2
+   },
+   {
+    "a": "4Z3LLYwCpB9OKKaSttnapP",
+    "b": "5L7X4fW19ZEG2EdkOIPpMg",
+    "example": "Boy Bye",
+    "first": "2024-05-29",
+    "weight": 2
+   },
+   {
+    "a": "1IMQHmBTqSwgqyK6nIYSZ2",
+    "b": "4Z3LLYwCpB9OKKaSttnapP",
+    "example": "Boy Bye",
+    "first": "2024-05-29",
+    "weight": 2
+   },
+   {
+    "a": "1mcBWQVnnsPhMLCUB6iISP",
+    "b": "4Z3LLYwCpB9OKKaSttnapP",
+    "example": "Boy Bye",
+    "first": "2024-05-29",
+    "weight": 2
+   },
+   {
+    "a": "4Z3LLYwCpB9OKKaSttnapP",
+    "b": "6LTAaKONuHKKWR8ljjIbCA",
+    "example": "Boy Bye",
+    "first": "2024-05-29",
+    "weight": 2
+   },
+   {
+    "a": "4Z3LLYwCpB9OKKaSttnapP",
+    "b": "5jfQBS0O6dR6axaz0BGMgs",
+    "example": "Boy Bye",
+    "first": "2024-05-29",
+    "weight": 2
+   },
+   {
+    "a": "4Z3LLYwCpB9OKKaSttnapP",
+    "b": "5pNye0bGTXUivn8zdEBIfj",
+    "example": "Boy Bye",
+    "first": "2024-05-29",
+    "weight": 2
+   },
+   {
+    "a": "2LJdSBlf7UdzavnaxOMH9A",
+    "b": "4Z3LLYwCpB9OKKaSttnapP",
+    "example": "Boy Bye",
+    "first": "2024-05-29",
+    "weight": 2
+   },
+   {
+    "a": "4Z3LLYwCpB9OKKaSttnapP",
+    "b": "5zfc16oDllbQP2L13GQQk4",
+    "example": "My Shine",
+    "first": "2021-12-17",
+    "weight": 2
+   },
+   {
+    "a": "1MsnDxqUP7LKWW9zEEs1J8",
+    "b": "4ZnAdq8niwc3MnthK4ujdr",
+    "example": "Best Rappers in Africa Cypher",
+    "first": "2025-12-17",
+    "weight": 3
+   },
+   {
+    "a": "3QZIuDbSkr9lWqNFGsBsb3",
+    "b": "4ZnAdq8niwc3MnthK4ujdr",
+    "example": "Best Rappers in Africa Cypher",
+    "first": "2025-12-17",
+    "weight": 3
+   },
+   {
+    "a": "4ZnAdq8niwc3MnthK4ujdr",
+    "b": "5ZETERIwOXfWYCBljWg3Hk",
+    "example": "Best Rappers in Africa Cypher",
+    "first": "2025-12-17",
+    "weight": 3
+   },
+   {
+    "a": "4ZnAdq8niwc3MnthK4ujdr",
+    "b": "4qYpTEJThZ8FC8KzyFrSWW",
+    "example": "SLOW",
+    "first": "2026-10-09",
+    "weight": 1
+   },
+   {
+    "a": "2j7j3bmaV4Ej8b9Cy0FtMY",
+    "b": "4ZnAdq8niwc3MnthK4ujdr",
+    "example": "One + One",
+    "first": "2025-11-07",
+    "weight": 3
+   },
+   {
+    "a": "4ZnAdq8niwc3MnthK4ujdr",
+    "b": "4if5dwAkHl7FZNCJTIB5e9",
+    "example": "One + One",
+    "first": "2025-11-07",
+    "weight": 2
+   },
+   {
+    "a": "4ZnAdq8niwc3MnthK4ujdr",
+    "b": "706XoyHcL5K4V09UY9L2BD",
+    "example": "Best Rappers in Africa Cypher",
+    "first": "2025-12-17",
+    "weight": 2
+   },
+   {
+    "a": "0FK1hXdXst70HD11n5J26z",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Jaiye (feat. FOLA)",
+    "first": "2026-11-16",
+    "weight": 1
+   },
+   {
+    "a": "3tVQdUvClmAT7URs9V3rsp",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Omo to Shan",
+    "first": "2011-03-21",
+    "weight": 3
+   },
+   {
+    "a": "4ovtyvs7j1jSmwhkBGHqSr",
+    "b": "4zmZ8lVLzGc84S4v2B1rLx",
+    "example": "Free",
+    "first": "2025-06-18",
+    "weight": 3
+   },
+   {
+    "a": "4ovtyvs7j1jSmwhkBGHqSr",
+    "b": "58JKLeDfIeeOYujvF1UMQS",
+    "example": "Free",
+    "first": "2025-06-18",
+    "weight": 1
+   },
+   {
+    "a": "2NtQA3PY9chI8l65ejZLTP",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Indika",
+    "first": "2025-06-18",
+    "weight": 1
+   },
+   {
+    "a": "3a1tBryiczPAZpgoZN9Rzg",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Omo Ope (feat. Olamide)",
+    "first": "2022-01-18",
+    "weight": 6
+   },
+   {
+    "a": "4JM1zsVj1pt38Q8mhv5teI",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Synchro System (feat. Pheelz, Young Jonn & Lil Kesh)",
+    "first": "2024-06-26",
+    "weight": 3
+   },
+   {
+    "a": "1IFAU4mznUcfPVP9z2c24N",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "99 (feat. Daecolm)",
+    "first": "2025-06-18",
+    "weight": 1
+   },
+   {
+    "a": "4ovtyvs7j1jSmwhkBGHqSr",
+    "b": "62DmErcU7dqZbJaDqwsqzR",
+    "example": "Rain",
+    "first": "2025-06-18",
+    "weight": 1
+   },
+   {
+    "a": "4ovtyvs7j1jSmwhkBGHqSr",
+    "b": "4qYpTEJThZ8FC8KzyFrSWW",
+    "example": "Stronger",
+    "first": "2025-06-18",
+    "weight": 1
+   },
+   {
+    "a": "4ovtyvs7j1jSmwhkBGHqSr",
+    "b": "75VKfyoBlkmrJFDqo1o2VY",
+    "example": "Afar",
+    "first": "2020-08-19",
+    "weight": 4
+   },
+   {
+    "a": "4ovtyvs7j1jSmwhkBGHqSr",
+    "b": "5Jv1MsZBh0sqokFq7pU8Xg",
+    "example": "I'm Going In",
+    "first": "2011-03-21",
+    "weight": 2
+   },
+   {
+    "a": "38XiDu0kK3Z5jdHUDqBzNT",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Problem Child",
+    "first": "2016-03-16",
+    "weight": 4
+   },
+   {
+    "a": "048LktY5zMnakWq7PTtFrz",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Trumpet",
+    "first": "2023-08-08",
+    "weight": 3
+   },
+   {
+    "a": "3zaDigUwjHvjOkSn0NDf9x",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Modupe",
+    "first": "2022-08-24",
+    "weight": 2
+   },
+   {
+    "a": "46pWGuE3dSwY3bMMXGBvVS",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Mukulu",
+    "first": "2023-08-08",
+    "weight": 1
+   },
+   {
+    "a": "4ovtyvs7j1jSmwhkBGHqSr",
+    "b": "4wAqlYtTaaHELEgyCh9KjG",
+    "example": "Want",
+    "first": "2021-06-17",
+    "weight": 2
+   },
+   {
+    "a": "4ovtyvs7j1jSmwhkBGHqSr",
+    "b": "6acbdy69rtlv8m9EW31MYl",
+    "example": "Fada Fada",
+    "first": "2016-11-01",
+    "weight": 5
+   },
+   {
+    "a": "4ovtyvs7j1jSmwhkBGHqSr",
+    "b": "5yOvAmpIR7hVxiS6Ls5DPO",
+    "example": "Infinity (feat. Omah Lay)",
+    "first": "2020-10-07",
+    "weight": 1
+   },
+   {
+    "a": "4ovtyvs7j1jSmwhkBGHqSr",
+    "b": "7kK5badbqOjd8WlT2XWMeM",
+    "example": "Vision 2020 Remix",
+    "first": "2020-01-27",
+    "weight": 2
+   },
+   {
+    "a": "4ovtyvs7j1jSmwhkBGHqSr",
+    "b": "68R39izwNAztATrXMOqkJS",
+    "example": "Loading",
+    "first": "2020-10-07",
+    "weight": 1
+   },
+   {
+    "a": "4ovtyvs7j1jSmwhkBGHqSr",
+    "b": "5ywjxFhmhHGQBsK3DundNf",
+    "example": "Unconditionally (feat. Peruzzi)",
+    "first": "2020-10-07",
+    "weight": 1
+   },
+   {
+    "a": "4ovtyvs7j1jSmwhkBGHqSr",
+    "b": "4piJXSxlFLE9HkuHP0SLD9",
+    "example": "Dance With The Devil",
+    "first": "2020-02-10",
+    "weight": 2
+   },
+   {
+    "a": "4YIOi9aFNviV1jRQeiNZgO",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Legendary Hustlers",
+    "first": "2011-03-21",
+    "weight": 4
+   },
+   {
+    "a": "1Zj017W6N6SmZRLS4ODpjS",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Dope Money (feat. Phyno)",
+    "first": "2013-11-07",
+    "weight": 5
+   },
+   {
+    "a": "1hNaHKp2Za5YdOAG0WnRbc",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "International Local (feat. Tiwa Savage)",
+    "first": "2016-12-01",
+    "weight": 2
+   },
+   {
+    "a": "1fYVmAFB7sC7eDoF3mJXla",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Who You Epp (feat. Wande Coal & Phyno)",
+    "first": "2016-12-26",
+    "weight": 1
+   },
+   {
+    "a": "4ovtyvs7j1jSmwhkBGHqSr",
+    "b": "5jfQBS0O6dR6axaz0BGMgs",
+    "example": "Bang (feat. Chinko Ekun & Lil Kesh)",
+    "first": "2016-12-01",
+    "weight": 3
+   },
+   {
+    "a": "36M1Z5OPFotaTTKNjSIuAX",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Church (feat. Viktoh)",
+    "first": "2013-11-07",
+    "weight": 2
+   },
+   {
+    "a": "3ZwrZQdYpAwdPXlKTictk8",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Mu Emu (feat. B Banks)",
+    "first": "2013-11-07",
+    "weight": 2
+   },
+   {
+    "a": "3l7SEJk2wlBU3OvrMWf1sj",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Motivation (feat. Ice Prince, Endia & Pepenazi)",
+    "first": "2013-11-07",
+    "weight": 2
+   },
+   {
+    "a": "3JJ0lsQ5g0DnRsTaCajxJU",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Rep Adugbo (feat. Buckwyla & Pheelz)",
+    "first": "2013-11-07",
+    "weight": 2
+   },
+   {
+    "a": "0Y3agQaa6g2r0YmHPOO9rh",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Panumo (feat. DaVido)",
+    "first": "2016-12-01",
+    "weight": 1
+   },
+   {
+    "a": "3UEwKs997VRicCpjEYTprR",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Apa Ti Jabo",
+    "first": "2011-03-21",
+    "weight": 2
+   },
+   {
+    "a": "4mSWNal2Ixxf1zrXSTLoep",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Gimme Your Love",
+    "first": "2025-10-17",
+    "weight": 1
+   },
+   {
+    "a": "1ixqGowpDM21RwyJmJ7hpv",
+    "b": "4ovtyvs7j1jSmwhkBGHqSr",
+    "example": "Ijo Ayo",
+    "first": "2015-05-18",
+    "weight": 1
+   },
+   {
+    "a": "4zmZ8lVLzGc84S4v2B1rLx",
+    "b": "6Xgp2XMz1fhVYe7i6yNAax",
+    "example": "UP",
+    "first": "2025-11-13",
+    "weight": 1
+   },
+   {
+    "a": "4zmZ8lVLzGc84S4v2B1rLx",
+    "b": "6acbdy69rtlv8m9EW31MYl",
+    "example": "Highlife interlude",
+    "first": "2023-06-23",
+    "weight": 2
+   },
+   {
+    "a": "4JM1zsVj1pt38Q8mhv5teI",
+    "b": "4zmZ8lVLzGc84S4v2B1rLx",
+    "example": "Suddenly",
+    "first": "2023-06-08",
+    "weight": 3
+   },
+   {
+    "a": "4Ns55iOSe1Im2WU2e1Eym0",
+    "b": "4zmZ8lVLzGc84S4v2B1rLx",
+    "example": "Darling (feat. Simi)",
+    "first": "2022-11-02",
+    "weight": 2
+   },
+   {
+    "a": "3DNCUaKdMZcMVJIS7yTskd",
+    "b": "4zmZ8lVLzGc84S4v2B1rLx",
+    "example": "Ten (feat. Mayorkun)",
+    "first": "2022-11-02",
+    "weight": 2
+   },
+   {
+    "a": "3ukrG1BmfEiuo0KDj8YTTS",
+    "b": "4zmZ8lVLzGc84S4v2B1rLx",
+    "example": "Para Mode (feat. Teni)",
+    "first": "2021-10-01",
+    "weight": 2
+   },
+   {
+    "a": "0vyHUIFawbTNM2a7W7JqZe",
+    "b": "4zmZ8lVLzGc84S4v2B1rLx",
+    "example": "Peppa",
+    "first": "2026-07-03",
+    "weight": 2
+   },
+   {
+    "a": "4zmZ8lVLzGc84S4v2B1rLx",
+    "b": "5yOvAmpIR7hVxiS6Ls5DPO",
+    "example": "MY HEALER",
+    "first": "2026-01-21",
+    "weight": 1
+   },
+   {
+    "a": "2a0uxJgbvvIRI4GX8pYfcr",
+    "b": "4zmZ8lVLzGc84S4v2B1rLx",
+    "example": "Richer",
+    "first": "2025-12-10",
+    "weight": 1
+   },
+   {
+    "a": "3zaDigUwjHvjOkSn0NDf9x",
+    "b": "4zmZ8lVLzGc84S4v2B1rLx",
+    "example": "GWAGWALADA",
+    "first": "2023-10-04",
+    "weight": 2
+   },
+   {
+    "a": "1X6cBGnXpEpN7CmflLKmLV",
+    "b": "4zmZ8lVLzGc84S4v2B1rLx",
+    "example": "GWAGWALADA",
+    "first": "2023-10-04",
+    "weight": 2
+   },
+   {
+    "a": "4zmZ8lVLzGc84S4v2B1rLx",
+    "b": "67nwj3Y5sZQLl72VNUHEYE",
+    "example": "YSF (with Teni & Seyi Vibez)",
+    "first": "2025-11-14",
+    "weight": 1
+   },
+   {
+    "a": "4zmZ8lVLzGc84S4v2B1rLx",
+    "b": "58JKLeDfIeeOYujvF1UMQS",
+    "example": "Emo - Remix",
+    "first": "2024-06-26",
+    "weight": 2
+   },
+   {
+    "a": "3a1tBryiczPAZpgoZN9Rzg",
+    "b": "4zmZ8lVLzGc84S4v2B1rLx",
+    "example": "99 (feat. Daecolm)",
+    "first": "2025-06-18",
+    "weight": 1
+   },
+   {
+    "a": "1IFAU4mznUcfPVP9z2c24N",
+    "b": "4zmZ8lVLzGc84S4v2B1rLx",
+    "example": "99 (feat. Daecolm)",
+    "first": "2025-06-18",
+    "weight": 1
+   },
+   {
+    "a": "4zmZ8lVLzGc84S4v2B1rLx",
+    "b": "7kK5badbqOjd8WlT2XWMeM",
+    "example": "Bounce",
+    "first": "2025-10-03",
+    "weight": 1
+   },
+   {
+    "a": "0P8jodpczL0pVKzYMkJKpX",
+    "b": "5KbCVC6DvprtEp30AA093z",
+    "example": "LOOK BACC",
+    "first": "2026-11-20",
+    "weight": 1
+   },
+   {
+    "a": "2aWCLZqio9v0uUZEATR1Rv",
+    "b": "5KbCVC6DvprtEp30AA093z",
+    "example": "NONSTOP",
+    "first": "2026-11-20",
+    "weight": 1
+   },
+   {
+    "a": "3hXlGRJuBMCg9xJ41BSWkf",
+    "b": "5KbCVC6DvprtEp30AA093z",
+    "example": "go too far",
+    "first": "2026-10-21",
+    "weight": 1
+   },
+   {
+    "a": "5CSSzEHLGMcRVwq340BpHl",
+    "b": "5KbCVC6DvprtEp30AA093z",
+    "example": "ADVANCE",
+    "first": "2026-05-24",
+    "weight": 6
+   },
+   {
+    "a": "5KbCVC6DvprtEp30AA093z",
+    "b": "7pcVZssnGHrZrzzbQtMpkF",
+    "example": "Activate",
+    "first": "2024-06-20",
+    "weight": 4
+   },
+   {
+    "a": "5KbCVC6DvprtEp30AA093z",
+    "b": "7rGdPKZx6tqAbclJ7llUbs",
+    "example": "ENOUGH ( ALOT)",
+    "first": "2026-09-03",
+    "weight": 2
+   },
+   {
+    "a": "5CuyARGesDksvuWHiMQdX2",
+    "b": "5KbCVC6DvprtEp30AA093z",
+    "example": "4:44 FREESTYLE",
+    "first": "2026-06-19",
+    "weight": 1
+   },
+   {
+    "a": "5KbCVC6DvprtEp30AA093z",
+    "b": "5L1Xcdtf6MxLmEvpGMw3g4",
+    "example": "WHATS POPPING?¿",
+    "first": "2026-08-14",
+    "weight": 1
+   },
+   {
+    "a": "5KbCVC6DvprtEp30AA093z",
+    "b": "7pzMp7mAU2KRlAjtYuKoje",
+    "example": "Swag Up",
+    "first": "2026-11-05",
+    "weight": 1
+   },
+   {
+    "a": "5KbCVC6DvprtEp30AA093z",
+    "b": "5oOifbswnej7XvdPuZ9ktd",
+    "example": "Swag Up",
+    "first": "2026-11-05",
+    "weight": 1
+   },
+   {
+    "a": "5KbCVC6DvprtEp30AA093z",
+    "b": "6HsmnOUuab7e2X11UKrZ9Y",
+    "example": "ADVANCE",
+    "first": "2026-05-24",
+    "weight": 2
+   },
+   {
+    "a": "5KbCVC6DvprtEp30AA093z",
+    "b": "6mS3szHDI9h4lICrQj3ge0",
+    "example": "High Grade",
+    "first": "2026-07-31",
+    "weight": 3
+   },
+   {
+    "a": "5TWaKfZVOCCLJN9cKLXjch",
+    "b": "5toMJY8OHE9np3f4Hh0wCy",
+    "example": "Horny!",
+    "first": "2025-03-28",
+    "weight": 7
+   },
+   {
+    "a": "11wVvKdFSo29HDH3JgqTYX",
+    "b": "5toMJY8OHE9np3f4Hh0wCy",
+    "example": "Horny!",
+    "first": "2025-03-28",
+    "weight": 2
+   },
+   {
+    "a": "4vqK18ff2fID1b43nhIKK6",
+    "b": "5toMJY8OHE9np3f4Hh0wCy",
+    "example": "Swear!",
+    "first": "2024-07-01",
+    "weight": 1
+   },
+   {
+    "a": "2w34rjWGumCU3vOiCVd3J6",
+    "b": "5toMJY8OHE9np3f4Hh0wCy",
+    "example": "XTACY",
+    "first": "2024-05-06",
+    "weight": 2
+   },
+   {
+    "a": "3YZW6xRMNPj57dx36Eb2Yd",
+    "b": "5toMJY8OHE9np3f4Hh0wCy",
+    "example": "Tears",
+    "first": "2024-03-19",
+    "weight": 7
+   },
+   {
+    "a": "5toMJY8OHE9np3f4Hh0wCy",
+    "b": "6SL6GEDCDVZFEvo3ewugni",
+    "example": "Iworiwo",
+    "first": "2023-11-22",
+    "weight": 2
+   },
+   {
+    "a": "5bUavTrOnEtAvss0JCYAZf",
+    "b": "5toMJY8OHE9np3f4Hh0wCy",
+    "example": "Cruising",
+    "first": "2022-11-03",
+    "weight": 4
+   },
+   {
+    "a": "5Hgd05xamByQu7SLHxhdSh",
+    "b": "5toMJY8OHE9np3f4Hh0wCy",
+    "example": "Know",
+    "first": "2024-03-19",
+    "weight": 3
+   },
+   {
+    "a": "1hBSQ3xsR6kfPMi7yLNmnZ",
+    "b": "5toMJY8OHE9np3f4Hh0wCy",
+    "example": "Desperate4U",
+    "first": "2024-03-19",
+    "weight": 4
+   },
+   {
+    "a": "5NG1nbdSZhlpLWNHK6idk5",
+    "b": "5toMJY8OHE9np3f4Hh0wCy",
+    "example": "Regular",
+    "first": "2026-03-26",
+    "weight": 3
+   },
+   {
+    "a": "4if5dwAkHl7FZNCJTIB5e9",
+    "b": "5toMJY8OHE9np3f4Hh0wCy",
+    "example": "WASTING TIME.",
+    "first": "2024-11-01",
+    "weight": 1
+   },
+   {
+    "a": "2csYbKI9QGufe3Xny3Fkop",
+    "b": "5toMJY8OHE9np3f4Hh0wCy",
+    "example": "Mystery Girl",
+    "first": "2023-12-19",
+    "weight": 3
+   },
+   {
+    "a": "15GgEOJiFyjQm4tZ4D7qih",
+    "b": "5toMJY8OHE9np3f4Hh0wCy",
+    "example": "Gates of Heaven",
+    "first": "2025-02-25",
+    "weight": 1
+   },
+   {
+    "a": "31uzUrQQv5lMCY9h5wTcRK",
+    "b": "5toMJY8OHE9np3f4Hh0wCy",
+    "example": "LONG AGO",
+    "first": "2025-07-24",
+    "weight": 2
+   },
+   {
+    "a": "3Huh90qZ5dI2w5I4JjaQtF",
+    "b": "6CS6NjMmo93ligNiiZ97LZ",
+    "example": "2",
+    "first": "2026-08-07",
+    "weight": 1
+   },
+   {
+    "a": "1rxMZxcNgJiXunlNSAq8pY",
+    "b": "6CS6NjMmo93ligNiiZ97LZ",
+    "example": "FUK IT UP",
+    "first": "2023-09-08",
+    "weight": 6
+   },
+   {
+    "a": "1zeUMAJrOoMdWjU0BErMzn",
+    "b": "6CS6NjMmo93ligNiiZ97LZ",
+    "example": "Osiso",
+    "first": "2026-10-16",
+    "weight": 1
+   },
+   {
+    "a": "5jVohQzVOMNwP5ao5J1vk5",
+    "b": "6CS6NjMmo93ligNiiZ97LZ",
+    "example": "4 LIF3",
+    "first": "2026-05-11",
+    "weight": 3
+   },
+   {
+    "a": "3GvLzHTwSpsLgPcYB9ywgJ",
+    "b": "6CS6NjMmo93ligNiiZ97LZ",
+    "example": "H M",
+    "first": "2026-02-22",
+    "weight": 1
+   },
+   {
+    "a": "1FX1BFU0DbHRYgKP83pA0d",
+    "b": "6CS6NjMmo93ligNiiZ97LZ",
+    "example": "FUCK AROUND!",
+    "first": "2025-06-06",
+    "weight": 2
+   },
+   {
+    "a": "6CS6NjMmo93ligNiiZ97LZ",
+    "b": "6uc997vTKJPHyK4i66liS4",
+    "example": "14u",
+    "first": "2026-10-31",
+    "weight": 1
+   },
+   {
+    "a": "6CS6NjMmo93ligNiiZ97LZ",
+    "b": "6HsmnOUuab7e2X11UKrZ9Y",
+    "example": "FLASHING LIGHTS (GOLD MEDAL)",
+    "first": "2025-12-19",
+    "weight": 2
+   },
+   {
+    "a": "6CS6NjMmo93ligNiiZ97LZ",
+    "b": "7oVgNYLuZ9HffOdNE15wnL",
+    "example": "Reject boyz II",
+    "first": "2026-06-26",
+    "weight": 1
+   },
+   {
+    "a": "4C9EX8d2FnWMV2yQZqeG8U",
+    "b": "6CS6NjMmo93ligNiiZ97LZ",
+    "example": "Omoge (feat. Luwa.Mp4)",
+    "first": "2026-03-12",
+    "weight": 2
+   },
+   {
+    "a": "59MU62wyOLf8FlV7l8fewL",
+    "b": "6CS6NjMmo93ligNiiZ97LZ",
+    "example": "Omoge (feat. Luwa.Mp4)",
+    "first": "2026-03-12",
+    "weight": 2
+   },
+   {
+    "a": "4M5b70A8aORXdyJVjRJ8du",
+    "b": "6eEW31SqGa8zKe3ibfTCdH",
+    "example": "SHOW ME LUV (feat. Fimiguerrero)",
+    "first": "2025-09-19",
+    "weight": 3
+   },
+   {
+    "a": "3LOm0AZjpwVQebvkyanjDy",
+    "b": "6eEW31SqGa8zKe3ibfTCdH",
+    "example": "Idansk1 tw0",
+    "first": "2025-11-28",
+    "weight": 2
+   },
+   {
+    "a": "26kmsdjrNWCC8srvp8NHVp",
+    "b": "6eEW31SqGa8zKe3ibfTCdH",
+    "example": "j rice",
+    "first": "2024-11-27",
+    "weight": 3
+   },
+   {
+    "a": "15GgEOJiFyjQm4tZ4D7qih",
+    "b": "6eEW31SqGa8zKe3ibfTCdH",
+    "example": "Big Drop (feat. Zaylevelten)",
+    "first": "2026-10-15",
+    "weight": 2
+   },
+   {
+    "a": "2k4BorccGemzBPjIRkT5Pa",
+    "b": "6eEW31SqGa8zKe3ibfTCdH",
+    "example": "Shoki (feat. Zaylevelten)",
+    "first": "2026-05-22",
+    "weight": 2
+   },
+   {
+    "a": "2hg21aqtw66FhKSo3Uzbne",
+    "b": "6eEW31SqGa8zKe3ibfTCdH",
+    "example": "Chose Me",
+    "first": "2026-05-15",
+    "weight": 2
+   },
+   {
+    "a": "30SVAanrbFS6o0cIVDZ9ta",
+    "b": "6eEW31SqGa8zKe3ibfTCdH",
+    "example": "Yeye Talk",
+    "first": "2026-07-21",
+    "weight": 2
+   },
+   {
+    "a": "5yJLqKU6LRfzliSQIVnJMI",
+    "b": "6eEW31SqGa8zKe3ibfTCdH",
+    "example": "CTRL",
+    "first": "2026-10-09",
+    "weight": 2
+   },
+   {
+    "a": "5L1Xcdtf6MxLmEvpGMw3g4",
+    "b": "6eEW31SqGa8zKe3ibfTCdH",
+    "example": "Kwanta",
+    "first": "2025-09-02",
+    "weight": 2
+   },
+   {
+    "a": "6CS6NjMmo93ligNiiZ97LZ",
+    "b": "6eEW31SqGa8zKe3ibfTCdH",
+    "example": "cykpheR",
+    "first": "2025-04-28",
+    "weight": 1
+   },
+   {
+    "a": "6eEW31SqGa8zKe3ibfTCdH",
+    "b": "7oVgNYLuZ9HffOdNE15wnL",
+    "example": "Man O War",
+    "first": "2026-06-26",
+    "weight": 1
+   },
+   {
+    "a": "6eEW31SqGa8zKe3ibfTCdH",
+    "b": "6qCxa9ZvMnoVevYR6cubyW",
+    "example": "NO SMILE$",
+    "first": "2025-03-07",
+    "weight": 1
+   }
+  ],
+  "nodes": [
+   {
+    "group": "other",
+    "id": "3ukrG1BmfEiuo0KDj8YTTS",
+    "name": "Teni"
+   },
+   {
+    "group": "UG",
+    "id": "00dT0myy0kbq152QWIzRPI",
+    "name": "Igwe Aka"
+   },
+   {
+    "group": "other",
+    "id": "4mSWNal2Ixxf1zrXSTLoep",
+    "name": "Zlatan"
+   },
+   {
+    "group": "other",
+    "id": "1QsdzIKkTT5gDFj8GB1cIX",
+    "name": "Yseult"
+   },
+   {
+    "group": "other",
+    "id": "58JKLeDfIeeOYujvF1UMQS",
+    "name": "Muyeez"
+   },
+   {
+    "group": "other",
+    "id": "6uc997vTKJPHyK4i66liS4",
+    "name": "Hebron Ola"
+   },
+   {
+    "group": "other",
+    "id": "12kjvw4e3gLp6qVHO65n7W",
+    "name": "Blaqbonez"
+   },
+   {
+    "group": "other",
+    "id": "30SVAanrbFS6o0cIVDZ9ta",
+    "name": "Thisizlondon"
+   },
+   {
+    "group": "other",
+    "id": "64oW4P0vsDhlorOxZKQi6a",
+    "name": "DJ Tunez"
+   },
+   {
+    "group": "other",
+    "id": "0X1sGf1y8XCupQFDUkiPmB",
+    "name": "SAMAD"
+   },
+   {
+    "group": "other",
+    "id": "2GfYq2uTYP3vG4QbQkdSPm",
+    "name": "Davee Thompson"
+   },
+   {
+    "group": "other",
+    "id": "0BQyOgobSOkQ7u4vTG7fPJ",
+    "name": "TiMi"
+   },
+   {
+    "group": "other",
+    "id": "4Gso3d4CscCijv0lmajZWs",
+    "name": "Don Toliver"
+   },
+   {
+    "group": "other",
+    "id": "1FX1BFU0DbHRYgKP83pA0d",
+    "name": "JELEEL!"
+   },
+   {
+    "group": "other",
+    "id": "7pcVZssnGHrZrzzbQtMpkF",
+    "name": "DaniTheeGreatt"
+   },
+   {
+    "group": "other",
+    "id": "5FkUhnHQ0KC63549LHHtst",
+    "name": "Skillibeng"
+   },
+   {
+    "group": "other",
+    "id": "5ZsFI1h6hIdQRw2ti0hz81",
+    "name": "ZAYN"
+   },
+   {
+    "group": "other",
+    "id": "3TVXtAsR1Inumwj472S9r4",
+    "name": "Drake"
+   },
+   {
+    "group": "other",
+    "id": "0R0U0reEPZrIBPCu9dp1Jf",
+    "name": "Kpee"
+   },
+   {
+    "group": "other",
+    "id": "6Xgp2XMz1fhVYe7i6yNAax",
+    "name": "Trippie Redd"
+   },
+   {
+    "group": "other",
+    "id": "26kmsdjrNWCC8srvp8NHVp",
+    "name": "Bigg Bobbyy"
+   },
+   {
+    "group": "other",
+    "id": "6Kp3KWPiVgi33DkJqo9T4g",
+    "name": "Zinoleesky"
+   },
+   {
+    "group": "other",
+    "id": "1mcBWQVnnsPhMLCUB6iISP",
+    "name": "The Flowolf"
+   },
+   {
+    "group": "other",
+    "id": "7pzMp7mAU2KRlAjtYuKoje",
+    "name": "Tobi Nation"
+   },
+   {
+    "group": "other",
+    "id": "2wzsad2d81hK0eP1qgcxHK",
+    "name": "FXRE"
+   },
+   {
+    "group": "UG",
+    "id": "4ZnAdq8niwc3MnthK4ujdr",
+    "name": "Fimi"
+   },
+   {
+    "group": "mainstream",
+    "id": "46pWGuE3dSwY3bMMXGBvVS",
+    "name": "Rema"
+   },
+   {
+    "group": "other",
+    "id": "0iqznAW9pzZ7KOjx8aCMWo",
+    "name": "Tay Iwar"
+   },
+   {
+    "group": "other",
+    "id": "1IFAU4mznUcfPVP9z2c24N",
+    "name": "Daecolm"
+   },
+   {
+    "group": "other",
+    "id": "0P8jodpczL0pVKzYMkJKpX",
+    "name": "Tobby BadAss"
+   },
+   {
+    "group": "other",
+    "id": "7ebBg3BuRFa2satTcY8whC",
+    "name": "Billy Lemos"
+   },
+   {
+    "group": "other",
+    "id": "6eUKZXaKkcviH0Ku9w2n3V",
+    "name": "Ed Sheeran"
+   },
+   {
+    "group": "other",
+    "id": "47fErV0VDIx6PmuhtWGTYu",
+    "name": "Dremo"
+   },
+   {
+    "group": "other",
+    "id": "2BPwxhCvvcb8xDl8GWIjbh",
+    "name": "Odeal"
+   },
+   {
+    "group": "other",
+    "id": "1E5hfn5BduN2nnoZCJmUVG",
+    "name": "Victony"
+   },
+   {
+    "group": "other",
+    "id": "38XiDu0kK3Z5jdHUDqBzNT",
+    "name": "Lil Kesh"
+   },
+   {
+    "group": "UG",
+    "id": "4Z3LLYwCpB9OKKaSttnapP",
+    "name": "Priesst"
+   },
+   {
+    "group": "mainstream",
+    "id": "3wcj11K77LjEY1PkEazffa",
+    "name": "Burna Boy"
+   },
+   {
+    "group": "other",
+    "id": "4NXlTtV4GszpwfV6yaw0gk",
+    "name": "Nuel Asii"
+   },
+   {
+    "group": "other",
+    "id": "1GGdQAntXMPS3MoWPgSeCo",
+    "name": "DND 98"
+   },
+   {
+    "group": "other",
+    "id": "5Hgd05xamByQu7SLHxhdSh",
+    "name": "BigbadJozzy"
+   },
+   {
+    "group": "other",
+    "id": "6eGNSDjuuUepYdy32k1zXS",
+    "name": "Aibrid"
+   },
+   {
+    "group": "other",
+    "id": "4IVAbR2w4JJNJDDRFP3E83",
+    "name": "6LACK"
+   },
+   {
+    "group": "other",
+    "id": "2hs1DM1Lbd7OA9VDQgeEbc",
+    "name": "KRL Soundz"
+   },
+   {
+    "group": "other",
+    "id": "6qCxa9ZvMnoVevYR6cubyW",
+    "name": "Udishigh"
+   },
+   {
+    "group": "other",
+    "id": "6l3HvQ5sa6mXTsMTB19rO5",
+    "name": "J. Cole"
+   },
+   {
+    "group": "other",
+    "id": "3l7SEJk2wlBU3OvrMWf1sj",
+    "name": "Pepenazi"
+   },
+   {
+    "group": "other",
+    "id": "5CuyARGesDksvuWHiMQdX2",
+    "name": "Monochrome"
+   },
+   {
+    "group": "other",
+    "id": "2hlmm7s2ICUX0LVIhVFlZQ",
+    "name": "Gunna"
+   },
+   {
+    "group": "other",
+    "id": "5Jv1MsZBh0sqokFq7pU8Xg",
+    "name": "Pheelz"
+   },
+   {
+    "group": "other",
+    "id": "2NtQA3PY9chI8l65ejZLTP",
+    "name": "SPINALL"
+   },
+   {
+    "group": "other",
+    "id": "3QJzdZJYIAcoET1GcfpNGi",
+    "name": "Damian Marley"
+   },
+   {
+    "group": "other",
+    "id": "4gzpq5DPGxSnKTe4SA8HAU",
+    "name": "Coldplay"
+   },
+   {
+    "group": "other",
+    "id": "12ArazR86wktMkxzm5h9T1",
+    "name": "Vonni"
+   },
+   {
+    "group": "other",
+    "id": "4JM1zsVj1pt38Q8mhv5teI",
+    "name": "Young Jonn"
+   },
+   {
+    "group": "other",
+    "id": "2mLA48B366zkELXYx7hcDN",
+    "name": "Peggy Gou"
+   },
+   {
+    "group": "other",
+    "id": "6Ip8FS7vWT1uKkJSweANQK",
+    "name": "Dave"
+   },
+   {
+    "group": "other",
+    "id": "5jVohQzVOMNwP5ao5J1vk5",
+    "name": "3CB"
+   },
+   {
+    "group": "other",
+    "id": "5zfc16oDllbQP2L13GQQk4",
+    "name": "Eminasss"
+   },
+   {
+    "group": "other",
+    "id": "0iEtIxbK0KxaSlF7G42ZOp",
+    "name": "Metro Boomin"
+   },
+   {
+    "group": "other",
+    "id": "14HBQIzTET0elsL8NO3Xtl",
+    "name": "CloudyNotes"
+   },
+   {
+    "group": "other",
+    "id": "1Zj017W6N6SmZRLS4ODpjS",
+    "name": "Phyno"
+   },
+   {
+    "group": "other",
+    "id": "7HkdQ0gt53LP4zmHsL0nap",
+    "name": "Ella Mai"
+   },
+   {
+    "group": "other",
+    "id": "1URnnhqYAYcrqrcwql10ft",
+    "name": "21 Savage"
+   },
+   {
+    "group": "other",
+    "id": "4zlOuiD2KEU4fv1wSBQ3Jn",
+    "name": "Sugarbana"
+   },
+   {
+    "group": "other",
+    "id": "2SrSdSvpminqmStGELCSNd",
+    "name": "Stormzy"
+   },
+   {
+    "group": "other",
+    "id": "687cZJR45JO7jhk1LHIbgq",
+    "name": "Tems"
+   },
+   {
+    "group": "other",
+    "id": "6eXZu6O7nAUA5z6vLV8NKI",
+    "name": "Little Simz"
+   },
+   {
+    "group": "other",
+    "id": "6aIZIwesnYKR6ZN1fIerPZ",
+    "name": "Mercury"
+   },
+   {
+    "group": "other",
+    "id": "3Y7RZ31TRPVadSFVy1o8os",
+    "name": "H.E.R."
+   },
+   {
+    "group": "other",
+    "id": "3M4rkbZStvMavZQt8lElw2",
+    "name": "activ.boizzz"
+   },
+   {
+    "group": "other",
+    "id": "2a0uxJgbvvIRI4GX8pYfcr",
+    "name": "J Hus"
+   },
+   {
+    "group": "mainstream",
+    "id": "4TKhxSkqClXrdtUWgKqHVU",
+    "name": "Shallipopi"
+   },
+   {
+    "group": "other",
+    "id": "2DFzMI8SSWPYBBSxVF7b2N",
+    "name": "Projexx"
+   },
+   {
+    "group": "other",
+    "id": "4if5dwAkHl7FZNCJTIB5e9",
+    "name": "Musta4a"
+   },
+   {
+    "group": "other",
+    "id": "3QAWvRmq1TMLuNtDKVyRaW",
+    "name": "Odunsi (The Engine)"
+   },
+   {
+    "group": "UG",
+    "id": "4Hz1UttsadDCW4xA41XKoV",
+    "name": "Egertton"
+   },
+   {
+    "group": "other",
+    "id": "4XE6eLUu1pp5rcI1cpDpWy",
+    "name": "Paxslim"
+   },
+   {
+    "group": "other",
+    "id": "3ZwrZQdYpAwdPXlKTictk8",
+    "name": "B Banks"
+   },
+   {
+    "group": "other",
+    "id": "2w34rjWGumCU3vOiCVd3J6",
+    "name": "R33NZO"
+   },
+   {
+    "group": "UG",
+    "id": "1VBjib1ykqXxss9Tw5YuR9",
+    "name": "Mavo"
+   },
+   {
+    "group": "other",
+    "id": "6mS3szHDI9h4lICrQj3ge0",
+    "name": "Makopelly"
+   },
+   {
+    "group": "mainstream",
+    "id": "4ovtyvs7j1jSmwhkBGHqSr",
+    "name": "Olamide"
+   },
+   {
+    "group": "other",
+    "id": "5ZETERIwOXfWYCBljWg3Hk",
+    "name": "Majesty Lyn"
+   },
+   {
+    "group": "other",
+    "id": "3QZIuDbSkr9lWqNFGsBsb3",
+    "name": "JMB"
+   },
+   {
+    "group": "other",
+    "id": "4C9EX8d2FnWMV2yQZqeG8U",
+    "name": "Somadina"
+   },
+   {
+    "group": "other",
+    "id": "6LTAaKONuHKKWR8ljjIbCA",
+    "name": "MAXINO"
+   },
+   {
+    "group": "other",
+    "id": "2f8rjDwhSy9IDL6sB6BEEE",
+    "name": "YKB"
+   },
+   {
+    "group": "other",
+    "id": "5L1Xcdtf6MxLmEvpGMw3g4",
+    "name": "Ayjay bobo"
+   },
+   {
+    "group": "other",
+    "id": "67nwj3Y5sZQLl72VNUHEYE",
+    "name": "Wale"
+   },
+   {
+    "group": "other",
+    "id": "1ixqGowpDM21RwyJmJ7hpv",
+    "name": "Skales"
+   },
+   {
+    "group": "other",
+    "id": "2p1fiYHYiXz9qi0JJyxBzN",
+    "name": "Skepta"
+   },
+   {
+    "group": "other",
+    "id": "6SL6GEDCDVZFEvo3ewugni",
+    "name": "Madisin!"
+   },
+   {
+    "group": "other",
+    "id": "0rckUWPb0n9j1nRlGFvjHt",
+    "name": "Phenom"
+   },
+   {
+    "group": "other",
+    "id": "2NUz5P42WqkxilbI8ocN76",
+    "name": "Vybz Kartel"
+   },
+   {
+    "group": "other",
+    "id": "3zaDigUwjHvjOkSn0NDf9x",
+    "name": "BNXN"
+   },
+   {
+    "group": "other",
+    "id": "2aWCLZqio9v0uUZEATR1Rv",
+    "name": "Semzi"
+   },
+   {
+    "group": "other",
+    "id": "3FdLhnmXynPvZkbILPpB6d",
+    "name": "Ladysmith Black Mambazo"
+   },
+   {
+    "group": "other",
+    "id": "5NG1nbdSZhlpLWNHK6idk5",
+    "name": "Southside Saint"
+   },
+   {
+    "group": "other",
+    "id": "7CsM9AfybVr427qxwYCDVl",
+    "name": "Onx"
+   },
+   {
+    "group": "UG",
+    "id": "6eEW31SqGa8zKe3ibfTCdH",
+    "name": "Zaylevelten"
+   },
+   {
+    "group": "other",
+    "id": "1kMPdZQVdUhMDKDWOJM5iK",
+    "name": "Tkay Maidza"
+   },
+   {
+    "group": "other",
+    "id": "3XImQNx9nOoiOs1VXqy3RH",
+    "name": "Ona"
+   },
+   {
+    "group": "other",
+    "id": "4M5b70A8aORXdyJVjRJ8du",
+    "name": "Fimiguerrero"
+   },
+   {
+    "group": "other",
+    "id": "0EmeFodog0BfCgMzAIvKQp",
+    "name": "Shakira"
+   },
+   {
+    "group": "other",
+    "id": "2hg21aqtw66FhKSo3Uzbne",
+    "name": "Famous Pluto"
+   },
+   {
+    "group": "other",
+    "id": "6trIghKwHRUyxwvm66HLHH",
+    "name": "Fousheé"
+   },
+   {
+    "group": "other",
+    "id": "4wAqlYtTaaHELEgyCh9KjG",
+    "name": "FAVE"
+   },
+   {
+    "group": "other",
+    "id": "23R4AtMwVv0pbJYB1joioW",
+    "name": "Shoday"
+   },
+   {
+    "group": "other",
+    "id": "7FNnA9vBm6EKceENgCGRMb",
+    "name": "Anitta"
+   },
+   {
+    "group": "other",
+    "id": "4vqK18ff2fID1b43nhIKK6",
+    "name": "Favour Dre"
+   },
+   {
+    "group": "other",
+    "id": "1uNFoZAHBGtllmzznpCI3s",
+    "name": "Justin Bieber"
+   },
+   {
+    "group": "other",
+    "id": "4piJXSxlFLE9HkuHP0SLD9",
+    "name": "Jackmillz"
+   },
+   {
+    "group": "other",
+    "id": "10G2iWM2FoafpNGqXZ9QMR",
+    "name": "KindlyNxsh"
+   },
+   {
+    "group": "other",
+    "id": "5RklmjJAxQsqQFyOTi9ih5",
+    "name": "Tammyagain"
+   },
+   {
+    "group": "other",
+    "id": "4YIOi9aFNviV1jRQeiNZgO",
+    "name": "Reminisce"
+   },
+   {
+    "group": "other",
+    "id": "6acbdy69rtlv8m9EW31MYl",
+    "name": "Phyno"
+   },
+   {
+    "group": "other",
+    "id": "7oVgNYLuZ9HffOdNE15wnL",
+    "name": "Rightflow"
+   },
+   {
+    "group": "other",
+    "id": "5bUavTrOnEtAvss0JCYAZf",
+    "name": "Dalte"
+   },
+   {
+    "group": "other",
+    "id": "3vUMXQ9kPnZAQkMkZZ7Hfh",
+    "name": "Tiakola"
+   },
+   {
+    "group": "mainstream",
+    "id": "4zmZ8lVLzGc84S4v2B1rLx",
+    "name": "Seyi Vibez"
+   },
+   {
+    "group": "other",
+    "id": "1c61yiH4iYE7cHtjAYSUu3",
+    "name": "Banky W."
+   },
+   {
+    "group": "other",
+    "id": "4qYpTEJThZ8FC8KzyFrSWW",
+    "name": "Boj"
+   },
+   {
+    "group": "other",
+    "id": "7rGdPKZx6tqAbclJ7llUbs",
+    "name": "Wana Sn"
+   },
+   {
+    "group": "other",
+    "id": "5oOifbswnej7XvdPuZ9ktd",
+    "name": "Teee Dollar"
+   },
+   {
+    "group": "other",
+    "id": "1igmgiNroMhNQQx9Rp4uoI",
+    "name": "Mamuzo"
+   },
+   {
+    "group": "other",
+    "id": "1hBSQ3xsR6kfPMi7yLNmnZ",
+    "name": "Aenyi"
+   },
+   {
+    "group": "UG",
+    "id": "3EC3itx7VHQg0KYhuPsp5O",
+    "name": "Danpapa GTA"
+   },
+   {
+    "group": "other",
+    "id": "1yRmB6bRwWKqs5zQnCYYUP",
+    "name": "EMELIE"
+   },
+   {
+    "group": "other",
+    "id": "36M1Z5OPFotaTTKNjSIuAX",
+    "name": "Viktoh"
+   },
+   {
+    "group": "other",
+    "id": "1rxMZxcNgJiXunlNSAq8pY",
+    "name": "S1orDie"
+   },
+   {
+    "group": "other",
+    "id": "2LJdSBlf7UdzavnaxOMH9A",
+    "name": "GTS 40k"
+   },
+   {
+    "group": "other",
+    "id": "0jIWKlfmD4Ew7HeVVrq03g",
+    "name": "Elyanna"
+   },
+   {
+    "group": "other",
+    "id": "1fYVmAFB7sC7eDoF3mJXla",
+    "name": "Wande Coal"
+   },
+   {
+    "group": "other",
+    "id": "5pNye0bGTXUivn8zdEBIfj",
+    "name": "Payper Corleone"
+   },
+   {
+    "group": "UG",
+    "id": "3CyKLwlqtYmQxNt4cWflKx",
+    "name": "scottyolorin"
+   },
+   {
+    "group": "other",
+    "id": "3Huh90qZ5dI2w5I4JjaQtF",
+    "name": "Indi"
+   },
+   {
+    "group": "other",
+    "id": "1CoZyIx7UvdxT5c8UkMzHd",
+    "name": "Jorja Smith"
+   },
+   {
+    "group": "other",
+    "id": "6NV0b1K9BhoZYSBk9ZPnWv",
+    "name": "See You Next Year"
+   },
+   {
+    "group": "other",
+    "id": "1MsnDxqUP7LKWW9zEEs1J8",
+    "name": "Queen Izzy"
+   },
+   {
+    "group": "other",
+    "id": "3rCVow8RScBBIyrdceDOiw",
+    "name": "SSSoundGawd"
+   },
+   {
+    "group": "other",
+    "id": "31uzUrQQv5lMCY9h5wTcRK",
+    "name": "BEACHBOIZ"
+   },
+   {
+    "group": "other",
+    "id": "2IK173RXLiCSQ8fhDlAb3s",
+    "name": "Adekunle Gold"
+   },
+   {
+    "group": "UG",
+    "id": "2DL38TZNK8x8hxvnxNkQB5",
+    "name": "Kobilou"
+   },
+   {
+    "group": "other",
+    "id": "5ywjxFhmhHGQBsK3DundNf",
+    "name": "Peruzzi"
+   },
+   {
+    "group": "other",
+    "id": "2j7j3bmaV4Ej8b9Cy0FtMY",
+    "name": "cosamote"
+   },
+   {
+    "group": "mainstream",
+    "id": "3ZpEKRjHaHANcpk10u6Ntq",
+    "name": "Ayra Starr"
+   },
+   {
+    "group": "other",
+    "id": "68R39izwNAztATrXMOqkJS",
+    "name": "Bad Boy Timz"
+   },
+   {
+    "group": "other",
+    "id": "1vyhD5VmyZ7KMfW5gqLgo5",
+    "name": "J Balvin"
+   },
+   {
+    "group": "other",
+    "id": "7kK5badbqOjd8WlT2XWMeM",
+    "name": "Bella Shmurda"
+   },
+   {
+    "group": "other",
+    "id": "048LktY5zMnakWq7PTtFrz",
+    "name": "CKay"
+   },
+   {
+    "group": "other",
+    "id": "4Xi6LSfFqv26XgP9NKN26U",
+    "name": "AJ Tracey"
+   },
+   {
+    "group": "other",
+    "id": "63lJOb0iO8hB6Hw0oSglnu",
+    "name": "Nowlee"
+   },
+   {
+    "group": "other",
+    "id": "4Ns55iOSe1Im2WU2e1Eym0",
+    "name": "Simi"
+   },
+   {
+    "group": "other",
+    "id": "59MU62wyOLf8FlV7l8fewL",
+    "name": "Le Mav"
+   },
+   {
+    "group": "other",
+    "id": "6Nvwcz7r9589I7Or9aUm0z",
+    "name": "DJ NTY"
+   },
+   {
+    "group": "other",
+    "id": "6h3iqdnfBKV2jRhUJz0oto",
+    "name": "Terri"
+   },
+   {
+    "group": "other",
+    "id": "75VKfyoBlkmrJFDqo1o2VY",
+    "name": "Fireboy DML"
+   },
+   {
+    "group": "other",
+    "id": "11wVvKdFSo29HDH3JgqTYX",
+    "name": "Somawine"
+   },
+   {
+    "group": "other",
+    "id": "0FK1hXdXst70HD11n5J26z",
+    "name": "FOLA"
+   },
+   {
+    "group": "other",
+    "id": "5CSSzEHLGMcRVwq340BpHl",
+    "name": "Zen Univrse"
+   },
+   {
+    "group": "other",
+    "id": "7c0XG5cIJTrrAgEC3ULPiq",
+    "name": "Ty Dolla $ign"
+   },
+   {
+    "group": "mainstream",
+    "id": "3a1tBryiczPAZpgoZN9Rzg",
+    "name": "Asake"
+   },
+   {
+    "group": "other",
+    "id": "3hXlGRJuBMCg9xJ41BSWkf",
+    "name": "ARTSALGHUL"
+   },
+   {
+    "group": "other",
+    "id": "3DNCUaKdMZcMVJIS7yTskd",
+    "name": "Mayorkun"
+   },
+   {
+    "group": "other",
+    "id": "5yJLqKU6LRfzliSQIVnJMI",
+    "name": "Kashcoming"
+   },
+   {
+    "group": "other",
+    "id": "706XoyHcL5K4V09UY9L2BD",
+    "name": "Queen Moda"
+   },
+   {
+    "group": "UG",
+    "id": "5toMJY8OHE9np3f4Hh0wCy",
+    "name": "Ravington"
+   },
+   {
+    "group": "other",
+    "id": "33KPqwPnEKJY6Tm9WfJQKq",
+    "name": "TAR1Q"
+   },
+   {
+    "group": "other",
+    "id": "5TWaKfZVOCCLJN9cKLXjch",
+    "name": "GOODNES$"
+   },
+   {
+    "group": "other",
+    "id": "4mCGYkTmNnEsnTrIr3atNB",
+    "name": "Straffitti"
+   },
+   {
+    "group": "other",
+    "id": "4YISTUJnoZtAy6LjgOpRL7",
+    "name": "Ovrkast."
+   },
+   {
+    "group": "other",
+    "id": "3JJ0lsQ5g0DnRsTaCajxJU",
+    "name": "Buckwyla"
+   },
+   {
+    "group": "other",
+    "id": "1hNaHKp2Za5YdOAG0WnRbc",
+    "name": "Tiwa Savage"
+   },
+   {
+    "group": "UG",
+    "id": "6CS6NjMmo93ligNiiZ97LZ",
+    "name": "Luwa.Mp4"
+   },
+   {
+    "group": "mainstream",
+    "id": "3tVQdUvClmAT7URs9V3rsp",
+    "name": "Wizkid"
+   },
+   {
+    "group": "other",
+    "id": "62DmErcU7dqZbJaDqwsqzR",
+    "name": "Popcaan"
+   },
+   {
+    "group": "other",
+    "id": "15GgEOJiFyjQm4tZ4D7qih",
+    "name": "Cruel Santino"
+   },
+   {
+    "group": "other",
+    "id": "6HsmnOUuab7e2X11UKrZ9Y",
+    "name": "JoeyXcv"
+   },
+   {
+    "group": "other",
+    "id": "2csYbKI9QGufe3Xny3Fkop",
+    "name": "bube"
+   },
+   {
+    "group": "mainstream",
+    "id": "0Y3agQaa6g2r0YmHPOO9rh",
+    "name": "Davido"
+   },
+   {
+    "group": "other",
+    "id": "0vyHUIFawbTNM2a7W7JqZe",
+    "name": "MetaBoy"
+   },
+   {
+    "group": "other",
+    "id": "7vXDAI8JwjW531ouMGbfcp",
+    "name": "TINI"
+   },
+   {
+    "group": "other",
+    "id": "1zeUMAJrOoMdWjU0BErMzn",
+    "name": "Tochi Bedford"
+   },
+   {
+    "group": "UG",
+    "id": "35l6bXa97M4hhvQ3e058PZ",
+    "name": "WAVE$TAR"
+   },
+   {
+    "group": "other",
+    "id": "1fctva4kpRbg2k3v7kwRuS",
+    "name": "Rvssian"
+   },
+   {
+    "group": "other",
+    "id": "7bXgB6jMjp9ATFy66eO08Z",
+    "name": "Chris Brown"
+   },
+   {
+    "group": "other",
+    "id": "1X6cBGnXpEpN7CmflLKmLV",
+    "name": "Kizz Daniel"
+   },
+   {
+    "group": "other",
+    "id": "7MJaBrtUNMCVWliXOa7mwk",
+    "name": "Jeriq"
+   },
+   {
+    "group": "other",
+    "id": "2s187JqHC9kipPLBLWXubl",
+    "name": "Falz"
+   },
+   {
+    "group": "other",
+    "id": "4sbXXFzEWJY2zsZjelerjX",
+    "name": "Dadju"
+   },
+   {
+    "group": "other",
+    "id": "5H1nN1SzW0qNeUEZvuXjAj",
+    "name": "Danny Ocean"
+   },
+   {
+    "group": "other",
+    "id": "3A3QkRXKzYGGowaAdKdo7Y",
+    "name": "IDK Young J."
+   },
+   {
+    "group": "mainstream",
+    "id": "3LOm0AZjpwVQebvkyanjDy",
+    "name": "ODUMODUBLVCK"
+   },
+   {
+    "group": "other",
+    "id": "3UEwKs997VRicCpjEYTprR",
+    "name": "Id Cabasa"
+   },
+   {
+    "group": "other",
+    "id": "3GvLzHTwSpsLgPcYB9ywgJ",
+    "name": "vvsmygwen"
+   },
+   {
+    "group": "other",
+    "id": "5jfQBS0O6dR6axaz0BGMgs",
+    "name": "Chinko Ekun"
+   },
+   {
+    "group": "UG",
+    "id": "5KbCVC6DvprtEp30AA093z",
+    "name": "DaveTheOracle"
+   },
+   {
+    "group": "other",
+    "id": "1mcTU81TzQhprhouKaTkpq",
+    "name": "Rauw Alejandro"
+   },
+   {
+    "group": "other",
+    "id": "5L7X4fW19ZEG2EdkOIPpMg",
+    "name": "Barry lane"
+   },
+   {
+    "group": "other",
+    "id": "7urO0i2T8Ta9E9xAuOD1d6",
+    "name": "10Ten"
+   },
+   {
+    "group": "other",
+    "id": "1IMQHmBTqSwgqyK6nIYSZ2",
+    "name": "Monttei"
+   },
+   {
+    "group": "other",
+    "id": "2k4BorccGemzBPjIRkT5Pa",
+    "name": "Txmmyily"
+   },
+   {
+    "group": "other",
+    "id": "3YZW6xRMNPj57dx36Eb2Yd",
+    "name": "Buff Lou"
+   },
+   {
+    "group": "other",
+    "id": "75yvKMzpIeYGyw5ElkoLYw",
+    "name": "Fergiee"
+   },
+   {
+    "group": "other",
+    "id": "7DxRMFU4AqEIwjILkhSFDk",
+    "name": "Luh Drayco"
+   },
+   {
+    "group": "other",
+    "id": "5yOvAmpIR7hVxiS6Ls5DPO",
+    "name": "OMAH LAY"
+   }
+  ]
+ },
+ "releases": [
+  {
+   "artist": "Igwe Aka",
+   "date": "2026-11-20",
+   "group": "UG",
+   "id": "6cword4jD3QyK3Bep7kLkP",
+   "name": "OBASANJO",
+   "type": "single"
+  },
+  {
+   "artist": "Igwe Aka",
+   "date": "2026-11-20",
+   "group": "UG",
+   "id": "5N74E4li439bVzZLevLYkY",
+   "name": "TYPE OF WAY",
+   "type": "single"
+  },
+  {
+   "artist": "Mavo",
+   "date": "2026-11-20",
+   "group": "UG",
+   "id": "3RZLDACGif814xMj3EbnBB",
+   "name": "inbox",
+   "type": "single"
+  },
+  {
+   "artist": "scottyolorin",
+   "date": "2026-11-20",
+   "group": "UG",
+   "id": "0vm0eF4DHupBcc9Ui9T1TH",
+   "name": "GLACIER BOY",
+   "type": "album"
+  },
+  {
+   "artist": "Rema",
+   "date": "2026-11-20",
+   "group": "mainstream",
+   "id": "4r6kHpL8Ql8O6FvfvdjVwg",
+   "name": "E-Mortal Boy",
+   "type": "single"
+  },
+  {
+   "artist": "DaveTheOracle",
+   "date": "2026-11-20",
+   "group": "UG",
+   "id": "7s1hGiMRKQB6KnDGYZH2n1",
+   "name": "ME vs ME",
+   "type": "single"
+  },
+  {
+   "artist": "Zaylevelten",
+   "date": "2026-11-20",
+   "group": "UG",
+   "id": "1fY6UUarOPDDZLDQiWtXXg",
+   "name": "Guap Up",
+   "type": "single"
+  },
+  {
+   "artist": "Wizkid",
+   "date": "2026-11-19",
+   "group": "mainstream",
+   "id": "2tkpoFs09vZRoSEhtwzeqF",
+   "name": "Feel Alright",
+   "type": "single"
+  },
+  {
+   "artist": "Burna Boy",
+   "date": "2026-11-19",
+   "group": "mainstream",
+   "id": "6hkaerWZMubBWwyTDJP8J3",
+   "name": "Bigger (from GTAVI: The Album)",
+   "type": "single"
+  },
+  {
+   "artist": "Rema",
+   "date": "2026-11-19",
+   "group": "mainstream",
+   "id": "2tkpoFs09vZRoSEhtwzeqF",
+   "name": "Feel Alright",
+   "type": "single"
+  },
+  {
+   "artist": "Egertton",
+   "date": "2026-11-19",
+   "group": "UG",
+   "id": "6fUtrAsmiBGPSQJ6VkxcoK",
+   "name": "Big Professor",
+   "type": "single"
+  },
+  {
+   "artist": "scottyolorin",
+   "date": "2026-11-18",
+   "group": "UG",
+   "id": "1MLN8g8GoaLGy3jWXMypcc",
+   "name": "ROCKSTAR/RANGE ROVER",
+   "type": "single"
+  },
+  {
+   "artist": "Mavo",
+   "date": "2026-11-17",
+   "group": "UG",
+   "id": "3QWfcIXoeCErAe3OY5wGMB",
+   "name": "Flexing",
+   "type": "single"
+  },
+  {
+   "artist": "Olamide",
+   "date": "2026-11-16",
+   "group": "mainstream",
+   "id": "0DHDiiApo6bKBpz1UfZuQH",
+   "name": "Time and Space",
+   "type": "album"
+  },
+  {
+   "artist": "Egertton",
+   "date": "2026-11-13",
+   "group": "UG",
+   "id": "1vpV4UrtVSj5UGCATqzQ98",
+   "name": "Party Pack!",
+   "type": "single"
+  },
+  {
+   "artist": "Priesst",
+   "date": "2026-11-13",
+   "group": "UG",
+   "id": "4Gu7rukCVGg6wn8gwTRE7x",
+   "name": "Offline",
+   "type": "single"
+  },
+  {
+   "artist": "Luwa.Mp4",
+   "date": "2026-11-13",
+   "group": "UG",
+   "id": "6krtC2xNycrAf6SIiM2YX9",
+   "name": "YoungRiot!",
+   "type": "single"
+  },
+  {
+   "artist": "Olamide",
+   "date": "2026-11-10",
+   "group": "mainstream",
+   "id": "65SHs9gGDOyXxFs4vHAcCZ",
+   "name": "Welcome To Lagos",
+   "type": "single"
+  },
+  {
+   "artist": "Ayra Starr",
+   "date": "2026-11-06",
+   "group": "mainstream",
+   "id": "21BkH2O10433QoWLGs6pZN",
+   "name": "All The People",
+   "type": "single"
+  },
+  {
+   "artist": "DaveTheOracle",
+   "date": "2026-11-06",
+   "group": "UG",
+   "id": "4OvK8baJzBPHX8DIoLnJkN",
+   "name": "DiE FoR NOTHING",
+   "type": "single"
+  },
+  {
+   "artist": "Mavo",
+   "date": "2026-11-04",
+   "group": "UG",
+   "id": "3NzR0oTgMm3S56CvjyTHnq",
+   "name": "Siesta (feat. Mavo)",
+   "type": "single"
+  },
+  {
+   "artist": "Mavo",
+   "date": "2026-11-01",
+   "group": "UG",
+   "id": "5268Ym7MPUPE1hDxuDtLbJ",
+   "name": "HBD",
+   "type": "single"
+  },
+  {
+   "artist": "Kobilou",
+   "date": "2026-10-28",
+   "group": "UG",
+   "id": "7j4UM10NrbukE8YaL1x8Jt",
+   "name": "D' BADD£$T IN THI$ BITCH",
+   "type": "single"
+  },
+  {
+   "artist": "Mavo",
+   "date": "2026-10-23",
+   "group": "UG",
+   "id": "1qREK38x9lTjIBeo2X1pNS",
+   "name": "Goyard",
+   "type": "single"
+  }
+ ],
+ "updated": "2026-11-23"
+}

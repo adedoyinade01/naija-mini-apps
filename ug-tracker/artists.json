@@ -1,0 +1,130 @@
+{
+  "_help": "Add or remove artists here. group can be UG, mainstream or anything else. spotify_id is filled in automatically on the first run; if it picked the wrong artist, paste the right ID from the artist's Spotify link.",
+  "artists": [
+    {
+      "group": "UG",
+      "name": "Mavo",
+      "spotify_id": "1VBjib1ykqXxss9Tw5YuR9"
+    },
+    {
+      "group": "UG",
+      "name": "Zaylevelten",
+      "spotify_id": "6eEW31SqGa8zKe3ibfTCdH"
+    },
+    {
+      "group": "UG",
+      "name": "scottyolorin",
+      "spotify_id": "3CyKLwlqtYmQxNt4cWflKx"
+    },
+    {
+      "group": "UG",
+      "name": "Egertton",
+      "spotify_id": "4Hz1UttsadDCW4xA41XKoV"
+    },
+    {
+      "group": "UG",
+      "name": "Luwa.Mp4",
+      "spotify_id": "6CS6NjMmo93ligNiiZ97LZ"
+    },
+    {
+      "group": "UG",
+      "name": "Wave$tar",
+      "spotify_id": "35l6bXa97M4hhvQ3e058PZ"
+    },
+    {
+      "group": "UG",
+      "name": "Danpapa GTA",
+      "spotify_id": "3EC3itx7VHQg0KYhuPsp5O"
+    },
+    {
+      "group": "UG",
+      "name": "Kobilou",
+      "spotify_id": "2DL38TZNK8x8hxvnxNkQB5"
+    },
+    {
+      "group": "UG",
+      "name": "BLNDE",
+      "spotify_id": "4Ti6mbkoRqJT5KIlPC98Ux"
+    },
+    {
+      "group": "UG",
+      "name": "DaveTheOracle",
+      "spotify_id": "5KbCVC6DvprtEp30AA093z"
+    },
+    {
+      "group": "UG",
+      "name": "Fimi",
+      "spotify_id": "4ZnAdq8niwc3MnthK4ujdr"
+    },
+    {
+      "group": "UG",
+      "name": "Priesst",
+      "spotify_id": "4Z3LLYwCpB9OKKaSttnapP"
+    },
+    {
+      "group": "UG",
+      "name": "Ravington",
+      "spotify_id": "5toMJY8OHE9np3f4Hh0wCy"
+    },
+    {
+      "group": "UG",
+      "name": "Billar Stoner",
+      "spotify_id": "2m2F5XHtELzEyWZLPRkBIc"
+    },
+    {
+      "group": "UG",
+      "name": "Igwe Aka",
+      "spotify_id": "00dT0myy0kbq152QWIzRPI"
+    },
+    {
+      "group": "mainstream",
+      "name": "Wizkid",
+      "spotify_id": "3tVQdUvClmAT7URs9V3rsp"
+    },
+    {
+      "group": "mainstream",
+      "name": "Davido",
+      "spotify_id": "0Y3agQaa6g2r0YmHPOO9rh"
+    },
+    {
+      "group": "mainstream",
+      "name": "Burna Boy",
+      "spotify_id": "3wcj11K77LjEY1PkEazffa"
+    },
+    {
+      "group": "mainstream",
+      "name": "Asake",
+      "spotify_id": "3a1tBryiczPAZpgoZN9Rzg"
+    },
+    {
+      "group": "mainstream",
+      "name": "Rema",
+      "spotify_id": "46pWGuE3dSwY3bMMXGBvVS"
+    },
+    {
+      "group": "mainstream",
+      "name": "Seyi Vibez",
+      "spotify_id": "4zmZ8lVLzGc84S4v2B1rLx"
+    },
+    {
+      "group": "mainstream",
+      "name": "Shallipopi",
+      "spotify_id": "4TKhxSkqClXrdtUWgKqHVU"
+    },
+    {
+      "group": "mainstream",
+      "name": "ODUMODUBLVCK",
+      "spotify_id": "3LOm0AZjpwVQebvkyanjDy"
+    },
+    {
+      "group": "mainstream",
+      "name": "Ayra Starr",
+      "spotify_id": "3ZpEKRjHaHANcpk10u6Ntq"
+    },
+    {
+      "group": "mainstream",
+      "name": "Olamide",
+      "spotify_id": "4ovtyvs7j1jSmwhkBGHqSr"
+    }
+  ]
+}

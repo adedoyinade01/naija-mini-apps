@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Why I'm Late · Lagos Excuse Engine</title>
+<meta name="description" content="An excuse engine that scores Lagos excuses against your route, transport, the weather and your track record.">
+<link rel="stylesheet" href="../style.css">
+<style>
+.wrap{max-width:640px}
+.card+.card{margin-top:14px}
+h3{font-size:15px;margin-bottom:14px;display:flex;justify-content:space-between}
+h3 small{color:var(--muted);font-weight:400;font-size:12px}
+.route{display:grid;grid-template-columns:1fr auto 1fr;gap:10px;align-items:end}
+.route .arrow{padding-bottom:12px;color:var(--muted)}
+label.l{display:block;font-size:12px;color:var(--muted);margin-bottom:5px}
+select{width:100%;background:#0f1411;border:1px solid var(--line);border-radius:10px;color:var(--text);font:inherit;padding:11px}
+.modes{display:flex;flex-wrap:wrap;gap:6px;margin-top:14px}
+.mode{background:#0f1411;border:1px solid var(--line);color:var(--muted);border-radius:999px;padding:7px 12px;font:inherit;font-size:14px;cursor:pointer}
+.mode.on{border-color:var(--green);color:var(--text)}
+.row2{display:grid;grid-template-columns:1fr 1fr;gap:14px;margin-top:16px;align-items:end}
+input[type=range]{width:100%;accent-color:var(--green)}
+.val{float:right;color:var(--text);font-weight:700}
+.toggle{display:flex;align-items:center;gap:10px;cursor:pointer;font-size:14px;margin-top:14px}
+.switch{width:38px;height:22px;appearance:none;background:#26302a;border-radius:99px;position:relative;cursor:pointer;border:0;margin:0}
+.switch:checked{background:#38bdf8}
+.switch::after{content:"";position:absolute;top:3px;left:3px;width:16px;height:16px;border-radius:50%;background:#fff;transition:left .15s}
+.switch:checked::after{left:19px}
+.excuse{font-size:clamp(21px,5vw,27px);font-weight:800;line-height:1.3;letter-spacing:-.01em}
+.meter{height:10px;background:#0f1411;border-radius:99px;overflow:hidden;margin:16px 0 6px}
+.meter i{display:block;height:100%;transition:width .5s}
+.meta{display:flex;justify-content:space-between;font-size:13px;color:var(--muted)}
+.reaction{margin-top:16px;padding:12px 14px;background:#0f1411;border-radius:12px;font-size:15px}
+.reaction span{display:block;font-size:12px;color:var(--muted);margin-bottom:2px}
+.evidence{font-size:13px;color:var(--muted);margin-top:10px}
+.reasons{font-size:12px;color:var(--gold);margin-top:6px}
+.alts{list-style:none}
+.alts li{display:grid;grid-template-columns:1fr 46px;gap:12px;padding:9px 0;border-top:1px solid var(--line);font-size:14px;cursor:pointer}
+.alts li:hover{color:var(--green)}
+.alts b{text-align:right;font-variant-numeric:tabular-nums}
+.sus{display:flex;align-items:center;gap:10px;font-size:14px;margin-bottom:10px}
+.dots{display:flex;gap:4px}.dots i{width:10px;height:10px;border-radius:50%;background:#26302a}
+.hist{list-style:none;font-size:13px;color:var(--muted)}
+.hist li{padding:6px 0;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:10px}
+.linkbtn{background:none;border:0;color:var(--muted);font:inherit;font-size:12px;cursor:pointer;text-decoration:underline}
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <a class="back" href="../">← all apps</a>
+  <span class="tag">🚗 excuse engine</span>
+  <h1>Why I'm Late</h1>
+  <p class="sub">Not a random list. The engine scores every Lagos excuse against your route, transport, the weather, how late you are, and how many times you've used it this week.</p>
+
+  <section class="card">
+    <div class="route">
+      <div><label class="l" for="from">From</label><select id="from"></select></div>
+      <span class="arrow">→</span>
+      <div><label class="l" for="to">Office</label><select id="to"></select></div>
+    </div>
+    <div class="modes" id="modes"></div>
+    <div class="row2">
+      <div><label class="l" for="mins">How late? <span class="val" id="minsVal"></span></label><input type="range" id="mins" min="5" max="180" step="5"></div>
+      <div><label class="l" for="hour">Time you're arriving</label><select id="hour"></select></div>
+    </div>
+    <label class="toggle"><input type="checkbox" class="switch" id="rain"> 🌧️ It's raining</label>
+    <button class="btn" id="go" style="width:100%;margin-top:18px">Generate my excuse</button>
+  </section>
+
+  <section class="card hidden" id="result">
+    <div class="excuse pop" id="excuse"></div>
+    <div class="meter"><i id="bar"></i></div>
+    <div class="meta"><span>Believability</span><b id="score"></b></div>
+    <div class="reasons" id="reasons"></div>
+    <div class="reaction"><span>Your manager, probably</span><b id="reaction"></b></div>
+    <div class="evidence" id="evidence"></div>
+    <div class="row" style="margin-top:18px">
+      <button class="btn" id="use">Use this one</button>
+      <button class="btn ghost" id="another">Another</button>
+      <button class="btn ghost" id="share">Share card</button>
+    </div>
+  </section>
+
+  <section class="card hidden" id="altCard">
+    <h3>Ranked for your situation <small>tap to pick</small></h3>
+    <ul class="alts" id="alts"></ul>
+  </section>
+
+  <section class="card">
+    <h3>Your record this week <button class="linkbtn" id="clear">clear</button></h3>
+    <div class="sus"><div class="dots" id="dots"></div><span id="susText"></span></div>
+    <ul class="hist" id="hist"></ul>
+  </section>
+
+  <p class="foot">built by <a href="https://x.com/Aded0yin_">@Aded0yin_</a> · use responsibly, your manager is also from Lagos</p>
+</main>
+<script src="engine.js"></script>
+<script src="app.js"></script>
+</body>
+</html>

@@ -1,0 +1,36 @@
+name: tests
+on: [push, pull_request]
+jobs:
+  js:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: 20 }
+      - run: node --test tests/*.test.js
+  jollof-api:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: jollof-wars/backend } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt pytest
+      - run: pytest -q
+  afrobeats-pipeline:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: afrobeats-lab/pipeline } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install -r requirements.txt pytest
+      - run: pytest -q
+  ug-tracker:
+    runs-on: ubuntu-latest
+    defaults: { run: { working-directory: ug-tracker/collector } }
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - run: pip install pytest && pytest -q

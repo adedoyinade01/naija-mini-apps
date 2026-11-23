@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Afrobeats Lab · What makes an Afrobeats hit?</title>
+<meta name="description" content="Data analysis and machine learning on Spotify audio features: what makes an Afrobeats hit?">
+<link rel="stylesheet" href="../style.css">
+<style>
+.wrap{max-width:820px}
+.card+.card,.card+.grid2,.grid2+.card,.stats+.card{margin-top:14px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:700px){.grid2{grid-template-columns:1fr}}
+h3{font-size:15px;margin-bottom:4px}
+.hint{color:var(--muted);font-size:13px;margin-bottom:14px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+@media(max-width:700px){.stats{grid-template-columns:1fr 1fr}}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+.stat span{display:block;font-size:12px;color:var(--muted)}.stat b{font-size:22px}
+canvas{width:100%;display:block}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:10px}
+.chip{background:none;border:1px solid var(--line);color:var(--muted);border-radius:999px;padding:5px 11px;font:inherit;font-size:13px;cursor:pointer}
+.chip.on{color:var(--text);border-color:var(--gold)}
+.hbar{display:grid;grid-template-columns:110px 1fr 54px;gap:10px;align-items:center;font-size:13px;margin:7px 0}
+.hbar .track{height:10px;background:#0f1411;border-radius:99px;position:relative;overflow:hidden}
+.hbar .track i{position:absolute;top:0;bottom:0;border-radius:99px}
+.hbar .v{text-align:right;color:var(--muted);font-variant-numeric:tabular-nums}
+.lab{display:grid;grid-template-columns:1.1fr 1fr;gap:22px}
+@media(max-width:700px){.lab{grid-template-columns:1fr}}
+.slider{margin:12px 0}
+.slider label{display:flex;justify-content:space-between;font-size:13px;margin-bottom:4px}
+.slider label span{color:var(--muted);font-variant-numeric:tabular-nums}
+input[type=range]{width:100%;accent-color:var(--green)}
+.gauge{text-align:center}
+.gauge .pct{font-size:52px;font-weight:800;letter-spacing:-.03em;line-height:1}
+.gauge .lbl{color:var(--muted);font-size:13px;margin-top:4px}
+.afroness{margin-top:16px}
+.sim{list-style:none;margin-top:14px}
+.sim li{display:flex;justify-content:space-between;gap:10px;padding:8px 0;border-top:1px solid var(--line);font-size:14px}
+.sim li span{color:var(--muted);font-size:12px;white-space:nowrap}
+table{width:100%;border-collapse:collapse;font-size:14px}
+td{padding:8px 0;border-top:1px solid var(--line)}
+td.n{text-align:right;color:var(--muted);font-variant-numeric:tabular-nums}
+.model{font-size:13px;color:var(--muted);line-height:1.6}
+.model b{color:var(--text)}
+.setup{line-height:1.7}
+.setup code{background:#0f1411;border:1px solid var(--line);padding:2px 6px;border-radius:6px;font-size:13px}
+.setup pre{background:#0f1411;border:1px solid var(--line);padding:12px;border-radius:10px;overflow:auto;margin:10px 0;font-size:13px}
+.legend{display:flex;gap:14px;font-size:12px;color:var(--muted);margin-top:8px}.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <a class="back" href="../">← all apps</a>
+  <span class="tag">🎧 data · machine learning</span>
+  <h1>Afrobeats Lab</h1>
+  <p class="sub">What actually makes an Afrobeats hit? Spotify audio features, Pandas analysis and two scikit-learn models, running live in your browser.</p>
+
+  <section class="card setup hidden" id="setup">
+    <h3>No data yet</h3>
+    <p class="hint">The dashboard reads <code>afrobeats-lab/data/insights.json</code>, which the Python pipeline generates.</p>
+    <ol style="padding-left:20px">
+      <li>Download the free <b>Spotify Tracks Dataset</b> (maharshipandya) CSV from Kaggle or Hugging Face.</li>
+      <li>Save it as <code>afrobeats-lab/pipeline/data/dataset.csv</code>.</li>
+      <li>Download the modern Afrobeats data, <code>beatsofafro.csv</code>, and save it next to it.</li>
+      <li>Run:<pre>cd afrobeats-lab/pipeline
+pip install -r requirements.txt
+python analyze.py data/dataset.csv --afrobeats data/beatsofafro.csv</pre></li>
+      <li>Commit the new <code>data/insights.json</code> and push.</li>
+    </ol>
+  </section>
+
+  <div id="dash" class="hidden">
+    <div class="stats" id="stats"></div>
+
+    <section class="card hidden" id="erasCard">
+      <h3>How the sound changed, era by era</h3>
+      <p class="hint">Average audio features of each era playlist.</p>
+      <canvas id="eraChart"></canvas>
+      <div class="legend" id="eraLegend"></div>
+      <table id="eraTable" style="margin-top:12px"></table>
+    </section>
+
+    <section class="card">
+      <h3>🎛️ Hit Lab</h3>
+      <p class="hint">Design a track. The model trained on real <span data-tl>Afrobeats</span> tracks predicts its chance of landing in the top 25% by popularity, and finds the closest real songs.</p>
+      <div class="lab">
+        <div id="sliders"></div>
+        <div>
+          <div class="gauge"><canvas id="gauge"></canvas><div class="pct" id="hitPct">–</div><div class="lbl">chance of being a hit</div></div>
+          <div class="afroness">
+            <div class="hbar"><span>Afrobeats-ness</span><div class="track"><i id="afroBar" style="left:0;background:var(--green)"></i></div><span class="v" id="afroPct"></span></div>
+          </div>
+          <div style="font-size:13px;color:var(--muted);margin-top:14px">Closest real tracks</div>
+          <ul class="sim" id="similar"></ul>
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h3><span data-tl>Afrobeats</span> vs the world</h3>
+      <p class="hint">Average audio profile. Tap genres to compare.</p>
+      <div class="chips" id="genreChips"></div>
+      <canvas id="radar"></canvas>
+    </section>
+
+    <div class="grid2">
+      <section class="card">
+        <h3>Tempo (BPM)</h3>
+        <p class="hint">How fast <span data-tl>Afrobeats</span> tracks are.</p>
+        <canvas id="tempo"></canvas>
+      </section>
+      <section class="card">
+        <h3>What drives popularity?</h3>
+        <p class="hint">Random forest feature importance.</p>
+        <div id="importance"></div>
+      </section>
+    </div>
+
+    <div class="grid2">
+      <section class="card">
+        <h3>Correlation with popularity</h3>
+        <p class="hint">Pearson r within <span data-tl>Afrobeats</span> tracks.</p>
+        <div id="corr"></div>
+      </section>
+      <section class="card">
+        <h3>Model card</h3>
+        <div class="model" id="modelCard"></div>
+      </section>
+    </div>
+
+    <div class="grid2">
+      <section class="card"><h3>Most popular tracks</h3><p class="hint">in the dataset</p><table id="topTracks"></table></section>
+      <section class="card"><h3>Top artists</h3><p class="hint">average popularity, min 3 tracks</p><table id="topArtists"></table></section>
+    </div>
+  </div>
+
+  <p class="foot">built by <a href="https://x.com/Aded0yin_">@Aded0yin_</a> · Python · Pandas · scikit-learn · <span id="source"></span></p>
+</main>
+<script src="app.js"></script>
+</body>
+</html>

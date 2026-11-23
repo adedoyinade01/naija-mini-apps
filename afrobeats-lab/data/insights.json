@@ -1,0 +1,5663 @@
+{
+ "generated": "2026-11-23",
+ "source": "Spotify Tracks Dataset (maharshipandya, Kaggle/Hugging Face), Spotify Web API audio features",
+ "datasetRows": 113999,
+ "afrobeat": {
+  "tracks": 1000,
+  "medianTempo": 115.8,
+  "medianPopularity": 21.0,
+  "majorShare": 0.511,
+  "explicitShare": 0.018,
+  "tempoHist": {
+   "edges": [
+    60,
+    70,
+    80,
+    90,
+    100,
+    110,
+    120,
+    130,
+    140,
+    150,
+    160,
+    170,
+    180,
+    190,
+    200,
+    210
+   ],
+   "counts": [
+    4,
+    22,
+    68,
+    156,
+    168,
+    145,
+    145,
+    96,
+    71,
+    36,
+    32,
+    29,
+    14,
+    7,
+    3
+   ]
+  },
+  "popularityHist": {
+   "edges": [
+    0,
+    10,
+    20,
+    30,
+    40,
+    50,
+    60,
+    70,
+    80,
+    90,
+    100
+   ],
+   "counts": [
+    22,
+    398,
+    345,
+    127,
+    80,
+    19,
+    5,
+    4,
+    0,
+    0
+   ]
+  },
+  "popularityCorrelation": {
+   "instrumentalness": -0.1,
+   "valence": -0.094,
+   "energy": -0.048,
+   "danceability": -0.025,
+   "liveness": 0.002,
+   "tempo": 0.004,
+   "acousticness": 0.039,
+   "speechiness": 0.053,
+   "loudness": 0.074
+  },
+  "topTracks": [
+   {
+    "track_name": "Atrévete-Te-Te",
+    "artists": "Calle 13",
+    "popularity": 75
+   },
+   {
+    "track_name": "Muerte En Hawaii",
+    "artists": "Calle 13",
+    "popularity": 71
+   },
+   {
+    "track_name": "La Que Me Gusta",
+    "artists": "Los Amigos Invisibles",
+    "popularity": 71
+   },
+   {
+    "track_name": "La Vuelta Al Mundo",
+    "artists": "Calle 13",
+    "popularity": 70
+   },
+   {
+    "track_name": "Ojos Color Sol (feat. Silvio Rodríguez)",
+    "artists": "Calle 13;Silvio Rodríguez",
+    "popularity": 68
+   },
+   {
+    "track_name": "Latinoamérica (feat. Totó la Momposina, Susana Baca & Maria Rita)",
+    "artists": "Calle 13;Totó La Momposina;Susana Baca;Maria Rita",
+    "popularity": 64
+   },
+   {
+    "track_name": "Queens Highway",
+    "artists": "Menahan Street Band",
+    "popularity": 64
+   },
+   {
+    "track_name": "Jireh (My Provider)",
+    "artists": "Limoblaze;Lecrae;Happi",
+    "popularity": 64
+   },
+   {
+    "track_name": "Todo se transforma",
+    "artists": "Jorge Drexler",
+    "popularity": 63
+   },
+   {
+    "track_name": "More Mess on My Thing",
+    "artists": "The Poets Of Rhythm",
+    "popularity": 57
+   }
+  ],
+  "topArtists": [
+   {
+    "artist": "Monophonics",
+    "avgPopularity": 49.3,
+    "tracks": 3
+   },
+   {
+    "artist": "Menahan Street Band",
+    "avgPopularity": 45.1,
+    "tracks": 7
+   },
+   {
+    "artist": "CalledOut Music",
+    "avgPopularity": 41.7,
+    "tracks": 3
+   },
+   {
+    "artist": "Eben",
+    "avgPopularity": 40.7,
+    "tracks": 3
+   },
+   {
+    "artist": "Cymande",
+    "avgPopularity": 37.4,
+    "tracks": 5
+   },
+   {
+    "artist": "Limoblaze",
+    "avgPopularity": 35.9,
+    "tracks": 11
+   },
+   {
+    "artist": "Kutiman",
+    "avgPopularity": 34.0,
+    "tracks": 4
+   },
+   {
+    "artist": "Criolo",
+    "avgPopularity": 33.7,
+    "tracks": 71
+   },
+   {
+    "artist": "El Michels Affair",
+    "avgPopularity": 33.7,
+    "tracks": 14
+   },
+   {
+    "artist": "Letta Mbulu",
+    "avgPopularity": 32.3,
+    "tracks": 3
+   }
+  ]
+ },
+ "genres": {
+  "afrobeat": {
+   "danceability": 0.67,
+   "energy": 0.703,
+   "valence": 0.699,
+   "acousticness": 0.271,
+   "speechiness": 0.087,
+   "tempo_n": 0.422,
+   "loudness_n": 0.74,
+   "popularity": 24.399,
+   "tempo": 119.213,
+   "tracks": 1000
+  },
+  "pop": {
+   "danceability": 0.63,
+   "energy": 0.606,
+   "valence": 0.506,
+   "acousticness": 0.344,
+   "speechiness": 0.08,
+   "tempo_n": 0.435,
+   "loudness_n": 0.768,
+   "popularity": 47.576,
+   "tempo": 120.927,
+   "tracks": 1000
+  },
+  "hip-hop": {
+   "danceability": 0.736,
+   "energy": 0.683,
+   "valence": 0.551,
+   "acousticness": 0.194,
+   "speechiness": 0.13,
+   "tempo_n": 0.405,
+   "loudness_n": 0.801,
+   "popularity": 37.759,
+   "tempo": 116.77,
+   "tracks": 1000
+  },
+  "dancehall": {
+   "danceability": 0.734,
+   "energy": 0.685,
+   "valence": 0.629,
+   "acousticness": 0.215,
+   "speechiness": 0.187,
+   "tempo_n": 0.378,
+   "loudness_n": 0.796,
+   "popularity": 33.467,
+   "tempo": 112.91,
+   "tracks": 1000
+  },
+  "reggaeton": {
+   "danceability": 0.759,
+   "energy": 0.739,
+   "valence": 0.643,
+   "acousticness": 0.165,
+   "speechiness": 0.121,
+   "tempo_n": 0.42,
+   "loudness_n": 0.834,
+   "popularity": 23.858,
+   "tempo": 118.872,
+   "tracks": 1000
+  },
+  "r-n-b": {
+   "danceability": 0.614,
+   "energy": 0.638,
+   "valence": 0.633,
+   "acousticness": 0.371,
+   "speechiness": 0.089,
+   "tempo_n": 0.457,
+   "loudness_n": 0.749,
+   "popularity": 36.687,
+   "tempo": 124.039,
+   "tracks": 1000
+  },
+  "latin": {
+   "danceability": 0.722,
+   "energy": 0.727,
+   "valence": 0.631,
+   "acousticness": 0.183,
+   "speechiness": 0.093,
+   "tempo_n": 0.427,
+   "loudness_n": 0.825,
+   "popularity": 8.297,
+   "tempo": 119.812,
+   "tracks": 1000
+  },
+  "k-pop": {
+   "danceability": 0.648,
+   "energy": 0.676,
+   "valence": 0.557,
+   "acousticness": 0.293,
+   "speechiness": 0.088,
+   "tempo_n": 0.423,
+   "loudness_n": 0.784,
+   "popularity": 56.953,
+   "tempo": 119.225,
+   "tracks": 999
+  },
+  "house": {
+   "danceability": 0.669,
+   "energy": 0.755,
+   "valence": 0.495,
+   "acousticness": 0.109,
+   "speechiness": 0.069,
+   "tempo_n": 0.436,
+   "loudness_n": 0.825,
+   "popularity": 34.156,
+   "tempo": 121.107,
+   "tracks": 1000
+  },
+  "reggae": {
+   "danceability": 0.745,
+   "energy": 0.726,
+   "valence": 0.648,
+   "acousticness": 0.176,
+   "speechiness": 0.115,
+   "tempo_n": 0.427,
+   "loudness_n": 0.824,
+   "popularity": 20.63,
+   "tempo": 119.868,
+   "tracks": 1000
+  }
+ },
+ "hitModel": {
+  "label": "popularity ≥ 28 (top 25% of Afrobeat tracks)",
+  "threshold": 28.0,
+  "samples": 999,
+  "positives": 266,
+  "cvAuc": {
+   "logisticRegression": {
+    "mean": 0.549,
+    "std": 0.038
+   },
+   "randomForest": {
+    "mean": 0.542,
+    "std": 0.04
+   }
+  },
+  "featureImportance": {
+   "tempo": 0.1831,
+   "acousticness": 0.1722,
+   "valence": 0.1708,
+   "speechiness": 0.1649,
+   "energy": 0.1595,
+   "danceability": 0.1495
+  },
+  "browserModel": {
+   "features": [
+    "danceability",
+    "energy",
+    "valence",
+    "acousticness",
+    "speechiness",
+    "tempo"
+   ],
+   "mean": [
+    0.669408,
+    0.702938,
+    0.698475,
+    0.270893,
+    0.086622,
+    119.242057
+   ],
+   "scale": [
+    0.123721,
+    0.175196,
+    0.202778,
+    0.260508,
+    0.086511,
+    26.280711
+   ],
+   "coef": [
+    0.054743,
+    0.116209,
+    -0.246469,
+    0.168026,
+    0.038085,
+    0.118165
+   ],
+   "intercept": -0.018309
+  }
+ },
+ "genreModel": {
+  "against": [
+   "pop",
+   "hip-hop",
+   "dancehall",
+   "reggaeton",
+   "r-n-b",
+   "latin",
+   "k-pop",
+   "house",
+   "reggae"
+  ],
+  "samples": 8159,
+  "cvAuc": {
+   "mean": 0.682,
+   "std": 0.022
+  },
+  "browserModel": {
+   "features": [
+    "danceability",
+    "energy",
+    "valence",
+    "acousticness",
+    "speechiness",
+    "tempo"
+   ],
+   "mean": [
+    0.678528,
+    0.68685,
+    0.593524,
+    0.247588,
+    0.104112,
+    119.65075
+   ],
+   "scale": [
+    0.131562,
+    0.163836,
+    0.223936,
+    0.245361,
+    0.097824,
+    28.666163
+   ],
+   "coef": [
+    -0.28065,
+    -0.021355,
+    0.682595,
+    0.080529,
+    -0.185914,
+    -0.061304
+   ],
+   "intercept": -0.170756
+  }
+ },
+ "similar": {
+  "features": [
+   "danceability",
+   "energy",
+   "valence",
+   "acousticness",
+   "speechiness",
+   "tempo"
+  ],
+  "tracks": [
+   {
+    "name": "Atrévete-Te-Te",
+    "artist": "Calle 13",
+    "popularity": 75,
+    "v": [
+     0.829,
+     0.878,
+     0.883,
+     0.0959,
+     0.101,
+     87.991
+    ]
+   },
+   {
+    "name": "Muerte En Hawaii",
+    "artist": "Calle 13",
+    "popularity": 71,
+    "v": [
+     0.675,
+     0.588,
+     0.879,
+     0.789,
+     0.177,
+     79.989
+    ]
+   },
+   {
+    "name": "La Que Me Gusta",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 71,
+    "v": [
+     0.721,
+     0.833,
+     0.549,
+     0.122,
+     0.0777,
+     100.005
+    ]
+   },
+   {
+    "name": "La Vuelta Al Mundo",
+    "artist": "Calle 13",
+    "popularity": 70,
+    "v": [
+     0.748,
+     0.538,
+     0.779,
+     0.159,
+     0.222,
+     124.974
+    ]
+   },
+   {
+    "name": "Ojos Color Sol (feat. Silvio Rodríguez)",
+    "artist": "Calle 13, Silvio Rodríguez",
+    "popularity": 68,
+    "v": [
+     0.582,
+     0.443,
+     0.452,
+     0.664,
+     0.0436,
+     78.071
+    ]
+   },
+   {
+    "name": "Latinoamérica (feat. Totó la Momposina, Susana Baca & Maria Rita)",
+    "artist": "Calle 13, Totó La Momposina, Susana Baca, Maria Rita",
+    "popularity": 64,
+    "v": [
+     0.691,
+     0.805,
+     0.866,
+     0.59,
+     0.0947,
+     142.503
+    ]
+   },
+   {
+    "name": "Queens Highway",
+    "artist": "Menahan Street Band",
+    "popularity": 64,
+    "v": [
+     0.778,
+     0.399,
+     0.321,
+     0.0751,
+     0.0858,
+     137.305
+    ]
+   },
+   {
+    "name": "Jireh (My Provider)",
+    "artist": "Limoblaze, Lecrae, Happi",
+    "popularity": 64,
+    "v": [
+     0.443,
+     0.778,
+     0.628,
+     0.241,
+     0.266,
+     128.25
+    ]
+   },
+   {
+    "name": "Todo se transforma",
+    "artist": "Jorge Drexler",
+    "popularity": 63,
+    "v": [
+     0.761,
+     0.488,
+     0.682,
+     0.199,
+     0.043,
+     100.024
+    ]
+   },
+   {
+    "name": "More Mess on My Thing",
+    "artist": "The Poets Of Rhythm",
+    "popularity": 57,
+    "v": [
+     0.542,
+     0.869,
+     0.962,
+     0.225,
+     0.0954,
+     190.509
+    ]
+   },
+   {
+    "name": "La edad del cielo",
+    "artist": "Jorge Drexler",
+    "popularity": 56,
+    "v": [
+     0.668,
+     0.261,
+     0.282,
+     0.588,
+     0.0405,
+     147.446
+    ]
+   },
+   {
+    "name": "Brothers On The Slide",
+    "artist": "Cymande",
+    "popularity": 56,
+    "v": [
+     0.815,
+     0.602,
+     0.805,
+     0.3,
+     0.196,
+     109.704
+    ]
+   },
+   {
+    "name": "The Traitor",
+    "artist": "Menahan Street Band",
+    "popularity": 55,
+    "v": [
+     0.628,
+     0.585,
+     0.618,
+     0.147,
+     0.0421,
+     100.95
+    ]
+   },
+   {
+    "name": "There's a New Day Coming",
+    "artist": "Menahan Street Band, Saundra Williams",
+    "popularity": 55,
+    "v": [
+     0.382,
+     0.507,
+     0.494,
+     0.787,
+     0.0323,
+     135.787
+    ]
+   },
+   {
+    "name": "C.R.E.A.M.",
+    "artist": "El Michels Affair",
+    "popularity": 55,
+    "v": [
+     0.571,
+     0.508,
+     0.102,
+     0.532,
+     0.0254,
+     96.825
+    ]
+   },
+   {
+    "name": "Last One Standing",
+    "artist": "Monophonics, Kelly Finnigan",
+    "popularity": 53,
+    "v": [
+     0.588,
+     0.576,
+     0.66,
+     0.218,
+     0.0367,
+     129.155
+    ]
+   },
+   {
+    "name": "Move on Up",
+    "artist": "The Dynamics",
+    "popularity": 53,
+    "v": [
+     0.836,
+     0.709,
+     0.969,
+     0.154,
+     0.0352,
+     145.952
+    ]
+   },
+   {
+    "name": "Love",
+    "artist": "Greyboy, Nino Moschella",
+    "popularity": 53,
+    "v": [
+     0.851,
+     0.414,
+     0.581,
+     0.0498,
+     0.0314,
+     102.807
+    ]
+   },
+   {
+    "name": "Tezeta (Nostalgia)",
+    "artist": "Mulatu Astatke",
+    "popularity": 52,
+    "v": [
+     0.547,
+     0.356,
+     0.504,
+     0.954,
+     0.0366,
+     81.032
+    ]
+   },
+   {
+    "name": "T.I.B.W.F.",
+    "artist": "The Budos Band",
+    "popularity": 52,
+    "v": [
+     0.674,
+     0.607,
+     0.712,
+     0.0124,
+     0.057,
+     77.845
+    ]
+   },
+   {
+    "name": "Home Again",
+    "artist": "Menahan Street Band",
+    "popularity": 52,
+    "v": [
+     0.587,
+     0.732,
+     0.747,
+     0.055,
+     0.0317,
+     96.848
+    ]
+   },
+   {
+    "name": "Yègellé Tezeta",
+    "artist": "Mulatu Astatke",
+    "popularity": 51,
+    "v": [
+     0.839,
+     0.233,
+     0.777,
+     0.745,
+     0.0413,
+     125.597
+    ]
+   },
+   {
+    "name": "Make the Road By Walking",
+    "artist": "Menahan Street Band",
+    "popularity": 51,
+    "v": [
+     0.615,
+     0.76,
+     0.902,
+     0.0186,
+     0.0317,
+     90.847
+    ]
+   },
+   {
+    "name": "Road Song",
+    "artist": "Ikebe Shakedown",
+    "popularity": 51,
+    "v": [
+     0.63,
+     0.735,
+     0.727,
+     0.464,
+     0.0346,
+     106.589
+    ]
+   },
+   {
+    "name": "Nomalizo",
+    "artist": "Letta Mbulu",
+    "popularity": 51,
+    "v": [
+     0.86,
+     0.41,
+     0.653,
+     0.306,
+     0.0473,
+     98.269
+    ]
+   },
+   {
+    "name": "Freckles",
+    "artist": "The New Mastersounds",
+    "popularity": 50,
+    "v": [
+     0.787,
+     0.834,
+     0.961,
+     0.145,
+     0.0311,
+     113.337
+    ]
+   },
+   {
+    "name": "I Don't Wanna Stop",
+    "artist": "The Bamboos",
+    "popularity": 50,
+    "v": [
+     0.69,
+     0.775,
+     0.962,
+     0.119,
+     0.0306,
+     93.241
+    ]
+   },
+   {
+    "name": "Dram",
+    "artist": "Ikebe Shakedown",
+    "popularity": 50,
+    "v": [
+     0.595,
+     0.765,
+     0.736,
+     0.056,
+     0.0574,
+     149.58
+    ]
+   },
+   {
+    "name": "The Outsider",
+    "artist": "Lack Of Afro",
+    "popularity": 49,
+    "v": [
+     0.681,
+     0.838,
+     0.456,
+     0.0874,
+     0.0797,
+     112.608
+    ]
+   },
+   {
+    "name": "Shimmy Shimmy Ya",
+    "artist": "El Michels Affair",
+    "popularity": 49,
+    "v": [
+     0.605,
+     0.666,
+     0.0865,
+     0.0234,
+     0.0413,
+     100.138
+    ]
+   },
+   {
+    "name": "Anbessa",
+    "artist": "Akalé Wubé, Manu Dibango",
+    "popularity": 49,
+    "v": [
+     0.82,
+     0.473,
+     0.645,
+     0.293,
+     0.0454,
+     120.066
+    ]
+   },
+   {
+    "name": "Tearz",
+    "artist": "El Michels Affair, Lee Fields, The Shacks",
+    "popularity": 49,
+    "v": [
+     0.75,
+     0.382,
+     0.454,
+     0.29,
+     0.0312,
+     97.226
+    ]
+   },
+   {
+    "name": "Tezeta",
+    "artist": "Mulatu Astatke",
+    "popularity": 49,
+    "v": [
+     0.549,
+     0.254,
+     0.541,
+     0.962,
+     0.0416,
+     81.484
+    ]
+   },
+   {
+    "name": "Soul Makossa",
+    "artist": "Manu Dibango",
+    "popularity": 49,
+    "v": [
+     0.831,
+     0.835,
+     0.8,
+     0.128,
+     0.142,
+     114.997
+    ]
+   },
+   {
+    "name": "Eye Nyam Nam 'A' Mensuro - Henrik Schwarz Blend",
+    "artist": "Ebo Taylor, Pat Thomas, Henrik Schwarz",
+    "popularity": 49,
+    "v": [
+     0.761,
+     0.626,
+     0.715,
+     0.0172,
+     0.0421,
+     124.024
+    ]
+   },
+   {
+    "name": "PIMP",
+    "artist": "Bacao Rhythm & Steel Band",
+    "popularity": 49,
+    "v": [
+     0.672,
+     0.858,
+     0.963,
+     0.456,
+     0.145,
+     166.689
+    ]
+   },
+   {
+    "name": "Desire",
+    "artist": "Limoblaze, Emandiong",
+    "popularity": 49,
+    "v": [
+     0.699,
+     0.858,
+     0.432,
+     0.0332,
+     0.089,
+     115.113
+    ]
+   },
+   {
+    "name": "Dove",
+    "artist": "Cymande",
+    "popularity": 48,
+    "v": [
+     0.439,
+     0.475,
+     0.428,
+     0.449,
+     0.0361,
+     111.717
+    ]
+   },
+   {
+    "name": "Villa",
+    "artist": "El Michels Affair",
+    "popularity": 48,
+    "v": [
+     0.503,
+     0.733,
+     0.377,
+     0.676,
+     0.188,
+     167.935
+    ]
+   },
+   {
+    "name": "Spies Are Watching Me",
+    "artist": "Voilaaa, Sir Jean",
+    "popularity": 48,
+    "v": [
+     0.892,
+     0.708,
+     0.949,
+     0.0395,
+     0.0782,
+     127.002
+    ]
+   },
+   {
+    "name": "Ikeja Roads",
+    "artist": "Tony Allen",
+    "popularity": 48,
+    "v": [
+     0.777,
+     0.598,
+     0.684,
+     0.023,
+     0.0412,
+     100.007
+    ]
+   },
+   {
+    "name": "It's Only Us",
+    "artist": "Monophonics, Kelly Finnigan",
+    "popularity": 48,
+    "v": [
+     0.477,
+     0.615,
+     0.472,
+     0.482,
+     0.026,
+     86.472
+    ]
+   },
+   {
+    "name": "Pretos Ganhando Dinheiro Incomoda Demais",
+    "artist": "Criolo",
+    "popularity": 48,
+    "v": [
+     0.637,
+     0.715,
+     0.347,
+     0.0518,
+     0.074,
+     109.859
+    ]
+   },
+   {
+    "name": "Water No Get Enemy",
+    "artist": "Fela Kuti",
+    "popularity": 48,
+    "v": [
+     0.641,
+     0.926,
+     0.883,
+     0.11,
+     0.0572,
+     90.934
+    ]
+   },
+   {
+    "name": "Bra",
+    "artist": "Cymande",
+    "popularity": 47,
+    "v": [
+     0.676,
+     0.769,
+     0.891,
+     0.0054,
+     0.0535,
+     117.733
+    ]
+   },
+   {
+    "name": "The Wilhelm Scream",
+    "artist": "The Bamboos, Washington",
+    "popularity": 47,
+    "v": [
+     0.565,
+     0.621,
+     0.403,
+     0.0077,
+     0.0264,
+     150.036
+    ]
+   },
+   {
+    "name": "Groovy Flute",
+    "artist": "Manu Dibango",
+    "popularity": 47,
+    "v": [
+     0.678,
+     0.845,
+     0.965,
+     0.791,
+     0.0392,
+     104.653
+    ]
+   },
+   {
+    "name": "La La La Love Me",
+    "artist": "Monophonics",
+    "popularity": 47,
+    "v": [
+     0.546,
+     0.54,
+     0.453,
+     0.0292,
+     0.0288,
+     87.967
+    ]
+   },
+   {
+    "name": "Sucrilhos",
+    "artist": "Criolo",
+    "popularity": 46,
+    "v": [
+     0.788,
+     0.574,
+     0.764,
+     0.0626,
+     0.319,
+     160.027
+    ]
+   },
+   {
+    "name": "Lion Man",
+    "artist": "Criolo",
+    "popularity": 46,
+    "v": [
+     0.582,
+     0.66,
+     0.484,
+     0.399,
+     0.0544,
+     83.789
+    ]
+   },
+   {
+    "name": "Every Season",
+    "artist": "Tony Allen, Damon Albarn, Ty",
+    "popularity": 46,
+    "v": [
+     0.751,
+     0.735,
+     0.721,
+     0.0626,
+     0.0775,
+     163.852
+    ]
+   },
+   {
+    "name": "Safari Strut",
+    "artist": "Whitefield Brothers",
+    "popularity": 46,
+    "v": [
+     0.677,
+     0.862,
+     0.902,
+     0.416,
+     0.0536,
+     109.965
+    ]
+   },
+   {
+    "name": "Chiquitita",
+    "artist": "Juanafé",
+    "popularity": 46,
+    "v": [
+     0.715,
+     0.556,
+     0.902,
+     0.667,
+     0.0453,
+     87.973
+    ]
+   },
+   {
+    "name": "Rio Grande",
+    "artist": "Ikebe Shakedown",
+    "popularity": 46,
+    "v": [
+     0.445,
+     0.605,
+     0.692,
+     0.25,
+     0.0304,
+     162.588
+    ]
+   },
+   {
+    "name": "You Are My Heart",
+    "artist": "Rex Williams",
+    "popularity": 46,
+    "v": [
+     0.675,
+     0.681,
+     0.604,
+     0.481,
+     0.0364,
+     97.442
+    ]
+   },
+   {
+    "name": "Come on Home",
+    "artist": "Lijadu Sisters",
+    "popularity": 45,
+    "v": [
+     0.537,
+     0.501,
+     0.914,
+     0.0684,
+     0.093,
+     93.849
+    ]
+   },
+   {
+    "name": "Fantastic Man",
+    "artist": "William Onyeabor",
+    "popularity": 45,
+    "v": [
+     0.7,
+     0.756,
+     0.944,
+     0.0018,
+     0.0575,
+     114.28
+    ]
+   },
+   {
+    "name": "Enkèn Yèlélèbesh",
+    "artist": "Girma Bèyènè, Akalé Wubé",
+    "popularity": 45,
+    "v": [
+     0.74,
+     0.492,
+     0.893,
+     0.589,
+     0.0366,
+     128.648
+    ]
+   },
+   {
+    "name": "Grateful",
+    "artist": "Limoblaze, Moses Bliss",
+    "popularity": 45,
+    "v": [
+     0.729,
+     0.866,
+     0.711,
+     0.267,
+     0.193,
+     131.913
+    ]
+   },
+   {
+    "name": "Thank You Lord",
+    "artist": "CalledOut Music",
+    "popularity": 45,
+    "v": [
+     0.714,
+     0.44,
+     0.532,
+     0.319,
+     0.0953,
+     91.997
+    ]
+   },
+   {
+    "name": "Tengo Luquita",
+    "artist": "Juanafé",
+    "popularity": 45,
+    "v": [
+     0.526,
+     0.711,
+     0.651,
+     0.585,
+     0.0465,
+     176.27
+    ]
+   },
+   {
+    "name": "Lagos Sisi",
+    "artist": "Bola Johnson",
+    "popularity": 44,
+    "v": [
+     0.718,
+     0.626,
+     0.662,
+     0.147,
+     0.0604,
+     107.288
+    ]
+   },
+   {
+    "name": "Coconut",
+    "artist": "Manu Dibango",
+    "popularity": 44,
+    "v": [
+     0.652,
+     0.84,
+     0.955,
+     0.145,
+     0.0305,
+     113.623
+    ]
+   },
+   {
+    "name": "Vida Loka I - Live",
+    "artist": "Criolo, Emicida, Mano Brown",
+    "popularity": 44,
+    "v": [
+     0.434,
+     0.877,
+     0.662,
+     0.849,
+     0.247,
+     82.109
+    ]
+   },
+   {
+    "name": "Mata",
+    "artist": "Akalé Wubé",
+    "popularity": 44,
+    "v": [
+     0.569,
+     0.496,
+     0.808,
+     0.393,
+     0.0674,
+     82.822
+    ]
+   },
+   {
+    "name": "Comencemos (Let's Start)",
+    "artist": "Jungle Fire",
+    "popularity": 44,
+    "v": [
+     0.666,
+     0.903,
+     0.913,
+     0.23,
+     0.0456,
+     111.84
+    ]
+   },
+   {
+    "name": "Duas Cidades",
+    "artist": "BaianaSystem",
+    "popularity": 44,
+    "v": [
+     0.789,
+     0.899,
+     0.847,
+     0.125,
+     0.138,
+     97.999
+    ]
+   },
+   {
+    "name": "Ainda Há Tempo",
+    "artist": "Criolo",
+    "popularity": 44,
+    "v": [
+     0.58,
+     0.8,
+     0.483,
+     0.281,
+     0.345,
+     81.303
+    ]
+   },
+   {
+    "name": "Me Corte na Boca do Céu a Morte Não Pede Perdão",
+    "artist": "Criolo, Milton Nascimento",
+    "popularity": 44,
+    "v": [
+     0.428,
+     0.3,
+     0.278,
+     0.638,
+     0.157,
+     81.403
+    ]
+   },
+   {
+    "name": "Menino Mimado",
+    "artist": "Criolo",
+    "popularity": 44,
+    "v": [
+     0.83,
+     0.604,
+     0.82,
+     0.563,
+     0.0355,
+     144.008
+    ]
+   },
+   {
+    "name": "Espiral de Ilusão",
+    "artist": "Criolo",
+    "popularity": 44,
+    "v": [
+     0.776,
+     0.314,
+     0.476,
+     0.881,
+     0.034,
+     124.055
+    ]
+   },
+   {
+    "name": "Atomic Bomb - William Onyeabor vs. Hot Chip",
+    "artist": "William Onyeabor, Hot Chip",
+    "popularity": 44,
+    "v": [
+     0.834,
+     0.56,
+     0.78,
+     0.0145,
+     0.0439,
+     125.798
+    ]
+   },
+   {
+    "name": "Kumama Papa - Tiktok refix version",
+    "artist": "Prinx Emmanuel, Grace Lokwa",
+    "popularity": 44,
+    "v": [
+     0.631,
+     0.502,
+     0.776,
+     0.835,
+     0.242,
+     156.183
+    ]
+   },
+   {
+    "name": "Unathi",
+    "artist": "El Michels Affair, Piya Malik",
+    "popularity": 43,
+    "v": [
+     0.524,
+     0.65,
+     0.826,
+     0.0954,
+     0.0415,
+     107.493
+    ]
+   },
+   {
+    "name": "Maasai - Doctor Flake Remix",
+    "artist": "Kutiman, Doctor Flake",
+    "popularity": 43,
+    "v": [
+     0.648,
+     0.874,
+     0.339,
+     0.0104,
+     0.0342,
+     101.994
+    ]
+   },
+   {
+    "name": "For Me",
+    "artist": "Limoblaze, Marizu",
+    "popularity": 43,
+    "v": [
+     0.728,
+     0.719,
+     0.719,
+     0.477,
+     0.0459,
+     107.95
+    ]
+   },
+   {
+    "name": "Vasilhame",
+    "artist": "Criolo",
+    "popularity": 43,
+    "v": [
+     0.506,
+     0.876,
+     0.676,
+     0.194,
+     0.316,
+     124.218
+    ]
+   },
+   {
+    "name": "Yemanjá Chegou",
+    "artist": "Criolo",
+    "popularity": 43,
+    "v": [
+     0.711,
+     0.515,
+     0.679,
+     0.679,
+     0.0514,
+     90.91
+    ]
+   },
+   {
+    "name": "Bang Data",
+    "artist": "Bang Data",
+    "popularity": 42,
+    "v": [
+     0.605,
+     0.835,
+     0.903,
+     0.0764,
+     0.14,
+     171.958
+    ]
+   },
+   {
+    "name": "Ala Vida",
+    "artist": "El Michels Affair",
+    "popularity": 42,
+    "v": [
+     0.647,
+     0.386,
+     0.491,
+     0.67,
+     0.0571,
+     80.833
+    ]
+   },
+   {
+    "name": "Your Love",
+    "artist": "Limoblaze, Dj Horphuray",
+    "popularity": 42,
+    "v": [
+     0.795,
+     0.719,
+     0.958,
+     0.115,
+     0.0642,
+     110.02
+    ]
+   },
+   {
+    "name": "Murkit Gem",
+    "artist": "El Michels Affair, Piya Malik",
+    "popularity": 42,
+    "v": [
+     0.536,
+     0.632,
+     0.566,
+     0.599,
+     0.0641,
+     117.796
+    ]
+   },
+   {
+    "name": "La Makinita",
+    "artist": "Juanafé",
+    "popularity": 42,
+    "v": [
+     0.633,
+     0.805,
+     0.925,
+     0.0529,
+     0.0329,
+     143.028
+    ]
+   },
+   {
+    "name": "Fio de Pumo (Padê Onã)",
+    "artist": "Criolo",
+    "popularity": 42,
+    "v": [
+     0.77,
+     0.819,
+     0.732,
+     0.0191,
+     0.0703,
+     92.996
+    ]
+   },
+   {
+    "name": "Fellini",
+    "artist": "Criolo",
+    "popularity": 42,
+    "v": [
+     0.805,
+     0.746,
+     0.717,
+     0.238,
+     0.185,
+     127.922
+    ]
+   },
+   {
+    "name": "Pequenina",
+    "artist": "Criolo, MC Hariel, Liniker, Maria Vilani, Jaques Morelenbaum",
+    "popularity": 42,
+    "v": [
+     0.606,
+     0.6,
+     0.529,
+     0.0469,
+     0.139,
+     159.971
+    ]
+   },
+   {
+    "name": "My Prayer (Yahweh)",
+    "artist": "CalledOut Music",
+    "popularity": 42,
+    "v": [
+     0.583,
+     0.31,
+     0.563,
+     0.688,
+     0.159,
+     140.974
+    ]
+   },
+   {
+    "name": "Saci (Remix)",
+    "artist": "BaianaSystem, Tropkillaz",
+    "popularity": 42,
+    "v": [
+     0.974,
+     0.922,
+     0.657,
+     0.0974,
+     0.174,
+     127.989
+    ]
+   },
+   {
+    "name": "Tô Pra Ver",
+    "artist": "Criolo, Rael",
+    "popularity": 41,
+    "v": [
+     0.637,
+     0.818,
+     0.599,
+     0.19,
+     0.281,
+     90.571
+    ]
+   },
+   {
+    "name": "Aprendendo a Sobreviver",
+    "artist": "Criolo",
+    "popularity": 41,
+    "v": [
+     0.817,
+     0.619,
+     0.614,
+     0.263,
+     0.0542,
+     103.041
+    ]
+   },
+   {
+    "name": "Primavera (Vai Chuva)",
+    "artist": "Criolo",
+    "popularity": 41,
+    "v": [
+     0.573,
+     0.859,
+     0.521,
+     0.108,
+     0.0473,
+     147.906
+    ]
+   },
+   {
+    "name": "My Everything",
+    "artist": "Kutiman, Dekel",
+    "popularity": 41,
+    "v": [
+     0.594,
+     0.552,
+     0.52,
+     0.105,
+     0.0254,
+     110.038
+    ]
+   },
+   {
+    "name": "Abyssinian Suite, Pt. 4",
+    "artist": "The Shaolin Afronauts",
+    "popularity": 41,
+    "v": [
+     0.526,
+     0.762,
+     0.867,
+     0.0183,
+     0.0401,
+     110.086
+    ]
+   },
+   {
+    "name": "Jesus at the Centre",
+    "artist": "Eben",
+    "popularity": 41,
+    "v": [
+     0.489,
+     0.557,
+     0.11,
+     0.0329,
+     0.0379,
+     135.907
+    ]
+   },
+   {
+    "name": "É o Teste",
+    "artist": "Criolo",
+    "popularity": 41,
+    "v": [
+     0.66,
+     0.728,
+     0.594,
+     0.178,
+     0.337,
+     91.101
+    ]
+   },
+   {
+    "name": "Mariô",
+    "artist": "Criolo",
+    "popularity": 41,
+    "v": [
+     0.763,
+     0.577,
+     0.658,
+     0.0875,
+     0.125,
+     90.015
+    ]
+   },
+   {
+    "name": "Zombie",
+    "artist": "Fela Kuti",
+    "popularity": 41,
+    "v": [
+     0.672,
+     0.942,
+     0.574,
+     0.386,
+     0.186,
+     131.45
+    ]
+   },
+   {
+    "name": "Victory",
+    "artist": "Eben",
+    "popularity": 41,
+    "v": [
+     0.751,
+     0.697,
+     0.879,
+     0.372,
+     0.111,
+     125.924
+    ]
+   },
+   {
+    "name": "Plano de Voo",
+    "artist": "Criolo",
+    "popularity": 41,
+    "v": [
+     0.571,
+     0.69,
+     0.228,
+     0.299,
+     0.542,
+     155.991
+    ]
+   },
+   {
+    "name": "Nas Águas",
+    "artist": "Criolo",
+    "popularity": 41,
+    "v": [
+     0.753,
+     0.653,
+     0.706,
+     0.76,
+     0.0508,
+     115.802
+    ]
+   },
+   {
+    "name": "A Cada Vento - Live",
+    "artist": "Criolo, Emicida",
+    "popularity": 41,
+    "v": [
+     0.651,
+     0.861,
+     0.8,
+     0.43,
+     0.109,
+     98.474
+    ]
+   },
+   {
+    "name": "Old Engine Oil",
+    "artist": "The Budos Band",
+    "popularity": 40,
+    "v": [
+     0.366,
+     0.91,
+     0.322,
+     0.0012,
+     0.0415,
+     92.94
+    ]
+   },
+   {
+    "name": "Okay",
+    "artist": "Limoblaze, Ada Ehi",
+    "popularity": 40,
+    "v": [
+     0.787,
+     0.751,
+     0.834,
+     0.394,
+     0.0621,
+     105.003
+    ]
+   },
+   {
+    "name": "Darker Shade of Black",
+    "artist": "Jackie Mittoo",
+    "popularity": 40,
+    "v": [
+     0.689,
+     0.564,
+     0.758,
+     0.149,
+     0.126,
+     87.474
+    ]
+   },
+   {
+    "name": "Aló",
+    "artist": "Plastilina Mosh",
+    "popularity": 40,
+    "v": [
+     0.797,
+     0.609,
+     0.913,
+     0.0037,
+     0.131,
+     142.035
+    ]
+   },
+   {
+    "name": "Breaco",
+    "artist": "Criolo",
+    "popularity": 40,
+    "v": [
+     0.619,
+     0.781,
+     0.728,
+     0.148,
+     0.333,
+     182.026
+    ]
+   },
+   {
+    "name": "No One Like You",
+    "artist": "Eben, Nathaniel Bassey",
+    "popularity": 40,
+    "v": [
+     0.652,
+     0.529,
+     0.488,
+     0.357,
+     0.0464,
+     129.861
+    ]
+   },
+   {
+    "name": "Jah Jah Revolta, Pt. 2",
+    "artist": "BaianaSystem",
+    "popularity": 39,
+    "v": [
+     0.776,
+     0.8,
+     0.583,
+     0.0063,
+     0.0438,
+     143.989
+    ]
+   },
+   {
+    "name": "Thank You",
+    "artist": "TB1",
+    "popularity": 39,
+    "v": [
+     0.775,
+     0.808,
+     0.912,
+     0.113,
+     0.0465,
+     115.011
+    ]
+   },
+   {
+    "name": "Freguês da Meia Noite",
+    "artist": "Criolo",
+    "popularity": 39,
+    "v": [
+     0.634,
+     0.393,
+     0.54,
+     0.35,
+     0.0283,
+     87.996
+    ]
+   },
+   {
+    "name": "Akula Owu Onyeara",
+    "artist": "The Funkees",
+    "popularity": 39,
+    "v": [
+     0.701,
+     0.702,
+     0.885,
+     0.525,
+     0.122,
+     110.721
+    ]
+   },
+   {
+    "name": "Dansaki",
+    "artist": "Lara George",
+    "popularity": 39,
+    "v": [
+     0.701,
+     0.94,
+     0.945,
+     0.0619,
+     0.0497,
+     139.497
+    ]
+   },
+   {
+    "name": "Terapia",
+    "artist": "BaianaSystem",
+    "popularity": 39,
+    "v": [
+     0.79,
+     0.814,
+     0.914,
+     0.243,
+     0.0268,
+     124.03
+    ]
+   },
+   {
+    "name": "Chuva Ácida",
+    "artist": "Criolo",
+    "popularity": 39,
+    "v": [
+     0.708,
+     0.782,
+     0.717,
+     0.0507,
+     0.284,
+     94.038
+    ]
+   },
+   {
+    "name": "This Loving",
+    "artist": "Limoblaze, Johnny Drille",
+    "popularity": 38,
+    "v": [
+     0.564,
+     0.483,
+     0.569,
+     0.53,
+     0.167,
+     101.095
+    ]
+   },
+   {
+    "name": "Shout to the Lord",
+    "artist": "CalledOut Music",
+    "popularity": 38,
+    "v": [
+     0.599,
+     0.499,
+     0.765,
+     0.105,
+     0.196,
+     159.915
+    ]
+   },
+   {
+    "name": "Yawa Dey",
+    "artist": "Nero X",
+    "popularity": 38,
+    "v": [
+     0.858,
+     0.634,
+     0.824,
+     0.406,
+     0.0498,
+     105.018
+    ]
+   },
+   {
+    "name": "Dia da Caça",
+    "artist": "BaianaSystem",
+    "popularity": 38,
+    "v": [
+     0.486,
+     0.867,
+     0.358,
+     0.129,
+     0.0892,
+     109.003
+    ]
+   },
+   {
+    "name": "Até Me Emocionei",
+    "artist": "Criolo",
+    "popularity": 38,
+    "v": [
+     0.772,
+     0.789,
+     0.549,
+     0.101,
+     0.298,
+     84.96
+    ]
+   },
+   {
+    "name": "Milonga de Ojos Dorados (Alfredo Zitarrosa) - Live on Pardelion Music",
+    "artist": "Jorge Drexler, Sebastián Prada",
+    "popularity": 38,
+    "v": [
+     0.67,
+     0.273,
+     0.443,
+     0.946,
+     0.0388,
+     128.87
+    ]
+   },
+   {
+    "name": "Reza Forte",
+    "artist": "BaianaSystem, BNegão",
+    "popularity": 38,
+    "v": [
+     0.844,
+     0.915,
+     0.872,
+     0.393,
+     0.129,
+     145.997
+    ]
+   },
+   {
+    "name": "Subirusdoistiozin - Live",
+    "artist": "Criolo, Emicida",
+    "popularity": 37,
+    "v": [
+     0.569,
+     0.907,
+     0.562,
+     0.602,
+     0.31,
+     94.346
+    ]
+   },
+   {
+    "name": "Hora da Decisão",
+    "artist": "Criolo",
+    "popularity": 37,
+    "v": [
+     0.731,
+     0.575,
+     0.704,
+     0.703,
+     0.041,
+     143.986
+    ]
+   },
+   {
+    "name": "Calçada",
+    "artist": "Criolo",
+    "popularity": 37,
+    "v": [
+     0.817,
+     0.771,
+     0.76,
+     0.704,
+     0.087,
+     111.099
+    ]
+   },
+   {
+    "name": "O Segundo Sol",
+    "artist": "BaianaSystem, Cássia Eller",
+    "popularity": 37,
+    "v": [
+     0.383,
+     0.711,
+     0.432,
+     0.174,
+     0.0671,
+     137.036
+    ]
+   },
+   {
+    "name": "Good God",
+    "artist": "Limoblaze, Ada Ehi",
+    "popularity": 37,
+    "v": [
+     0.285,
+     0.513,
+     0.221,
+     0.656,
+     0.0545,
+     82.303
+    ]
+   },
+   {
+    "name": "Filha do Maneco",
+    "artist": "Criolo",
+    "popularity": 37,
+    "v": [
+     0.674,
+     0.518,
+     0.554,
+     0.733,
+     0.0806,
+     133.935
+    ]
+   },
+   {
+    "name": "Só Mais Uma Noite - Live",
+    "artist": "Criolo, Emicida, Evandro Fióti",
+    "popularity": 37,
+    "v": [
+     0.518,
+     0.918,
+     0.62,
+     0.325,
+     0.276,
+     98.777
+    ]
+   },
+   {
+    "name": "Demorô",
+    "artist": "Criolo",
+    "popularity": 37,
+    "v": [
+     0.755,
+     0.709,
+     0.657,
+     0.0528,
+     0.289,
+     140.989
+    ]
+   },
+   {
+    "name": "Samba Sambei",
+    "artist": "Criolo",
+    "popularity": 37,
+    "v": [
+     0.87,
+     0.737,
+     0.952,
+     0.268,
+     0.126,
+     136.07
+    ]
+   },
+   {
+    "name": "Pegue Pra Ela",
+    "artist": "Criolo",
+    "popularity": 37,
+    "v": [
+     0.611,
+     0.738,
+     0.725,
+     0.142,
+     0.0443,
+     119.791
+    ]
+   },
+   {
+    "name": "Cabeça de Papel",
+    "artist": "BaianaSystem",
+    "popularity": 37,
+    "v": [
+     0.724,
+     0.833,
+     0.875,
+     0.289,
+     0.0705,
+     144.999
+    ]
+   },
+   {
+    "name": "Fogo (Versão Estendida)",
+    "artist": "BaianaSystem, Orquestra Afrosinfônica",
+    "popularity": 36,
+    "v": [
+     0.455,
+     0.738,
+     0.335,
+     0.161,
+     0.0358,
+     125.351
+    ]
+   },
+   {
+    "name": "Amar Es Algo Más",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 36,
+    "v": [
+     0.692,
+     0.746,
+     0.613,
+     0.393,
+     0.0362,
+     107.981
+    ]
+   },
+   {
+    "name": "Invisível",
+    "artist": "BaianaSystem",
+    "popularity": 36,
+    "v": [
+     0.725,
+     0.618,
+     0.479,
+     0.325,
+     0.046,
+     112.681
+    ]
+   },
+   {
+    "name": "Mix Tel Aviv",
+    "artist": "Kutiman",
+    "popularity": 36,
+    "v": [
+     0.751,
+     0.688,
+     0.403,
+     0.102,
+     0.0436,
+     120.96
+    ]
+   },
+   {
+    "name": "Guerra Batalha",
+    "artist": "BaianaSystem, Liz Reis",
+    "popularity": 36,
+    "v": [
+     0.437,
+     0.357,
+     0.26,
+     0.676,
+     0.0294,
+     120.088
+    ]
+   },
+   {
+    "name": "Bala na Agulha",
+    "artist": "BaianaSystem",
+    "popularity": 36,
+    "v": [
+     0.688,
+     0.864,
+     0.667,
+     0.269,
+     0.151,
+     180.052
+    ]
+   },
+   {
+    "name": "Cria de Favela",
+    "artist": "Criolo",
+    "popularity": 36,
+    "v": [
+     0.692,
+     0.749,
+     0.7,
+     0.442,
+     0.0427,
+     111.986
+    ]
+   },
+   {
+    "name": "Detergente",
+    "artist": "Samuca e a Selva",
+    "popularity": 36,
+    "v": [
+     0.721,
+     0.741,
+     0.977,
+     0.441,
+     0.0354,
+     131.001
+    ]
+   },
+   {
+    "name": "Boca Fofa",
+    "artist": "Criolo",
+    "popularity": 36,
+    "v": [
+     0.717,
+     0.784,
+     0.978,
+     0.73,
+     0.0353,
+     168.146
+    ]
+   },
+   {
+    "name": "Expensive Shit",
+    "artist": "Fela Kuti, Afrika 70",
+    "popularity": 36,
+    "v": [
+     0.612,
+     0.876,
+     0.677,
+     0.22,
+     0.11,
+     123.866
+    ]
+   },
+   {
+    "name": "Não Existe Amor Em SP - Live",
+    "artist": "Criolo, Emicida",
+    "popularity": 35,
+    "v": [
+     0.285,
+     0.734,
+     0.243,
+     0.3,
+     0.0506,
+     140.224
+    ]
+   },
+   {
+    "name": "Human Disco Ball",
+    "artist": "Plastilina Mosh",
+    "popularity": 35,
+    "v": [
+     0.797,
+     0.99,
+     0.926,
+     0.0004,
+     0.0458,
+     125.023
+    ]
+   },
+   {
+    "name": "Zica Vai Lá - Live",
+    "artist": "Criolo, Emicida",
+    "popularity": 35,
+    "v": [
+     0.374,
+     0.934,
+     0.389,
+     0.058,
+     0.322,
+     167.661
+    ]
+   },
+   {
+    "name": "No Sapatinho",
+    "artist": "Criolo",
+    "popularity": 35,
+    "v": [
+     0.702,
+     0.689,
+     0.242,
+     0.152,
+     0.221,
+     84.063
+    ]
+   },
+   {
+    "name": "Nauliza",
+    "artist": "BaianaSystem, Makavelli, Jaymitta",
+    "popularity": 35,
+    "v": [
+     0.618,
+     0.945,
+     0.76,
+     0.0372,
+     0.112,
+     169.967
+    ]
+   },
+   {
+    "name": "Niño Bomba",
+    "artist": "Plastilina Mosh",
+    "popularity": 35,
+    "v": [
+     0.73,
+     0.775,
+     0.491,
+     0.0005,
+     0.0372,
+     107.153
+    ]
+   },
+   {
+    "name": "Negro Amor (It's All Over Now, Baby Clue)",
+    "artist": "Jorge Drexler, Gal Costa",
+    "popularity": 35,
+    "v": [
+     0.614,
+     0.209,
+     0.416,
+     0.868,
+     0.0327,
+     119.948
+    ]
+   },
+   {
+    "name": "Sueño Erótico",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 35,
+    "v": [
+     0.683,
+     0.823,
+     0.837,
+     0.138,
+     0.0559,
+     120.03
+    ]
+   },
+   {
+    "name": "Navio",
+    "artist": "BaianaSystem",
+    "popularity": 35,
+    "v": [
+     0.591,
+     0.873,
+     0.882,
+     0.105,
+     0.111,
+     162.121
+    ]
+   },
+   {
+    "name": "Eres Mis Ganas",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 35,
+    "v": [
+     0.562,
+     0.876,
+     0.547,
+     0.0013,
+     0.0356,
+     124.003
+    ]
+   },
+   {
+    "name": "Forasteiro",
+    "artist": "BaianaSystem",
+    "popularity": 35,
+    "v": [
+     0.685,
+     0.732,
+     0.856,
+     0.0051,
+     0.0322,
+     127.999
+    ]
+   },
+   {
+    "name": "Oxidados",
+    "artist": "Plastilina Mosh",
+    "popularity": 35,
+    "v": [
+     0.483,
+     0.994,
+     0.702,
+     0.0004,
+     0.0762,
+     182.051
+    ]
+   },
+   {
+    "name": "Bungaloo Punta Cometa",
+    "artist": "Plastilina Mosh",
+    "popularity": 35,
+    "v": [
+     0.744,
+     0.771,
+     0.661,
+     0.608,
+     0.0892,
+     149.822
+    ]
+   },
+   {
+    "name": "Black Organ",
+    "artist": "Jackie Mittoo",
+    "popularity": 34,
+    "v": [
+     0.837,
+     0.598,
+     0.983,
+     0.391,
+     0.181,
+     145.219
+    ]
+   },
+   {
+    "name": "La Bala",
+    "artist": "Juanafé",
+    "popularity": 34,
+    "v": [
+     0.6,
+     0.826,
+     0.77,
+     0.0555,
+     0.0476,
+     98.046
+    ]
+   },
+   {
+    "name": "Sonar (Adubado)",
+    "artist": "BaianaSystem, Buguinha Dub, Curumin, Edgar",
+    "popularity": 34,
+    "v": [
+     0.694,
+     0.82,
+     0.588,
+     0.113,
+     0.048,
+     99.922
+    ]
+   },
+   {
+    "name": "Água (Versão Estendida)",
+    "artist": "BaianaSystem, Orquestra Afrosinfônica, Antonio Carlos & Jocafi",
+    "popularity": 34,
+    "v": [
+     0.74,
+     0.8,
+     0.763,
+     0.211,
+     0.0422,
+     96.998
+    ]
+   },
+   {
+    "name": "CertoPeloCertoh",
+    "artist": "BaianaSystem, VANDAL",
+    "popularity": 34,
+    "v": [
+     0.726,
+     0.72,
+     0.874,
+     0.327,
+     0.31,
+     149.995
+    ]
+   },
+   {
+    "name": "Life of Grace",
+    "artist": "Louis Pascal",
+    "popularity": 34,
+    "v": [
+     0.59,
+     0.491,
+     0.253,
+     0.0128,
+     0.233,
+     193.616
+    ]
+   },
+   {
+    "name": "Triunfo - Live",
+    "artist": "Criolo, Emicida",
+    "popularity": 34,
+    "v": [
+     0.54,
+     0.945,
+     0.551,
+     0.315,
+     0.271,
+     92.013
+    ]
+   },
+   {
+    "name": "Fat City Strut",
+    "artist": "Mandrill",
+    "popularity": 34,
+    "v": [
+     0.422,
+     0.862,
+     0.826,
+     0.602,
+     0.153,
+     80.526
+    ]
+   },
+   {
+    "name": "Redoma",
+    "artist": "BaianaSystem, Samba de Lata de Tijuaçú",
+    "popularity": 34,
+    "v": [
+     0.779,
+     0.918,
+     0.391,
+     0.126,
+     0.268,
+     100.041
+    ]
+   },
+   {
+    "name": "Chocolate",
+    "artist": "Criolo",
+    "popularity": 34,
+    "v": [
+     0.759,
+     0.79,
+     0.914,
+     0.264,
+     0.0656,
+     135.953
+    ]
+   },
+   {
+    "name": "Povo Guerreiro",
+    "artist": "Criolo",
+    "popularity": 34,
+    "v": [
+     0.793,
+     0.658,
+     0.96,
+     0.652,
+     0.0552,
+     114.039
+    ]
+   },
+   {
+    "name": "Sólo los dos (feat. Ferraz)",
+    "artist": "Los Amigos Invisibles, Ferraz",
+    "popularity": 34,
+    "v": [
+     0.806,
+     0.573,
+     0.696,
+     0.317,
+     0.0557,
+     104.994
+    ]
+   },
+   {
+    "name": "Bienvenidos A Mi Mundo",
+    "artist": "Calle 13",
+    "popularity": 33,
+    "v": [
+     0.658,
+     0.715,
+     0.543,
+     0.0174,
+     0.269,
+     189.895
+    ]
+   },
+   {
+    "name": "Obá Iná",
+    "artist": "Metá Metá",
+    "popularity": 33,
+    "v": [
+     0.605,
+     0.708,
+     0.708,
+     0.425,
+     0.0923,
+     113.755
+    ]
+   },
+   {
+    "name": "À Beça",
+    "artist": "Samuca e a Selva",
+    "popularity": 33,
+    "v": [
+     0.721,
+     0.654,
+     0.826,
+     0.314,
+     0.0231,
+     102.978
+    ]
+   },
+   {
+    "name": "Ode To Mauricio Garces",
+    "artist": "Plastilina Mosh",
+    "popularity": 33,
+    "v": [
+     0.463,
+     0.718,
+     0.855,
+     0.205,
+     0.0275,
+     174.112
+    ]
+   },
+   {
+    "name": "Corazón Tatú",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 33,
+    "v": [
+     0.687,
+     0.876,
+     0.884,
+     0.0042,
+     0.0344,
+     126.015
+    ]
+   },
+   {
+    "name": "Dulce",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 33,
+    "v": [
+     0.758,
+     0.819,
+     0.827,
+     0.0646,
+     0.0528,
+     117.971
+    ]
+   },
+   {
+    "name": "São Jorge",
+    "artist": "Metá Metá",
+    "popularity": 33,
+    "v": [
+     0.64,
+     0.732,
+     0.831,
+     0.641,
+     0.0642,
+     112.956
+    ]
+   },
+   {
+    "name": "La Jardinera",
+    "artist": "Juanafé",
+    "popularity": 33,
+    "v": [
+     0.696,
+     0.724,
+     0.965,
+     0.65,
+     0.0345,
+     99.929
+    ]
+   },
+   {
+    "name": "Me Dê Motivo",
+    "artist": "Criolo",
+    "popularity": 33,
+    "v": [
+     0.864,
+     0.623,
+     0.84,
+     0.452,
+     0.0344,
+     132.008
+    ]
+   },
+   {
+    "name": "Mediterráneo",
+    "artist": "Jorge Drexler",
+    "popularity": 33,
+    "v": [
+     0.585,
+     0.588,
+     0.429,
+     0.405,
+     0.115,
+     100.808
+    ]
+   },
+   {
+    "name": "Mariô - Live",
+    "artist": "Criolo",
+    "popularity": 33,
+    "v": [
+     0.572,
+     0.874,
+     0.681,
+     0.525,
+     0.127,
+     94.006
+    ]
+   },
+   {
+    "name": "Bogotá - Live",
+    "artist": "Criolo, Emicida",
+    "popularity": 33,
+    "v": [
+     0.532,
+     0.908,
+     0.737,
+     0.367,
+     0.238,
+     126.229
+    ]
+   },
+   {
+    "name": "Panela",
+    "artist": "BaianaSystem, As Ganhadeiras de Itapuã",
+    "popularity": 33,
+    "v": [
+     0.666,
+     0.761,
+     0.797,
+     0.0001,
+     0.0926,
+     143.035
+    ]
+   },
+   {
+    "name": "Demorô - Live",
+    "artist": "Criolo, Emicida",
+    "popularity": 33,
+    "v": [
+     0.549,
+     0.901,
+     0.35,
+     0.721,
+     0.296,
+     152.298
+    ]
+   },
+   {
+    "name": "Lambada de Oceanía, África y América",
+    "artist": "Los Pirañas",
+    "popularity": 33,
+    "v": [
+     0.522,
+     0.672,
+     0.75,
+     0.0785,
+     0.039,
+     155.833
+    ]
+   },
+   {
+    "name": "Grajauex - Live",
+    "artist": "Criolo, Emicida",
+    "popularity": 33,
+    "v": [
+     0.358,
+     0.905,
+     0.468,
+     0.304,
+     0.453,
+     176.67
+    ]
+   },
+   {
+    "name": "Calamatraca",
+    "artist": "BaianaSystem",
+    "popularity": 33,
+    "v": [
+     0.657,
+     0.72,
+     0.413,
+     0.0036,
+     0.0858,
+     142.006
+    ]
+   },
+   {
+    "name": "Te Lo Juro Por Madonna (Si Omba Ta Gueno)",
+    "artist": "Plastilina Mosh",
+    "popularity": 32,
+    "v": [
+     0.539,
+     0.968,
+     0.673,
+     0.0005,
+     0.0476,
+     98.113
+    ]
+   },
+   {
+    "name": "JAJAJA",
+    "artist": "Plastilina Mosh",
+    "popularity": 32,
+    "v": [
+     0.714,
+     0.889,
+     0.935,
+     0.0483,
+     0.0367,
+     122.757
+    ]
+   },
+   {
+    "name": "O Guarani",
+    "artist": "Orquestra Brasileira de Música Jamaicana",
+    "popularity": 32,
+    "v": [
+     0.683,
+     0.783,
+     0.634,
+     0.0941,
+     0.0438,
+     141.94
+    ]
+   },
+   {
+    "name": "Etérea",
+    "artist": "Criolo",
+    "popularity": 32,
+    "v": [
+     0.824,
+     0.72,
+     0.374,
+     0.416,
+     0.142,
+     116.982
+    ]
+   },
+   {
+    "name": "Alfazema",
+    "artist": "BaianaSystem, Nação Zumbi",
+    "popularity": 32,
+    "v": [
+     0.677,
+     0.929,
+     0.709,
+     0.309,
+     0.0418,
+     129.996
+    ]
+   },
+   {
+    "name": "Sex Appeal",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 32,
+    "v": [
+     0.758,
+     0.728,
+     0.846,
+     0.0034,
+     0.044,
+     120.961
+    ]
+   },
+   {
+    "name": "Samba Sambei (Dub Mix)",
+    "artist": "Criolo",
+    "popularity": 32,
+    "v": [
+     0.795,
+     0.664,
+     0.854,
+     0.188,
+     0.0519,
+     136.029
+    ]
+   },
+   {
+    "name": "Viva (Melô Dos Vileiros) - Live",
+    "artist": "Criolo, Emicida",
+    "popularity": 32,
+    "v": [
+     0.653,
+     0.868,
+     0.733,
+     0.649,
+     0.336,
+     82.15
+    ]
+   },
+   {
+    "name": "Fé Cega, Faca Amolada",
+    "artist": "Samuca e a Selva, Luedji Luna",
+    "popularity": 32,
+    "v": [
+     0.795,
+     0.573,
+     0.65,
+     0.403,
+     0.0554,
+     135.123
+    ]
+   },
+   {
+    "name": "A Vida É Curta Pra Viver Depois",
+    "artist": "BaianaSystem, Carolaine",
+    "popularity": 31,
+    "v": [
+     0.682,
+     0.703,
+     0.575,
+     0.356,
+     0.0531,
+     91.973
+    ]
+   },
+   {
+    "name": "Aquiles por su talón es Aquiles",
+    "artist": "Jorge Drexler",
+    "popularity": 31,
+    "v": [
+     0.523,
+     0.282,
+     0.317,
+     0.776,
+     0.0791,
+     132.44
+    ]
+   },
+   {
+    "name": "Crece",
+    "artist": "Jorge Drexler",
+    "popularity": 31,
+    "v": [
+     0.649,
+     0.51,
+     0.476,
+     0.466,
+     0.228,
+     174.931
+    ]
+   },
+   {
+    "name": "Oxe, Como Era Doce",
+    "artist": "BaianaSystem",
+    "popularity": 31,
+    "v": [
+     0.69,
+     0.695,
+     0.564,
+     0.0186,
+     0.036,
+     106.032
+    ]
+   },
+   {
+    "name": "Organdí",
+    "artist": "Jorge Drexler",
+    "popularity": 31,
+    "v": [
+     0.531,
+     0.249,
+     0.106,
+     0.759,
+     0.0866,
+     104.039
+    ]
+   },
+   {
+    "name": "Desengano da Vista",
+    "artist": "Bixiga 70",
+    "popularity": 31,
+    "v": [
+     0.535,
+     0.644,
+     0.744,
+     0.543,
+     0.0442,
+     149.872
+    ]
+   },
+   {
+    "name": "Flores Raras",
+    "artist": "Samuca e a Selva",
+    "popularity": 31,
+    "v": [
+     0.713,
+     0.605,
+     0.885,
+     0.733,
+     0.0348,
+     100.014
+    ]
+   },
+   {
+    "name": "Cóccix-ência",
+    "artist": "Criolo",
+    "popularity": 31,
+    "v": [
+     0.564,
+     0.903,
+     0.568,
+     0.0221,
+     0.0786,
+     164.047
+    ]
+   },
+   {
+    "name": "Ride On Baby - 1977 Version",
+    "artist": "William Onyeabor",
+    "popularity": 31,
+    "v": [
+     0.519,
+     0.804,
+     0.841,
+     0.696,
+     0.084,
+     104.883
+    ]
+   },
+   {
+    "name": "Raminho",
+    "artist": "BaianaSystem",
+    "popularity": 31,
+    "v": [
+     0.588,
+     0.711,
+     0.951,
+     0.924,
+     0.038,
+     145.818
+    ]
+   },
+   {
+    "name": "Disco Ball",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 31,
+    "v": [
+     0.754,
+     0.818,
+     0.78,
+     0.001,
+     0.0342,
+     105.0
+    ]
+   },
+   {
+    "name": "Enzo",
+    "artist": "Plastilina Mosh",
+    "popularity": 31,
+    "v": [
+     0.735,
+     0.864,
+     0.851,
+     0.0043,
+     0.0742,
+     90.037
+    ]
+   },
+   {
+    "name": "Chapéu Panamá",
+    "artist": "BaianaSystem",
+    "popularity": 31,
+    "v": [
+     0.824,
+     0.932,
+     0.471,
+     0.414,
+     0.256,
+     105.01
+    ]
+   },
+   {
+    "name": "Dança de Airumã",
+    "artist": "BaianaSystem",
+    "popularity": 31,
+    "v": [
+     0.683,
+     0.862,
+     0.609,
+     0.157,
+     0.0619,
+     108.001
+    ]
+   },
+   {
+    "name": "Espérame (Extended Mix)",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 31,
+    "v": [
+     0.75,
+     0.775,
+     0.962,
+     0.0091,
+     0.0382,
+     119.982
+    ]
+   },
+   {
+    "name": "Barravenida, Pt. 2",
+    "artist": "BaianaSystem",
+    "popularity": 31,
+    "v": [
+     0.532,
+     0.844,
+     0.0822,
+     0.18,
+     0.104,
+     137.954
+    ]
+   },
+   {
+    "name": "Zaharila",
+    "artist": "El Michels Affair, Piya Malik",
+    "popularity": 31,
+    "v": [
+     0.378,
+     0.596,
+     0.501,
+     0.0788,
+     0.0316,
+     81.873
+    ]
+   },
+   {
+    "name": "Agente Russo",
+    "artist": "Nomade Orquestra, Russo Passapusso",
+    "popularity": 30,
+    "v": [
+     0.724,
+     0.902,
+     0.385,
+     0.102,
+     0.0322,
+     122.023
+    ]
+   },
+   {
+    "name": "Tá Amarrado",
+    "artist": "OQuadro, Dimak",
+    "popularity": 30,
+    "v": [
+     0.881,
+     0.834,
+     0.941,
+     0.216,
+     0.175,
+     94.967
+    ]
+   },
+   {
+    "name": "4 da Manhã – Deluxe Edition",
+    "artist": "Criolo",
+    "popularity": 30,
+    "v": [
+     0.6,
+     0.476,
+     0.572,
+     0.7,
+     0.084,
+     142.033
+    ]
+   },
+   {
+    "name": "Uno",
+    "artist": "Jorge Drexler",
+    "popularity": 30,
+    "v": [
+     0.715,
+     0.686,
+     0.86,
+     0.227,
+     0.036,
+     130.945
+    ]
+   },
+   {
+    "name": "Canción Ecológica",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 30,
+    "v": [
+     0.76,
+     0.649,
+     0.715,
+     0.0417,
+     0.0579,
+     105.009
+    ]
+   },
+   {
+    "name": "Lion Man - Live",
+    "artist": "Criolo, Emicida",
+    "popularity": 30,
+    "v": [
+     0.438,
+     0.702,
+     0.249,
+     0.587,
+     0.0405,
+     84.176
+    ]
+   },
+   {
+    "name": "Madurar",
+    "artist": "Samuca e a Selva",
+    "popularity": 30,
+    "v": [
+     0.716,
+     0.713,
+     0.896,
+     0.41,
+     0.0289,
+     119.957
+    ]
+   },
+   {
+    "name": "Río abajo",
+    "artist": "Jorge Drexler",
+    "popularity": 30,
+    "v": [
+     0.718,
+     0.46,
+     0.509,
+     0.646,
+     0.0272,
+     95.564
+    ]
+   },
+   {
+    "name": "Mercado",
+    "artist": "BaianaSystem",
+    "popularity": 30,
+    "v": [
+     0.596,
+     0.394,
+     0.694,
+     0.94,
+     0.0334,
+     97.048
+    ]
+   },
+   {
+    "name": "Jah Jah Revolta",
+    "artist": "BaianaSystem",
+    "popularity": 30,
+    "v": [
+     0.551,
+     0.806,
+     0.671,
+     0.026,
+     0.0558,
+     143.876
+    ]
+   },
+   {
+    "name": "Nesse Mundo",
+    "artist": "BaianaSystem, Roberto Mendes",
+    "popularity": 30,
+    "v": [
+     0.747,
+     0.521,
+     0.498,
+     0.638,
+     0.0325,
+     120.035
+    ]
+   },
+   {
+    "name": "Si Tú Te Vas",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 30,
+    "v": [
+     0.783,
+     0.491,
+     0.339,
+     0.044,
+     0.0351,
+     134.955
+    ]
+   },
+   {
+    "name": "Nada menos",
+    "artist": "Jorge Drexler",
+    "popularity": 30,
+    "v": [
+     0.695,
+     0.514,
+     0.439,
+     0.283,
+     0.0326,
+     132.065
+    ]
+   },
+   {
+    "name": "La nieve en la bola de nieve",
+    "artist": "Jorge Drexler",
+    "popularity": 30,
+    "v": [
+     0.457,
+     0.231,
+     0.444,
+     0.759,
+     0.0597,
+     133.083
+    ]
+   },
+   {
+    "name": "Fancy (feat. Spellbinder)",
+    "artist": "The New Mastersounds, Spellbinder",
+    "popularity": 30,
+    "v": [
+     0.537,
+     0.744,
+     0.826,
+     0.0896,
+     0.0655,
+     153.109
+    ]
+   },
+   {
+    "name": "Alegria por un Zumo de Naranja Con Panela",
+    "artist": "Romperayo",
+    "popularity": 30,
+    "v": [
+     0.6,
+     0.65,
+     0.868,
+     0.0004,
+     0.0412,
+     131.078
+    ]
+   },
+   {
+    "name": "Corneteiro Luís",
+    "artist": "BaianaSystem",
+    "popularity": 30,
+    "v": [
+     0.764,
+     0.857,
+     0.792,
+     0.289,
+     0.0323,
+     126.009
+    ]
+   },
+   {
+    "name": "Como te Gusta (feat. C-Funk & McKlopedia)",
+    "artist": "Los Amigos Invisibles, C-Funk, Mcklopedia",
+    "popularity": 30,
+    "v": [
+     0.84,
+     0.632,
+     0.764,
+     0.0674,
+     0.0599,
+     93.985
+    ]
+   },
+   {
+    "name": "Cachete a Cachete",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 30,
+    "v": [
+     0.781,
+     0.755,
+     0.597,
+     0.564,
+     0.0395,
+     118.168
+    ]
+   },
+   {
+    "name": "Contigo",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 30,
+    "v": [
+     0.642,
+     0.933,
+     0.743,
+     0.0093,
+     0.0431,
+     131.982
+    ]
+   },
+   {
+    "name": "La infidelidad de la era informática",
+    "artist": "Jorge Drexler",
+    "popularity": 30,
+    "v": [
+     0.801,
+     0.423,
+     0.468,
+     0.486,
+     0.0703,
+     139.987
+    ]
+   },
+   {
+    "name": "Oxe",
+    "artist": "BaianaSystem, Bule Bule, Rapadura",
+    "popularity": 30,
+    "v": [
+     0.765,
+     0.912,
+     0.568,
+     0.316,
+     0.153,
+     107.999
+    ]
+   },
+   {
+    "name": "No Es Fácil Amar",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 29,
+    "v": [
+     0.732,
+     0.825,
+     0.79,
+     0.0707,
+     0.0453,
+     117.893
+    ]
+   },
+   {
+    "name": "Invisible Love",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 29,
+    "v": [
+     0.731,
+     0.747,
+     0.962,
+     0.0136,
+     0.0305,
+     125.98
+    ]
+   },
+   {
+    "name": "Tamborero",
+    "artist": "Jorge Drexler",
+    "popularity": 29,
+    "v": [
+     0.833,
+     0.579,
+     0.819,
+     0.451,
+     0.101,
+     94.008
+    ]
+   },
+   {
+    "name": "Como Ayer",
+    "artist": "Juanafé",
+    "popularity": 29,
+    "v": [
+     0.732,
+     0.613,
+     0.924,
+     0.765,
+     0.0352,
+     102.481
+    ]
+   },
+   {
+    "name": "Sea - Cara B",
+    "artist": "Jorge Drexler",
+    "popularity": 29,
+    "v": [
+     0.466,
+     0.342,
+     0.628,
+     0.746,
+     0.195,
+     120.066
+    ]
+   },
+   {
+    "name": "Go Back",
+    "artist": "Tony Allen, Damon Albarn",
+    "popularity": 29,
+    "v": [
+     0.501,
+     0.911,
+     0.724,
+     0.0342,
+     0.154,
+     82.34
+    ]
+   },
+   {
+    "name": "Tô pra Onda",
+    "artist": "Afrocidade",
+    "popularity": 29,
+    "v": [
+     0.71,
+     0.846,
+     0.505,
+     0.0798,
+     0.0479,
+     118.025
+    ]
+   },
+   {
+    "name": "O Carnaval Quem É Que Faz?",
+    "artist": "BaianaSystem",
+    "popularity": 29,
+    "v": [
+     0.603,
+     0.849,
+     0.674,
+     0.1,
+     0.0392,
+     143.027
+    ]
+   },
+   {
+    "name": "Pachamama",
+    "artist": "BaianaSystem, Claudia Manzo",
+    "popularity": 29,
+    "v": [
+     0.75,
+     0.855,
+     0.879,
+     0.0789,
+     0.0436,
+     150.03
+    ]
+   },
+   {
+    "name": "Wall Street",
+    "artist": "Jackie Mittoo",
+    "popularity": 29,
+    "v": [
+     0.827,
+     0.359,
+     0.684,
+     0.332,
+     0.0909,
+     135.421
+    ]
+   },
+   {
+    "name": "Aquellos tiempos",
+    "artist": "Jorge Drexler",
+    "popularity": 29,
+    "v": [
+     0.552,
+     0.499,
+     0.665,
+     0.65,
+     0.131,
+     131.952
+    ]
+   },
+   {
+    "name": "Dame el Mambo",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 28,
+    "v": [
+     0.738,
+     0.868,
+     0.802,
+     0.0076,
+     0.061,
+     119.988
+    ]
+   },
+   {
+    "name": "Princesa bacana",
+    "artist": "Jorge Drexler",
+    "popularity": 28,
+    "v": [
+     0.718,
+     0.428,
+     0.551,
+     0.676,
+     0.0307,
+     139.956
+    ]
+   },
+   {
+    "name": "Catraca",
+    "artist": "BaianaSystem, Tonho Matéria",
+    "popularity": 28,
+    "v": [
+     0.742,
+     0.939,
+     0.965,
+     0.363,
+     0.106,
+     154.955
+    ]
+   },
+   {
+    "name": "Viajero Frecuente del Amor",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 28,
+    "v": [
+     0.609,
+     0.92,
+     0.661,
+     0.0065,
+     0.034,
+     133.924
+    ]
+   },
+   {
+    "name": "Coroné Antonio Bento",
+    "artist": "Criolo",
+    "popularity": 28,
+    "v": [
+     0.51,
+     0.933,
+     0.789,
+     0.0185,
+     0.18,
+     176.083
+    ]
+   },
+   {
+    "name": "I´ve Got That Milton Pacheco Kinda Feeling - Melancolic Mix",
+    "artist": "Plastilina Mosh",
+    "popularity": 28,
+    "v": [
+     0.555,
+     0.665,
+     0.399,
+     0.0352,
+     0.0622,
+     178.064
+    ]
+   },
+   {
+    "name": "Rádio África",
+    "artist": "BaianaSystem",
+    "popularity": 28,
+    "v": [
+     0.736,
+     0.948,
+     0.848,
+     0.0586,
+     0.0443,
+     130.013
+    ]
+   },
+   {
+    "name": "Fuiste un Trozo de Hielo en la Escarcha",
+    "artist": "Juanafé, Demian Rodríguez",
+    "popularity": 28,
+    "v": [
+     0.714,
+     0.532,
+     0.795,
+     0.573,
+     0.0296,
+     129.972
+    ]
+   },
+   {
+    "name": "Acosadora - Radio Edit",
+    "artist": "La Misa Negra",
+    "popularity": 28,
+    "v": [
+     0.634,
+     0.892,
+     0.648,
+     0.0183,
+     0.0519,
+     99.998
+    ]
+   },
+   {
+    "name": "Amerikha Expressa",
+    "artist": "BaianaSystem",
+    "popularity": 28,
+    "v": [
+     0.39,
+     0.661,
+     0.205,
+     0.61,
+     0.0321,
+     123.257
+    ]
+   },
+   {
+    "name": "King Cobra",
+    "artist": "The Budos Band",
+    "popularity": 28,
+    "v": [
+     0.667,
+     0.548,
+     0.823,
+     0.0181,
+     0.0298,
+     104.668
+    ]
+   },
+   {
+    "name": "Tubarão",
+    "artist": "BaianaSystem",
+    "popularity": 28,
+    "v": [
+     0.738,
+     0.925,
+     0.704,
+     0.0125,
+     0.0429,
+     131.065
+    ]
+   },
+   {
+    "name": "Shampoo",
+    "artist": "Plastilina Mosh",
+    "popularity": 28,
+    "v": [
+     0.716,
+     0.509,
+     0.374,
+     0.683,
+     0.0753,
+     170.117
+    ]
+   },
+   {
+    "name": "De amor y de casualidad",
+    "artist": "Jorge Drexler",
+    "popularity": 28,
+    "v": [
+     0.741,
+     0.564,
+     0.359,
+     0.225,
+     0.051,
+     117.859
+    ]
+   },
+   {
+    "name": "Chaltumay",
+    "artist": "Newen Afrobeat",
+    "popularity": 28,
+    "v": [
+     0.789,
+     0.869,
+     0.909,
+     0.168,
+     0.0482,
+     124.947
+    ]
+   },
+   {
+    "name": "Capucha",
+    "artist": "BaianaSystem, Claudia Manzo",
+    "popularity": 28,
+    "v": [
+     0.736,
+     0.938,
+     0.561,
+     0.168,
+     0.156,
+     104.981
+    ]
+   },
+   {
+    "name": "Monster Truck",
+    "artist": "Plastilina Mosh",
+    "popularity": 28,
+    "v": [
+     0.583,
+     0.932,
+     0.492,
+     0.0021,
+     0.0762,
+     96.899
+    ]
+   },
+   {
+    "name": "Mango Meat",
+    "artist": "Mandrill",
+    "popularity": 28,
+    "v": [
+     0.596,
+     0.686,
+     0.729,
+     0.28,
+     0.103,
+     103.949
+    ]
+   },
+   {
+    "name": "Intro Crónica De Un Nacimiento",
+    "artist": "Calle 13",
+    "popularity": 27,
+    "v": [
+     0.443,
+     0.453,
+     0.477,
+     0.532,
+     0.12,
+     93.877
+    ]
+   },
+   {
+    "name": "Give us your money (feat. Superthriller)",
+    "artist": "Los Amigos Invisibles, Superthriller",
+    "popularity": 27,
+    "v": [
+     0.776,
+     0.793,
+     0.771,
+     0.0702,
+     0.16,
+     112.003
+    ]
+   },
+   {
+    "name": "Corazón de cristal",
+    "artist": "Jorge Drexler",
+    "popularity": 27,
+    "v": [
+     0.686,
+     0.212,
+     0.189,
+     0.791,
+     0.0495,
+     134.12
+    ]
+   },
+   {
+    "name": "La Educación",
+    "artist": "QUITAPENAS",
+    "popularity": 27,
+    "v": [
+     0.497,
+     0.916,
+     0.934,
+     0.0774,
+     0.103,
+     136.705
+    ]
+   },
+   {
+    "name": "Tema Di Malaika",
+    "artist": "Bixiga 70",
+    "popularity": 27,
+    "v": [
+     0.689,
+     0.886,
+     0.884,
+     0.563,
+     0.0462,
+     107.983
+    ]
+   },
+   {
+    "name": "GRACE",
+    "artist": "Jor'dan Armstrong",
+    "popularity": 27,
+    "v": [
+     0.681,
+     0.579,
+     0.588,
+     0.212,
+     0.0434,
+     120.037
+    ]
+   },
+   {
+    "name": "Cumbia Elemental",
+    "artist": "Subhira",
+    "popularity": 27,
+    "v": [
+     0.555,
+     0.623,
+     0.464,
+     0.258,
+     0.0916,
+     90.922
+    ]
+   },
+   {
+    "name": "Tristeza Não",
+    "artist": "Metá Metá",
+    "popularity": 27,
+    "v": [
+     0.719,
+     0.202,
+     0.806,
+     0.819,
+     0.0593,
+     75.073
+    ]
+   },
+   {
+    "name": "There's Music In The Air",
+    "artist": "Letta Mbulu",
+    "popularity": 27,
+    "v": [
+     0.607,
+     0.34,
+     0.667,
+     0.826,
+     0.0486,
+     143.074
+    ]
+   },
+   {
+    "name": "Caminante",
+    "artist": "Newen Afrobeat",
+    "popularity": 27,
+    "v": [
+     0.604,
+     0.904,
+     0.557,
+     0.0787,
+     0.0483,
+     92.962
+    ]
+   },
+   {
+    "name": "Barravenida",
+    "artist": "BaianaSystem",
+    "popularity": 27,
+    "v": [
+     0.646,
+     0.651,
+     0.672,
+     0.0025,
+     0.0328,
+     133.985
+    ]
+   },
+   {
+    "name": "Cais",
+    "artist": "Samuca e a Selva, Criolo",
+    "popularity": 27,
+    "v": [
+     0.714,
+     0.431,
+     0.501,
+     0.781,
+     0.0327,
+     125.94
+    ]
+   },
+   {
+    "name": "Codo Con Codo",
+    "artist": "Jorge Drexler",
+    "popularity": 27,
+    "v": [
+     0.667,
+     0.218,
+     0.224,
+     0.941,
+     0.0351,
+     113.842
+    ]
+   },
+   {
+    "name": "gorila",
+    "artist": "Morbo y Mambo",
+    "popularity": 27,
+    "v": [
+     0.742,
+     0.617,
+     0.847,
+     0.397,
+     0.044,
+     101.999
+    ]
+   },
+   {
+    "name": "YOU",
+    "artist": "Jor'dan Armstrong",
+    "popularity": 27,
+    "v": [
+     0.701,
+     0.718,
+     0.608,
+     0.0065,
+     0.0301,
+     93.028
+    ]
+   },
+   {
+    "name": "No pienses de más",
+    "artist": "Jorge Drexler",
+    "popularity": 27,
+    "v": [
+     0.706,
+     0.608,
+     0.215,
+     0.227,
+     0.031,
+     120.407
+    ]
+   },
+   {
+    "name": "Banano´s Bar",
+    "artist": "Plastilina Mosh",
+    "popularity": 27,
+    "v": [
+     0.605,
+     0.842,
+     0.39,
+     0.0133,
+     0.0553,
+     116.151
+    ]
+   },
+   {
+    "name": "Aquí Nadie Esta Sano (feat. Los Auténticos Decadentes)",
+    "artist": "Los Amigos Invisibles, Los Auténticos Decadentes",
+    "popularity": 27,
+    "v": [
+     0.768,
+     0.91,
+     0.96,
+     0.015,
+     0.0343,
+     123.023
+    ]
+   },
+   {
+    "name": "Dance the Body Music",
+    "artist": "Osibisa",
+    "popularity": 27,
+    "v": [
+     0.731,
+     0.831,
+     0.973,
+     0.0132,
+     0.0366,
+     120.919
+    ]
+   },
+   {
+    "name": "O Que Não Me Destrói Me Fortalece",
+    "artist": "BaianaSystem, Céu",
+    "popularity": 27,
+    "v": [
+     0.737,
+     0.571,
+     0.655,
+     0.0585,
+     0.0303,
+     119.054
+    ]
+   },
+   {
+    "name": "Magus Mountain",
+    "artist": "The Budos Band",
+    "popularity": 27,
+    "v": [
+     0.486,
+     0.803,
+     0.253,
+     0.0001,
+     0.0363,
+     105.904
+    ]
+   },
+   {
+    "name": "Durante",
+    "artist": "Jorge Drexler",
+    "popularity": 27,
+    "v": [
+     0.608,
+     0.706,
+     0.504,
+     0.0023,
+     0.138,
+     177.914
+    ]
+   },
+   {
+    "name": "Tal Para Cual",
+    "artist": "Calle 13",
+    "popularity": 27,
+    "v": [
+     0.726,
+     0.871,
+     0.773,
+     0.0714,
+     0.111,
+     175.999
+    ]
+   },
+   {
+    "name": "Killer Diller",
+    "artist": "Jackie Mittoo",
+    "popularity": 27,
+    "v": [
+     0.591,
+     0.748,
+     0.961,
+     0.0679,
+     0.0292,
+     127.636
+    ]
+   },
+   {
+    "name": "Madre Tierra",
+    "artist": "Jorge Drexler",
+    "popularity": 26,
+    "v": [
+     0.594,
+     0.305,
+     0.694,
+     0.718,
+     0.0482,
+     166.7
+    ]
+   },
+   {
+    "name": "Gracias - Cara B",
+    "artist": "Jorge Drexler",
+    "popularity": 26,
+    "v": [
+     0.707,
+     0.283,
+     0.796,
+     0.848,
+     0.0652,
+     79.771
+    ]
+   },
+   {
+    "name": "Es la Verdad",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 26,
+    "v": [
+     0.623,
+     0.952,
+     0.714,
+     0.241,
+     0.0391,
+     108.004
+    ]
+   },
+   {
+    "name": "Anestesiada (feat. Kinky)",
+    "artist": "Los Amigos Invisibles, Kinky",
+    "popularity": 26,
+    "v": [
+     0.736,
+     0.951,
+     0.932,
+     0.0149,
+     0.0436,
+     116.001
+    ]
+   },
+   {
+    "name": "Una canción me trajo hasta aquí",
+    "artist": "Jorge Drexler",
+    "popularity": 26,
+    "v": [
+     0.669,
+     0.843,
+     0.842,
+     0.0641,
+     0.03,
+     131.461
+    ]
+   },
+   {
+    "name": "Eu Vou no Gueto",
+    "artist": "Afrocidade",
+    "popularity": 26,
+    "v": [
+     0.762,
+     0.902,
+     0.882,
+     0.0256,
+     0.0507,
+     133.984
+    ]
+   },
+   {
+    "name": "Venga Mi Vida",
+    "artist": "Juanafé",
+    "popularity": 26,
+    "v": [
+     0.698,
+     0.542,
+     0.724,
+     0.639,
+     0.0276,
+     88.058
+    ]
+   },
+   {
+    "name": "Oxalá Babá",
+    "artist": "Africania",
+    "popularity": 26,
+    "v": [
+     0.893,
+     0.671,
+     0.933,
+     0.646,
+     0.0619,
+     99.998
+    ]
+   },
+   {
+    "name": "Lá Vem Você",
+    "artist": "Criolo",
+    "popularity": 26,
+    "v": [
+     0.784,
+     0.597,
+     0.961,
+     0.685,
+     0.068,
+     81.984
+    ]
+   },
+   {
+    "name": "Show & Prove",
+    "artist": "Breakestra",
+    "popularity": 26,
+    "v": [
+     0.668,
+     0.874,
+     0.836,
+     0.587,
+     0.0731,
+     107.346
+    ]
+   },
+   {
+    "name": "Los De Atrás Vienen Conmigo",
+    "artist": "Calle 13",
+    "popularity": 26,
+    "v": [
+     0.641,
+     0.66,
+     0.549,
+     0.208,
+     0.357,
+     169.881
+    ]
+   },
+   {
+    "name": "Belongs to You - EDM Remix",
+    "artist": "Sarah Téibo, Sigag Lauren, Paola Carla",
+    "popularity": 26,
+    "v": [
+     0.746,
+     0.828,
+     0.31,
+     0.113,
+     0.0409,
+     104.974
+    ]
+   },
+   {
+    "name": "Nauliza",
+    "artist": "BaianaSystem, Makavelli, Jay Mitta",
+    "popularity": 26,
+    "v": [
+     0.618,
+     0.942,
+     0.736,
+     0.0359,
+     0.13,
+     170.005
+    ]
+   },
+   {
+    "name": "The Vibe",
+    "artist": "TJ Cream",
+    "popularity": 26,
+    "v": [
+     0.827,
+     0.604,
+     0.766,
+     0.643,
+     0.244,
+     140.923
+    ]
+   },
+   {
+    "name": "Vixe",
+    "artist": "BaianaSystem, Bule Bule",
+    "popularity": 26,
+    "v": [
+     0.474,
+     0.625,
+     0.553,
+     0.87,
+     0.0443,
+     108.396
+    ]
+   },
+   {
+    "name": "Llegaste Tarde",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 26,
+    "v": [
+     0.49,
+     0.82,
+     0.854,
+     0.799,
+     0.0684,
+     102.572
+    ]
+   },
+   {
+    "name": "Meet You In The Sunshine",
+    "artist": "The New Mastersounds, Eddie Roberts, Lamar Williams Jr.",
+    "popularity": 26,
+    "v": [
+     0.579,
+     0.833,
+     0.732,
+     0.0785,
+     0.0428,
+     95.838
+    ]
+   },
+   {
+    "name": "Língua Felina – Deluxe Edition",
+    "artist": "Criolo",
+    "popularity": 26,
+    "v": [
+     0.77,
+     0.797,
+     0.964,
+     0.555,
+     0.0345,
+     96.879
+    ]
+   },
+   {
+    "name": "La Mara Tomaza",
+    "artist": "El Hijo De La Cumbia",
+    "popularity": 26,
+    "v": [
+     0.598,
+     0.929,
+     0.655,
+     0.0072,
+     0.0629,
+     92.603
+    ]
+   },
+   {
+    "name": "BembaDub",
+    "artist": "BaianaSystem",
+    "popularity": 26,
+    "v": [
+     0.353,
+     0.721,
+     0.652,
+     0.0643,
+     0.129,
+     170.026
+    ]
+   },
+   {
+    "name": "Disneylandia - Cara B",
+    "artist": "Jorge Drexler",
+    "popularity": 25,
+    "v": [
+     0.575,
+     0.295,
+     0.564,
+     0.877,
+     0.204,
+     79.991
+    ]
+   },
+   {
+    "name": "Direto de Camaçacity",
+    "artist": "Afrocidade",
+    "popularity": 25,
+    "v": [
+     0.821,
+     0.779,
+     0.464,
+     0.0976,
+     0.113,
+     105.003
+    ]
+   },
+   {
+    "name": "Duck and Cover",
+    "artist": "Orgone",
+    "popularity": 25,
+    "v": [
+     0.786,
+     0.729,
+     0.907,
+     0.0484,
+     0.0425,
+     100.995
+    ]
+   },
+   {
+    "name": "Abra Sua Cabeça",
+    "artist": "Abayomy Afrobeat Orquestra",
+    "popularity": 25,
+    "v": [
+     0.695,
+     0.895,
+     0.962,
+     0.116,
+     0.048,
+     120.069
+    ]
+   },
+   {
+    "name": "Open Your Eyes",
+    "artist": "Newen Afrobeat",
+    "popularity": 25,
+    "v": [
+     0.802,
+     0.702,
+     0.855,
+     0.229,
+     0.0525,
+     113.073
+    ]
+   },
+   {
+    "name": "Camino a La Paloma",
+    "artist": "Jorge Drexler",
+    "popularity": 25,
+    "v": [
+     0.778,
+     0.243,
+     0.714,
+     0.64,
+     0.0596,
+     166.027
+    ]
+   },
+   {
+    "name": "Meghar Jolonga",
+    "artist": "Pompi",
+    "popularity": 25,
+    "v": [
+     0.353,
+     0.548,
+     0.67,
+     0.709,
+     0.0332,
+     200.152
+    ]
+   },
+   {
+    "name": "Take My Time",
+    "artist": "Breakestra, Choklate",
+    "popularity": 25,
+    "v": [
+     0.641,
+     0.884,
+     0.883,
+     0.0567,
+     0.0602,
+     104.962
+    ]
+   },
+   {
+    "name": "Vaivén",
+    "artist": "Jorge Drexler",
+    "popularity": 25,
+    "v": [
+     0.561,
+     0.346,
+     0.775,
+     0.701,
+     0.0555,
+     112.232
+    ]
+   },
+   {
+    "name": "Clout",
+    "artist": "Jor'dan Armstrong",
+    "popularity": 25,
+    "v": [
+     0.699,
+     0.62,
+     0.311,
+     0.0887,
+     0.185,
+     158.04
+    ]
+   },
+   {
+    "name": "Si Estuvieras Aquí",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 25,
+    "v": [
+     0.693,
+     0.569,
+     0.626,
+     0.62,
+     0.0303,
+     130.011
+    ]
+   },
+   {
+    "name": "Danny Trejo",
+    "artist": "Plastilina Mosh",
+    "popularity": 25,
+    "v": [
+     0.771,
+     0.968,
+     0.756,
+     0.288,
+     0.0584,
+     93.984
+    ]
+   },
+   {
+    "name": "Dueña de Mi",
+    "artist": "La Misa Negra",
+    "popularity": 25,
+    "v": [
+     0.587,
+     0.686,
+     0.71,
+     0.0043,
+     0.122,
+     183.938
+    ]
+   },
+   {
+    "name": "Cumbia Cumbia",
+    "artist": "Thiago França",
+    "popularity": 25,
+    "v": [
+     0.893,
+     0.728,
+     0.924,
+     0.327,
+     0.0893,
+     94.067
+    ]
+   },
+   {
+    "name": "Mi Gente",
+    "artist": "Timoneki, Silvana Estrada",
+    "popularity": 25,
+    "v": [
+     0.498,
+     0.695,
+     0.59,
+     0.055,
+     0.0335,
+     175.815
+    ]
+   },
+   {
+    "name": "El Volcán",
+    "artist": "Juanafé",
+    "popularity": 25,
+    "v": [
+     0.715,
+     0.897,
+     0.839,
+     0.432,
+     0.0635,
+     96.891
+    ]
+   },
+   {
+    "name": "SHE",
+    "artist": "Jor'dan Armstrong",
+    "popularity": 25,
+    "v": [
+     0.704,
+     0.692,
+     0.614,
+     0.223,
+     0.186,
+     92.527
+    ]
+   },
+   {
+    "name": "Memoria del cuero",
+    "artist": "Jorge Drexler",
+    "popularity": 25,
+    "v": [
+     0.674,
+     0.869,
+     0.813,
+     0.374,
+     0.0398,
+     117.999
+    ]
+   },
+   {
+    "name": "Rogers Nelson",
+    "artist": "Morbo y Mambo",
+    "popularity": 25,
+    "v": [
+     0.683,
+     0.536,
+     0.845,
+     0.115,
+     0.0465,
+     83.986
+    ]
+   },
+   {
+    "name": "Cool Love 3",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 25,
+    "v": [
+     0.549,
+     0.489,
+     0.648,
+     0.35,
+     0.0458,
+     77.593
+    ]
+   },
+   {
+    "name": "Orunmilá",
+    "artist": "Metá Metá",
+    "popularity": 25,
+    "v": [
+     0.623,
+     0.66,
+     0.961,
+     0.405,
+     0.0546,
+     106.887
+    ]
+   },
+   {
+    "name": "Esto Con Eso",
+    "artist": "Calle 13",
+    "popularity": 25,
+    "v": [
+     0.659,
+     0.74,
+     0.91,
+     0.108,
+     0.198,
+     190.001
+    ]
+   },
+   {
+    "name": "Afrorumbachilenera",
+    "artist": "Juanafé",
+    "popularity": 25,
+    "v": [
+     0.588,
+     0.745,
+     0.432,
+     0.515,
+     0.0886,
+     95.071
+    ]
+   },
+   {
+    "name": "International",
+    "artist": "Lack Of Afro, Wax, Herbal T",
+    "popularity": 25,
+    "v": [
+     0.659,
+     0.736,
+     0.63,
+     0.0047,
+     0.202,
+     96.971
+    ]
+   },
+   {
+    "name": "12 Rounds (feat. Happi)",
+    "artist": "Becca Folkes, Happi",
+    "popularity": 25,
+    "v": [
+     0.725,
+     0.611,
+     0.415,
+     0.086,
+     0.128,
+     101.012
+    ]
+   },
+   {
+    "name": "O Caçador e a Flecha",
+    "artist": "Caê",
+    "popularity": 25,
+    "v": [
+     0.795,
+     0.598,
+     0.883,
+     0.312,
+     0.0329,
+     108.992
+    ]
+   },
+   {
+    "name": "LadoB",
+    "artist": "Afrocidade",
+    "popularity": 25,
+    "v": [
+     0.655,
+     0.774,
+     0.462,
+     0.0283,
+     0.171,
+     192.004
+    ]
+   },
+   {
+    "name": "Plastic Woman",
+    "artist": "Los Amigos Invisibles",
+    "popularity": 25,
+    "v": [
+     0.875,
+     0.684,
+     0.926,
+     0.0284,
+     0.0607,
+     115.031
+    ]
+   },
+   {
+    "name": "Kinkinzazo",
+    "artist": "Plastilina Mosh",
+    "popularity": 25,
+    "v": [
+     0.688,
+     0.948,
+     0.957,
+     0.0334,
+     0.074,
+     126.703
+    ]
+   },
+   {
+    "name": "Monopólio",
+    "artist": "BaianaSystem",
+    "popularity": 25,
+    "v": [
+     0.532,
+     0.93,
+     0.785,
+     0.0136,
+     0.0966,
+     169.997
+    ]
+   },
+   {
+    "name": "Vem",
+    "artist": "Samuca e a Selva",
+    "popularity": 24,
+    "v": [
+     0.596,
+     0.358,
+     0.606,
+     0.221,
+     0.0366,
+     81.112
+    ]
+   },
+   {
+    "name": "País Tropical",
+    "artist": "Orquestra Brasileira de Música Jamaicana",
+    "popularity": 24,
+    "v": [
+     0.816,
+     0.77,
+     0.964,
+     0.61,
+     0.032,
+     127.971
+    ]
+   },
+   {
+    "name": "Canto para Siempre",
+    "artist": "Juanafé, Carmen Lienqueo",
+    "popularity": 24,
+    "v": [
+     0.43,
+     0.829,
+     0.445,
+     0.0845,
+     0.162,
+     141.277
+    ]
+   },
+   {
+    "name": "Feitiço",
+    "artist": "Samuca e a Selva",
+    "popularity": 24,
+    "v": [
+     0.868,
+     0.793,
+     0.972,
+     0.255,
+     0.0315,
+     121.977
+    ]
+   },
+   {
+    "name": "Pa' Congo",
+    "artist": "The Bongo Hop, Maikcel",
+    "popularity": 24,
+    "v": [
+     0.723,
+     0.951,
+     0.762,
+     0.0681,
+     0.0467,
+     110.076
+    ]
+   },
+   {
+    "name": "Black Hills",
+    "artist": "The Budos Band",
+    "popularity": 24,
+    "v": [
+     0.44,
+     0.728,
+     0.518,
+     0.0014,
+     0.0348,
+     136.243
+    ]
+   },
+   {
+    "name": "Beautiful Baby",
+    "artist": "William Onyeabor",
+    "popularity": 24,
+    "v": [
+     0.852,
+     0.442,
+     0.946,
+     0.446,
+     0.0403,
+     107.426
+    ]
+   },
+   {
+    "name": "Adiós Batata - Cerrero Dub Mix",
+    "artist": "Son Palenque, Cerrero, El León Pardo",
+    "popularity": 24,
+    "v": [
+     0.625,
+     0.703,
+     0.487,
+     0.172,
+     0.132,
+     114.113
+    ]
+   },
+   {
+    "name": "Tomorrow",
+    "artist": "Jor'dan Armstrong",
+    "popularity": 24,
+    "v": [
+     0.547,
+     0.627,
+     0.615,
+     0.0513,
+     0.0359,
+     174.967
+    ]
+   },
+   {
+    "name": "Barbatana",
+    "artist": "BaianaSystem",
+    "popularity": 24,
+    "v": [
+     0.558,
+     0.778,
+     0.385,
+     0.0007,
+     0.0304,
+     131.049
+    ]
+   },
+   {
+    "name": "The Red Hill",
+    "artist": "The Bongo Hop, Dafuniks",
+    "popularity": 24,
+    "v": [
+     0.776,
+     0.788,
+     0.871,
+     0.0732,
+     0.18,
+     99.91
+    ]
+   },
+   {
+    "name": "Tu piel",
+    "artist": "Jorge Drexler",
+    "popularity": 24,
+    "v": [
+     0.868,
+     0.367,
+     0.522,
+     0.303,
+     0.039,
+     130.038
+    ]
+   },
+   {
+    "name": "Arroz Con Frijoles",
+    "artist": "Grupo Fantasma",
+    "popularity": 24,
+    "v": [
+     0.382,
+     0.931,
+     0.801,
+     0.137,
+     0.0591,
+     105.214
+    ]
+   },
+   {
+    "name": "Aquamosh",
+    "artist": "Plastilina Mosh",
+    "popularity": 24,
+    "v": [
+     0.704,
+     0.728,
+     0.509,
+     0.491,
+     0.0666,
+     92.228
+    ]
+   },
+   {
+    "name": "Dilúvio de Solidão",
+    "artist": "Criolo",
+    "popularity": 24,
+    "v": [
+     0.73,
+     0.646,
+     0.938,
+     0.669,
+     0.0345,
+     98.012
+    ]
+   },
+   {
+    "name": "Quieren Efectos",
+    "artist": "Money Chicha",
+    "popularity": 24,
+    "v": [
+     0.553,
+     0.773,
+     0.597,
+     0.173,
+     0.0343,
+     96.617
+    ]
+   },
+   {
+    "name": "Cumbia Milagrosa",
+    "artist": "La Misa Negra",
+    "popularity": 23,
+    "v": [
+     0.525,
+     0.424,
+     0.631,
+     0.0055,
+     0.101,
+     203.01
+    ]
+   },
+   {
+    "name": "Mi Último Fracaso",
+    "artist": "Juanafé, La Flor del Recuerdo",
+    "popularity": 23,
+    "v": [
+     0.457,
+     0.332,
+     0.305,
+     0.791,
+     0.0356,
+     164.096
+    ]
+   },
+   {
+    "name": "Segura",
+    "artist": "Amplexos, Digitaldubs, Leão Etíope do Méier, Lenine",
+    "popularity": 23,
+    "v": [
+     0.538,
+     0.533,
+     0.365,
+     0.0184,
+     0.0518,
+     74.973
+    ]
+   },
+   {
+    "name": "Club Tonight - Cara B",
+    "artist": "Jorge Drexler",
+    "popularity": 23,
+    "v": [
+     0.677,
+     0.268,
+     0.62,
+     0.817,
+     0.22,
+     151.64
+    ]
+   },
+   {
+    "name": "El sur del sur",
+    "artist": "Jorge Drexler",
+    "popularity": 23,
+    "v": [
+     0.695,
+     0.385,
+     0.26,
+     0.509,
+     0.0309,
+     120.149
+    ]
+   },
+   {
+    "name": "El Lobo",
+    "artist": "Wganda Kenya",
+    "popularity": 23,
+    "v": [
+     0.528,
+     0.862,
+     0.844,
+     0.182,
+     0.0349,
+     110.192
+    ]
+   },
+   {
+    "name": "Take 5 - Ao Vivo Na Casa De Francisca",
+    "artist": "Orquestra Brasileira de Música Jamaicana",
+    "popularity": 23,
+    "v": [
+     0.734,
+     0.444,
+     0.624,
+     0.489,
+     0.0523,
+     136.305
+    ]
+   },
+   {
+    "name": "Ham Gallery",
+    "artist": "The Poets Of Rhythm",
+    "popularity": 23,
+    "v": [
+     0.781,
+     0.848,
+     0.641,
+     0.0276,
+     0.0898,
+     109.49
+    ]
+   },
+   {
+    "name": "Chinchín",
+    "artist": "Juanafé",
+    "popularity": 23,
+    "v": [
+     0.665,
+     0.792,
+     0.945,
+     0.317,
+     0.0521,
+     121.831
+    ]
+   },
+   {
+    "name": "Mapalé",
+    "artist": "La Cumbia Chicharra, Emilie Rambaud",
+    "popularity": 23,
+    "v": [
+     0.595,
+     0.633,
+     0.888,
+     0.0172,
+     0.165,
+     146.919
+    ]
+   },
+   {
+    "name": "Um samba pra John Coltrane",
+    "artist": "Thiago França",
+    "popularity": 23,
+    "v": [
+     0.701,
+     0.715,
+     0.774,
+     0.313,
+     0.0451,
+     139.733
+    ]
+   },
+   {
+    "name": "24/7",
+    "artist": "Nathanael",
+    "popularity": 23,
+    "v": [
+     0.337,
+     0.623,
+     0.461,
+     0.162,
+     0.182,
+     56.499
+    ]
+   },
+   {
+    "name": "Sticks & Stones",
+    "artist": "TJ Cream, Ozoro",
+    "popularity": 23,
+    "v": [
+     0.678,
+     0.634,
+     0.574,
+     0.656,
+     0.274,
+     159.682
+    ]
+   },
+   {
+    "name": "Raggaxixe",
+    "artist": "Thiago França",
+    "popularity": 23,
+    "v": [
+     0.72,
+     0.73,
+     0.773,
+     0.28,
+     0.0814,
+     93.414
+    ]
+   },
+   {
+    "name": "Like a Child - Remix",
+    "artist": "Sarah Téibo, Fred Hammond",
+    "popularity": 23,
+    "v": [
+     0.711,
+     0.811,
+     0.417,
+     0.122,
+     0.127,
+     100.065
+    ]
+   },
+   {
+    "name": "Mictlán",
+    "artist": "Timoneki",
+    "popularity": 23,
+    "v": [
+     0.518,
+     0.649,
+     0.683,
+     0.112,
+     0.045,
+     180.202
+    ]
+   },
+   {
+    "name": "Can You Get It",
+    "artist": "Mandrill",
+    "popularity": 23,
+    "v": [
+     0.854,
+     0.928,
+     0.782,
+     0.152,
+     0.0621,
+     122.487
+    ]
+   },
+   {
+    "name": "Lambe-Lambe",
+    "artist": "Samuca e a Selva, Illy",
+    "popularity": 23,
+    "v": [
+     0.646,
+     0.701,
+     0.944,
+     0.0028,
+     0.0444,
+     172.055
+    ]
+   },
+   {
+    "name": "Lord Of The Golden Baboon",
+    "artist": "Mandrill",
+    "popularity": 23,
+    "v": [
+     0.571,
+     0.845,
+     0.586,
+     0.0484,
+     0.0837,
+     128.627
+    ]
+   },
+   {
+    "name": "Cerca del mar",
+    "artist": "Jorge Drexler",
+    "popularity": 23,
+    "v": [
+     0.749,
+     0.391,
+     0.351,
+     0.603,
+     0.0767,
+     96.035
+    ]
+   },
+   {
+    "name": "Oya",
+    "artist": "Metá Metá",
+    "popularity": 23,
+    "v": [
+     0.44,
+     0.742,
+     0.368,
+     0.227,
+     0.124,
+     129.169
+    ]
+   },
+   {
+    "name": "Cold Sweat",
+    "artist": "The Mighty Imperials",
+    "popularity": 23,
+    "v": [
+     0.537,
+     0.619,
+     0.897,
+     0.101,
+     0.0339,
+     119.222
+    ]
+   },
+   {
+    "name": "La huella de tu mirada",
+    "artist": "Jorge Drexler",
+    "popularity": 23,
+    "v": [
+     0.651,
+     0.371,
+     0.589,
+     0.56,
+     0.0258,
+     78.718
+    ]
+   },
+   {
+    "name": "Llueve",
+    "artist": "Jorge Drexler",
+    "popularity": 23,
+    "v": [
+     0.4,
+     0.471,
+     0.0765,
+     0.193,
+     0.0641,
+     64.502
+    ]
+   },
+   {
+    "name": "Afroman",
+    "artist": "Plastilina Mosh",
+    "popularity": 23,
+    "v": [
+     0.644,
+     0.883,
+     0.783,
+     0.638,
+     0.0884,
+     104.159
+    ]
+   },
+   {
+    "name": "El Sirenito",
+    "artist": "Plastilina Mosh",
+    "popularity": 23,
+    "v": [
+     0.671,
+     0.898,
+     0.875,
+     0.11,
+     0.0771,
+     92.953
+    ]
+   },
+   {
+    "name": "Mr. P-Mosh",
+    "artist": "Plastilina Mosh",
+    "popularity": 23,
+    "v": [
+     0.791,
+     0.642,
+     0.477,
+     0.0213,
+     0.182,
+     94.585
+    ]
+   },
+   {
+    "name": "Mjlm",
+    "artist": "Plastilina Mosh",
+    "popularity": 23,
+    "v": [
+     0.739,
+     0.854,
+     0.792,
+     0.133,
+     0.0738,
+     126.39
+    ]
+   },
+   {
+    "name": "Naranjada",
+    "artist": "Plastilina Mosh",
+    "popularity": 23,
+    "v": [
+     0.739,
+     0.886,
+     0.814,
+     0.553,
+     0.12,
+     145.02
+    ]
+   },
+   {
+    "name": "Pa'l Norte - Beauty Brain Remix",
+    "artist": "Calle 13",
+    "popularity": 23,
+    "v": [
+     0.791,
+     0.835,
+     0.8,
+     0.0223,
+     0.0584,
+     140.027
+    ]
+   },
+   {
+    "name": "Could've Been So Good",
+    "artist": "The New Mastersounds, Eddie Roberts",
+    "popularity": 23,
+    "v": [
+     0.589,
+     0.675,
+     0.748,
+     0.515,
+     0.0332,
+     119.792
+    ]
+   },
+   {
+    "name": "Sabrina (feat. Oscar D'León)",
+    "artist": "Los Amigos Invisibles, Oscar D'León",
+    "popularity": 23,
+    "v": [
+     0.458,
+     0.885,
+     0.826,
+     0.0026,
+     0.0582,
+     195.646
+    ]
+   },
+   {
+    "name": "Criado Mudou",
+    "artist": "BaianaSystem",
+    "popularity": 23,
+    "v": [
+     0.549,
+     0.704,
+     0.112,
+     0.58,
+     0.0399,
+     133.986
+    ]
+   },
+   {
+    "name": "Uiyi Guaye",
+    "artist": "Calle 13",
+    "popularity": 22,
+    "v": [
+     0.734,
+     0.783,
+     0.767,
+     0.0692,
+     0.154,
+     183.918
+    ]
+   },
+   {
+    "name": "Shattered Winds",
+    "artist": "The Budos Band",
+    "popularity": 22,
+    "v": [
+     0.447,
+     0.826,
+     0.685,
+     0.0226,
+     0.0504,
+     105.475
+    ]
+   },
+   {
+    "name": "Ivory and Blue - Reprise",
+    "artist": "Menahan Street Band",
+    "popularity": 22,
+    "v": [
+     0.329,
+     0.84,
+     0.962,
+     0.222,
+     0.0662,
+     174.761
+    ]
+   },
+   {
+    "name": "Amendoim Pão de Mel",
+    "artist": "BaianaSystem",
+    "popularity": 22,
+    "v": [
+     0.648,
+     0.855,
+     0.698,
+     0.0218,
+     0.0487,
+     148.022
+    ]
+   },
+   {
+    "name": "Lontano lontano - Cara B",
+    "artist": "Jorge Drexler",
+    "popularity": 22,
+    "v": [
+     0.7,
+     0.344,
+     0.473,
+     0.862,
+     0.477,
+     89.845
+    ]
+   },
+   {
+    "name": "This Song's For You",
+    "artist": "El Michels Affair",
+    "popularity": 22,
+    "v": [
+     0.542,
+     0.517,
+     0.326,
+     0.0159,
+     0.0266,
+     66.552
+    ]
+   },
+   {
+    "name": "Adiós Nonino",
+    "artist": "São Paulo Ska Jazz, Ken Stewart",
+    "popularity": 22,
+    "v": [
+     0.776,
+     0.673,
+     0.617,
+     0.427,
+     0.0666,
+     141.032
+    ]
+   },
+   {
+    "name": "WILIN'",
+    "artist": "Jor'dan Armstrong",
+    "popularity": 22,
+    "v": [
+     0.727,
+     0.517,
+     0.529,
+     0.26,
+     0.0612,
+     127.932
+    ]
+   },
+   {
+    "name": "Papaya",
+    "artist": "QUITAPENAS",
+    "popularity": 22,
+    "v": [
+     0.568,
+     0.901,
+     0.745,
+     0.0894,
+     0.0983,
+     78.567
+    ]
+   },
+   {
+    "name": "Happy",
+    "artist": "Speedometer",
+    "popularity": 22,
+    "v": [
+     0.59,
+     0.613,
+     0.868,
+     0.394,
+     0.0347,
+     147.171
+    ]
+   },
+   {
+    "name": "Influence of Worship",
+    "artist": "Eddie Neblett",
+    "popularity": 22,
+    "v": [
+     0.536,
+     0.702,
+     0.711,
+     0.2,
+     0.0679,
+     82.83
+    ]
+   },
+   {
+    "name": "Hang Loose",
+    "artist": "Mandrill",
+    "popularity": 22,
+    "v": [
+     0.54,
+     0.797,
+     0.935,
+     0.434,
+     0.0617,
+     128.291
+    ]
+   },
+   {
+    "name": "Plan de Vuelo",
+    "artist": "Morbo y Mambo, Andres Nusser",
+    "popularity": 22,
+    "v": [
+     0.647,
+     0.688,
+     0.395,
+     0.0145,
+     0.0308,
+     123.996
+    ]
+   },
+   {
+    "name": "Le king m'a validé",
+    "artist": "Big Ty, Markis",
+    "popularity": 22,
+    "v": [
+     0.662,
+     0.93,
+     0.954,
+     0.176,
+     0.0378,
+     125.014
+    ]
+   },
+   {
+    "name": "Pour la vie",
+    "artist": "Voilaaa, Pat Kalla",
+    "popularity": 22,
+    "v": [
+     0.863,
+     0.687,
+     0.77,
+     0.0575,
+     0.16,
+     133.901
+    ]
+   },
+   {
+    "name": "Brown Wind and Fire",
+    "artist": "Brownout",
+    "popularity": 22,
+    "v": [
+     0.594,
+     0.614,
+     0.825,
+     0.003,
+     0.0553,
+     159.94
+    ]
+   }
+  ]
+ },
+ "sliderRanges": {
+  "danceability": [
+   0.382,
+   0.87
+  ],
+  "energy": [
+   0.279,
+   0.967
+  ],
+  "valence": [
+   0.228,
+   0.967
+  ],
+  "acousticness": [
+   0.0,
+   0.877
+  ],
+  "speechiness": [
+   0.028,
+   0.343
+  ],
+  "tempo": [
+   79.435,
+   182.106
+  ]
+ }
+}

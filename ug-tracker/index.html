@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>UG Wave Tracker · Nigeria's underground, measured daily</title>
+<meta name="description" content="Daily Spotify tracking of Nigeria's underground (UG) wave vs the mainstream: growth, climbing songs, crossovers and names to watch.">
+<link rel="stylesheet" href="../style.css">
+<style>
+.wrap{max-width:900px}
+.card+.card,.card+.grid2,.grid2+.card,.grid2+.grid2,.stats+.card{margin-top:14px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media(max-width:760px){.grid2{grid-template-columns:1fr}}
+h3{font-size:15px;margin-bottom:4px;display:flex;justify-content:space-between;align-items:center;gap:10px}
+.hint{color:var(--muted);font-size:13px;margin-bottom:14px}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
+@media(max-width:760px){.stats{grid-template-columns:1fr 1fr}}
+.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
+.stat span{display:block;font-size:12px;color:var(--muted)}.stat b{font-size:20px}
+.stat small{display:block;font-size:12px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{background:none;border:1px solid var(--line);color:var(--muted);border-radius:999px;padding:5px 11px;font:inherit;font-size:13px;cursor:pointer}
+.chip.on{color:var(--text);border-color:var(--green)}
+table{width:100%;border-collapse:collapse;font-size:14px}
+th{font-size:12px;color:var(--muted);font-weight:500;text-align:right;padding:6px 0;cursor:pointer;user-select:none}
+th:first-child{text-align:left}
+td{padding:9px 0;border-top:1px solid var(--line);text-align:right;font-variant-numeric:tabular-nums}
+td:first-child{text-align:left}
+tr.sel td{background:rgba(31,196,107,.06)}
+tbody tr{cursor:pointer}
+.who{display:flex;align-items:center;gap:10px}
+.who img,.who .ph{width:30px;height:30px;border-radius:50%;object-fit:cover;background:#26302a;flex-shrink:0}
+.pill{font-size:10px;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:99px;border:1px solid var(--line);color:var(--muted);margin-left:6px}
+.pill.UG{border-color:var(--green);color:var(--green)}
+.pill.mainstream{border-color:var(--gold);color:var(--gold)}
+.up{color:var(--green)}.down{color:var(--red)}.flat{color:var(--muted)}
+canvas{width:100%;display:block}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
+.list{list-style:none}
+.list li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-top:1px solid var(--line);font-size:14px}
+.list li small{display:block;color:var(--muted);font-size:12px}
+.list li .r{text-align:right;white-space:nowrap}
+#tip{position:fixed;pointer-events:none;background:#0f1411;border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:12px;display:none;max-width:240px;z-index:5}
+.setup{line-height:1.7}.setup code{background:#0f1411;border:1px solid var(--line);padding:2px 6px;border-radius:6px;font-size:13px}
+.note{font-size:12px;color:var(--muted);margin-top:10px}
+.hidden{display:none!important}
+</style>
+</head>
+<body>
+<main class="wrap">
+  <a class="back" href="../">← all apps</a>
+  <span class="tag">📈 live data · updated daily</span>
+  <h1>UG Wave Tracker</h1>
+  <p class="sub">Nigeria's underground (UG) wave vs the mainstream, measured every day with Spotify data. Who's growing, which songs are climbing, who's featuring whom, and who's next.</p>
+
+  <section class="card setup hidden" id="setup">
+    <h3>No data yet</h3>
+    <p class="hint">The tracker hasn't run yet. Add your Spotify keys and run <code>python3 collect.py</code> in <code>ug-tracker/collector</code>, or let the daily GitHub Action do it.</p>
+  </section>
+
+  <div id="dash" class="hidden">
+    <div class="stats" id="stats"></div>
+
+    <section class="card">
+      <h3>Leaderboard <div class="chips" id="filters"></div></h3>
+      <p class="hint">Spotify monthly listeners and daily streams. <span id="since"></span> Tap artists to compare them on the chart below.</p>
+      <table>
+        <thead><tr><th data-sort="name">Artist</th><th data-sort="listeners">Listeners</th><th data-sort="listenersChange">Change</th><th data-sort="dailyStreams">Daily streams</th></tr></thead>
+        <tbody id="board"></tbody>
+      </table>
+    </section>
+
+    <section class="card">
+      <h3>Growth <div class="chips"><button class="chip on" data-mode="pct">% change</button><button class="chip" data-mode="abs">listeners</button></div></h3>
+      <p class="hint" id="growthHint">Monthly listeners over time for the selected artists.</p>
+      <canvas id="growth"></canvas>
+      <div class="legend" id="growthLegend"></div>
+    </section>
+
+    <div class="grid2">
+      <section class="card">
+        <h3>UG vs mainstream</h3>
+        <p class="hint">UG share of all daily streams across the tracked artists.</p>
+        <canvas id="share"></canvas>
+        <div class="note" id="shareNote"></div>
+      </section>
+      <section class="card">
+        <h3>Climbing songs</h3>
+        <p class="hint">Biggest week-on-week jump in daily streams.</p>
+        <ul class="list" id="climbers"></ul>
+      </section>
+    </div>
+
+    <section class="card">
+      <h3>Who's featuring whom</h3>
+      <p class="hint">Every line is a song they share, from Spotify's official catalog. Hover or tap a name.</p>
+      <canvas id="net"></canvas>
+      <div class="legend"><span><i style="background:var(--green)"></i>UG</span><span><i style="background:var(--gold)"></i>mainstream</span><span><i style="background:#5b6b62"></i>other</span></div>
+    </section>
+
+    <div class="grid2">
+      <section class="card">
+        <h3>Crossovers</h3>
+        <p class="hint">When each UG act first landed a song with a mainstream star.</p>
+        <ul class="list" id="crossovers"></ul>
+      </section>
+      <section class="card">
+        <h3>Names to watch 👀</h3>
+        <p class="hint">Not on our list yet, but keep showing up on UG tracks.</p>
+        <ul class="list" id="watch"></ul>
+      </section>
+    </div>
+
+    <section class="card">
+      <h3>Fresh drops</h3>
+      <ul class="list" id="releases"></ul>
+    </section>
+  </div>
+
+  <p class="foot">built by <a href="https://x.com/Aded0yin_">@Aded0yin_</a> · Python collector + GitHub Actions · data: Spotify Web API, kworb.net, open.spotify.com · <span id="updated"></span></p>
+</main>
+<div id="tip"></div>
+<script src="app.js"></script>
+</body>
+</html>

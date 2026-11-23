@@ -1,0 +1,15 @@
+.DS_Store
+__pycache__/
+.pytest_cache/
+*.db
+# raw Kaggle data stays local
+afrobeats-lab/pipeline/data/
+
+# secrets
+.env
+*.tmp
+
+# local Claude files
+Claude outputs/
+
+debug_spotify_page.html
