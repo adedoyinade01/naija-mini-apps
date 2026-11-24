@@ -183,7 +183,9 @@ def story(out: dict) -> list[str]:
                      + (f", and {', '.join(breaking[:3])} {'is' if len(breaking[:3]) == 1 else 'are'} breaking through." if breaking else "."))
     if out.get("namesToWatch"):
         w = out["namesToWatch"][0]
-        lines.append(f"Name to watch: {w['name']} isn't on our list, but is on {w['tracks']} songs with {len(w['with'])} UG acts.")
+        who = ", ".join(w["with"][:3]) + (f" and {len(w['with']) - 3} more" if len(w["with"]) > 3 else "")
+        lines.append(f"Name to watch: {w['name']} keeps popping up on UG songs: {w['tracks']} tracks with {len(w['with'])} different acts ({who}). "
+                     f"We're not tracking them yet, but the scene clearly rates them.")
     return lines
 
 
