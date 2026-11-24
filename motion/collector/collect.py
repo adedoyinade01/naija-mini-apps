@@ -169,6 +169,7 @@ def main():
     p.add_argument("--catalog", action="store_true", help="refresh releases/collabs now")
     p.add_argument("--no-web", action="store_true", help="skip open.spotify.com")
     p.add_argument("--build-only", action="store_true")
+    p.add_argument("--report", action="store_true", help="archive this week's Motion Report now (normally Fridays)")
     args = p.parse_args()
     load_env()
 
@@ -207,7 +208,15 @@ def main():
 
     images = meta.get("images", {})
     artists = [{**a, "image": images.get(a.get("spotify_id"))} for a in cfg["artists"]]
-    save_json(OUT, build(history, catalog, artists, today, albums=load_json(ALBUMS, {})), indent=1)
+    result = build(history, catalog, artists, today, albums=load_json(ALBUMS, {}))
+    save_json(OUT, result, indent=1)
+    # Every Friday, archive that week's Motion Report
+    if (date.fromisoformat(today).weekday() == 4 or args.report) and result.get("week"):
+        save_json(DATA / "reports" / f"{today}.json", result["week"], indent=1)
+        index = [r for r in load_json(DATA / "reports" / "index.json", []) if r["date"] != today]
+        index.insert(0, {"date": today, "title": result["week"]["title"]})
+        save_json(DATA / "reports" / "index.json", index, indent=1)
+        log(f"Archived {result['week']['title']}")
     log(f"Wrote {OUT.relative_to(ROOT)}")
 
 

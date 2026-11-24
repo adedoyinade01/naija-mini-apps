@@ -90,6 +90,15 @@ canvas.chart{width:100%;display:block}
 .songs li small{display:block;color:var(--muted);font-size:12px}
 .songs .r{text-align:right;white-space:nowrap}
 .newdrop{font-size:13px;color:var(--gold)}
+.driver{font-size:13px;color:#ffb37a}
+.spot{display:grid;gap:14px}
+.spot .card{border-color:#3a3220;background:linear-gradient(160deg,#2a2414,#151a17 55%)}
+.spot .rel{font-size:20px;font-weight:800;margin:10px 0 2px}
+.spot ul.pts{padding-left:18px;font-size:14px;line-height:1.5;display:grid;gap:4px;margin:10px 0}
+.report .sec{margin-top:16px}
+.report .sec h4{font-size:13px;color:var(--muted);text-transform:uppercase;letter-spacing:.06em;margin-bottom:4px}
+.thread{display:grid;gap:8px;margin-top:10px}
+.thread div{background:#0f1411;border:1px solid var(--line);border-radius:12px;padding:12px;font-size:14px;white-space:pre-wrap;line-height:1.45}
 .collabs .UG{border-color:#24432f}.collabs .mainstream{border-color:#5a4720}
 .setup{line-height:1.7}.setup code{background:#0f1411;border:1px solid var(--line);padding:2px 6px;border-radius:6px;font-size:13px}
 .hidden{display:none!important}
@@ -122,6 +131,16 @@ canvas.chart{width:100%;display:block}
         </dl>
       </details>
     </section>
+
+    <div id="spotWrap" class="hidden">
+      <h2>🆕 New music in motion</h2>
+      <p class="hint">Artists moving right now who just dropped something, and how each track is doing.</p>
+      <div class="spot" id="spot"></div>
+    </div>
+
+    <h2>Motion Report</h2>
+    <p class="hint" id="reportHint">A weekly summary, written every Friday.</p>
+    <section class="card report" id="report"></section>
 
     <h2>The artists</h2>
     <p class="hint">Tap anyone for their full story.</p>

@@ -165,7 +165,13 @@ def story(out: dict) -> list[str]:
     up = sorted([r for r in moving if r["listenersChange"] > 0], key=lambda r: -r["listenersChange"])
     if up:
         top = up[0]
-        line = f"{top['name']} grew the most {period}: +{top['listenersChange']}% (about {fmt(top['listenersGained'])} new listeners)."
+        line = f"{top['name']} grew the most {period}: +{top['listenersChange']}% (about {fmt(top['listenersGained'])} new listeners)"
+        d = top.get("driver")
+        if d and d["kind"] == "song":
+            line += f", driven by \"{d['title']}\"" + (f" (plays up {d['change']}% in a day)" if d.get("change") else "")
+        elif d and d["kind"] == "likely":
+            line += f", likely off their new {d.get('type') or 'release'} \"{d['title']}\" (out {nice_date(d['date'])})"
+        line += "."
         if len(up) > 1:
             line += f" {up[1]['name']} was close behind at +{up[1]['listenersChange']}%."
         lines.append(line)
@@ -189,7 +195,10 @@ def story(out: dict) -> list[str]:
     return lines
 
 
-def enrich(out: dict) -> dict:
+def enrich(out: dict, history: dict | None = None) -> dict:
+    from drivers import driver_for, song_deltas, spotlight
+    history = history or {}
+    dates = sorted(history)
     rows = out["artists"]
     collabs = collaborators(out)
     ms_listeners = [r["listeners"] for r in rows if r["group"] == "mainstream" and r.get("listeners")]
@@ -201,7 +210,9 @@ def enrich(out: dict) -> dict:
         r["meter"] = meter(r, collabs.get(r["id"], []), floor)
         r["debate"] = debate(r, collabs.get(r["id"], []), r["comparison"])
         r["summary"] = summary(r)
+        r["driver"] = driver_for(r, song_deltas(history, dates, r["id"]), out["updated"])
     out["mainstreamFloor"] = floor
+    out["spotlight"] = spotlight(rows, history, dates, out["updated"])
     out["story"] = story(out)
     out["debates"] = [{"id": r["id"], "name": r["name"], **r["debate"]} for r in rows if r.get("debate")]
     return out

@@ -215,7 +215,7 @@ def build(history: dict, catalog: dict, artists: list[dict], today: str | None =
                              "type": r.get("type"), "date": norm_date(r.get("date")), "id": r["id"]})
     releases.sort(key=lambda r: r["date"], reverse=True)
 
-    return enrich({
+    result = enrich({
         "updated": today,
         "days": len(dates),
         "firstDay": dates[0] if dates else None,
@@ -227,4 +227,7 @@ def build(history: dict, catalog: dict, artists: list[dict], today: str | None =
         "crossovers": crossovers[:20],
         "namesToWatch": names_to_watch,
         "releases": releases[:24],
-    })
+    }, history)
+    from report import weekly_report
+    result["week"] = weekly_report(history, result, today if today in history else None)
+    return result

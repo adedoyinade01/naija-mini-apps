@@ -59,10 +59,69 @@
         <div class="big"><div><b>${fmt(a.listeners)}</b><span>monthly listeners</span></div><canvas data-spark="${a.id}"></canvas></div>
         <div class="gain">${gainText(a)}</div>
         ${a.meter ? `<div><div class="meterlbl"><span>UG → Mainstream motion</span><b>${a.meter.label} · ${a.meter.score}</b></div><div class="meterbar"><i style="width:${a.meter.score}%"></i></div></div>` : ""}
+        ${driverLine(a)}
         ${newDrop(a)}
         ${a.comparison ? `<div class="oneline">${esc(a.comparison[0].toUpperCase() + a.comparison.slice(1))}</div>` : ""}
       </button>`).join("");
     document.querySelectorAll("[data-spark]").forEach((c) => spark(c, D.artists.find((a) => a.id === c.dataset.spark)));
+  }
+
+  function driverLine(a) {
+    const d = a.driver; if (!d) return "";
+    if (d.kind === "song") return `<div class="driver">🔥 Driven by "${esc(d.title)}"${d.new ? " (new entry)" : d.change ? ` · plays +${d.change}% today` : ""}</div>`;
+    return `<div class="driver">🔥 Likely off new ${esc(d.type || "release")} "${esc(d.title)}"</div>`;
+  }
+
+  // ---------- spotlight ----------
+  function renderSpotlight() {
+    const S = D.spotlight || [];
+    $("spotWrap").classList.toggle("hidden", !S.length);
+    $("spot").innerHTML = S.map((sp) => `
+      <section class="card">
+        <div class="top">${avatar({ name: sp.artist, image: sp.image })}<div><div class="nm">${esc(sp.artist)}</div><span class="pill ${esc(sp.group)}">${esc(sp.group)}</span></div>
+          <span class="status s-rising">🚀 +${sp.listenersChange}%</span></div>
+        <div class="rel">"${esc(sp.release.name)}"</div>
+        <div class="hint" style="margin:0">${esc(sp.release.type || "release")} · out ${fdate(sp.release.date)} (${sp.daysOut === 0 ? "today" : sp.daysOut + " day" + (sp.daysOut === 1 ? "" : "s") + " ago"})${sp.release.daily ? ` · <span class="up">${fmt(sp.release.daily)} plays a day</span>` : ""}</div>
+        <ul class="pts">${sp.lines.map((l) => `<li>${esc(l)}</li>`).join("")}</ul>
+        <ul class="songs">${sp.tracks.map((t) => songRow({ ...t, change: t.today != null ? t.today : t.change })).join("")}</ul>
+        <div class="row" style="margin-top:12px"><button class="btn ghost" data-open="${sp.id}">See ${esc(sp.artist)}'s numbers</button></div>
+      </section>`).join("");
+  }
+
+  // ---------- Motion Report ----------
+  let reports = [];
+  function reportHTML(w, label) {
+    if (!w) return `<p class="hint">The first Motion Report appears once there are two days of data.</p>`;
+    const sec = (title, items) => items.length ? `<div class="sec"><h4>${title}</h4><ul class="list">${items.join("")}</ul></div>` : "";
+    return `
+      <h3>${esc(w.title)} <small>${esc(label)}</small></h3>
+      ${w.note ? `<p class="hint" style="margin:2px 0 0">${esc(w.note)}</p>` : ""}
+      ${sec("🏆 Top movers", w.topMovers.map((m, i) => `<li><div><b>${i + 1}. ${esc(m.name)}</b><small>${fmt(m.from)} → ${fmt(m.to)} listeners${m.driver ? ` · ${m.driver.kind === "song" ? "driven by" : "likely off"} "${esc(m.driver.title)}"` : ""}</small></div><div class="r"><span class="up">+${m.change}%</span><small>+${fmt(m.gained)}</small></div></li>`))}
+      ${sec("🎵 Songs of the week", w.songs.map((x) => `<li><div><b>${esc(x.title)}</b><small>${esc(x.artist)}</small></div><div class="r"><span class="up">+${fmt(x.gained)}</span><small>plays this week</small></div></li>`))}
+      ${sec("🆕 New drops", w.drops.map((x) => `<li><div><b>${esc(x.name)}</b><small>${esc(x.artist)} · ${esc(x.type || "release")} · ${fdate(x.date)}</small></div><div class="r">${x.plays ? `${fmt(x.plays)}<small>plays so far</small>` : `<small>streams not public yet</small>`}</div></li>`))}
+      ${sec("🔀 Meter moves", w.meterMoves.map((x) => `<li><div><b>${esc(x.name)}</b><small>${esc(x.from)} → ${esc(x.to)}</small></div><div class="r">⬆️</div></li>`))}
+      ${sec("👀 Names to watch", w.watch.map((x) => `<li><div><b>${esc(x.name)}</b><small>with ${esc(x.with.slice(0, 3).join(", "))}${x.with.length > 3 ? ` + ${x.with.length - 3} more` : ""}</small></div><div class="r">${x.tracks} songs</div></li>`))}
+      <div class="sec"><h4>📣 Ready-to-post X thread</h4>
+        <div class="thread">${w.thread.map((t, i) => `<div>${esc(i === w.thread.length - 1 ? t + "\n" + location.href : t)}</div>`).join("")}</div>
+        <div class="row" style="margin-top:10px"><button class="btn" id="copyThread">Copy thread</button><button class="btn ghost" id="postFirst">Post first tweet</button></div>
+      </div>`;
+  }
+  let shownReport = null;
+  function renderReport(w, label) {
+    shownReport = w;
+    $("report").innerHTML = reportHTML(w, label) + (reports.length ? `<div class="sec"><h4>Past reports</h4><div class="chips">${reports.map((r) => `<button class="chip" data-report="${r.date}">${esc(r.title.replace("Motion Report · ", ""))}</button>`).join("")}</div></div>` : "");
+  }
+  function loadReports() {
+    fetch("data/reports/index.json", { cache: "no-cache" }).then((r) => r.ok ? r.json() : []).catch(() => []).then((idx) => {
+      reports = idx || [];
+      const friday = new Date(D.updated + "T00:00:00").getDay() === 5;
+      if (reports.length && reports[0].date === D.updated) return openReport(reports[0].date);
+      $("reportHint").textContent = friday ? "This week's report." : "A weekly summary, archived every Friday. Here's this week so far.";
+      renderReport(D.week, "this week so far");
+    });
+  }
+  function openReport(day) {
+    fetch(`data/reports/${day}.json`, { cache: "no-cache" }).then((r) => r.json()).then((w) => { $("reportHint").textContent = "A weekly summary, archived every Friday."; renderReport(w, "weekly report"); });
   }
 
   function newDrop(a) {
@@ -240,6 +299,13 @@
     if (t.dataset.mode) { mode = t.dataset.mode; document.querySelectorAll("[data-mode]").forEach((b) => b.classList.toggle("on", b === t)); return renderCompare(); }
     if (t.dataset.poll) return share(`is ${t.dataset.poll} still UG? 🤔 the numbers say they've crossed over, the streets say otherwise. what do you think?\n\nvia MOTION ${location.href}`);
     if (t.dataset.share) { const a = D.artists.find((x) => x.id === t.dataset.share); return share(`${a.name}: ${a.summary} 📈\n\nvia MOTION ${location.href}`); }
+    if (t.dataset.report) return openReport(t.dataset.report);
+    if (t.id === "copyThread" && shownReport) {
+      const txt = shownReport.thread.map((x, i) => i === shownReport.thread.length - 1 ? x + "\n" + location.href : x).join("\n\n---\n\n");
+      navigator.clipboard && navigator.clipboard.writeText(txt).then(() => { t.textContent = "Copied ✓"; setTimeout(() => (t.textContent = "Copy thread"), 1500); });
+      return;
+    }
+    if (t.id === "postFirst" && shownReport) return share(shownReport.thread[0]);
     if (t.classList.contains("close") || t.id === "overlay") closeSheet();
   });
   document.addEventListener("keydown", (e) => e.key === "Escape" && closeSheet());
@@ -255,7 +321,7 @@
       const ms = d.artists.filter((a) => a.group === "mainstream" && a.listeners).sort((a, b) => a.listeners - b.listeners);
       [...ug.slice(0, 2), ...ms.slice(0, 1)].forEach((a) => picked.add(a.id));
       $("dash").classList.remove("hidden");
-      renderStory(); renderCards(); renderDebates(); renderCompare(); renderShare(); renderLists();
+      renderStory(); renderSpotlight(); renderCards(); renderDebates(); renderCompare(); renderShare(); renderLists(); loadReports();
     })
     .catch(() => $("setup").classList.remove("hidden"));
 })();
