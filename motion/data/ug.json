@@ -105,6 +105,7 @@
    "dailyChange": null,
    "dailyStreams": 5863602,
    "debate": null,
+   "driver": null,
    "gainedPerDay": 0,
    "group": "mainstream",
    "id": "3wcj11K77LjEY1PkEazffa",
@@ -337,6 +338,14 @@
    "dailyChange": null,
    "dailyStreams": 4108616,
    "debate": null,
+   "driver": {
+    "change": null,
+    "delta": 59328,
+    "fromRelease": null,
+    "kind": "song",
+    "new": true,
+    "title": "Goals"
+   },
    "gainedPerDay": 100000,
    "group": "mainstream",
    "id": "46pWGuE3dSwY3bMMXGBvVS",
@@ -569,6 +578,7 @@
    "dailyChange": null,
    "dailyStreams": 2926278,
    "debate": null,
+   "driver": null,
    "gainedPerDay": 0,
    "group": "mainstream",
    "id": "3ZpEKRjHaHANcpk10u6Ntq",
@@ -801,6 +811,7 @@
    "dailyChange": null,
    "dailyStreams": 5116408,
    "debate": null,
+   "driver": null,
    "gainedPerDay": 0,
    "group": "mainstream",
    "id": "3tVQdUvClmAT7URs9V3rsp",
@@ -953,6 +964,7 @@
    "dailyChange": null,
    "dailyStreams": 2479801,
    "debate": null,
+   "driver": null,
    "gainedPerDay": 0,
    "group": "mainstream",
    "id": "0Y3agQaa6g2r0YmHPOO9rh",
@@ -1120,6 +1132,7 @@
    "dailyChange": null,
    "dailyStreams": 4644689,
    "debate": null,
+   "driver": null,
    "gainedPerDay": 0,
    "group": "mainstream",
    "id": "3a1tBryiczPAZpgoZN9Rzg",
@@ -1343,6 +1356,7 @@
    "dailyChange": null,
    "dailyStreams": 993960,
    "debate": null,
+   "driver": null,
    "gainedPerDay": 0,
    "group": "mainstream",
    "id": "4ovtyvs7j1jSmwhkBGHqSr",
@@ -1575,6 +1589,7 @@
    "dailyChange": null,
    "dailyStreams": 2977480,
    "debate": null,
+   "driver": null,
    "gainedPerDay": 0,
    "group": "mainstream",
    "id": "4zmZ8lVLzGc84S4v2B1rLx",
@@ -1735,6 +1750,7 @@
    "dailyChange": null,
    "dailyStreams": 750384,
    "debate": null,
+   "driver": null,
    "gainedPerDay": 0,
    "group": "mainstream",
    "id": "4TKhxSkqClXrdtUWgKqHVU",
@@ -1969,6 +1985,7 @@
      "Came up through the UG scene, and the sound and the community haven't changed"
     ]
    },
+   "driver": null,
    "gainedPerDay": 0,
    "group": "UG",
    "id": "1VBjib1ykqXxss9Tw5YuR9",
@@ -2134,6 +2151,7 @@
    "dailyChange": null,
    "dailyStreams": 1137906,
    "debate": null,
+   "driver": null,
    "gainedPerDay": 0,
    "group": "mainstream",
    "id": "3LOm0AZjpwVQebvkyanjDy",
@@ -2357,6 +2375,7 @@
    "dailyChange": null,
    "dailyStreams": 68313,
    "debate": null,
+   "driver": null,
    "gainedPerDay": 5300,
    "group": "UG",
    "id": "35l6bXa97M4hhvQ3e058PZ",
@@ -2592,6 +2611,7 @@
    "dailyChange": null,
    "dailyStreams": 323343,
    "debate": null,
+   "driver": null,
    "gainedPerDay": -4300,
    "group": "UG",
    "id": "6eEW31SqGa8zKe3ibfTCdH",
@@ -2837,6 +2857,14 @@
    "dailyChange": null,
    "dailyStreams": 83499,
    "debate": null,
+   "driver": {
+    "change": null,
+    "delta": 817,
+    "fromRelease": null,
+    "kind": "song",
+    "new": true,
+    "title": "ON GUARD"
+   },
    "gainedPerDay": 2300,
    "group": "UG",
    "id": "4Z3LLYwCpB9OKKaSttnapP",
@@ -3082,6 +3110,12 @@
    "dailyChange": null,
    "dailyStreams": null,
    "debate": null,
+   "driver": {
+    "date": "2026-11-20",
+    "kind": "likely",
+    "title": "GLACIER BOY",
+    "type": "album"
+   },
    "gainedPerDay": 16000,
    "group": "UG",
    "id": "3CyKLwlqtYmQxNt4cWflKx",
@@ -3245,6 +3279,12 @@
    "dailyChange": null,
    "dailyStreams": null,
    "debate": null,
+   "driver": {
+    "date": "2026-11-20",
+    "kind": "likely",
+    "title": "ME vs ME",
+    "type": "single"
+   },
    "gainedPerDay": 5700,
    "group": "UG",
    "id": "5KbCVC6DvprtEp30AA093z",
@@ -3408,6 +3448,7 @@
    "dailyChange": null,
    "dailyStreams": null,
    "debate": null,
+   "driver": null,
    "gainedPerDay": 3200,
    "group": "UG",
    "id": "2DL38TZNK8x8hxvnxNkQB5",
@@ -3571,6 +3612,12 @@
    "dailyChange": null,
    "dailyStreams": null,
    "debate": null,
+   "driver": {
+    "date": "2026-11-19",
+    "kind": "likely",
+    "title": "Big Professor",
+    "type": "single"
+   },
    "gainedPerDay": 7200,
    "group": "UG",
    "id": "4Hz1UttsadDCW4xA41XKoV",
@@ -3726,6 +3773,7 @@
    "dailyChange": null,
    "dailyStreams": null,
    "debate": null,
+   "driver": null,
    "gainedPerDay": -6700,
    "group": "UG",
    "id": "00dT0myy0kbq152QWIzRPI",
@@ -3881,6 +3929,7 @@
    "dailyChange": null,
    "dailyStreams": null,
    "debate": null,
+   "driver": null,
    "gainedPerDay": -900,
    "group": "UG",
    "id": "3EC3itx7VHQg0KYhuPsp5O",
@@ -4044,6 +4093,12 @@
    "dailyChange": null,
    "dailyStreams": null,
    "debate": null,
+   "driver": {
+    "date": "2026-11-13",
+    "kind": "likely",
+    "title": "YoungRiot!",
+    "type": "single"
+   },
    "gainedPerDay": 400,
    "group": "UG",
    "id": "6CS6NjMmo93ligNiiZ97LZ",
@@ -4167,6 +4222,7 @@
    "dailyChange": null,
    "dailyStreams": null,
    "debate": null,
+   "driver": null,
    "gainedPerDay": -200,
    "group": "UG",
    "id": "4ZnAdq8niwc3MnthK4ujdr",
@@ -4233,6 +4289,7 @@
    "dailyChange": null,
    "dailyStreams": null,
    "debate": null,
+   "driver": null,
    "gainedPerDay": null,
    "group": "UG",
    "id": "3ZA9FgX4nLjbfGgn7dOukU",
@@ -4382,6 +4439,7 @@
    "dailyChange": null,
    "dailyStreams": null,
    "debate": null,
+   "driver": null,
    "gainedPerDay": -200,
    "group": "UG",
    "id": "5toMJY8OHE9np3f4Hh0wCy",
@@ -4448,6 +4506,7 @@
    "dailyChange": null,
    "dailyStreams": null,
    "debate": null,
+   "driver": null,
    "gainedPerDay": 0,
    "group": "UG",
    "id": "2m2F5XHtELzEyWZLPRkBIc",
@@ -7169,608 +7228,8 @@
   "nodes": [
    {
     "group": "other",
-    "id": "1URnnhqYAYcrqrcwql10ft",
-    "name": "21 Savage"
-   },
-   {
-    "group": "other",
-    "id": "4YIOi9aFNviV1jRQeiNZgO",
-    "name": "Reminisce"
-   },
-   {
-    "group": "other",
-    "id": "10G2iWM2FoafpNGqXZ9QMR",
-    "name": "KindlyNxsh"
-   },
-   {
-    "group": "other",
-    "id": "5Jv1MsZBh0sqokFq7pU8Xg",
-    "name": "Pheelz"
-   },
-   {
-    "group": "other",
-    "id": "38XiDu0kK3Z5jdHUDqBzNT",
-    "name": "Lil Kesh"
-   },
-   {
-    "group": "other",
-    "id": "1IMQHmBTqSwgqyK6nIYSZ2",
-    "name": "Monttei"
-   },
-   {
-    "group": "other",
-    "id": "5TWaKfZVOCCLJN9cKLXjch",
-    "name": "GOODNES$"
-   },
-   {
-    "group": "other",
-    "id": "7c0XG5cIJTrrAgEC3ULPiq",
-    "name": "Ty Dolla $ign"
-   },
-   {
-    "group": "other",
-    "id": "2DFzMI8SSWPYBBSxVF7b2N",
-    "name": "Projexx"
-   },
-   {
-    "group": "other",
-    "id": "1E5hfn5BduN2nnoZCJmUVG",
-    "name": "Victony"
-   },
-   {
-    "group": "other",
-    "id": "4Ns55iOSe1Im2WU2e1Eym0",
-    "name": "Simi"
-   },
-   {
-    "group": "other",
-    "id": "5Hgd05xamByQu7SLHxhdSh",
-    "name": "BigbadJozzy"
-   },
-   {
-    "group": "other",
-    "id": "2hs1DM1Lbd7OA9VDQgeEbc",
-    "name": "KRL Soundz"
-   },
-   {
-    "group": "other",
-    "id": "4piJXSxlFLE9HkuHP0SLD9",
-    "name": "Jackmillz"
-   },
-   {
-    "group": "other",
-    "id": "5jVohQzVOMNwP5ao5J1vk5",
-    "name": "3CB"
-   },
-   {
-    "group": "other",
-    "id": "2csYbKI9QGufe3Xny3Fkop",
-    "name": "bube"
-   },
-   {
-    "group": "other",
-    "id": "2w34rjWGumCU3vOiCVd3J6",
-    "name": "R33NZO"
-   },
-   {
-    "group": "other",
-    "id": "7oVgNYLuZ9HffOdNE15wnL",
-    "name": "Rightflow"
-   },
-   {
-    "group": "other",
-    "id": "6trIghKwHRUyxwvm66HLHH",
-    "name": "Fousheé"
-   },
-   {
-    "group": "mainstream",
-    "id": "4zmZ8lVLzGc84S4v2B1rLx",
-    "name": "Seyi Vibez"
-   },
-   {
-    "group": "other",
-    "id": "5yJLqKU6LRfzliSQIVnJMI",
-    "name": "Kashcoming"
-   },
-   {
-    "group": "other",
-    "id": "0iqznAW9pzZ7KOjx8aCMWo",
-    "name": "Tay Iwar"
-   },
-   {
-    "group": "other",
-    "id": "5ZETERIwOXfWYCBljWg3Hk",
-    "name": "Majesty Lyn"
-   },
-   {
-    "group": "other",
-    "id": "2BPwxhCvvcb8xDl8GWIjbh",
-    "name": "Odeal"
-   },
-   {
-    "group": "other",
-    "id": "1MsnDxqUP7LKWW9zEEs1J8",
-    "name": "Queen Izzy"
-   },
-   {
-    "group": "other",
-    "id": "687cZJR45JO7jhk1LHIbgq",
-    "name": "Tems"
-   },
-   {
-    "group": "other",
-    "id": "4wAqlYtTaaHELEgyCh9KjG",
-    "name": "FAVE"
-   },
-   {
-    "group": "other",
-    "id": "5CuyARGesDksvuWHiMQdX2",
-    "name": "Monochrome"
-   },
-   {
-    "group": "other",
-    "id": "6LTAaKONuHKKWR8ljjIbCA",
-    "name": "MAXINO"
-   },
-   {
-    "group": "other",
-    "id": "2j7j3bmaV4Ej8b9Cy0FtMY",
-    "name": "cosamote"
-   },
-   {
-    "group": "other",
-    "id": "3Y7RZ31TRPVadSFVy1o8os",
-    "name": "H.E.R."
-   },
-   {
-    "group": "mainstream",
-    "id": "3wcj11K77LjEY1PkEazffa",
-    "name": "Burna Boy"
-   },
-   {
-    "group": "other",
-    "id": "0EmeFodog0BfCgMzAIvKQp",
-    "name": "Shakira"
-   },
-   {
-    "group": "other",
-    "id": "5ZsFI1h6hIdQRw2ti0hz81",
-    "name": "ZAYN"
-   },
-   {
-    "group": "mainstream",
-    "id": "3ZpEKRjHaHANcpk10u6Ntq",
-    "name": "Ayra Starr"
-   },
-   {
-    "group": "other",
-    "id": "3QJzdZJYIAcoET1GcfpNGi",
-    "name": "Damian Marley"
-   },
-   {
-    "group": "other",
-    "id": "4YISTUJnoZtAy6LjgOpRL7",
-    "name": "Ovrkast."
-   },
-   {
-    "group": "other",
-    "id": "12kjvw4e3gLp6qVHO65n7W",
-    "name": "Blaqbonez"
-   },
-   {
-    "group": "other",
-    "id": "0jIWKlfmD4Ew7HeVVrq03g",
-    "name": "Elyanna"
-   },
-   {
-    "group": "other",
-    "id": "4sbXXFzEWJY2zsZjelerjX",
-    "name": "Dadju"
-   },
-   {
-    "group": "other",
-    "id": "1kMPdZQVdUhMDKDWOJM5iK",
-    "name": "Tkay Maidza"
-   },
-   {
-    "group": "other",
-    "id": "3XImQNx9nOoiOs1VXqy3RH",
-    "name": "Ona"
-   },
-   {
-    "group": "other",
-    "id": "1rxMZxcNgJiXunlNSAq8pY",
-    "name": "S1orDie"
-   },
-   {
-    "group": "other",
-    "id": "3DNCUaKdMZcMVJIS7yTskd",
-    "name": "Mayorkun"
-   },
-   {
-    "group": "other",
-    "id": "3ZwrZQdYpAwdPXlKTictk8",
-    "name": "B Banks"
-   },
-   {
-    "group": "other",
-    "id": "5CSSzEHLGMcRVwq340BpHl",
-    "name": "Zen Univrse"
-   },
-   {
-    "group": "mainstream",
-    "id": "3LOm0AZjpwVQebvkyanjDy",
-    "name": "ODUMODUBLVCK"
-   },
-   {
-    "group": "other",
-    "id": "1CoZyIx7UvdxT5c8UkMzHd",
-    "name": "Jorja Smith"
-   },
-   {
-    "group": "other",
-    "id": "2IK173RXLiCSQ8fhDlAb3s",
-    "name": "Adekunle Gold"
-   },
-   {
-    "group": "other",
-    "id": "2NtQA3PY9chI8l65ejZLTP",
-    "name": "SPINALL"
-   },
-   {
-    "group": "other",
-    "id": "62DmErcU7dqZbJaDqwsqzR",
-    "name": "Popcaan"
-   },
-   {
-    "group": "mainstream",
-    "id": "3a1tBryiczPAZpgoZN9Rzg",
-    "name": "Asake"
-   },
-   {
-    "group": "other",
-    "id": "5ywjxFhmhHGQBsK3DundNf",
-    "name": "Peruzzi"
-   },
-   {
-    "group": "UG",
-    "id": "5toMJY8OHE9np3f4Hh0wCy",
-    "name": "Ravington"
-   },
-   {
-    "group": "other",
-    "id": "1GGdQAntXMPS3MoWPgSeCo",
-    "name": "DND 98"
-   },
-   {
-    "group": "other",
-    "id": "5yOvAmpIR7hVxiS6Ls5DPO",
-    "name": "OMAH LAY"
-   },
-   {
-    "group": "UG",
-    "id": "35l6bXa97M4hhvQ3e058PZ",
-    "name": "WAVE$TAR"
-   },
-   {
-    "group": "other",
-    "id": "4gzpq5DPGxSnKTe4SA8HAU",
-    "name": "Coldplay"
-   },
-   {
-    "group": "other",
-    "id": "6qCxa9ZvMnoVevYR6cubyW",
-    "name": "Udishigh"
-   },
-   {
-    "group": "other",
-    "id": "1fYVmAFB7sC7eDoF3mJXla",
-    "name": "Wande Coal"
-   },
-   {
-    "group": "other",
-    "id": "7bXgB6jMjp9ATFy66eO08Z",
-    "name": "Chris Brown"
-   },
-   {
-    "group": "other",
-    "id": "3M4rkbZStvMavZQt8lElw2",
-    "name": "activ.boizzz"
-   },
-   {
-    "group": "other",
-    "id": "6Ip8FS7vWT1uKkJSweANQK",
-    "name": "Dave"
-   },
-   {
-    "group": "other",
-    "id": "0R0U0reEPZrIBPCu9dp1Jf",
-    "name": "Kpee"
-   },
-   {
-    "group": "other",
-    "id": "2SrSdSvpminqmStGELCSNd",
-    "name": "Stormzy"
-   },
-   {
-    "group": "other",
-    "id": "1mcBWQVnnsPhMLCUB6iISP",
-    "name": "The Flowolf"
-   },
-   {
-    "group": "other",
-    "id": "4mSWNal2Ixxf1zrXSTLoep",
-    "name": "Zlatan"
-   },
-   {
-    "group": "other",
-    "id": "4IVAbR2w4JJNJDDRFP3E83",
-    "name": "6LACK"
-   },
-   {
-    "group": "other",
-    "id": "5L1Xcdtf6MxLmEvpGMw3g4",
-    "name": "Ayjay bobo"
-   },
-   {
-    "group": "other",
-    "id": "1igmgiNroMhNQQx9Rp4uoI",
-    "name": "Mamuzo"
-   },
-   {
-    "group": "other",
-    "id": "12ArazR86wktMkxzm5h9T1",
-    "name": "Vonni"
-   },
-   {
-    "group": "other",
-    "id": "4C9EX8d2FnWMV2yQZqeG8U",
-    "name": "Somadina"
-   },
-   {
-    "group": "other",
-    "id": "1vyhD5VmyZ7KMfW5gqLgo5",
-    "name": "J Balvin"
-   },
-   {
-    "group": "UG",
-    "id": "2DL38TZNK8x8hxvnxNkQB5",
-    "name": "Kobilou"
-   },
-   {
-    "group": "mainstream",
-    "id": "4TKhxSkqClXrdtUWgKqHVU",
-    "name": "Shallipopi"
-   },
-   {
-    "group": "other",
-    "id": "1fctva4kpRbg2k3v7kwRuS",
-    "name": "Rvssian"
-   },
-   {
-    "group": "other",
-    "id": "5oOifbswnej7XvdPuZ9ktd",
-    "name": "Teee Dollar"
-   },
-   {
-    "group": "other",
-    "id": "7pzMp7mAU2KRlAjtYuKoje",
-    "name": "Tobi Nation"
-   },
-   {
-    "group": "other",
-    "id": "6HsmnOUuab7e2X11UKrZ9Y",
-    "name": "JoeyXcv"
-   },
-   {
-    "group": "other",
-    "id": "6SL6GEDCDVZFEvo3ewugni",
-    "name": "Madisin!"
-   },
-   {
-    "group": "other",
-    "id": "0P8jodpczL0pVKzYMkJKpX",
-    "name": "Tobby BadAss"
-   },
-   {
-    "group": "other",
-    "id": "0X1sGf1y8XCupQFDUkiPmB",
-    "name": "SAMAD"
-   },
-   {
-    "group": "mainstream",
-    "id": "3tVQdUvClmAT7URs9V3rsp",
-    "name": "Wizkid"
-   },
-   {
-    "group": "other",
-    "id": "5RklmjJAxQsqQFyOTi9ih5",
-    "name": "Tammyagain"
-   },
-   {
-    "group": "mainstream",
-    "id": "0Y3agQaa6g2r0YmHPOO9rh",
-    "name": "Davido"
-   },
-   {
-    "group": "other",
-    "id": "1FX1BFU0DbHRYgKP83pA0d",
-    "name": "JELEEL!"
-   },
-   {
-    "group": "UG",
-    "id": "5KbCVC6DvprtEp30AA093z",
-    "name": "DaveTheOracle"
-   },
-   {
-    "group": "other",
-    "id": "68R39izwNAztATrXMOqkJS",
-    "name": "Bad Boy Timz"
-   },
-   {
-    "group": "other",
-    "id": "6eGNSDjuuUepYdy32k1zXS",
-    "name": "Aibrid"
-   },
-   {
-    "group": "UG",
-    "id": "6CS6NjMmo93ligNiiZ97LZ",
-    "name": "Luwa.Mp4"
-   },
-   {
-    "group": "other",
-    "id": "0BQyOgobSOkQ7u4vTG7fPJ",
-    "name": "TiMi"
-   },
-   {
-    "group": "other",
-    "id": "7vXDAI8JwjW531ouMGbfcp",
-    "name": "TINI"
-   },
-   {
-    "group": "UG",
-    "id": "4Hz1UttsadDCW4xA41XKoV",
-    "name": "Egertton"
-   },
-   {
-    "group": "UG",
-    "id": "6eEW31SqGa8zKe3ibfTCdH",
-    "name": "Zaylevelten"
-   },
-   {
-    "group": "other",
-    "id": "1zeUMAJrOoMdWjU0BErMzn",
-    "name": "Tochi Bedford"
-   },
-   {
-    "group": "other",
-    "id": "30SVAanrbFS6o0cIVDZ9ta",
-    "name": "Thisizlondon"
-   },
-   {
-    "group": "other",
-    "id": "64oW4P0vsDhlorOxZKQi6a",
-    "name": "DJ Tunez"
-   },
-   {
-    "group": "other",
-    "id": "2aWCLZqio9v0uUZEATR1Rv",
-    "name": "Semzi"
-   },
-   {
-    "group": "other",
-    "id": "15GgEOJiFyjQm4tZ4D7qih",
-    "name": "Cruel Santino"
-   },
-   {
-    "group": "other",
-    "id": "0FK1hXdXst70HD11n5J26z",
-    "name": "FOLA"
-   },
-   {
-    "group": "other",
-    "id": "1ixqGowpDM21RwyJmJ7hpv",
-    "name": "Skales"
-   },
-   {
-    "group": "other",
-    "id": "3l7SEJk2wlBU3OvrMWf1sj",
-    "name": "Pepenazi"
-   },
-   {
-    "group": "mainstream",
-    "id": "4ovtyvs7j1jSmwhkBGHqSr",
-    "name": "Olamide"
-   },
-   {
-    "group": "other",
-    "id": "47fErV0VDIx6PmuhtWGTYu",
-    "name": "Dremo"
-   },
-   {
-    "group": "other",
-    "id": "2a0uxJgbvvIRI4GX8pYfcr",
-    "name": "J Hus"
-   },
-   {
-    "group": "other",
-    "id": "4zlOuiD2KEU4fv1wSBQ3Jn",
-    "name": "Sugarbana"
-   },
-   {
-    "group": "other",
-    "id": "4Xi6LSfFqv26XgP9NKN26U",
-    "name": "AJ Tracey"
-   },
-   {
-    "group": "other",
-    "id": "6eXZu6O7nAUA5z6vLV8NKI",
-    "name": "Little Simz"
-   },
-   {
-    "group": "UG",
-    "id": "1VBjib1ykqXxss9Tw5YuR9",
-    "name": "Mavo"
-   },
-   {
-    "group": "other",
-    "id": "7FNnA9vBm6EKceENgCGRMb",
-    "name": "Anitta"
-   },
-   {
-    "group": "UG",
-    "id": "00dT0myy0kbq152QWIzRPI",
-    "name": "Igwe Aka"
-   },
-   {
-    "group": "other",
-    "id": "14HBQIzTET0elsL8NO3Xtl",
-    "name": "CloudyNotes"
-   },
-   {
-    "group": "other",
-    "id": "59MU62wyOLf8FlV7l8fewL",
-    "name": "Le Mav"
-   },
-   {
-    "group": "other",
-    "id": "7DxRMFU4AqEIwjILkhSFDk",
-    "name": "Luh Drayco"
-   },
-   {
-    "group": "other",
-    "id": "706XoyHcL5K4V09UY9L2BD",
-    "name": "Queen Moda"
-   },
-   {
-    "group": "other",
-    "id": "4vqK18ff2fID1b43nhIKK6",
-    "name": "Favour Dre"
-   },
-   {
-    "group": "other",
-    "id": "4mCGYkTmNnEsnTrIr3atNB",
-    "name": "Straffitti"
-   },
-   {
-    "group": "other",
-    "id": "048LktY5zMnakWq7PTtFrz",
-    "name": "CKay"
-   },
-   {
-    "group": "other",
-    "id": "1hBSQ3xsR6kfPMi7yLNmnZ",
-    "name": "Aenyi"
-   },
-   {
-    "group": "other",
-    "id": "0rckUWPb0n9j1nRlGFvjHt",
-    "name": "Phenom"
-   },
-   {
-    "group": "other",
-    "id": "23R4AtMwVv0pbJYB1joioW",
-    "name": "Shoday"
+    "id": "2f8rjDwhSy9IDL6sB6BEEE",
+    "name": "YKB"
    },
    {
     "group": "other",
@@ -7779,308 +7238,8 @@
    },
    {
     "group": "other",
-    "id": "2mLA48B366zkELXYx7hcDN",
-    "name": "Peggy Gou"
-   },
-   {
-    "group": "other",
-    "id": "7pcVZssnGHrZrzzbQtMpkF",
-    "name": "DaniTheeGreatt"
-   },
-   {
-    "group": "other",
-    "id": "7HkdQ0gt53LP4zmHsL0nap",
-    "name": "Ella Mai"
-   },
-   {
-    "group": "other",
-    "id": "3TVXtAsR1Inumwj472S9r4",
-    "name": "Drake"
-   },
-   {
-    "group": "other",
-    "id": "3ukrG1BmfEiuo0KDj8YTTS",
-    "name": "Teni"
-   },
-   {
-    "group": "other",
-    "id": "2k4BorccGemzBPjIRkT5Pa",
-    "name": "Txmmyily"
-   },
-   {
-    "group": "other",
-    "id": "3UEwKs997VRicCpjEYTprR",
-    "name": "Id Cabasa"
-   },
-   {
-    "group": "other",
-    "id": "4Gso3d4CscCijv0lmajZWs",
-    "name": "Don Toliver"
-   },
-   {
-    "group": "other",
-    "id": "67nwj3Y5sZQLl72VNUHEYE",
-    "name": "Wale"
-   },
-   {
-    "group": "other",
-    "id": "75VKfyoBlkmrJFDqo1o2VY",
-    "name": "Fireboy DML"
-   },
-   {
-    "group": "other",
-    "id": "7rGdPKZx6tqAbclJ7llUbs",
-    "name": "Wana Sn"
-   },
-   {
-    "group": "other",
-    "id": "6aIZIwesnYKR6ZN1fIerPZ",
-    "name": "Mercury"
-   },
-   {
-    "group": "other",
-    "id": "0vyHUIFawbTNM2a7W7JqZe",
-    "name": "MetaBoy"
-   },
-   {
-    "group": "other",
-    "id": "1IFAU4mznUcfPVP9z2c24N",
-    "name": "Daecolm"
-   },
-   {
-    "group": "other",
-    "id": "3hXlGRJuBMCg9xJ41BSWkf",
-    "name": "ARTSALGHUL"
-   },
-   {
-    "group": "other",
-    "id": "5H1nN1SzW0qNeUEZvuXjAj",
-    "name": "Danny Ocean"
-   },
-   {
-    "group": "other",
-    "id": "3Huh90qZ5dI2w5I4JjaQtF",
-    "name": "Indi"
-   },
-   {
-    "group": "other",
-    "id": "7kK5badbqOjd8WlT2XWMeM",
-    "name": "Bella Shmurda"
-   },
-   {
-    "group": "other",
-    "id": "31uzUrQQv5lMCY9h5wTcRK",
-    "name": "BEACHBOIZ"
-   },
-   {
-    "group": "other",
-    "id": "2wzsad2d81hK0eP1qgcxHK",
-    "name": "FXRE"
-   },
-   {
-    "group": "other",
-    "id": "36M1Z5OPFotaTTKNjSIuAX",
-    "name": "Viktoh"
-   },
-   {
-    "group": "other",
-    "id": "5jfQBS0O6dR6axaz0BGMgs",
-    "name": "Chinko Ekun"
-   },
-   {
-    "group": "other",
-    "id": "7MJaBrtUNMCVWliXOa7mwk",
-    "name": "Jeriq"
-   },
-   {
-    "group": "other",
-    "id": "3zaDigUwjHvjOkSn0NDf9x",
-    "name": "BNXN"
-   },
-   {
-    "group": "other",
-    "id": "75yvKMzpIeYGyw5ElkoLYw",
-    "name": "Fergiee"
-   },
-   {
-    "group": "other",
-    "id": "7ebBg3BuRFa2satTcY8whC",
-    "name": "Billy Lemos"
-   },
-   {
-    "group": "other",
-    "id": "4M5b70A8aORXdyJVjRJ8du",
-    "name": "Fimiguerrero"
-   },
-   {
-    "group": "other",
-    "id": "4XE6eLUu1pp5rcI1cpDpWy",
-    "name": "Paxslim"
-   },
-   {
-    "group": "other",
-    "id": "6Nvwcz7r9589I7Or9aUm0z",
-    "name": "DJ NTY"
-   },
-   {
-    "group": "other",
-    "id": "4qYpTEJThZ8FC8KzyFrSWW",
-    "name": "Boj"
-   },
-   {
-    "group": "other",
-    "id": "2LJdSBlf7UdzavnaxOMH9A",
-    "name": "GTS 40k"
-   },
-   {
-    "group": "other",
-    "id": "3A3QkRXKzYGGowaAdKdo7Y",
-    "name": "IDK Young J."
-   },
-   {
-    "group": "other",
-    "id": "26kmsdjrNWCC8srvp8NHVp",
-    "name": "Bigg Bobbyy"
-   },
-   {
-    "group": "other",
-    "id": "1X6cBGnXpEpN7CmflLKmLV",
-    "name": "Kizz Daniel"
-   },
-   {
-    "group": "other",
-    "id": "6Xgp2XMz1fhVYe7i6yNAax",
-    "name": "Trippie Redd"
-   },
-   {
-    "group": "other",
-    "id": "3rCVow8RScBBIyrdceDOiw",
-    "name": "SSSoundGawd"
-   },
-   {
-    "group": "other",
-    "id": "63lJOb0iO8hB6Hw0oSglnu",
-    "name": "Nowlee"
-   },
-   {
-    "group": "other",
-    "id": "3FdLhnmXynPvZkbILPpB6d",
-    "name": "Ladysmith Black Mambazo"
-   },
-   {
-    "group": "other",
-    "id": "1Zj017W6N6SmZRLS4ODpjS",
-    "name": "Phyno"
-   },
-   {
-    "group": "UG",
-    "id": "3CyKLwlqtYmQxNt4cWflKx",
-    "name": "scottyolorin"
-   },
-   {
-    "group": "other",
-    "id": "7CsM9AfybVr427qxwYCDVl",
-    "name": "Onx"
-   },
-   {
-    "group": "other",
-    "id": "3YZW6xRMNPj57dx36Eb2Yd",
-    "name": "Buff Lou"
-   },
-   {
-    "group": "other",
-    "id": "11wVvKdFSo29HDH3JgqTYX",
-    "name": "Somawine"
-   },
-   {
-    "group": "other",
-    "id": "1hNaHKp2Za5YdOAG0WnRbc",
-    "name": "Tiwa Savage"
-   },
-   {
-    "group": "other",
-    "id": "6mS3szHDI9h4lICrQj3ge0",
-    "name": "Makopelly"
-   },
-   {
-    "group": "other",
-    "id": "3vUMXQ9kPnZAQkMkZZ7Hfh",
-    "name": "Tiakola"
-   },
-   {
-    "group": "other",
-    "id": "6NV0b1K9BhoZYSBk9ZPnWv",
-    "name": "See You Next Year"
-   },
-   {
-    "group": "other",
-    "id": "3GvLzHTwSpsLgPcYB9ywgJ",
-    "name": "vvsmygwen"
-   },
-   {
-    "group": "other",
-    "id": "4if5dwAkHl7FZNCJTIB5e9",
-    "name": "Musta4a"
-   },
-   {
-    "group": "other",
-    "id": "3JJ0lsQ5g0DnRsTaCajxJU",
-    "name": "Buckwyla"
-   },
-   {
-    "group": "other",
-    "id": "2hlmm7s2ICUX0LVIhVFlZQ",
-    "name": "Gunna"
-   },
-   {
-    "group": "other",
-    "id": "1yRmB6bRwWKqs5zQnCYYUP",
-    "name": "EMELIE"
-   },
-   {
-    "group": "other",
-    "id": "7urO0i2T8Ta9E9xAuOD1d6",
-    "name": "10Ten"
-   },
-   {
-    "group": "other",
-    "id": "5FkUhnHQ0KC63549LHHtst",
-    "name": "Skillibeng"
-   },
-   {
-    "group": "other",
-    "id": "1c61yiH4iYE7cHtjAYSUu3",
-    "name": "Banky W."
-   },
-   {
-    "group": "other",
-    "id": "5bUavTrOnEtAvss0JCYAZf",
-    "name": "Dalte"
-   },
-   {
-    "group": "mainstream",
-    "id": "46pWGuE3dSwY3bMMXGBvVS",
-    "name": "Rema"
-   },
-   {
-    "group": "other",
-    "id": "1mcTU81TzQhprhouKaTkpq",
-    "name": "Rauw Alejandro"
-   },
-   {
-    "group": "other",
-    "id": "6acbdy69rtlv8m9EW31MYl",
-    "name": "Phyno"
-   },
-   {
-    "group": "other",
-    "id": "2s187JqHC9kipPLBLWXubl",
-    "name": "Falz"
-   },
-   {
-    "group": "other",
-    "id": "33KPqwPnEKJY6Tm9WfJQKq",
-    "name": "TAR1Q"
+    "id": "706XoyHcL5K4V09UY9L2BD",
+    "name": "Queen Moda"
    },
    {
     "group": "UG",
@@ -8089,33 +7248,13 @@
    },
    {
     "group": "other",
-    "id": "5NG1nbdSZhlpLWNHK6idk5",
-    "name": "Southside Saint"
+    "id": "4piJXSxlFLE9HkuHP0SLD9",
+    "name": "Jackmillz"
    },
    {
     "group": "other",
-    "id": "3QZIuDbSkr9lWqNFGsBsb3",
-    "name": "JMB"
-   },
-   {
-    "group": "other",
-    "id": "5L7X4fW19ZEG2EdkOIPpMg",
-    "name": "Barry lane"
-   },
-   {
-    "group": "other",
-    "id": "58JKLeDfIeeOYujvF1UMQS",
-    "name": "Muyeez"
-   },
-   {
-    "group": "other",
-    "id": "3QAWvRmq1TMLuNtDKVyRaW",
-    "name": "Odunsi (The Engine)"
-   },
-   {
-    "group": "other",
-    "id": "2f8rjDwhSy9IDL6sB6BEEE",
-    "name": "YKB"
+    "id": "0X1sGf1y8XCupQFDUkiPmB",
+    "name": "SAMAD"
    },
    {
     "group": "other",
@@ -8124,13 +7263,58 @@
    },
    {
     "group": "other",
-    "id": "2p1fiYHYiXz9qi0JJyxBzN",
-    "name": "Skepta"
+    "id": "3XImQNx9nOoiOs1VXqy3RH",
+    "name": "Ona"
    },
    {
     "group": "other",
-    "id": "0iEtIxbK0KxaSlF7G42ZOp",
-    "name": "Metro Boomin"
+    "id": "4Ns55iOSe1Im2WU2e1Eym0",
+    "name": "Simi"
+   },
+   {
+    "group": "other",
+    "id": "6LTAaKONuHKKWR8ljjIbCA",
+    "name": "MAXINO"
+   },
+   {
+    "group": "other",
+    "id": "6Nvwcz7r9589I7Or9aUm0z",
+    "name": "DJ NTY"
+   },
+   {
+    "group": "other",
+    "id": "38XiDu0kK3Z5jdHUDqBzNT",
+    "name": "Lil Kesh"
+   },
+   {
+    "group": "other",
+    "id": "5bUavTrOnEtAvss0JCYAZf",
+    "name": "Dalte"
+   },
+   {
+    "group": "other",
+    "id": "1E5hfn5BduN2nnoZCJmUVG",
+    "name": "Victony"
+   },
+   {
+    "group": "other",
+    "id": "0R0U0reEPZrIBPCu9dp1Jf",
+    "name": "Kpee"
+   },
+   {
+    "group": "mainstream",
+    "id": "4ovtyvs7j1jSmwhkBGHqSr",
+    "name": "Olamide"
+   },
+   {
+    "group": "other",
+    "id": "2wzsad2d81hK0eP1qgcxHK",
+    "name": "FXRE"
+   },
+   {
+    "group": "other",
+    "id": "2aWCLZqio9v0uUZEATR1Rv",
+    "name": "Semzi"
    },
    {
     "group": "other",
@@ -8139,53 +7323,123 @@
    },
    {
     "group": "other",
+    "id": "0iqznAW9pzZ7KOjx8aCMWo",
+    "name": "Tay Iwar"
+   },
+   {
+    "group": "other",
+    "id": "64oW4P0vsDhlorOxZKQi6a",
+    "name": "DJ Tunez"
+   },
+   {
+    "group": "other",
+    "id": "6Ip8FS7vWT1uKkJSweANQK",
+    "name": "Dave"
+   },
+   {
+    "group": "other",
+    "id": "1MsnDxqUP7LKWW9zEEs1J8",
+    "name": "Queen Izzy"
+   },
+   {
+    "group": "other",
+    "id": "4Gso3d4CscCijv0lmajZWs",
+    "name": "Don Toliver"
+   },
+   {
+    "group": "UG",
+    "id": "2DL38TZNK8x8hxvnxNkQB5",
+    "name": "Kobilou"
+   },
+   {
+    "group": "other",
+    "id": "5oOifbswnej7XvdPuZ9ktd",
+    "name": "Teee Dollar"
+   },
+   {
+    "group": "other",
+    "id": "1IFAU4mznUcfPVP9z2c24N",
+    "name": "Daecolm"
+   },
+   {
+    "group": "other",
+    "id": "2w34rjWGumCU3vOiCVd3J6",
+    "name": "R33NZO"
+   },
+   {
+    "group": "other",
+    "id": "30SVAanrbFS6o0cIVDZ9ta",
+    "name": "Thisizlondon"
+   },
+   {
+    "group": "other",
+    "id": "5L1Xcdtf6MxLmEvpGMw3g4",
+    "name": "Ayjay bobo"
+   },
+   {
+    "group": "other",
+    "id": "26kmsdjrNWCC8srvp8NHVp",
+    "name": "Bigg Bobbyy"
+   },
+   {
+    "group": "other",
+    "id": "5FkUhnHQ0KC63549LHHtst",
+    "name": "Skillibeng"
+   },
+   {
+    "group": "UG",
+    "id": "00dT0myy0kbq152QWIzRPI",
+    "name": "Igwe Aka"
+   },
+   {
+    "group": "other",
+    "id": "5jfQBS0O6dR6axaz0BGMgs",
+    "name": "Chinko Ekun"
+   },
+   {
+    "group": "other",
+    "id": "1GGdQAntXMPS3MoWPgSeCo",
+    "name": "DND 98"
+   },
+   {
+    "group": "other",
+    "id": "3rCVow8RScBBIyrdceDOiw",
+    "name": "SSSoundGawd"
+   },
+   {
+    "group": "mainstream",
+    "id": "3wcj11K77LjEY1PkEazffa",
+    "name": "Burna Boy"
+   },
+   {
+    "group": "mainstream",
+    "id": "3ZpEKRjHaHANcpk10u6Ntq",
+    "name": "Ayra Starr"
+   },
+   {
+    "group": "other",
     "id": "1QsdzIKkTT5gDFj8GB1cIX",
     "name": "Yseult"
    },
    {
     "group": "other",
-    "id": "6l3HvQ5sa6mXTsMTB19rO5",
-    "name": "J. Cole"
+    "id": "6HsmnOUuab7e2X11UKrZ9Y",
+    "name": "JoeyXcv"
    },
    {
     "group": "other",
-    "id": "6uc997vTKJPHyK4i66liS4",
-    "name": "Hebron Ola"
+    "id": "5yOvAmpIR7hVxiS6Ls5DPO",
+    "name": "OMAH LAY"
    },
    {
     "group": "other",
-    "id": "5zfc16oDllbQP2L13GQQk4",
-    "name": "Eminasss"
-   },
-   {
-    "group": "UG",
-    "id": "4ZnAdq8niwc3MnthK4ujdr",
-    "name": "Fimi"
-   },
-   {
-    "group": "UG",
-    "id": "3EC3itx7VHQg0KYhuPsp5O",
-    "name": "Danpapa GTA"
+    "id": "4YIOi9aFNviV1jRQeiNZgO",
+    "name": "Reminisce"
    },
    {
     "group": "other",
-    "id": "4NXlTtV4GszpwfV6yaw0gk",
-    "name": "Nuel Asii"
-   },
-   {
-    "group": "other",
-    "id": "6h3iqdnfBKV2jRhUJz0oto",
-    "name": "Terri"
-   },
-   {
-    "group": "other",
-    "id": "2GfYq2uTYP3vG4QbQkdSPm",
-    "name": "Davee Thompson"
-   },
-   {
-    "group": "other",
-    "id": "6Kp3KWPiVgi33DkJqo9T4g",
-    "name": "Zinoleesky"
+    "id": "1zeUMAJrOoMdWjU0BErMzn",
+    "name": "Tochi Bedford"
    },
    {
     "group": "other",
@@ -8194,13 +7448,818 @@
    },
    {
     "group": "other",
+    "id": "12ArazR86wktMkxzm5h9T1",
+    "name": "Vonni"
+   },
+   {
+    "group": "other",
+    "id": "1FX1BFU0DbHRYgKP83pA0d",
+    "name": "JELEEL!"
+   },
+   {
+    "group": "other",
+    "id": "33KPqwPnEKJY6Tm9WfJQKq",
+    "name": "TAR1Q"
+   },
+   {
+    "group": "other",
+    "id": "7CsM9AfybVr427qxwYCDVl",
+    "name": "Onx"
+   },
+   {
+    "group": "other",
     "id": "1uNFoZAHBGtllmzznpCI3s",
     "name": "Justin Bieber"
    },
    {
     "group": "other",
+    "id": "7pzMp7mAU2KRlAjtYuKoje",
+    "name": "Tobi Nation"
+   },
+   {
+    "group": "UG",
+    "id": "5KbCVC6DvprtEp30AA093z",
+    "name": "DaveTheOracle"
+   },
+   {
+    "group": "UG",
+    "id": "6CS6NjMmo93ligNiiZ97LZ",
+    "name": "Luwa.Mp4"
+   },
+   {
+    "group": "other",
+    "id": "6mS3szHDI9h4lICrQj3ge0",
+    "name": "Makopelly"
+   },
+   {
+    "group": "other",
+    "id": "7urO0i2T8Ta9E9xAuOD1d6",
+    "name": "10Ten"
+   },
+   {
+    "group": "other",
+    "id": "2DFzMI8SSWPYBBSxVF7b2N",
+    "name": "Projexx"
+   },
+   {
+    "group": "other",
+    "id": "0BQyOgobSOkQ7u4vTG7fPJ",
+    "name": "TiMi"
+   },
+   {
+    "group": "other",
+    "id": "6uc997vTKJPHyK4i66liS4",
+    "name": "Hebron Ola"
+   },
+   {
+    "group": "other",
+    "id": "7oVgNYLuZ9HffOdNE15wnL",
+    "name": "Rightflow"
+   },
+   {
+    "group": "other",
+    "id": "5H1nN1SzW0qNeUEZvuXjAj",
+    "name": "Danny Ocean"
+   },
+   {
+    "group": "other",
+    "id": "2GfYq2uTYP3vG4QbQkdSPm",
+    "name": "Davee Thompson"
+   },
+   {
+    "group": "other",
+    "id": "3QZIuDbSkr9lWqNFGsBsb3",
+    "name": "JMB"
+   },
+   {
+    "group": "other",
+    "id": "68R39izwNAztATrXMOqkJS",
+    "name": "Bad Boy Timz"
+   },
+   {
+    "group": "other",
+    "id": "3M4rkbZStvMavZQt8lElw2",
+    "name": "activ.boizzz"
+   },
+   {
+    "group": "other",
+    "id": "0vyHUIFawbTNM2a7W7JqZe",
+    "name": "MetaBoy"
+   },
+   {
+    "group": "other",
+    "id": "2mLA48B366zkELXYx7hcDN",
+    "name": "Peggy Gou"
+   },
+   {
+    "group": "other",
+    "id": "5NG1nbdSZhlpLWNHK6idk5",
+    "name": "Southside Saint"
+   },
+   {
+    "group": "other",
+    "id": "1yRmB6bRwWKqs5zQnCYYUP",
+    "name": "EMELIE"
+   },
+   {
+    "group": "other",
+    "id": "1c61yiH4iYE7cHtjAYSUu3",
+    "name": "Banky W."
+   },
+   {
+    "group": "other",
+    "id": "6SL6GEDCDVZFEvo3ewugni",
+    "name": "Madisin!"
+   },
+   {
+    "group": "other",
+    "id": "4mSWNal2Ixxf1zrXSTLoep",
+    "name": "Zlatan"
+   },
+   {
+    "group": "UG",
+    "id": "35l6bXa97M4hhvQ3e058PZ",
+    "name": "WAVE$TAR"
+   },
+   {
+    "group": "other",
     "id": "5pNye0bGTXUivn8zdEBIfj",
     "name": "Payper Corleone"
+   },
+   {
+    "group": "mainstream",
+    "id": "3a1tBryiczPAZpgoZN9Rzg",
+    "name": "Asake"
+   },
+   {
+    "group": "other",
+    "id": "5Hgd05xamByQu7SLHxhdSh",
+    "name": "BigbadJozzy"
+   },
+   {
+    "group": "other",
+    "id": "4mCGYkTmNnEsnTrIr3atNB",
+    "name": "Straffitti"
+   },
+   {
+    "group": "mainstream",
+    "id": "0Y3agQaa6g2r0YmHPOO9rh",
+    "name": "Davido"
+   },
+   {
+    "group": "other",
+    "id": "58JKLeDfIeeOYujvF1UMQS",
+    "name": "Muyeez"
+   },
+   {
+    "group": "other",
+    "id": "4YISTUJnoZtAy6LjgOpRL7",
+    "name": "Ovrkast."
+   },
+   {
+    "group": "other",
+    "id": "3GvLzHTwSpsLgPcYB9ywgJ",
+    "name": "vvsmygwen"
+   },
+   {
+    "group": "other",
+    "id": "5yJLqKU6LRfzliSQIVnJMI",
+    "name": "Kashcoming"
+   },
+   {
+    "group": "other",
+    "id": "0FK1hXdXst70HD11n5J26z",
+    "name": "FOLA"
+   },
+   {
+    "group": "other",
+    "id": "1igmgiNroMhNQQx9Rp4uoI",
+    "name": "Mamuzo"
+   },
+   {
+    "group": "other",
+    "id": "2BPwxhCvvcb8xDl8GWIjbh",
+    "name": "Odeal"
+   },
+   {
+    "group": "mainstream",
+    "id": "3LOm0AZjpwVQebvkyanjDy",
+    "name": "ODUMODUBLVCK"
+   },
+   {
+    "group": "other",
+    "id": "1URnnhqYAYcrqrcwql10ft",
+    "name": "21 Savage"
+   },
+   {
+    "group": "other",
+    "id": "4if5dwAkHl7FZNCJTIB5e9",
+    "name": "Musta4a"
+   },
+   {
+    "group": "other",
+    "id": "7ebBg3BuRFa2satTcY8whC",
+    "name": "Billy Lemos"
+   },
+   {
+    "group": "other",
+    "id": "4zlOuiD2KEU4fv1wSBQ3Jn",
+    "name": "Sugarbana"
+   },
+   {
+    "group": "other",
+    "id": "4NXlTtV4GszpwfV6yaw0gk",
+    "name": "Nuel Asii"
+   },
+   {
+    "group": "other",
+    "id": "4C9EX8d2FnWMV2yQZqeG8U",
+    "name": "Somadina"
+   },
+   {
+    "group": "other",
+    "id": "7FNnA9vBm6EKceENgCGRMb",
+    "name": "Anitta"
+   },
+   {
+    "group": "mainstream",
+    "id": "4TKhxSkqClXrdtUWgKqHVU",
+    "name": "Shallipopi"
+   },
+   {
+    "group": "other",
+    "id": "4XE6eLUu1pp5rcI1cpDpWy",
+    "name": "Paxslim"
+   },
+   {
+    "group": "other",
+    "id": "4IVAbR2w4JJNJDDRFP3E83",
+    "name": "6LACK"
+   },
+   {
+    "group": "other",
+    "id": "3Y7RZ31TRPVadSFVy1o8os",
+    "name": "H.E.R."
+   },
+   {
+    "group": "other",
+    "id": "1X6cBGnXpEpN7CmflLKmLV",
+    "name": "Kizz Daniel"
+   },
+   {
+    "group": "other",
+    "id": "31uzUrQQv5lMCY9h5wTcRK",
+    "name": "BEACHBOIZ"
+   },
+   {
+    "group": "UG",
+    "id": "1VBjib1ykqXxss9Tw5YuR9",
+    "name": "Mavo"
+   },
+   {
+    "group": "other",
+    "id": "0jIWKlfmD4Ew7HeVVrq03g",
+    "name": "Elyanna"
+   },
+   {
+    "group": "other",
+    "id": "0rckUWPb0n9j1nRlGFvjHt",
+    "name": "Phenom"
+   },
+   {
+    "group": "other",
+    "id": "5ZETERIwOXfWYCBljWg3Hk",
+    "name": "Majesty Lyn"
+   },
+   {
+    "group": "other",
+    "id": "10G2iWM2FoafpNGqXZ9QMR",
+    "name": "KindlyNxsh"
+   },
+   {
+    "group": "other",
+    "id": "1fctva4kpRbg2k3v7kwRuS",
+    "name": "Rvssian"
+   },
+   {
+    "group": "other",
+    "id": "4sbXXFzEWJY2zsZjelerjX",
+    "name": "Dadju"
+   },
+   {
+    "group": "other",
+    "id": "15GgEOJiFyjQm4tZ4D7qih",
+    "name": "Cruel Santino"
+   },
+   {
+    "group": "other",
+    "id": "2j7j3bmaV4Ej8b9Cy0FtMY",
+    "name": "cosamote"
+   },
+   {
+    "group": "other",
+    "id": "3JJ0lsQ5g0DnRsTaCajxJU",
+    "name": "Buckwyla"
+   },
+   {
+    "group": "other",
+    "id": "4M5b70A8aORXdyJVjRJ8du",
+    "name": "Fimiguerrero"
+   },
+   {
+    "group": "other",
+    "id": "5ZsFI1h6hIdQRw2ti0hz81",
+    "name": "ZAYN"
+   },
+   {
+    "group": "other",
+    "id": "2LJdSBlf7UdzavnaxOMH9A",
+    "name": "GTS 40k"
+   },
+   {
+    "group": "other",
+    "id": "5CuyARGesDksvuWHiMQdX2",
+    "name": "Monochrome"
+   },
+   {
+    "group": "other",
+    "id": "23R4AtMwVv0pbJYB1joioW",
+    "name": "Shoday"
+   },
+   {
+    "group": "other",
+    "id": "6eXZu6O7nAUA5z6vLV8NKI",
+    "name": "Little Simz"
+   },
+   {
+    "group": "other",
+    "id": "1IMQHmBTqSwgqyK6nIYSZ2",
+    "name": "Monttei"
+   },
+   {
+    "group": "other",
+    "id": "36M1Z5OPFotaTTKNjSIuAX",
+    "name": "Viktoh"
+   },
+   {
+    "group": "other",
+    "id": "3QJzdZJYIAcoET1GcfpNGi",
+    "name": "Damian Marley"
+   },
+   {
+    "group": "other",
+    "id": "63lJOb0iO8hB6Hw0oSglnu",
+    "name": "Nowlee"
+   },
+   {
+    "group": "other",
+    "id": "6trIghKwHRUyxwvm66HLHH",
+    "name": "Fousheé"
+   },
+   {
+    "group": "other",
+    "id": "7vXDAI8JwjW531ouMGbfcp",
+    "name": "TINI"
+   },
+   {
+    "group": "other",
+    "id": "3Huh90qZ5dI2w5I4JjaQtF",
+    "name": "Indi"
+   },
+   {
+    "group": "other",
+    "id": "5zfc16oDllbQP2L13GQQk4",
+    "name": "Eminasss"
+   },
+   {
+    "group": "other",
+    "id": "5CSSzEHLGMcRVwq340BpHl",
+    "name": "Zen Univrse"
+   },
+   {
+    "group": "other",
+    "id": "2NtQA3PY9chI8l65ejZLTP",
+    "name": "SPINALL"
+   },
+   {
+    "group": "other",
+    "id": "7c0XG5cIJTrrAgEC3ULPiq",
+    "name": "Ty Dolla $ign"
+   },
+   {
+    "group": "other",
+    "id": "3QAWvRmq1TMLuNtDKVyRaW",
+    "name": "Odunsi (The Engine)"
+   },
+   {
+    "group": "other",
+    "id": "7HkdQ0gt53LP4zmHsL0nap",
+    "name": "Ella Mai"
+   },
+   {
+    "group": "other",
+    "id": "6Xgp2XMz1fhVYe7i6yNAax",
+    "name": "Trippie Redd"
+   },
+   {
+    "group": "other",
+    "id": "5TWaKfZVOCCLJN9cKLXjch",
+    "name": "GOODNES$"
+   },
+   {
+    "group": "other",
+    "id": "3DNCUaKdMZcMVJIS7yTskd",
+    "name": "Mayorkun"
+   },
+   {
+    "group": "other",
+    "id": "75yvKMzpIeYGyw5ElkoLYw",
+    "name": "Fergiee"
+   },
+   {
+    "group": "UG",
+    "id": "3EC3itx7VHQg0KYhuPsp5O",
+    "name": "Danpapa GTA"
+   },
+   {
+    "group": "other",
+    "id": "3vUMXQ9kPnZAQkMkZZ7Hfh",
+    "name": "Tiakola"
+   },
+   {
+    "group": "other",
+    "id": "14HBQIzTET0elsL8NO3Xtl",
+    "name": "CloudyNotes"
+   },
+   {
+    "group": "other",
+    "id": "6acbdy69rtlv8m9EW31MYl",
+    "name": "Phyno"
+   },
+   {
+    "group": "UG",
+    "id": "6eEW31SqGa8zKe3ibfTCdH",
+    "name": "Zaylevelten"
+   },
+   {
+    "group": "other",
+    "id": "12kjvw4e3gLp6qVHO65n7W",
+    "name": "Blaqbonez"
+   },
+   {
+    "group": "other",
+    "id": "1fYVmAFB7sC7eDoF3mJXla",
+    "name": "Wande Coal"
+   },
+   {
+    "group": "other",
+    "id": "2IK173RXLiCSQ8fhDlAb3s",
+    "name": "Adekunle Gold"
+   },
+   {
+    "group": "other",
+    "id": "4vqK18ff2fID1b43nhIKK6",
+    "name": "Favour Dre"
+   },
+   {
+    "group": "other",
+    "id": "6l3HvQ5sa6mXTsMTB19rO5",
+    "name": "J. Cole"
+   },
+   {
+    "group": "other",
+    "id": "62DmErcU7dqZbJaDqwsqzR",
+    "name": "Popcaan"
+   },
+   {
+    "group": "other",
+    "id": "2csYbKI9QGufe3Xny3Fkop",
+    "name": "bube"
+   },
+   {
+    "group": "other",
+    "id": "3UEwKs997VRicCpjEYTprR",
+    "name": "Id Cabasa"
+   },
+   {
+    "group": "mainstream",
+    "id": "46pWGuE3dSwY3bMMXGBvVS",
+    "name": "Rema"
+   },
+   {
+    "group": "other",
+    "id": "5Jv1MsZBh0sqokFq7pU8Xg",
+    "name": "Pheelz"
+   },
+   {
+    "group": "other",
+    "id": "7MJaBrtUNMCVWliXOa7mwk",
+    "name": "Jeriq"
+   },
+   {
+    "group": "other",
+    "id": "2hlmm7s2ICUX0LVIhVFlZQ",
+    "name": "Gunna"
+   },
+   {
+    "group": "UG",
+    "id": "4Hz1UttsadDCW4xA41XKoV",
+    "name": "Egertton"
+   },
+   {
+    "group": "other",
+    "id": "3YZW6xRMNPj57dx36Eb2Yd",
+    "name": "Buff Lou"
+   },
+   {
+    "group": "other",
+    "id": "47fErV0VDIx6PmuhtWGTYu",
+    "name": "Dremo"
+   },
+   {
+    "group": "other",
+    "id": "0P8jodpczL0pVKzYMkJKpX",
+    "name": "Tobby BadAss"
+   },
+   {
+    "group": "other",
+    "id": "5ywjxFhmhHGQBsK3DundNf",
+    "name": "Peruzzi"
+   },
+   {
+    "group": "other",
+    "id": "1CoZyIx7UvdxT5c8UkMzHd",
+    "name": "Jorja Smith"
+   },
+   {
+    "group": "other",
+    "id": "048LktY5zMnakWq7PTtFrz",
+    "name": "CKay"
+   },
+   {
+    "group": "other",
+    "id": "7pcVZssnGHrZrzzbQtMpkF",
+    "name": "DaniTheeGreatt"
+   },
+   {
+    "group": "other",
+    "id": "1mcTU81TzQhprhouKaTkpq",
+    "name": "Rauw Alejandro"
+   },
+   {
+    "group": "other",
+    "id": "2p1fiYHYiXz9qi0JJyxBzN",
+    "name": "Skepta"
+   },
+   {
+    "group": "other",
+    "id": "3hXlGRJuBMCg9xJ41BSWkf",
+    "name": "ARTSALGHUL"
+   },
+   {
+    "group": "other",
+    "id": "6aIZIwesnYKR6ZN1fIerPZ",
+    "name": "Mercury"
+   },
+   {
+    "group": "other",
+    "id": "4Xi6LSfFqv26XgP9NKN26U",
+    "name": "AJ Tracey"
+   },
+   {
+    "group": "other",
+    "id": "3zaDigUwjHvjOkSn0NDf9x",
+    "name": "BNXN"
+   },
+   {
+    "group": "other",
+    "id": "1hNaHKp2Za5YdOAG0WnRbc",
+    "name": "Tiwa Savage"
+   },
+   {
+    "group": "other",
+    "id": "3ZwrZQdYpAwdPXlKTictk8",
+    "name": "B Banks"
+   },
+   {
+    "group": "other",
+    "id": "2s187JqHC9kipPLBLWXubl",
+    "name": "Falz"
+   },
+   {
+    "group": "other",
+    "id": "7kK5badbqOjd8WlT2XWMeM",
+    "name": "Bella Shmurda"
+   },
+   {
+    "group": "other",
+    "id": "5RklmjJAxQsqQFyOTi9ih5",
+    "name": "Tammyagain"
+   },
+   {
+    "group": "other",
+    "id": "1ixqGowpDM21RwyJmJ7hpv",
+    "name": "Skales"
+   },
+   {
+    "group": "other",
+    "id": "7DxRMFU4AqEIwjILkhSFDk",
+    "name": "Luh Drayco"
+   },
+   {
+    "group": "other",
+    "id": "3TVXtAsR1Inumwj472S9r4",
+    "name": "Drake"
+   },
+   {
+    "group": "other",
+    "id": "1kMPdZQVdUhMDKDWOJM5iK",
+    "name": "Tkay Maidza"
+   },
+   {
+    "group": "other",
+    "id": "59MU62wyOLf8FlV7l8fewL",
+    "name": "Le Mav"
+   },
+   {
+    "group": "other",
+    "id": "7bXgB6jMjp9ATFy66eO08Z",
+    "name": "Chris Brown"
+   },
+   {
+    "group": "UG",
+    "id": "4ZnAdq8niwc3MnthK4ujdr",
+    "name": "Fimi"
+   },
+   {
+    "group": "other",
+    "id": "11wVvKdFSo29HDH3JgqTYX",
+    "name": "Somawine"
+   },
+   {
+    "group": "other",
+    "id": "1vyhD5VmyZ7KMfW5gqLgo5",
+    "name": "J Balvin"
+   },
+   {
+    "group": "other",
+    "id": "3A3QkRXKzYGGowaAdKdo7Y",
+    "name": "IDK Young J."
+   },
+   {
+    "group": "other",
+    "id": "3FdLhnmXynPvZkbILPpB6d",
+    "name": "Ladysmith Black Mambazo"
+   },
+   {
+    "group": "other",
+    "id": "5jVohQzVOMNwP5ao5J1vk5",
+    "name": "3CB"
+   },
+   {
+    "group": "other",
+    "id": "7rGdPKZx6tqAbclJ7llUbs",
+    "name": "Wana Sn"
+   },
+   {
+    "group": "other",
+    "id": "4qYpTEJThZ8FC8KzyFrSWW",
+    "name": "Boj"
+   },
+   {
+    "group": "other",
+    "id": "2SrSdSvpminqmStGELCSNd",
+    "name": "Stormzy"
+   },
+   {
+    "group": "other",
+    "id": "1Zj017W6N6SmZRLS4ODpjS",
+    "name": "Phyno"
+   },
+   {
+    "group": "other",
+    "id": "1hBSQ3xsR6kfPMi7yLNmnZ",
+    "name": "Aenyi"
+   },
+   {
+    "group": "UG",
+    "id": "3CyKLwlqtYmQxNt4cWflKx",
+    "name": "scottyolorin"
+   },
+   {
+    "group": "other",
+    "id": "6NV0b1K9BhoZYSBk9ZPnWv",
+    "name": "See You Next Year"
+   },
+   {
+    "group": "other",
+    "id": "5L7X4fW19ZEG2EdkOIPpMg",
+    "name": "Barry lane"
+   },
+   {
+    "group": "other",
+    "id": "1rxMZxcNgJiXunlNSAq8pY",
+    "name": "S1orDie"
+   },
+   {
+    "group": "other",
+    "id": "2k4BorccGemzBPjIRkT5Pa",
+    "name": "Txmmyily"
+   },
+   {
+    "group": "other",
+    "id": "0iEtIxbK0KxaSlF7G42ZOp",
+    "name": "Metro Boomin"
+   },
+   {
+    "group": "other",
+    "id": "2a0uxJgbvvIRI4GX8pYfcr",
+    "name": "J Hus"
+   },
+   {
+    "group": "other",
+    "id": "75VKfyoBlkmrJFDqo1o2VY",
+    "name": "Fireboy DML"
+   },
+   {
+    "group": "other",
+    "id": "6qCxa9ZvMnoVevYR6cubyW",
+    "name": "Udishigh"
+   },
+   {
+    "group": "other",
+    "id": "2hs1DM1Lbd7OA9VDQgeEbc",
+    "name": "KRL Soundz"
+   },
+   {
+    "group": "other",
+    "id": "6eGNSDjuuUepYdy32k1zXS",
+    "name": "Aibrid"
+   },
+   {
+    "group": "other",
+    "id": "3l7SEJk2wlBU3OvrMWf1sj",
+    "name": "Pepenazi"
+   },
+   {
+    "group": "other",
+    "id": "4wAqlYtTaaHELEgyCh9KjG",
+    "name": "FAVE"
+   },
+   {
+    "group": "other",
+    "id": "67nwj3Y5sZQLl72VNUHEYE",
+    "name": "Wale"
+   },
+   {
+    "group": "other",
+    "id": "3ukrG1BmfEiuo0KDj8YTTS",
+    "name": "Teni"
+   },
+   {
+    "group": "other",
+    "id": "6h3iqdnfBKV2jRhUJz0oto",
+    "name": "Terri"
+   },
+   {
+    "group": "UG",
+    "id": "5toMJY8OHE9np3f4Hh0wCy",
+    "name": "Ravington"
+   },
+   {
+    "group": "mainstream",
+    "id": "3tVQdUvClmAT7URs9V3rsp",
+    "name": "Wizkid"
+   },
+   {
+    "group": "other",
+    "id": "6Kp3KWPiVgi33DkJqo9T4g",
+    "name": "Zinoleesky"
+   },
+   {
+    "group": "other",
+    "id": "687cZJR45JO7jhk1LHIbgq",
+    "name": "Tems"
+   },
+   {
+    "group": "other",
+    "id": "4gzpq5DPGxSnKTe4SA8HAU",
+    "name": "Coldplay"
+   },
+   {
+    "group": "other",
+    "id": "1mcBWQVnnsPhMLCUB6iISP",
+    "name": "The Flowolf"
+   },
+   {
+    "group": "other",
+    "id": "0EmeFodog0BfCgMzAIvKQp",
+    "name": "Shakira"
+   },
+   {
+    "group": "mainstream",
+    "id": "4zmZ8lVLzGc84S4v2B1rLx",
+    "name": "Seyi Vibez"
    }
   ]
  },
@@ -8398,12 +8457,266 @@
    "type": "single"
   }
  ],
+ "spotlight": [
+  {
+   "artist": "Egertton",
+   "beforeTracking": true,
+   "daysOut": 5,
+   "gainedSinceDrop": 7200,
+   "group": "UG",
+   "id": "4Hz1UttsadDCW4xA41XKoV",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb18bde92e1943afe5484189cf",
+   "lines": [
+    "+7.2K monthly listeners since we started tracking (293K → 300K)",
+    "Song streams aren't public yet, so we track the listener growth around the drop"
+   ],
+   "listenersChange": 2.5,
+   "release": {
+    "charting": false,
+    "daily": null,
+    "date": "2026-11-19",
+    "id": "6fUtrAsmiBGPSQJ6VkxcoK",
+    "name": "Big Professor",
+    "total": null,
+    "type": "single"
+   },
+   "share": null,
+   "tracks": []
+  },
+  {
+   "artist": "scottyolorin",
+   "beforeTracking": true,
+   "daysOut": 4,
+   "gainedSinceDrop": 16000,
+   "group": "UG",
+   "id": "3CyKLwlqtYmQxNt4cWflKx",
+   "image": "https://i.scdn.co/image/ab6761610000e5ebd2f15ec28e3f9abe7933da50",
+   "lines": [
+    "+16K monthly listeners since we started tracking (659K → 675K)",
+    "Song streams aren't public yet, so we track the listener growth around the drop"
+   ],
+   "listenersChange": 2.4,
+   "release": {
+    "charting": false,
+    "daily": null,
+    "date": "2026-11-20",
+    "id": "0vm0eF4DHupBcc9Ui9T1TH",
+    "name": "GLACIER BOY",
+    "total": null,
+    "type": "album"
+   },
+   "share": null,
+   "tracks": []
+  },
+  {
+   "artist": "DaveTheOracle",
+   "beforeTracking": true,
+   "daysOut": 4,
+   "gainedSinceDrop": 5700,
+   "group": "UG",
+   "id": "5KbCVC6DvprtEp30AA093z",
+   "image": "https://i.scdn.co/image/ab6761610000e5eb06437ff341bf0a8ccae0f4d4",
+   "lines": [
+    "+5.7K monthly listeners since we started tracking (625K → 631K)",
+    "Song streams aren't public yet, so we track the listener growth around the drop"
+   ],
+   "listenersChange": 0.9,
+   "release": {
+    "charting": false,
+    "daily": null,
+    "date": "2026-11-20",
+    "id": "7s1hGiMRKQB6KnDGYZH2n1",
+    "name": "ME vs ME",
+    "total": null,
+    "type": "single"
+   },
+   "share": null,
+   "tracks": []
+  }
+ ],
  "story": [
-  "Egertton grew the most overnight: +2.5% (about 7.2K new listeners). scottyolorin was close behind at +2.4%.",
+  "Egertton grew the most overnight: +2.5% (about 7.2K new listeners), likely off their new single \"Big Professor\" (out 19 Nov). scottyolorin was close behind at +2.4%.",
   "Igwe Aka dipped the most: -3.3%.",
   "Mavo is the biggest UG act right now with 3.8M monthly listeners, about as many listeners as ODUMODUBLVCK.",
   "By our meter, Mavo has crossed over to mainstream-level numbers, and Zaylevelten is breaking through.",
   "Name to watch: ARTSALGHUL keeps popping up on UG songs: 9 tracks with 6 different acts (Danpapa GTA, DaveTheOracle, Egertton and 3 more). We're not tracking them yet, but the scene clearly rates them."
  ],
- "updated": "2026-11-24"
+ "updated": "2026-11-24",
+ "week": {
+  "biggestGain": {
+   "change": 0.4,
+   "driver": {
+    "change": null,
+    "delta": 59328,
+    "fromRelease": null,
+    "kind": "song",
+    "new": true,
+    "title": "Goals"
+   },
+   "from": 26600000,
+   "gained": 100000,
+   "group": "mainstream",
+   "name": "Rema",
+   "to": 26700000
+  },
+  "days": 1,
+  "drops": [],
+  "end": "2026-11-24",
+  "meterMoves": [],
+  "note": "Covers 1 day (tracking started 23 Nov).",
+  "songs": [
+   {
+    "artist": "Burna Boy",
+    "daily": 1559554,
+    "gained": 1559554,
+    "group": "mainstream",
+    "title": "Dai Dai"
+   },
+   {
+    "artist": "Wizkid",
+    "daily": 1388952,
+    "gained": 1388952,
+    "group": "mainstream",
+    "title": "One Dance"
+   },
+   {
+    "artist": "Ayra Starr",
+    "daily": 370194,
+    "gained": 740388,
+    "group": "mainstream",
+    "title": "Santa"
+   },
+   {
+    "artist": "Rema",
+    "daily": 662587,
+    "gained": 662587,
+    "group": "mainstream",
+    "title": "Secondhand (feat. Rema)"
+   },
+   {
+    "artist": "Ayra Starr",
+    "daily": 305307,
+    "gained": 610614,
+    "group": "mainstream",
+    "title": "BOOMPALA (feat. Ayra Starr)"
+   }
+  ],
+  "start": "2026-11-23",
+  "thread": [
+   "MOTION REPORT 📈 23 nov – 24 nov\n\nwho moved in naija music this week, measured daily on spotify 🧵",
+   "top movers this week:\n\n1. Egertton +2.5% (+7.2K)\n2. scottyolorin +2.4% (+16K)\n3. DaveTheOracle +0.9% (+5.7K)\n4. Luwa.Mp4 +0.8% (+400)\n5. Wave$tar +0.7% (+5.3K)",
+   "songs of the week:\n\n• \"Dai Dai\" by Burna Boy: +1.6M plays\n• \"One Dance\" by Wizkid: +1.4M plays\n• \"Santa\" by Ayra Starr: +740K plays\n• \"Secondhand (feat. Rema)\" by Rema: +663K plays",
+   "name to watch 👀 ARTSALGHUL: on 9 songs with 6 UG acts and nobody's talking about it",
+   "full numbers, every artist, updated every morning 👇"
+  ],
+  "title": "Motion Report · 23 Nov – 24 Nov",
+  "topMovers": [
+   {
+    "change": 2.5,
+    "driver": {
+     "date": "2026-11-19",
+     "kind": "likely",
+     "title": "Big Professor",
+     "type": "single"
+    },
+    "from": 293300,
+    "gained": 7200,
+    "group": "UG",
+    "name": "Egertton",
+    "to": 300500
+   },
+   {
+    "change": 2.4,
+    "driver": {
+     "date": "2026-11-20",
+     "kind": "likely",
+     "title": "GLACIER BOY",
+     "type": "album"
+    },
+    "from": 659100,
+    "gained": 16000,
+    "group": "UG",
+    "name": "scottyolorin",
+    "to": 675100
+   },
+   {
+    "change": 0.9,
+    "driver": {
+     "date": "2026-11-20",
+     "kind": "likely",
+     "title": "ME vs ME",
+     "type": "single"
+    },
+    "from": 625000,
+    "gained": 5700,
+    "group": "UG",
+    "name": "DaveTheOracle",
+    "to": 630700
+   },
+   {
+    "change": 0.8,
+    "driver": {
+     "date": "2026-11-13",
+     "kind": "likely",
+     "title": "YoungRiot!",
+     "type": "single"
+    },
+    "from": 52400,
+    "gained": 400,
+    "group": "UG",
+    "name": "Luwa.Mp4",
+    "to": 52800
+   },
+   {
+    "change": 0.7,
+    "driver": null,
+    "from": 735200,
+    "gained": 5300,
+    "group": "UG",
+    "name": "Wave$tar",
+    "to": 740500
+   }
+  ],
+  "watch": [
+   {
+    "id": "3hXlGRJuBMCg9xJ41BSWkf",
+    "latest": "2026-11-16",
+    "name": "ARTSALGHUL",
+    "tracks": 9,
+    "with": [
+     "Danpapa GTA",
+     "DaveTheOracle",
+     "Egertton",
+     "Igwe Aka",
+     "Wave$tar",
+     "scottyolorin"
+    ]
+   },
+   {
+    "id": "6HsmnOUuab7e2X11UKrZ9Y",
+    "latest": "2026-07-31",
+    "name": "JoeyXcv",
+    "tracks": 11,
+    "with": [
+     "DaveTheOracle",
+     "Egertton",
+     "Kobilou",
+     "Luwa.Mp4",
+     "scottyolorin"
+    ]
+   },
+   {
+    "id": "5L1Xcdtf6MxLmEvpGMw3g4",
+    "latest": "2026-08-14",
+    "name": "Ayjay bobo",
+    "tracks": 4,
+    "with": [
+     "DaveTheOracle",
+     "Kobilou",
+     "Zaylevelten",
+     "scottyolorin"
+    ]
+   }
+  ]
+ }
 }
