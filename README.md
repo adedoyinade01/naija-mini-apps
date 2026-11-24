@@ -17,14 +17,14 @@ Five Lagos-flavoured projects, each one showing a different skill: a scoring eng
 ## MOTION (UG Wave Tracker) setup
 
 1. Create an app at developer.spotify.com (Web API). The owner account needs Premium.
-2. Locally: create `ug-tracker/collector/.env` with
+2. Locally: create `motion/collector/.env` with
    ```
    SPOTIFY_CLIENT_ID=...
    SPOTIFY_CLIENT_SECRET=...
    ```
-   then `cd ug-tracker/collector && python3 collect.py`. It's standard library only, so there's nothing to install.
+   then `cd motion/collector && python3 collect.py`. It's standard library only, so there's nothing to install.
 3. On GitHub: Settings → Secrets and variables → Actions → add `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET`. The `ug-tracker daily` workflow then runs every morning and commits the new numbers.
-4. Edit `ug-tracker/artists.json` to add or remove artists.
+4. Edit `motion/artists.json` to add or remove artists.
 
 Note: since Feb 2026 Spotify's API no longer returns follower/popularity data to development-mode apps, so daily numbers come from kworb.net (streams) and the public open.spotify.com artist page (monthly listeners). Set the Actions variable `ENABLE_WEB_SCRAPE=0` to turn the open.spotify.com part off.
 
@@ -35,7 +35,7 @@ late/             excuse engine (engine.js = pure logic, app.js = UI)
 detty/            planner (model.js = simulation, charts.js = canvas, app.js = UI)
 jollof-wars/      frontend + backend/ (Python API, tests)
 afrobeats-lab/    dashboard + pipeline/ (Python analysis, tests)
-ug-tracker/       dashboard + collector/ (Python, tests) + artists.json + data/
+motion/       dashboard + collector/ (Python, tests) + artists.json + data/
 tests/            Node tests for the JS engines
 render.yaml       one-click deploy for the Jollof Wars API
 ```

@@ -28,7 +28,7 @@ jobs:
       - run: pytest -q
   ug-tracker:
     runs-on: ubuntu-latest
-    defaults: { run: { working-directory: ug-tracker/collector } }
+    defaults: { run: { working-directory: motion/collector } }
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
