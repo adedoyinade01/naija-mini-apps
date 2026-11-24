@@ -126,6 +126,103 @@
      5863602
     ]
    ],
+   "songs": {
+    "charting": true,
+    "features": [
+     {
+      "change": -12.5,
+      "daily": 144258,
+      "feature": true,
+      "gained": 144258,
+      "id": "6KFWubocLBhrLs31RpEdR9",
+      "since": "2026-11-23",
+      "title": "Location (feat. Burna Boy)",
+      "total": 748553342
+     },
+     {
+      "change": -17.0,
+      "daily": 1559554,
+      "feature": true,
+      "gained": 1559554,
+      "id": "0kosUz0jePvjiz4ctmR6wL",
+      "since": "2026-11-23",
+      "title": "Dai Dai",
+      "total": 591690411
+     },
+     {
+      "change": 0.0,
+      "daily": 75589,
+      "feature": true,
+      "gained": 0,
+      "id": "4QPEwDdOMhY7rNS05mTyMR",
+      "since": "2026-11-23",
+      "title": "Own It (feat. Ed Sheeran & Burna Boy)",
+      "total": 419366375
+     }
+    ],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-11-19",
+     "id": "6hkaerWZMubBWwyTDJP8J3",
+     "name": "Bigger (from GTAVI: The Album)",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": [
+     {
+      "change": -15.8,
+      "daily": 188836,
+      "feature": false,
+      "gained": 188836,
+      "id": "4LPNkxES0zCGn6S2Y1vmJN",
+      "since": "2026-11-23",
+      "title": "Last Last",
+      "total": 625697195
+     },
+     {
+      "change": -16.3,
+      "daily": 195549,
+      "feature": false,
+      "gained": 195549,
+      "id": "1zIk8RJEKGvoH4FioFnGyJ",
+      "since": "2026-11-23",
+      "title": "On the Low",
+      "total": 444107175
+     },
+     {
+      "change": -14.3,
+      "daily": 93432,
+      "feature": false,
+      "gained": 93432,
+      "id": "4N7AXHRMQYh9GHQd5hE6NP",
+      "since": "2026-11-23",
+      "title": "For My Hand (feat. Ed Sheeran)",
+      "total": 390533391
+     },
+     {
+      "change": -14.4,
+      "daily": 140437,
+      "feature": false,
+      "gained": 140437,
+      "id": "2lEl1iNGpz9r2B7R5BqXSD",
+      "since": "2026-11-23",
+      "title": "Ye",
+      "total": 346199252
+     },
+     {
+      "change": -13.4,
+      "daily": 115363,
+      "feature": false,
+      "gained": 115363,
+      "id": "4RoKNqyZ9622tcAeNPNv5k",
+      "since": "2026-11-23",
+      "title": "City Boys",
+      "total": 297728903
+     }
+    ]
+   },
    "status": {
     "icon": "●",
     "key": "steady",
@@ -261,6 +358,103 @@
      4108616
     ]
    ],
+   "songs": {
+    "charting": true,
+    "features": [
+     {
+      "change": -15.3,
+      "daily": 150063,
+      "feature": true,
+      "gained": 150063,
+      "id": "1lZI1Dt20u4EsIwLmwiTII",
+      "since": "2026-11-23",
+      "title": "Soweto - Sped Up",
+      "total": 303524213
+     },
+     {
+      "change": -21.2,
+      "daily": 72439,
+      "feature": true,
+      "gained": 72439,
+      "id": "62xla8336vUnmxTWNzCfRt",
+      "since": "2026-11-23",
+      "title": "BUBALU",
+      "total": 267801768
+     },
+     {
+      "change": -7.9,
+      "daily": 662587,
+      "feature": true,
+      "gained": 662587,
+      "id": "4Z5KKoBGxpJo8YbDcGQXd5",
+      "since": "2026-11-23",
+      "title": "Secondhand (feat. Rema)",
+      "total": 214436441
+     }
+    ],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-11-20",
+     "id": "4r6kHpL8Ql8O6FvfvdjVwg",
+     "name": "E-Mortal Boy",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": [
+     {
+      "change": -15.1,
+      "daily": 441503,
+      "feature": false,
+      "gained": 441503,
+      "id": "1s7oOCT8vauUh01PbJD6ps",
+      "since": "2026-11-23",
+      "title": "Calm Down (with Selena Gomez)",
+      "total": 1993570705
+     },
+     {
+      "change": -15.8,
+      "daily": 156831,
+      "feature": false,
+      "gained": 156831,
+      "id": "64B8ewx0cEcn6UHwDm33Gm",
+      "since": "2026-11-23",
+      "title": "Calm Down",
+      "total": 769268951
+     },
+     {
+      "change": -17.9,
+      "daily": 109696,
+      "feature": false,
+      "gained": 109696,
+      "id": "0h1bZv4IoNi4Fx7zu6XM7b",
+      "since": "2026-11-23",
+      "title": "Soundgasm",
+      "total": 249934179
+     },
+     {
+      "change": -16.2,
+      "daily": 109331,
+      "feature": false,
+      "gained": 109331,
+      "id": "1iBWjQ9af9NnUd5xnQDB3k",
+      "since": "2026-11-23",
+      "title": "Charm",
+      "total": 219186388
+     },
+     {
+      "change": -17.7,
+      "daily": 64681,
+      "feature": false,
+      "gained": 64681,
+      "id": "0SjQBdIddPvKSWxr8vk6QX",
+      "since": "2026-11-23",
+      "title": "Dumebi",
+      "total": 202638424
+     }
+    ]
+   },
    "status": {
     "icon": "▲",
     "key": "growing",
@@ -396,6 +590,103 @@
      2926278
     ]
    ],
+   "songs": {
+    "charting": true,
+    "features": [
+     {
+      "change": -9.1,
+      "daily": 370194,
+      "feature": true,
+      "gained": 740388,
+      "id": "6a9Z1jUms915w4O7N1PxjY",
+      "since": "2026-11-23",
+      "title": "Santa",
+      "total": 964533170
+     },
+     {
+      "change": -77.7,
+      "daily": 79047,
+      "feature": true,
+      "gained": 158094,
+      "id": "4AxG1T6UJJ4xCX4Wz6JDLG",
+      "since": "2026-11-23",
+      "title": "People (feat. Ayra Starr & Omah Lay)",
+      "total": 176978671
+     },
+     {
+      "change": 3.0,
+      "daily": 305307,
+      "feature": true,
+      "gained": 610614,
+      "id": "1SgQOAxmkXQOboaBqaOjjZ",
+      "since": "2026-11-23",
+      "title": "BOOMPALA (feat. Ayra Starr)",
+      "total": 109298015
+     }
+    ],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-11-06",
+     "id": "21BkH2O10433QoWLGs6pZN",
+     "name": "All The People",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": [
+     {
+      "change": -7.4,
+      "daily": 227568,
+      "feature": false,
+      "gained": 455136,
+      "id": "1xs8bOvm3IzEYmcLJVOc34",
+      "since": "2026-11-23",
+      "title": "Rush",
+      "total": 597313026
+     },
+     {
+      "change": -9.8,
+      "daily": 114643,
+      "feature": false,
+      "gained": 229286,
+      "id": "4GXW3Ne1jzdORKHvHjK31V",
+      "since": "2026-11-23",
+      "title": "Commas",
+      "total": 189137195
+     },
+     {
+      "change": -8.3,
+      "daily": 76437,
+      "feature": false,
+      "gained": 152874,
+      "id": "1A1ifX8sWzelNpkL5PxcHT",
+      "since": "2026-11-23",
+      "title": "Last Heartbreak Song (feat. Giveon)",
+      "total": 128048464
+     },
+     {
+      "change": null,
+      "daily": 45128,
+      "feature": false,
+      "gained": null,
+      "id": "6RALexvW509Dy9kppmNiKT",
+      "since": null,
+      "title": "Bloody Samaritan",
+      "total": 125769374
+     },
+     {
+      "change": null,
+      "daily": 48838,
+      "feature": false,
+      "gained": null,
+      "id": "6VX4hVDmDMfClxp6EwDNQP",
+      "since": null,
+      "title": "Bad Vibes (feat. Seyi Vibez)",
+      "total": 84506327
+     }
+    ]
+   },
    "status": {
     "icon": "●",
     "key": "steady",
@@ -531,6 +822,103 @@
      5116408
     ]
    ],
+   "songs": {
+    "charting": true,
+    "features": [
+     {
+      "change": -11.7,
+      "daily": 1388952,
+      "feature": true,
+      "gained": 1388952,
+      "id": "1zi7xx7UVEFkmKfv06H8x0",
+      "since": "2026-11-23",
+      "title": "One Dance",
+      "total": 4580588353
+     },
+     {
+      "change": -14.2,
+      "daily": 57339,
+      "feature": true,
+      "gained": 57339,
+      "id": "1B5I5yqLpVI5EosZS6bJFs",
+      "since": "2026-11-23",
+      "title": "Call Me Every Day (feat. Wizkid)",
+      "total": 216950314
+     },
+     {
+      "change": null,
+      "daily": 15627,
+      "feature": true,
+      "gained": null,
+      "id": "054Z6a1OBWAtXMlSs96P53",
+      "since": null,
+      "title": "Boom (feat. MOTi, Ty Dolla $ign, Wizkid & Kranium)",
+      "total": 182217122
+     }
+    ],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-11-19",
+     "id": "2tkpoFs09vZRoSEhtwzeqF",
+     "name": "Feel Alright",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": [
+     {
+      "change": -15.3,
+      "daily": 149601,
+      "feature": false,
+      "gained": 149601,
+      "id": "5FG7Tl93LdH117jEKYl3Cm",
+      "since": "2026-11-23",
+      "title": "Essence (feat. Tems)",
+      "total": 412855357
+     },
+     {
+      "change": -12.9,
+      "daily": 95872,
+      "feature": false,
+      "gained": 95872,
+      "id": "2zYs4BonN2ydkbrRk333SN",
+      "since": "2026-11-23",
+      "title": "Come Closer (feat. Drake)",
+      "total": 194284499
+     },
+     {
+      "change": null,
+      "daily": 44376,
+      "feature": false,
+      "gained": null,
+      "id": "1MZtr7IH5qtjIkqrXj8WOJ",
+      "since": null,
+      "title": "Essence (feat. Justin Bieber & Tems)",
+      "total": 192729107
+     },
+     {
+      "change": -13.4,
+      "daily": 112207,
+      "feature": false,
+      "gained": 112207,
+      "id": "3Yt1ovsh3v3VEzRuhI1TL5",
+      "since": "2026-11-23",
+      "title": "Joro",
+      "total": 180833016
+     },
+     {
+      "change": null,
+      "daily": 56498,
+      "feature": false,
+      "gained": null,
+      "id": "51mLQ3w7yR7vjdSTFLWaY5",
+      "since": null,
+      "title": "Ginger (feat. Burna Boy)",
+      "total": 141394912
+     }
+    ]
+   },
    "status": {
     "icon": "●",
     "key": "steady",
@@ -586,6 +974,94 @@
      2479801
     ]
    ],
+   "songs": {
+    "charting": true,
+    "features": [
+     {
+      "change": -17.8,
+      "daily": 49553,
+      "feature": true,
+      "gained": 49553,
+      "id": "4JQIGTLXz4oULctglUDpw6",
+      "since": "2026-11-23",
+      "title": "Sensational (feat. Davido & Lojay)",
+      "total": 165251447
+     },
+     {
+      "change": null,
+      "daily": 33239,
+      "feature": true,
+      "gained": null,
+      "id": "04QTmCTsaVjcGaoxj8rSjE",
+      "since": null,
+      "title": "Know Your Worth (feat. Davido & Tems)",
+      "total": 98507594
+     },
+     {
+      "change": -20.2,
+      "daily": 47043,
+      "feature": true,
+      "gained": 47043,
+      "id": "4G11wDzAKuCFqApL4g3ixC",
+      "since": "2026-11-23",
+      "title": "High",
+      "total": 72234033
+     }
+    ],
+    "latest": null,
+    "top": [
+     {
+      "change": -17.0,
+      "daily": 64477,
+      "feature": false,
+      "gained": 64477,
+      "id": "2kaH2Z8ezDUKf6fNw250rZ",
+      "since": "2026-11-23",
+      "title": "UNAVAILABLE (feat. Musa Keys)",
+      "total": 250676375
+     },
+     {
+      "change": -18.6,
+      "daily": 143823,
+      "feature": false,
+      "gained": 143823,
+      "id": "7vKXc90NT5WBm3UTT4iTVG",
+      "since": "2026-11-23",
+      "title": "KANTE (feat. Fave)",
+      "total": 198853768
+     },
+     {
+      "change": -19.1,
+      "daily": 51030,
+      "feature": false,
+      "gained": 51030,
+      "id": "1hEXElwyPez2z7m5dZ56Mc",
+      "since": "2026-11-23",
+      "title": "Fall",
+      "total": 148044754
+     },
+     {
+      "change": -17.4,
+      "daily": 104115,
+      "feature": false,
+      "gained": 104115,
+      "id": "5GyaXqMfcIGHfmTUITFacS",
+      "since": "2026-11-23",
+      "title": "With You (feat. Omah Lay)",
+      "total": 141300985
+     },
+     {
+      "change": -17.5,
+      "daily": 52415,
+      "feature": false,
+      "gained": 52415,
+      "id": "1mk8ZC9OeTZMr8Wy31LqRj",
+      "since": "2026-11-23",
+      "title": "FEEL",
+      "total": 122627867
+     }
+    ]
+   },
    "status": {
     "icon": "●",
     "key": "steady",
@@ -665,6 +1141,94 @@
      4644689
     ]
    ],
+   "songs": {
+    "charting": true,
+    "features": [
+     {
+      "change": -10.4,
+      "daily": 100063,
+      "feature": true,
+      "gained": 100063,
+      "id": "2qWwuCVeMjF9mUT0S5Iqvl",
+      "since": "2026-11-23",
+      "title": "Bandana",
+      "total": 229381686
+     },
+     {
+      "change": null,
+      "daily": 63510,
+      "feature": true,
+      "gained": null,
+      "id": "3Y1hrPPs0FFtXodEE7HkrN",
+      "since": null,
+      "title": "Happiness ​(f​eat​. Asake, Gunna​)",
+      "total": 111390672
+     },
+     {
+      "change": -18.2,
+      "daily": 107989,
+      "feature": true,
+      "gained": 107989,
+      "id": "6eb4SF4GKYU1AQdyFuxZg1",
+      "since": "2026-11-23",
+      "title": "Jogodo",
+      "total": 88594871
+     }
+    ],
+    "latest": null,
+    "top": [
+     {
+      "change": -10.3,
+      "daily": 100582,
+      "feature": false,
+      "gained": 100582,
+      "id": "5ZtK8XAVnoaGdBXZWCEVCY",
+      "since": "2026-11-23",
+      "title": "Lonely At The Top",
+      "total": 208522732
+     },
+     {
+      "change": null,
+      "daily": 78147,
+      "feature": false,
+      "gained": null,
+      "id": "5ycsqezujKrwviU3VFhci1",
+      "since": null,
+      "title": "Terminator",
+      "total": 157388687
+     },
+     {
+      "change": -7.9,
+      "daily": 129496,
+      "feature": false,
+      "gained": 129496,
+      "id": "0Q1bMs3xLQiDEeaneehdxv",
+      "since": "2026-11-23",
+      "title": "Remember",
+      "total": 145773552
+     },
+     {
+      "change": null,
+      "daily": 50456,
+      "feature": false,
+      "gained": null,
+      "id": "1YgIvHDTvi1vosins1jyAC",
+      "since": null,
+      "title": "Amapiano",
+      "total": 130768153
+     },
+     {
+      "change": null,
+      "daily": 32219,
+      "feature": false,
+      "gained": null,
+      "id": "46gfN72BxmLvACx6Pve4XU",
+      "since": null,
+      "title": "Dull",
+      "total": 114931433
+     }
+    ]
+   },
    "status": {
     "icon": "●",
     "key": "steady",
@@ -800,6 +1364,103 @@
      993960
     ]
    ],
+   "songs": {
+    "charting": true,
+    "features": [
+     {
+      "change": 0.0,
+      "daily": 56547,
+      "feature": true,
+      "gained": 0,
+      "id": "1YgIvHDTvi1vosins1jyAC",
+      "since": "2026-11-23",
+      "title": "Amapiano",
+      "total": 130405185
+     },
+     {
+      "change": 0.0,
+      "daily": 49836,
+      "feature": true,
+      "gained": 0,
+      "id": "7gTMfanHTRr80Tulx1lDzQ",
+      "since": "2026-11-23",
+      "title": "Omo Ope (feat. Olamide)",
+      "total": 73844273
+     },
+     {
+      "change": 0.0,
+      "daily": 33793,
+      "feature": true,
+      "gained": 0,
+      "id": "0bkq8SCKDRY1RBFKIADCQK",
+      "since": "2026-11-23",
+      "title": "WAHALA (feat. Olamide)",
+      "total": 66914983
+     }
+    ],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-11-16",
+     "id": "0DHDiiApo6bKBpz1UfZuQH",
+     "name": "Time and Space",
+     "total": null,
+     "tracks": [],
+     "type": "album"
+    },
+    "top": [
+     {
+      "change": 0.0,
+      "daily": 41896,
+      "feature": false,
+      "gained": 0,
+      "id": "5DS9LiyEdw2zY8bM6kjjgM",
+      "since": "2026-11-23",
+      "title": "Infinity (feat. Omah Lay)",
+      "total": 192604990
+     },
+     {
+      "change": 0.0,
+      "daily": 62624,
+      "feature": false,
+      "gained": 0,
+      "id": "4sm7xhaW2PT4iLuTtXaKa1",
+      "since": "2026-11-23",
+      "title": "99 (feat. Daecolm)",
+      "total": 66203068
+     },
+     {
+      "change": null,
+      "daily": 12443,
+      "feature": false,
+      "gained": null,
+      "id": "558ULLj8yY2vT8XGtgY0q9",
+      "since": null,
+      "title": "Loading",
+      "total": 53498636
+     },
+     {
+      "change": 0.0,
+      "daily": 20012,
+      "feature": false,
+      "gained": 0,
+      "id": "5dVJTSZhL2n81ZkT4PZu0x",
+      "since": "2026-11-23",
+      "title": "Jinja",
+      "total": 53213987
+     },
+     {
+      "change": 0.0,
+      "daily": 26716,
+      "feature": false,
+      "gained": 0,
+      "id": "3uTe5oVxtAO1cnsJm4uFCJ",
+      "since": "2026-11-23",
+      "title": "KANA",
+      "total": 40999882
+     }
+    ]
+   },
    "status": {
     "icon": "●",
     "key": "steady",
@@ -935,6 +1596,103 @@
      2977480
     ]
    ],
+   "songs": {
+    "charting": true,
+    "features": [
+     {
+      "change": 0.0,
+      "daily": 63060,
+      "feature": true,
+      "gained": 0,
+      "id": "0YeUYYOh25Cn57DKTC8uS4",
+      "since": "2026-11-23",
+      "title": "GWAGWALADA",
+      "total": 109445104
+     },
+     {
+      "change": 0.0,
+      "daily": 51986,
+      "feature": true,
+      "gained": 0,
+      "id": "6VX4hVDmDMfClxp6EwDNQP",
+      "since": "2026-11-23",
+      "title": "Bad Vibes (feat. Seyi Vibez)",
+      "total": 84351142
+     },
+     {
+      "change": 0.0,
+      "daily": 67813,
+      "feature": true,
+      "gained": 0,
+      "id": "4sm7xhaW2PT4iLuTtXaKa1",
+      "since": "2026-11-23",
+      "title": "99 (feat. Daecolm)",
+      "total": 66474322
+     }
+    ],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-09-17",
+     "id": "5TWK8IJLfQ7cxGm5g6WYtr",
+     "name": "SWAGUU",
+     "total": null,
+     "tracks": [],
+     "type": "album"
+    },
+    "top": [
+     {
+      "change": 0.0,
+      "daily": 79945,
+      "feature": false,
+      "gained": 0,
+      "id": "5hphSVebVxTpDfrk09W0hS",
+      "since": "2026-11-23",
+      "title": "Doha",
+      "total": 76428540
+     },
+     {
+      "change": null,
+      "daily": 27526,
+      "feature": false,
+      "gained": null,
+      "id": "46oyXrPbCSbk0TLJ1f7w6K",
+      "since": null,
+      "title": "Different Pattern",
+      "total": 64614795
+     },
+     {
+      "change": null,
+      "daily": 30986,
+      "feature": false,
+      "gained": null,
+      "id": "4ddpHR6drcPRGPL5jYFluh",
+      "since": null,
+      "title": "MARIO KART",
+      "total": 54233070
+     },
+     {
+      "change": null,
+      "daily": 29675,
+      "feature": false,
+      "gained": null,
+      "id": "0yLPupVmWzIthRHesuR5Wt",
+      "since": null,
+      "title": "Pressure",
+      "total": 53286144
+     },
+     {
+      "change": null,
+      "daily": 36267,
+      "feature": false,
+      "gained": null,
+      "id": "6iHVLqSeDVj70pcVULZzGj",
+      "since": null,
+      "title": "Cana",
+      "total": 52678980
+     }
+    ]
+   },
    "status": {
     "icon": "●",
     "key": "steady",
@@ -998,6 +1756,94 @@
      750384
     ]
    ],
+   "songs": {
+    "charting": true,
+    "features": [
+     {
+      "change": 0.0,
+      "daily": 17044,
+      "feature": true,
+      "gained": 0,
+      "id": "6XBIOtdSL47qn201KKNCA0",
+      "since": "2026-11-23",
+      "title": "JUJU (feat. Shallipopi)",
+      "total": 68744720
+     },
+     {
+      "change": 0.0,
+      "daily": 32404,
+      "feature": true,
+      "gained": 0,
+      "id": "3s4WNh0WnfhwvIlrp6RTBj",
+      "since": "2026-11-23",
+      "title": "ZAAZAA",
+      "total": 65275245
+     },
+     {
+      "change": 0.0,
+      "daily": 31446,
+      "feature": true,
+      "gained": 0,
+      "id": "1gc2RyrBm1PYdSnG65yuAl",
+      "since": "2026-11-23",
+      "title": "BENIN BOYS",
+      "total": 64924769
+     }
+    ],
+    "latest": null,
+    "top": [
+     {
+      "change": 0.0,
+      "daily": 65243,
+      "feature": false,
+      "gained": 0,
+      "id": "4rkqxE9ddoatZOtbYKwJBb",
+      "since": "2026-11-23",
+      "title": "Laho",
+      "total": 105721220
+     },
+     {
+      "change": 0.0,
+      "daily": 34488,
+      "feature": false,
+      "gained": 0,
+      "id": "6BWgLorAwF17ofyu8361HM",
+      "since": "2026-11-23",
+      "title": "Cast",
+      "total": 77129589
+     },
+     {
+      "change": 0.0,
+      "daily": 53573,
+      "feature": false,
+      "gained": 0,
+      "id": "4UAHJM3uKVHRyMOe5O8EhF",
+      "since": "2026-11-23",
+      "title": "Laho II",
+      "total": 71005926
+     },
+     {
+      "change": 0.0,
+      "daily": 17886,
+      "feature": false,
+      "gained": 0,
+      "id": "5O7fTE396BVFRTkQv5ENSo",
+      "since": "2026-11-23",
+      "title": "Ex Convict",
+      "total": 34254910
+     },
+     {
+      "change": 0.0,
+      "daily": 20188,
+      "feature": false,
+      "gained": 0,
+      "id": "3tEzyNbV0BS9AS0HRSsy3Q",
+      "since": "2026-11-23",
+      "title": "High Tension",
+      "total": 32447441
+     }
+    ]
+   },
    "status": {
     "icon": "●",
     "key": "steady",
@@ -1157,6 +2003,103 @@
      1622805
     ]
    ],
+   "songs": {
+    "charting": true,
+    "features": [
+     {
+      "change": 0.0,
+      "daily": 129858,
+      "feature": true,
+      "gained": 0,
+      "id": "12jMMRyPNMTNp3CRmdWMve",
+      "since": "2026-11-23",
+      "title": "MONEY CONSTANT",
+      "total": 77057519
+     },
+     {
+      "change": 0.0,
+      "daily": 62067,
+      "feature": true,
+      "gained": 0,
+      "id": "51WcemyU0PlssXhhsspBYh",
+      "since": "2026-11-23",
+      "title": "BODY (danz)",
+      "total": 71613318
+     },
+     {
+      "change": 0.0,
+      "daily": 139675,
+      "feature": true,
+      "gained": 0,
+      "id": "1heVYYJgIbEmeEQ8ye0YFX",
+      "since": "2026-11-23",
+      "title": "Big Bum Bum",
+      "total": 58394079
+     }
+    ],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-11-20",
+     "id": "3RZLDACGif814xMj3EbnBB",
+     "name": "inbox",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": [
+     {
+      "change": 0.0,
+      "daily": 74203,
+      "feature": false,
+      "gained": 0,
+      "id": "5eVQcRihBkD938y0zfnbJ4",
+      "since": "2026-11-23",
+      "title": "Tumo Weto",
+      "total": 64228411
+     },
+     {
+      "change": 0.0,
+      "daily": 31363,
+      "feature": false,
+      "gained": 0,
+      "id": "2h1aaSSMUspQfHKDl5uISY",
+      "since": "2026-11-23",
+      "title": "Escaladizzy II",
+      "total": 41310667
+     },
+     {
+      "change": 0.0,
+      "daily": 92779,
+      "feature": false,
+      "gained": 0,
+      "id": "3JN8aItsGqTWapuekI8vxM",
+      "since": "2026-11-23",
+      "title": "Aura Salad",
+      "total": 39407693
+     },
+     {
+      "change": 0.0,
+      "daily": 54072,
+      "feature": false,
+      "gained": 0,
+      "id": "1w8lSGDuMUgRh7rygMp7VB",
+      "since": "2026-11-23",
+      "title": "Mofe",
+      "total": 33479429
+     },
+     {
+      "change": null,
+      "daily": 26191,
+      "feature": false,
+      "gained": null,
+      "id": "1Yf58S4QQwxqYSJZm5JxmA",
+      "since": null,
+      "title": "Shakabulizzy",
+      "total": 30519336
+     }
+    ]
+   },
    "status": {
     "icon": "●",
     "key": "steady",
@@ -1212,6 +2155,94 @@
      1137906
     ]
    ],
+   "songs": {
+    "charting": true,
+    "features": [
+     {
+      "change": 0.0,
+      "daily": 36730,
+      "feature": true,
+      "gained": 0,
+      "id": "7LZkMeX1k8PXQJ0SVYn1A5",
+      "since": "2026-11-23",
+      "title": "Funds (feat. ODUMODUBLVCK & Chike)",
+      "total": 86865056
+     },
+     {
+      "change": 0.0,
+      "daily": 34488,
+      "feature": true,
+      "gained": 0,
+      "id": "6BWgLorAwF17ofyu8361HM",
+      "since": "2026-11-23",
+      "title": "Cast",
+      "total": 77129589
+     },
+     {
+      "change": 0.0,
+      "daily": 38924,
+      "feature": true,
+      "gained": 0,
+      "id": "3gvi43dx7YWnQX0Tb5T2NV",
+      "since": "2026-11-23",
+      "title": "EASY WITH ME",
+      "total": 31262140
+     }
+    ],
+    "latest": null,
+    "top": [
+     {
+      "change": 0.0,
+      "daily": 58512,
+      "feature": false,
+      "gained": 0,
+      "id": "2LP8KwtvzUx1onvXKQCoKR",
+      "since": "2026-11-23",
+      "title": "WOTOWOTO SEASONING (feat. Black Sherif)",
+      "total": 90477404
+     },
+     {
+      "change": 0.0,
+      "daily": 44692,
+      "feature": false,
+      "gained": 0,
+      "id": "668HhzscVthVZSXi7cjhOt",
+      "since": "2026-11-23",
+      "title": "BLOOD ON THE DANCE FLOOR (feat. Bloody Civilian and Wale)",
+      "total": 72808708
+     },
+     {
+      "change": null,
+      "daily": 17149,
+      "feature": false,
+      "gained": null,
+      "id": "4OnCrs3h948Ee4yLLTcaRx",
+      "since": null,
+      "title": "JUJU (with Smur Lee & Shallipopi)",
+      "total": 68828870
+     },
+     {
+      "change": 0.0,
+      "daily": 53926,
+      "feature": false,
+      "gained": 0,
+      "id": "3RMr94P81nO3GtW9MfqNp5",
+      "since": "2026-11-23",
+      "title": "PITY THIS BOY (with Victony)",
+      "total": 65692436
+     },
+     {
+      "change": 0.0,
+      "daily": 49333,
+      "feature": false,
+      "gained": 0,
+      "id": "3vr9oX942YBLxEtG0pwofN",
+      "since": "2026-11-23",
+      "title": "DOG EAT DOG II (feat. Cruel Santino and Bella Shmurda)",
+      "total": 57794644
+     }
+    ]
+   },
    "status": {
     "icon": "●",
     "key": "steady",
@@ -1360,6 +2391,93 @@
      68313
     ]
    ],
+   "songs": {
+    "charting": true,
+    "features": [
+     {
+      "change": 0.0,
+      "daily": 44231,
+      "feature": true,
+      "gained": 0,
+      "id": "78lEwmE6xpWtwHhS8D9Fw2",
+      "since": "2026-11-23",
+      "title": "Escaladizzy",
+      "total": 19591134
+     },
+     {
+      "change": 0.0,
+      "daily": 1654,
+      "feature": true,
+      "gained": 0,
+      "id": "3MheCufPQMaThbWLxsQMgl",
+      "since": "2026-11-23",
+      "title": "Prayers Up (feat. KindlyNxsh & Wave$tar)",
+      "total": 732730
+     }
+    ],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-10-16",
+     "id": "7kmtp8xQRcKiHEdNWelgCW",
+     "name": "Top Swag",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": [
+     {
+      "change": 0.0,
+      "daily": 4852,
+      "feature": false,
+      "gained": 0,
+      "id": "0a5op0YPLCk6VkU65mOq8w",
+      "since": "2026-11-23",
+      "title": "CANACETAMOL",
+      "total": 2007529
+     },
+     {
+      "change": 0.0,
+      "daily": 7267,
+      "feature": false,
+      "gained": 0,
+      "id": "6W6BpsZf0JiSI77kSz1E0K",
+      "since": "2026-11-23",
+      "title": "PRADA BBY",
+      "total": 1491104
+     },
+     {
+      "change": 0.0,
+      "daily": 2593,
+      "feature": false,
+      "gained": 0,
+      "id": "6nwdfUPfaj2zZIEdZYA1IW",
+      "since": "2026-11-23",
+      "title": "TALES OF A YAHOO BOY .",
+      "total": 762994
+     },
+     {
+      "change": 0.0,
+      "daily": 2365,
+      "feature": false,
+      "gained": 0,
+      "id": "2ANLXD0iDLX9V98weJhx9M",
+      "since": "2026-11-23",
+      "title": "TRAP",
+      "total": 557473
+     },
+     {
+      "change": 0.0,
+      "daily": 1542,
+      "feature": false,
+      "gained": 0,
+      "id": "2n70ZM256fz7eLbpgMORC4",
+      "since": "2026-11-23",
+      "title": "FAST LIFE FREE$TYLE.",
+      "total": 410230
+     }
+    ]
+   },
    "status": {
     "icon": "▲",
     "key": "growing",
@@ -1508,6 +2626,103 @@
      323343
     ]
    ],
+   "songs": {
+    "charting": true,
+    "features": [
+     {
+      "change": 0.0,
+      "daily": 15322,
+      "feature": true,
+      "gained": 0,
+      "id": "3WFHfn4CPnm1uNnDYJ0KzG",
+      "since": "2026-11-23",
+      "title": "Chose Me",
+      "total": 6949369
+     },
+     {
+      "change": 0.0,
+      "daily": 22532,
+      "feature": true,
+      "gained": 0,
+      "id": "48RKc1nauDnXRBMOuvjxFy",
+      "since": "2026-11-23",
+      "title": "Shoki (feat. Zaylevelten)",
+      "total": 3996014
+     },
+     {
+      "change": 0.0,
+      "daily": 17694,
+      "feature": true,
+      "gained": 0,
+      "id": "5IVdYdrTLndg67bZMcwF7c",
+      "since": "2026-11-23",
+      "title": "Lalakula",
+      "total": 1665983
+     }
+    ],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-11-20",
+     "id": "1fY6UUarOPDDZLDQiWtXXg",
+     "name": "Guap Up",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": [
+     {
+      "change": 0.0,
+      "daily": 22462,
+      "feature": false,
+      "gained": 0,
+      "id": "7ntMsrnoWAyqGBsNvNBEoo",
+      "since": "2026-11-23",
+      "title": "Wuse Tu",
+      "total": 17156844
+     },
+     {
+      "change": 0.0,
+      "daily": 18569,
+      "feature": false,
+      "gained": 0,
+      "id": "6Jq0NgtIcahnry0fejYsLn",
+      "since": "2026-11-23",
+      "title": "Guide Pass",
+      "total": 10833070
+     },
+     {
+      "change": 0.0,
+      "daily": 18023,
+      "feature": false,
+      "gained": 0,
+      "id": "7Dh41uXgydFUlQjwmPAOlE",
+      "since": "2026-11-23",
+      "title": "Muzz",
+      "total": 8041404
+     },
+     {
+      "change": 0.0,
+      "daily": 39723,
+      "feature": false,
+      "gained": 0,
+      "id": "0irepDRnu3PA8EoLY9Lq8M",
+      "since": "2026-11-23",
+      "title": "Tease Me",
+      "total": 7986275
+     },
+     {
+      "change": 0.0,
+      "daily": 11249,
+      "feature": false,
+      "gained": 0,
+      "id": "3CSgUow1Xf19P5qqDJcnie",
+      "since": "2026-11-23",
+      "title": "Bali",
+      "total": 6913047
+     }
+    ]
+   },
    "status": {
     "icon": "▼",
     "key": "dipping",
@@ -1656,6 +2871,103 @@
      83499
     ]
    ],
+   "songs": {
+    "charting": true,
+    "features": [
+     {
+      "change": 0.0,
+      "daily": 8804,
+      "feature": true,
+      "gained": 0,
+      "id": "7ujipZpOFtgT0EZb0WkYoB",
+      "since": "2026-11-23",
+      "title": "Soldier",
+      "total": 3778544
+     },
+     {
+      "change": 0.0,
+      "daily": 2134,
+      "feature": true,
+      "gained": 0,
+      "id": "09hUR99bHXGi7MQAeUWxQ5",
+      "since": "2026-11-23",
+      "title": "Tomorrow - Kurima Version",
+      "total": 1492026
+     },
+     {
+      "change": null,
+      "daily": 0,
+      "feature": true,
+      "gained": null,
+      "id": "0rr63wJFZJNILXcdpHTrD0",
+      "since": null,
+      "title": "AMIRI",
+      "total": 1185641
+     }
+    ],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-11-13",
+     "id": "4Gu7rukCVGg6wn8gwTRE7x",
+     "name": "Offline",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": [
+     {
+      "change": 0.0,
+      "daily": 16833,
+      "feature": false,
+      "gained": 0,
+      "id": "0MZxm2o1pedxNPD0ORiwgg",
+      "since": "2026-11-23",
+      "title": "Akonuche",
+      "total": 10514111
+     },
+     {
+      "change": 0.0,
+      "daily": 8551,
+      "feature": false,
+      "gained": 0,
+      "id": "2uuGsYiBB32ZRMqL6SXvGm",
+      "since": "2026-11-23",
+      "title": "Akonuche - Remix",
+      "total": 5126143
+     },
+     {
+      "change": 0.0,
+      "daily": 8360,
+      "feature": false,
+      "gained": 0,
+      "id": "2JePyTyj5nmjDe2ovgCChq",
+      "since": "2026-11-23",
+      "title": "Omo",
+      "total": 3631256
+     },
+     {
+      "change": 0.0,
+      "daily": 4382,
+      "feature": false,
+      "gained": 0,
+      "id": "65aQ76660Dd6rn40UwQVgM",
+      "since": "2026-11-23",
+      "title": "FAMILY",
+      "total": 3237972
+     },
+     {
+      "change": 0.0,
+      "daily": 4210,
+      "feature": false,
+      "gained": 0,
+      "id": "55X9Uv3sgptw3HmgU5LKr0",
+      "since": "2026-11-23",
+      "title": "11:11",
+      "total": 2367680
+     }
+    ]
+   },
    "status": {
     "icon": "▲",
     "key": "growing",
@@ -1804,6 +3116,21 @@
      null
     ]
    ],
+   "songs": {
+    "charting": false,
+    "features": [],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-11-20",
+     "id": "0vm0eF4DHupBcc9Ui9T1TH",
+     "name": "GLACIER BOY",
+     "total": null,
+     "tracks": [],
+     "type": "album"
+    },
+    "top": []
+   },
    "status": {
     "icon": "🚀",
     "key": "rising",
@@ -1952,6 +3279,21 @@
      null
     ]
    ],
+   "songs": {
+    "charting": false,
+    "features": [],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-11-20",
+     "id": "7s1hGiMRKQB6KnDGYZH2n1",
+     "name": "ME vs ME",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": []
+   },
    "status": {
     "icon": "▲",
     "key": "growing",
@@ -2100,6 +3442,21 @@
      null
     ]
    ],
+   "songs": {
+    "charting": false,
+    "features": [],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-10-28",
+     "id": "7j4UM10NrbukE8YaL1x8Jt",
+     "name": "D' BADD£$T IN THI$ BITCH",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": []
+   },
    "status": {
     "icon": "▲",
     "key": "growing",
@@ -2248,6 +3605,21 @@
      null
     ]
    ],
+   "songs": {
+    "charting": false,
+    "features": [],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-11-19",
+     "id": "6fUtrAsmiBGPSQJ6VkxcoK",
+     "name": "Big Professor",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": []
+   },
    "status": {
     "icon": "🚀",
     "key": "rising",
@@ -2388,6 +3760,21 @@
      null
     ]
    ],
+   "songs": {
+    "charting": false,
+    "features": [],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-11-20",
+     "id": "6cword4jD3QyK3Bep7kLkP",
+     "name": "OBASANJO",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": []
+   },
    "status": {
     "icon": "▼",
     "key": "falling",
@@ -2528,6 +3915,21 @@
      null
     ]
    ],
+   "songs": {
+    "charting": false,
+    "features": [],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-10-16",
+     "id": "1QdRAKqf4N0b7gUPOx5xrn",
+     "name": "I NO TALK",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": []
+   },
    "status": {
     "icon": "▼",
     "key": "dipping",
@@ -2676,6 +4078,21 @@
      null
     ]
    ],
+   "songs": {
+    "charting": false,
+    "features": [],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-11-13",
+     "id": "6krtC2xNycrAf6SIiM2YX9",
+     "name": "YoungRiot!",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": []
+   },
    "status": {
     "icon": "▲",
     "key": "growing",
@@ -2784,6 +4201,21 @@
      null
     ]
    ],
+   "songs": {
+    "charting": false,
+    "features": [],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-10-16",
+     "id": "0lHUArdq1P5hLFFvfVJz0E",
+     "name": "Asiko",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": []
+   },
    "status": {
     "icon": "▼",
     "key": "dipping",
@@ -2830,6 +4262,12 @@
      null
     ]
    ],
+   "songs": {
+    "charting": false,
+    "features": [],
+    "latest": null,
+    "top": []
+   },
    "status": {
     "icon": "•",
     "key": "new",
@@ -2978,6 +4416,21 @@
      null
     ]
    ],
+   "songs": {
+    "charting": false,
+    "features": [],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-10-14",
+     "id": "1eSbqO3R2zaE2HCKXqby6q",
+     "name": "4Shadowing.",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": []
+   },
    "status": {
     "icon": "▼",
     "key": "dipping",
@@ -3029,6 +4482,21 @@
      null
     ]
    ],
+   "songs": {
+    "charting": false,
+    "features": [],
+    "latest": {
+     "charting": false,
+     "daily": null,
+     "date": "2026-09-16",
+     "id": "6IqGFsKL2KkPGGb7AxELNC",
+     "name": "Melody",
+     "total": null,
+     "tracks": [],
+     "type": "single"
+    },
+    "top": []
+   },
    "status": {
     "icon": "●",
     "key": "steady",
@@ -5701,48 +7169,43 @@
   "nodes": [
    {
     "group": "UG",
-    "id": "1VBjib1ykqXxss9Tw5YuR9",
-    "name": "Mavo"
-   },
-   {
-    "group": "UG",
-    "id": "3EC3itx7VHQg0KYhuPsp5O",
-    "name": "Danpapa GTA"
-   },
-   {
-    "group": "mainstream",
-    "id": "3ZpEKRjHaHANcpk10u6Ntq",
-    "name": "Ayra Starr"
+    "id": "3CyKLwlqtYmQxNt4cWflKx",
+    "name": "scottyolorin"
    },
    {
     "group": "other",
-    "id": "4Gso3d4CscCijv0lmajZWs",
-    "name": "Don Toliver"
-   },
-   {
-    "group": "UG",
-    "id": "6eEW31SqGa8zKe3ibfTCdH",
-    "name": "Zaylevelten"
+    "id": "12kjvw4e3gLp6qVHO65n7W",
+    "name": "Blaqbonez"
    },
    {
     "group": "other",
-    "id": "4NXlTtV4GszpwfV6yaw0gk",
-    "name": "Nuel Asii"
+    "id": "2hs1DM1Lbd7OA9VDQgeEbc",
+    "name": "KRL Soundz"
    },
    {
     "group": "other",
-    "id": "3hXlGRJuBMCg9xJ41BSWkf",
-    "name": "ARTSALGHUL"
+    "id": "7pzMp7mAU2KRlAjtYuKoje",
+    "name": "Tobi Nation"
    },
    {
     "group": "other",
-    "id": "3Y7RZ31TRPVadSFVy1o8os",
-    "name": "H.E.R."
+    "id": "4M5b70A8aORXdyJVjRJ8du",
+    "name": "Fimiguerrero"
    },
    {
     "group": "other",
-    "id": "6eUKZXaKkcviH0Ku9w2n3V",
-    "name": "Ed Sheeran"
+    "id": "1hBSQ3xsR6kfPMi7yLNmnZ",
+    "name": "Aenyi"
+   },
+   {
+    "group": "other",
+    "id": "6NV0b1K9BhoZYSBk9ZPnWv",
+    "name": "See You Next Year"
+   },
+   {
+    "group": "other",
+    "id": "2csYbKI9QGufe3Xny3Fkop",
+    "name": "bube"
    },
    {
     "group": "other",
@@ -5751,8 +7214,718 @@
    },
    {
     "group": "other",
+    "id": "1hNaHKp2Za5YdOAG0WnRbc",
+    "name": "Tiwa Savage"
+   },
+   {
+    "group": "other",
+    "id": "1c61yiH4iYE7cHtjAYSUu3",
+    "name": "Banky W."
+   },
+   {
+    "group": "other",
+    "id": "2s187JqHC9kipPLBLWXubl",
+    "name": "Falz"
+   },
+   {
+    "group": "other",
+    "id": "1E5hfn5BduN2nnoZCJmUVG",
+    "name": "Victony"
+   },
+   {
+    "group": "other",
+    "id": "5CSSzEHLGMcRVwq340BpHl",
+    "name": "Zen Univrse"
+   },
+   {
+    "group": "other",
+    "id": "0rckUWPb0n9j1nRlGFvjHt",
+    "name": "Phenom"
+   },
+   {
+    "group": "other",
+    "id": "1ixqGowpDM21RwyJmJ7hpv",
+    "name": "Skales"
+   },
+   {
+    "group": "other",
+    "id": "4sbXXFzEWJY2zsZjelerjX",
+    "name": "Dadju"
+   },
+   {
+    "group": "other",
+    "id": "6l3HvQ5sa6mXTsMTB19rO5",
+    "name": "J. Cole"
+   },
+   {
+    "group": "other",
+    "id": "6qCxa9ZvMnoVevYR6cubyW",
+    "name": "Udishigh"
+   },
+   {
+    "group": "other",
+    "id": "3QZIuDbSkr9lWqNFGsBsb3",
+    "name": "JMB"
+   },
+   {
+    "group": "UG",
+    "id": "35l6bXa97M4hhvQ3e058PZ",
+    "name": "WAVE$TAR"
+   },
+   {
+    "group": "UG",
+    "id": "4ZnAdq8niwc3MnthK4ujdr",
+    "name": "Fimi"
+   },
+   {
+    "group": "other",
+    "id": "75VKfyoBlkmrJFDqo1o2VY",
+    "name": "Fireboy DML"
+   },
+   {
+    "group": "other",
+    "id": "5L1Xcdtf6MxLmEvpGMw3g4",
+    "name": "Ayjay bobo"
+   },
+   {
+    "group": "other",
+    "id": "2DFzMI8SSWPYBBSxVF7b2N",
+    "name": "Projexx"
+   },
+   {
+    "group": "other",
+    "id": "5ZsFI1h6hIdQRw2ti0hz81",
+    "name": "ZAYN"
+   },
+   {
+    "group": "UG",
+    "id": "00dT0myy0kbq152QWIzRPI",
+    "name": "Igwe Aka"
+   },
+   {
+    "group": "UG",
+    "id": "4Hz1UttsadDCW4xA41XKoV",
+    "name": "Egertton"
+   },
+   {
+    "group": "other",
+    "id": "6HsmnOUuab7e2X11UKrZ9Y",
+    "name": "JoeyXcv"
+   },
+   {
+    "group": "other",
+    "id": "2a0uxJgbvvIRI4GX8pYfcr",
+    "name": "J Hus"
+   },
+   {
+    "group": "other",
+    "id": "6SL6GEDCDVZFEvo3ewugni",
+    "name": "Madisin!"
+   },
+   {
+    "group": "other",
+    "id": "7FNnA9vBm6EKceENgCGRMb",
+    "name": "Anitta"
+   },
+   {
+    "group": "other",
+    "id": "3l7SEJk2wlBU3OvrMWf1sj",
+    "name": "Pepenazi"
+   },
+   {
+    "group": "mainstream",
+    "id": "3tVQdUvClmAT7URs9V3rsp",
+    "name": "Wizkid"
+   },
+   {
+    "group": "other",
+    "id": "7bXgB6jMjp9ATFy66eO08Z",
+    "name": "Chris Brown"
+   },
+   {
+    "group": "other",
+    "id": "1CoZyIx7UvdxT5c8UkMzHd",
+    "name": "Jorja Smith"
+   },
+   {
+    "group": "other",
+    "id": "7MJaBrtUNMCVWliXOa7mwk",
+    "name": "Jeriq"
+   },
+   {
+    "group": "other",
+    "id": "2mLA48B366zkELXYx7hcDN",
+    "name": "Peggy Gou"
+   },
+   {
+    "group": "other",
+    "id": "3rCVow8RScBBIyrdceDOiw",
+    "name": "SSSoundGawd"
+   },
+   {
+    "group": "other",
+    "id": "5RklmjJAxQsqQFyOTi9ih5",
+    "name": "Tammyagain"
+   },
+   {
+    "group": "other",
+    "id": "6trIghKwHRUyxwvm66HLHH",
+    "name": "Fousheé"
+   },
+   {
+    "group": "other",
+    "id": "4Gso3d4CscCijv0lmajZWs",
+    "name": "Don Toliver"
+   },
+   {
+    "group": "other",
+    "id": "1mcTU81TzQhprhouKaTkpq",
+    "name": "Rauw Alejandro"
+   },
+   {
+    "group": "other",
+    "id": "2NtQA3PY9chI8l65ejZLTP",
+    "name": "SPINALL"
+   },
+   {
+    "group": "other",
+    "id": "3JJ0lsQ5g0DnRsTaCajxJU",
+    "name": "Buckwyla"
+   },
+   {
+    "group": "other",
+    "id": "0EmeFodog0BfCgMzAIvKQp",
+    "name": "Shakira"
+   },
+   {
+    "group": "other",
+    "id": "2aWCLZqio9v0uUZEATR1Rv",
+    "name": "Semzi"
+   },
+   {
+    "group": "other",
+    "id": "1URnnhqYAYcrqrcwql10ft",
+    "name": "21 Savage"
+   },
+   {
+    "group": "other",
+    "id": "5yJLqKU6LRfzliSQIVnJMI",
+    "name": "Kashcoming"
+   },
+   {
+    "group": "mainstream",
+    "id": "3LOm0AZjpwVQebvkyanjDy",
+    "name": "ODUMODUBLVCK"
+   },
+   {
+    "group": "other",
+    "id": "3XImQNx9nOoiOs1VXqy3RH",
+    "name": "Ona"
+   },
+   {
+    "group": "other",
+    "id": "7urO0i2T8Ta9E9xAuOD1d6",
+    "name": "10Ten"
+   },
+   {
+    "group": "other",
+    "id": "6uc997vTKJPHyK4i66liS4",
+    "name": "Hebron Ola"
+   },
+   {
+    "group": "other",
+    "id": "3M4rkbZStvMavZQt8lElw2",
+    "name": "activ.boizzz"
+   },
+   {
+    "group": "other",
+    "id": "5NG1nbdSZhlpLWNHK6idk5",
+    "name": "Southside Saint"
+   },
+   {
+    "group": "other",
+    "id": "4YISTUJnoZtAy6LjgOpRL7",
+    "name": "Ovrkast."
+   },
+   {
+    "group": "other",
+    "id": "2k4BorccGemzBPjIRkT5Pa",
+    "name": "Txmmyily"
+   },
+   {
+    "group": "other",
+    "id": "4zlOuiD2KEU4fv1wSBQ3Jn",
+    "name": "Sugarbana"
+   },
+   {
+    "group": "other",
+    "id": "5oOifbswnej7XvdPuZ9ktd",
+    "name": "Teee Dollar"
+   },
+   {
+    "group": "other",
+    "id": "2GfYq2uTYP3vG4QbQkdSPm",
+    "name": "Davee Thompson"
+   },
+   {
+    "group": "other",
+    "id": "1kMPdZQVdUhMDKDWOJM5iK",
+    "name": "Tkay Maidza"
+   },
+   {
+    "group": "other",
+    "id": "15GgEOJiFyjQm4tZ4D7qih",
+    "name": "Cruel Santino"
+   },
+   {
+    "group": "other",
+    "id": "1yRmB6bRwWKqs5zQnCYYUP",
+    "name": "EMELIE"
+   },
+   {
+    "group": "other",
+    "id": "2hg21aqtw66FhKSo3Uzbne",
+    "name": "Famous Pluto"
+   },
+   {
+    "group": "other",
+    "id": "0P8jodpczL0pVKzYMkJKpX",
+    "name": "Tobby BadAss"
+   },
+   {
+    "group": "other",
+    "id": "68R39izwNAztATrXMOqkJS",
+    "name": "Bad Boy Timz"
+   },
+   {
+    "group": "other",
+    "id": "3UEwKs997VRicCpjEYTprR",
+    "name": "Id Cabasa"
+   },
+   {
+    "group": "other",
+    "id": "1fYVmAFB7sC7eDoF3mJXla",
+    "name": "Wande Coal"
+   },
+   {
+    "group": "other",
+    "id": "687cZJR45JO7jhk1LHIbgq",
+    "name": "Tems"
+   },
+   {
+    "group": "other",
+    "id": "3vUMXQ9kPnZAQkMkZZ7Hfh",
+    "name": "Tiakola"
+   },
+   {
+    "group": "mainstream",
+    "id": "0Y3agQaa6g2r0YmHPOO9rh",
+    "name": "Davido"
+   },
+   {
+    "group": "other",
+    "id": "0vyHUIFawbTNM2a7W7JqZe",
+    "name": "MetaBoy"
+   },
+   {
+    "group": "other",
+    "id": "31uzUrQQv5lMCY9h5wTcRK",
+    "name": "BEACHBOIZ"
+   },
+   {
+    "group": "other",
+    "id": "5L7X4fW19ZEG2EdkOIPpMg",
+    "name": "Barry lane"
+   },
+   {
+    "group": "other",
+    "id": "6aIZIwesnYKR6ZN1fIerPZ",
+    "name": "Mercury"
+   },
+   {
+    "group": "other",
+    "id": "3A3QkRXKzYGGowaAdKdo7Y",
+    "name": "IDK Young J."
+   },
+   {
+    "group": "mainstream",
+    "id": "3ZpEKRjHaHANcpk10u6Ntq",
+    "name": "Ayra Starr"
+   },
+   {
+    "group": "other",
+    "id": "26kmsdjrNWCC8srvp8NHVp",
+    "name": "Bigg Bobbyy"
+   },
+   {
+    "group": "other",
+    "id": "6eUKZXaKkcviH0Ku9w2n3V",
+    "name": "Ed Sheeran"
+   },
+   {
+    "group": "other",
+    "id": "4qYpTEJThZ8FC8KzyFrSWW",
+    "name": "Boj"
+   },
+   {
+    "group": "other",
+    "id": "3QJzdZJYIAcoET1GcfpNGi",
+    "name": "Damian Marley"
+   },
+   {
+    "group": "other",
+    "id": "4Ns55iOSe1Im2WU2e1Eym0",
+    "name": "Simi"
+   },
+   {
+    "group": "other",
+    "id": "5TWaKfZVOCCLJN9cKLXjch",
+    "name": "GOODNES$"
+   },
+   {
+    "group": "other",
+    "id": "4vqK18ff2fID1b43nhIKK6",
+    "name": "Favour Dre"
+   },
+   {
+    "group": "other",
+    "id": "2BPwxhCvvcb8xDl8GWIjbh",
+    "name": "Odeal"
+   },
+   {
+    "group": "other",
+    "id": "5yOvAmpIR7hVxiS6Ls5DPO",
+    "name": "OMAH LAY"
+   },
+   {
+    "group": "other",
+    "id": "1QsdzIKkTT5gDFj8GB1cIX",
+    "name": "Yseult"
+   },
+   {
+    "group": "other",
+    "id": "63lJOb0iO8hB6Hw0oSglnu",
+    "name": "Nowlee"
+   },
+   {
+    "group": "other",
+    "id": "2f8rjDwhSy9IDL6sB6BEEE",
+    "name": "YKB"
+   },
+   {
+    "group": "other",
     "id": "5jVohQzVOMNwP5ao5J1vk5",
     "name": "3CB"
+   },
+   {
+    "group": "UG",
+    "id": "5KbCVC6DvprtEp30AA093z",
+    "name": "DaveTheOracle"
+   },
+   {
+    "group": "other",
+    "id": "3ZwrZQdYpAwdPXlKTictk8",
+    "name": "B Banks"
+   },
+   {
+    "group": "other",
+    "id": "1vyhD5VmyZ7KMfW5gqLgo5",
+    "name": "J Balvin"
+   },
+   {
+    "group": "other",
+    "id": "4JM1zsVj1pt38Q8mhv5teI",
+    "name": "Young Jonn"
+   },
+   {
+    "group": "other",
+    "id": "0X1sGf1y8XCupQFDUkiPmB",
+    "name": "SAMAD"
+   },
+   {
+    "group": "other",
+    "id": "0jIWKlfmD4Ew7HeVVrq03g",
+    "name": "Elyanna"
+   },
+   {
+    "group": "other",
+    "id": "4Xi6LSfFqv26XgP9NKN26U",
+    "name": "AJ Tracey"
+   },
+   {
+    "group": "other",
+    "id": "4NXlTtV4GszpwfV6yaw0gk",
+    "name": "Nuel Asii"
+   },
+   {
+    "group": "other",
+    "id": "5pNye0bGTXUivn8zdEBIfj",
+    "name": "Payper Corleone"
+   },
+   {
+    "group": "other",
+    "id": "7DxRMFU4AqEIwjILkhSFDk",
+    "name": "Luh Drayco"
+   },
+   {
+    "group": "UG",
+    "id": "3EC3itx7VHQg0KYhuPsp5O",
+    "name": "Danpapa GTA"
+   },
+   {
+    "group": "other",
+    "id": "6LTAaKONuHKKWR8ljjIbCA",
+    "name": "MAXINO"
+   },
+   {
+    "group": "other",
+    "id": "0iqznAW9pzZ7KOjx8aCMWo",
+    "name": "Tay Iwar"
+   },
+   {
+    "group": "other",
+    "id": "7kK5badbqOjd8WlT2XWMeM",
+    "name": "Bella Shmurda"
+   },
+   {
+    "group": "other",
+    "id": "59MU62wyOLf8FlV7l8fewL",
+    "name": "Le Mav"
+   },
+   {
+    "group": "other",
+    "id": "36M1Z5OPFotaTTKNjSIuAX",
+    "name": "Viktoh"
+   },
+   {
+    "group": "other",
+    "id": "5FkUhnHQ0KC63549LHHtst",
+    "name": "Skillibeng"
+   },
+   {
+    "group": "other",
+    "id": "6Ip8FS7vWT1uKkJSweANQK",
+    "name": "Dave"
+   },
+   {
+    "group": "UG",
+    "id": "6CS6NjMmo93ligNiiZ97LZ",
+    "name": "Luwa.Mp4"
+   },
+   {
+    "group": "other",
+    "id": "5H1nN1SzW0qNeUEZvuXjAj",
+    "name": "Danny Ocean"
+   },
+   {
+    "group": "other",
+    "id": "5zfc16oDllbQP2L13GQQk4",
+    "name": "Eminasss"
+   },
+   {
+    "group": "other",
+    "id": "6eXZu6O7nAUA5z6vLV8NKI",
+    "name": "Little Simz"
+   },
+   {
+    "group": "other",
+    "id": "12ArazR86wktMkxzm5h9T1",
+    "name": "Vonni"
+   },
+   {
+    "group": "other",
+    "id": "7oVgNYLuZ9HffOdNE15wnL",
+    "name": "Rightflow"
+   },
+   {
+    "group": "other",
+    "id": "5bUavTrOnEtAvss0JCYAZf",
+    "name": "Dalte"
+   },
+   {
+    "group": "other",
+    "id": "4piJXSxlFLE9HkuHP0SLD9",
+    "name": "Jackmillz"
+   },
+   {
+    "group": "other",
+    "id": "7HkdQ0gt53LP4zmHsL0nap",
+    "name": "Ella Mai"
+   },
+   {
+    "group": "other",
+    "id": "3hXlGRJuBMCg9xJ41BSWkf",
+    "name": "ARTSALGHUL"
+   },
+   {
+    "group": "other",
+    "id": "7CsM9AfybVr427qxwYCDVl",
+    "name": "Onx"
+   },
+   {
+    "group": "mainstream",
+    "id": "3a1tBryiczPAZpgoZN9Rzg",
+    "name": "Asake"
+   },
+   {
+    "group": "other",
+    "id": "67nwj3Y5sZQLl72VNUHEYE",
+    "name": "Wale"
+   },
+   {
+    "group": "UG",
+    "id": "5toMJY8OHE9np3f4Hh0wCy",
+    "name": "Ravington"
+   },
+   {
+    "group": "other",
+    "id": "1Zj017W6N6SmZRLS4ODpjS",
+    "name": "Phyno"
+   },
+   {
+    "group": "other",
+    "id": "3Huh90qZ5dI2w5I4JjaQtF",
+    "name": "Indi"
+   },
+   {
+    "group": "other",
+    "id": "1IMQHmBTqSwgqyK6nIYSZ2",
+    "name": "Monttei"
+   },
+   {
+    "group": "other",
+    "id": "4mCGYkTmNnEsnTrIr3atNB",
+    "name": "Straffitti"
+   },
+   {
+    "group": "other",
+    "id": "6Nvwcz7r9589I7Or9aUm0z",
+    "name": "DJ NTY"
+   },
+   {
+    "group": "other",
+    "id": "6h3iqdnfBKV2jRhUJz0oto",
+    "name": "Terri"
+   },
+   {
+    "group": "other",
+    "id": "10G2iWM2FoafpNGqXZ9QMR",
+    "name": "KindlyNxsh"
+   },
+   {
+    "group": "other",
+    "id": "6Xgp2XMz1fhVYe7i6yNAax",
+    "name": "Trippie Redd"
+   },
+   {
+    "group": "other",
+    "id": "4IVAbR2w4JJNJDDRFP3E83",
+    "name": "6LACK"
+   },
+   {
+    "group": "other",
+    "id": "1mcBWQVnnsPhMLCUB6iISP",
+    "name": "The Flowolf"
+   },
+   {
+    "group": "other",
+    "id": "2j7j3bmaV4Ej8b9Cy0FtMY",
+    "name": "cosamote"
+   },
+   {
+    "group": "other",
+    "id": "5ZETERIwOXfWYCBljWg3Hk",
+    "name": "Majesty Lyn"
+   },
+   {
+    "group": "other",
+    "id": "0BQyOgobSOkQ7u4vTG7fPJ",
+    "name": "TiMi"
+   },
+   {
+    "group": "other",
+    "id": "3TVXtAsR1Inumwj472S9r4",
+    "name": "Drake"
+   },
+   {
+    "group": "other",
+    "id": "1X6cBGnXpEpN7CmflLKmLV",
+    "name": "Kizz Daniel"
+   },
+   {
+    "group": "other",
+    "id": "2hlmm7s2ICUX0LVIhVFlZQ",
+    "name": "Gunna"
+   },
+   {
+    "group": "other",
+    "id": "4if5dwAkHl7FZNCJTIB5e9",
+    "name": "Musta4a"
+   },
+   {
+    "group": "other",
+    "id": "706XoyHcL5K4V09UY9L2BD",
+    "name": "Queen Moda"
+   },
+   {
+    "group": "other",
+    "id": "3DNCUaKdMZcMVJIS7yTskd",
+    "name": "Mayorkun"
+   },
+   {
+    "group": "UG",
+    "id": "2DL38TZNK8x8hxvnxNkQB5",
+    "name": "Kobilou"
+   },
+   {
+    "group": "other",
+    "id": "048LktY5zMnakWq7PTtFrz",
+    "name": "CKay"
+   },
+   {
+    "group": "other",
+    "id": "2IK173RXLiCSQ8fhDlAb3s",
+    "name": "Adekunle Gold"
+   },
+   {
+    "group": "other",
+    "id": "7ebBg3BuRFa2satTcY8whC",
+    "name": "Billy Lemos"
+   },
+   {
+    "group": "other",
+    "id": "3FdLhnmXynPvZkbILPpB6d",
+    "name": "Ladysmith Black Mambazo"
+   },
+   {
+    "group": "other",
+    "id": "0iEtIxbK0KxaSlF7G42ZOp",
+    "name": "Metro Boomin"
+   },
+   {
+    "group": "other",
+    "id": "47fErV0VDIx6PmuhtWGTYu",
+    "name": "Dremo"
+   },
+   {
+    "group": "other",
+    "id": "5jfQBS0O6dR6axaz0BGMgs",
+    "name": "Chinko Ekun"
+   },
+   {
+    "group": "other",
+    "id": "2p1fiYHYiXz9qi0JJyxBzN",
+    "name": "Skepta"
+   },
+   {
+    "group": "other",
+    "id": "2NUz5P42WqkxilbI8ocN76",
+    "name": "Vybz Kartel"
+   },
+   {
+    "group": "mainstream",
+    "id": "4zmZ8lVLzGc84S4v2B1rLx",
+    "name": "Seyi Vibez"
    },
    {
     "group": "mainstream",
@@ -5761,8 +7934,78 @@
    },
    {
     "group": "other",
-    "id": "5yJLqKU6LRfzliSQIVnJMI",
-    "name": "Kashcoming"
+    "id": "7vXDAI8JwjW531ouMGbfcp",
+    "name": "TINI"
+   },
+   {
+    "group": "other",
+    "id": "3Y7RZ31TRPVadSFVy1o8os",
+    "name": "H.E.R."
+   },
+   {
+    "group": "other",
+    "id": "4wAqlYtTaaHELEgyCh9KjG",
+    "name": "FAVE"
+   },
+   {
+    "group": "other",
+    "id": "1zeUMAJrOoMdWjU0BErMzn",
+    "name": "Tochi Bedford"
+   },
+   {
+    "group": "mainstream",
+    "id": "3wcj11K77LjEY1PkEazffa",
+    "name": "Burna Boy"
+   },
+   {
+    "group": "mainstream",
+    "id": "4TKhxSkqClXrdtUWgKqHVU",
+    "name": "Shallipopi"
+   },
+   {
+    "group": "other",
+    "id": "6Kp3KWPiVgi33DkJqo9T4g",
+    "name": "Zinoleesky"
+   },
+   {
+    "group": "other",
+    "id": "62DmErcU7dqZbJaDqwsqzR",
+    "name": "Popcaan"
+   },
+   {
+    "group": "other",
+    "id": "2wzsad2d81hK0eP1qgcxHK",
+    "name": "FXRE"
+   },
+   {
+    "group": "other",
+    "id": "2SrSdSvpminqmStGELCSNd",
+    "name": "Stormzy"
+   },
+   {
+    "group": "other",
+    "id": "0R0U0reEPZrIBPCu9dp1Jf",
+    "name": "Kpee"
+   },
+   {
+    "group": "other",
+    "id": "64oW4P0vsDhlorOxZKQi6a",
+    "name": "DJ Tunez"
+   },
+   {
+    "group": "other",
+    "id": "3QAWvRmq1TMLuNtDKVyRaW",
+    "name": "Odunsi (The Engine)"
+   },
+   {
+    "group": "other",
+    "id": "5ywjxFhmhHGQBsK3DundNf",
+    "name": "Peruzzi"
+   },
+   {
+    "group": "UG",
+    "id": "4Z3LLYwCpB9OKKaSttnapP",
+    "name": "Priesst"
    },
    {
     "group": "mainstream",
@@ -5776,598 +8019,8 @@
    },
    {
     "group": "other",
-    "id": "3FdLhnmXynPvZkbILPpB6d",
-    "name": "Ladysmith Black Mambazo"
-   },
-   {
-    "group": "other",
-    "id": "6trIghKwHRUyxwvm66HLHH",
-    "name": "Fousheé"
-   },
-   {
-    "group": "other",
-    "id": "38XiDu0kK3Z5jdHUDqBzNT",
-    "name": "Lil Kesh"
-   },
-   {
-    "group": "other",
-    "id": "4qYpTEJThZ8FC8KzyFrSWW",
-    "name": "Boj"
-   },
-   {
-    "group": "other",
-    "id": "2NtQA3PY9chI8l65ejZLTP",
-    "name": "SPINALL"
-   },
-   {
-    "group": "other",
-    "id": "1X6cBGnXpEpN7CmflLKmLV",
-    "name": "Kizz Daniel"
-   },
-   {
-    "group": "other",
-    "id": "3DNCUaKdMZcMVJIS7yTskd",
-    "name": "Mayorkun"
-   },
-   {
-    "group": "other",
-    "id": "67nwj3Y5sZQLl72VNUHEYE",
-    "name": "Wale"
-   },
-   {
-    "group": "other",
-    "id": "4vqK18ff2fID1b43nhIKK6",
-    "name": "Favour Dre"
-   },
-   {
-    "group": "other",
-    "id": "0R0U0reEPZrIBPCu9dp1Jf",
-    "name": "Kpee"
-   },
-   {
-    "group": "other",
-    "id": "12kjvw4e3gLp6qVHO65n7W",
-    "name": "Blaqbonez"
-   },
-   {
-    "group": "other",
-    "id": "6aIZIwesnYKR6ZN1fIerPZ",
-    "name": "Mercury"
-   },
-   {
-    "group": "other",
-    "id": "3A3QkRXKzYGGowaAdKdo7Y",
-    "name": "IDK Young J."
-   },
-   {
-    "group": "other",
-    "id": "5oOifbswnej7XvdPuZ9ktd",
-    "name": "Teee Dollar"
-   },
-   {
-    "group": "other",
-    "id": "7pcVZssnGHrZrzzbQtMpkF",
-    "name": "DaniTheeGreatt"
-   },
-   {
-    "group": "other",
-    "id": "0BQyOgobSOkQ7u4vTG7fPJ",
-    "name": "TiMi"
-   },
-   {
-    "group": "other",
-    "id": "0P8jodpczL0pVKzYMkJKpX",
-    "name": "Tobby BadAss"
-   },
-   {
-    "group": "other",
-    "id": "0rckUWPb0n9j1nRlGFvjHt",
-    "name": "Phenom"
-   },
-   {
-    "group": "other",
-    "id": "7oVgNYLuZ9HffOdNE15wnL",
-    "name": "Rightflow"
-   },
-   {
-    "group": "other",
-    "id": "5TWaKfZVOCCLJN9cKLXjch",
-    "name": "GOODNES$"
-   },
-   {
-    "group": "other",
-    "id": "5NG1nbdSZhlpLWNHK6idk5",
-    "name": "Southside Saint"
-   },
-   {
-    "group": "other",
-    "id": "5bUavTrOnEtAvss0JCYAZf",
-    "name": "Dalte"
-   },
-   {
-    "group": "other",
-    "id": "3TVXtAsR1Inumwj472S9r4",
-    "name": "Drake"
-   },
-   {
-    "group": "other",
-    "id": "7CsM9AfybVr427qxwYCDVl",
-    "name": "Onx"
-   },
-   {
-    "group": "other",
-    "id": "2s187JqHC9kipPLBLWXubl",
-    "name": "Falz"
-   },
-   {
-    "group": "other",
-    "id": "30SVAanrbFS6o0cIVDZ9ta",
-    "name": "Thisizlondon"
-   },
-   {
-    "group": "other",
-    "id": "6h3iqdnfBKV2jRhUJz0oto",
-    "name": "Terri"
-   },
-   {
-    "group": "other",
-    "id": "3vUMXQ9kPnZAQkMkZZ7Hfh",
-    "name": "Tiakola"
-   },
-   {
-    "group": "other",
-    "id": "64oW4P0vsDhlorOxZKQi6a",
-    "name": "DJ Tunez"
-   },
-   {
-    "group": "other",
-    "id": "0X1sGf1y8XCupQFDUkiPmB",
-    "name": "SAMAD"
-   },
-   {
-    "group": "other",
-    "id": "2LJdSBlf7UdzavnaxOMH9A",
-    "name": "GTS 40k"
-   },
-   {
-    "group": "other",
-    "id": "1fYVmAFB7sC7eDoF3mJXla",
-    "name": "Wande Coal"
-   },
-   {
-    "group": "other",
-    "id": "6eXZu6O7nAUA5z6vLV8NKI",
-    "name": "Little Simz"
-   },
-   {
-    "group": "other",
-    "id": "1zeUMAJrOoMdWjU0BErMzn",
-    "name": "Tochi Bedford"
-   },
-   {
-    "group": "other",
-    "id": "7FNnA9vBm6EKceENgCGRMb",
-    "name": "Anitta"
-   },
-   {
-    "group": "other",
-    "id": "6l3HvQ5sa6mXTsMTB19rO5",
-    "name": "J. Cole"
-   },
-   {
-    "group": "other",
-    "id": "687cZJR45JO7jhk1LHIbgq",
-    "name": "Tems"
-   },
-   {
-    "group": "other",
-    "id": "4XE6eLUu1pp5rcI1cpDpWy",
-    "name": "Paxslim"
-   },
-   {
-    "group": "other",
-    "id": "2wzsad2d81hK0eP1qgcxHK",
-    "name": "FXRE"
-   },
-   {
-    "group": "other",
-    "id": "75VKfyoBlkmrJFDqo1o2VY",
-    "name": "Fireboy DML"
-   },
-   {
-    "group": "other",
-    "id": "1yRmB6bRwWKqs5zQnCYYUP",
-    "name": "EMELIE"
-   },
-   {
-    "group": "other",
-    "id": "7DxRMFU4AqEIwjILkhSFDk",
-    "name": "Luh Drayco"
-   },
-   {
-    "group": "other",
-    "id": "4YIOi9aFNviV1jRQeiNZgO",
-    "name": "Reminisce"
-   },
-   {
-    "group": "other",
-    "id": "1MsnDxqUP7LKWW9zEEs1J8",
-    "name": "Queen Izzy"
-   },
-   {
-    "group": "other",
-    "id": "59MU62wyOLf8FlV7l8fewL",
-    "name": "Le Mav"
-   },
-   {
-    "group": "other",
-    "id": "3YZW6xRMNPj57dx36Eb2Yd",
-    "name": "Buff Lou"
-   },
-   {
-    "group": "other",
-    "id": "6Nvwcz7r9589I7Or9aUm0z",
-    "name": "DJ NTY"
-   },
-   {
-    "group": "other",
-    "id": "12ArazR86wktMkxzm5h9T1",
-    "name": "Vonni"
-   },
-   {
-    "group": "other",
-    "id": "7kK5badbqOjd8WlT2XWMeM",
-    "name": "Bella Shmurda"
-   },
-   {
-    "group": "mainstream",
-    "id": "3wcj11K77LjEY1PkEazffa",
-    "name": "Burna Boy"
-   },
-   {
-    "group": "other",
-    "id": "6qCxa9ZvMnoVevYR6cubyW",
-    "name": "Udishigh"
-   },
-   {
-    "group": "other",
-    "id": "1uNFoZAHBGtllmzznpCI3s",
-    "name": "Justin Bieber"
-   },
-   {
-    "group": "other",
-    "id": "75yvKMzpIeYGyw5ElkoLYw",
-    "name": "Fergiee"
-   },
-   {
-    "group": "mainstream",
-    "id": "3tVQdUvClmAT7URs9V3rsp",
-    "name": "Wizkid"
-   },
-   {
-    "group": "other",
-    "id": "5yOvAmpIR7hVxiS6Ls5DPO",
-    "name": "OMAH LAY"
-   },
-   {
-    "group": "other",
-    "id": "6eGNSDjuuUepYdy32k1zXS",
-    "name": "Aibrid"
-   },
-   {
-    "group": "other",
-    "id": "5H1nN1SzW0qNeUEZvuXjAj",
-    "name": "Danny Ocean"
-   },
-   {
-    "group": "other",
-    "id": "1E5hfn5BduN2nnoZCJmUVG",
-    "name": "Victony"
-   },
-   {
-    "group": "other",
-    "id": "3M4rkbZStvMavZQt8lElw2",
-    "name": "activ.boizzz"
-   },
-   {
-    "group": "other",
-    "id": "4Ns55iOSe1Im2WU2e1Eym0",
-    "name": "Simi"
-   },
-   {
-    "group": "other",
-    "id": "5ZsFI1h6hIdQRw2ti0hz81",
-    "name": "ZAYN"
-   },
-   {
-    "group": "other",
-    "id": "3XImQNx9nOoiOs1VXqy3RH",
-    "name": "Ona"
-   },
-   {
-    "group": "other",
-    "id": "048LktY5zMnakWq7PTtFrz",
-    "name": "CKay"
-   },
-   {
-    "group": "other",
-    "id": "7MJaBrtUNMCVWliXOa7mwk",
-    "name": "Jeriq"
-   },
-   {
-    "group": "other",
-    "id": "26kmsdjrNWCC8srvp8NHVp",
-    "name": "Bigg Bobbyy"
-   },
-   {
-    "group": "other",
-    "id": "6NV0b1K9BhoZYSBk9ZPnWv",
-    "name": "See You Next Year"
-   },
-   {
-    "group": "other",
-    "id": "4JM1zsVj1pt38Q8mhv5teI",
-    "name": "Young Jonn"
-   },
-   {
-    "group": "other",
-    "id": "7vXDAI8JwjW531ouMGbfcp",
-    "name": "TINI"
-   },
-   {
-    "group": "other",
-    "id": "2hg21aqtw66FhKSo3Uzbne",
-    "name": "Famous Pluto"
-   },
-   {
-    "group": "other",
-    "id": "5pNye0bGTXUivn8zdEBIfj",
-    "name": "Payper Corleone"
-   },
-   {
-    "group": "other",
-    "id": "2NUz5P42WqkxilbI8ocN76",
-    "name": "Vybz Kartel"
-   },
-   {
-    "group": "other",
-    "id": "7pzMp7mAU2KRlAjtYuKoje",
-    "name": "Tobi Nation"
-   },
-   {
-    "group": "other",
-    "id": "5CSSzEHLGMcRVwq340BpHl",
-    "name": "Zen Univrse"
-   },
-   {
-    "group": "other",
-    "id": "4mCGYkTmNnEsnTrIr3atNB",
-    "name": "Straffitti"
-   },
-   {
-    "group": "other",
-    "id": "5FkUhnHQ0KC63549LHHtst",
-    "name": "Skillibeng"
-   },
-   {
-    "group": "mainstream",
-    "id": "3LOm0AZjpwVQebvkyanjDy",
-    "name": "ODUMODUBLVCK"
-   },
-   {
-    "group": "other",
-    "id": "63lJOb0iO8hB6Hw0oSglnu",
-    "name": "Nowlee"
-   },
-   {
-    "group": "other",
-    "id": "31uzUrQQv5lMCY9h5wTcRK",
-    "name": "BEACHBOIZ"
-   },
-   {
-    "group": "mainstream",
-    "id": "4zmZ8lVLzGc84S4v2B1rLx",
-    "name": "Seyi Vibez"
-   },
-   {
-    "group": "other",
-    "id": "7HkdQ0gt53LP4zmHsL0nap",
-    "name": "Ella Mai"
-   },
-   {
-    "group": "other",
-    "id": "3UEwKs997VRicCpjEYTprR",
-    "name": "Id Cabasa"
-   },
-   {
-    "group": "UG",
-    "id": "00dT0myy0kbq152QWIzRPI",
-    "name": "Igwe Aka"
-   },
-   {
-    "group": "other",
-    "id": "1mcTU81TzQhprhouKaTkpq",
-    "name": "Rauw Alejandro"
-   },
-   {
-    "group": "other",
-    "id": "15GgEOJiFyjQm4tZ4D7qih",
-    "name": "Cruel Santino"
-   },
-   {
-    "group": "mainstream",
-    "id": "0Y3agQaa6g2r0YmHPOO9rh",
-    "name": "Davido"
-   },
-   {
-    "group": "other",
-    "id": "1mcBWQVnnsPhMLCUB6iISP",
-    "name": "The Flowolf"
-   },
-   {
-    "group": "other",
-    "id": "2DFzMI8SSWPYBBSxVF7b2N",
-    "name": "Projexx"
-   },
-   {
-    "group": "other",
-    "id": "7bXgB6jMjp9ATFy66eO08Z",
-    "name": "Chris Brown"
-   },
-   {
-    "group": "other",
-    "id": "14HBQIzTET0elsL8NO3Xtl",
-    "name": "CloudyNotes"
-   },
-   {
-    "group": "other",
-    "id": "6Kp3KWPiVgi33DkJqo9T4g",
-    "name": "Zinoleesky"
-   },
-   {
-    "group": "other",
-    "id": "4if5dwAkHl7FZNCJTIB5e9",
-    "name": "Musta4a"
-   },
-   {
-    "group": "other",
-    "id": "4zlOuiD2KEU4fv1wSBQ3Jn",
-    "name": "Sugarbana"
-   },
-   {
-    "group": "other",
-    "id": "4piJXSxlFLE9HkuHP0SLD9",
-    "name": "Jackmillz"
-   },
-   {
-    "group": "other",
-    "id": "3rCVow8RScBBIyrdceDOiw",
-    "name": "SSSoundGawd"
-   },
-   {
-    "group": "other",
-    "id": "3QZIuDbSkr9lWqNFGsBsb3",
-    "name": "JMB"
-   },
-   {
-    "group": "other",
-    "id": "4Xi6LSfFqv26XgP9NKN26U",
-    "name": "AJ Tracey"
-   },
-   {
-    "group": "other",
-    "id": "1hNaHKp2Za5YdOAG0WnRbc",
-    "name": "Tiwa Savage"
-   },
-   {
-    "group": "other",
-    "id": "4sbXXFzEWJY2zsZjelerjX",
-    "name": "Dadju"
-   },
-   {
-    "group": "UG",
-    "id": "2DL38TZNK8x8hxvnxNkQB5",
-    "name": "Kobilou"
-   },
-   {
-    "group": "other",
-    "id": "4mSWNal2Ixxf1zrXSTLoep",
-    "name": "Zlatan"
-   },
-   {
-    "group": "other",
-    "id": "7c0XG5cIJTrrAgEC3ULPiq",
-    "name": "Ty Dolla $ign"
-   },
-   {
-    "group": "other",
-    "id": "1QsdzIKkTT5gDFj8GB1cIX",
-    "name": "Yseult"
-   },
-   {
-    "group": "other",
-    "id": "5zfc16oDllbQP2L13GQQk4",
-    "name": "Eminasss"
-   },
-   {
-    "group": "other",
-    "id": "6acbdy69rtlv8m9EW31MYl",
-    "name": "Phyno"
-   },
-   {
-    "group": "other",
-    "id": "47fErV0VDIx6PmuhtWGTYu",
-    "name": "Dremo"
-   },
-   {
-    "group": "other",
-    "id": "6SL6GEDCDVZFEvo3ewugni",
-    "name": "Madisin!"
-   },
-   {
-    "group": "other",
-    "id": "0vyHUIFawbTNM2a7W7JqZe",
-    "name": "MetaBoy"
-   },
-   {
-    "group": "other",
-    "id": "0iqznAW9pzZ7KOjx8aCMWo",
-    "name": "Tay Iwar"
-   },
-   {
-    "group": "other",
-    "id": "3ukrG1BmfEiuo0KDj8YTTS",
-    "name": "Teni"
-   },
-   {
-    "group": "other",
-    "id": "1Zj017W6N6SmZRLS4ODpjS",
-    "name": "Phyno"
-   },
-   {
-    "group": "other",
-    "id": "6mS3szHDI9h4lICrQj3ge0",
-    "name": "Makopelly"
-   },
-   {
-    "group": "other",
-    "id": "2BPwxhCvvcb8xDl8GWIjbh",
-    "name": "Odeal"
-   },
-   {
-    "group": "other",
-    "id": "5L7X4fW19ZEG2EdkOIPpMg",
-    "name": "Barry lane"
-   },
-   {
-    "group": "other",
-    "id": "5ZETERIwOXfWYCBljWg3Hk",
-    "name": "Majesty Lyn"
-   },
-   {
-    "group": "mainstream",
-    "id": "3a1tBryiczPAZpgoZN9Rzg",
-    "name": "Asake"
-   },
-   {
-    "group": "other",
-    "id": "2csYbKI9QGufe3Xny3Fkop",
-    "name": "bube"
-   },
-   {
-    "group": "other",
-    "id": "10G2iWM2FoafpNGqXZ9QMR",
-    "name": "KindlyNxsh"
-   },
-   {
-    "group": "mainstream",
-    "id": "4TKhxSkqClXrdtUWgKqHVU",
-    "name": "Shallipopi"
-   },
-   {
-    "group": "other",
-    "id": "62DmErcU7dqZbJaDqwsqzR",
-    "name": "Popcaan"
+    "id": "1GGdQAntXMPS3MoWPgSeCo",
+    "name": "DND 98"
    },
    {
     "group": "other",
@@ -6376,243 +8029,28 @@
    },
    {
     "group": "other",
+    "id": "3zaDigUwjHvjOkSn0NDf9x",
+    "name": "BNXN"
+   },
+   {
+    "group": "other",
+    "id": "2LJdSBlf7UdzavnaxOMH9A",
+    "name": "GTS 40k"
+   },
+   {
+    "group": "other",
     "id": "1IFAU4mznUcfPVP9z2c24N",
     "name": "Daecolm"
    },
    {
     "group": "other",
-    "id": "33KPqwPnEKJY6Tm9WfJQKq",
-    "name": "TAR1Q"
+    "id": "4XE6eLUu1pp5rcI1cpDpWy",
+    "name": "Paxslim"
    },
    {
     "group": "other",
-    "id": "6HsmnOUuab7e2X11UKrZ9Y",
-    "name": "JoeyXcv"
-   },
-   {
-    "group": "other",
-    "id": "1fctva4kpRbg2k3v7kwRuS",
-    "name": "Rvssian"
-   },
-   {
-    "group": "other",
-    "id": "3JJ0lsQ5g0DnRsTaCajxJU",
-    "name": "Buckwyla"
-   },
-   {
-    "group": "UG",
-    "id": "4ZnAdq8niwc3MnthK4ujdr",
-    "name": "Fimi"
-   },
-   {
-    "group": "other",
-    "id": "1ixqGowpDM21RwyJmJ7hpv",
-    "name": "Skales"
-   },
-   {
-    "group": "other",
-    "id": "58JKLeDfIeeOYujvF1UMQS",
-    "name": "Muyeez"
-   },
-   {
-    "group": "other",
-    "id": "3QAWvRmq1TMLuNtDKVyRaW",
-    "name": "Odunsi (The Engine)"
-   },
-   {
-    "group": "other",
-    "id": "2j7j3bmaV4Ej8b9Cy0FtMY",
-    "name": "cosamote"
-   },
-   {
-    "group": "other",
-    "id": "7urO0i2T8Ta9E9xAuOD1d6",
-    "name": "10Ten"
-   },
-   {
-    "group": "UG",
-    "id": "35l6bXa97M4hhvQ3e058PZ",
-    "name": "WAVE$TAR"
-   },
-   {
-    "group": "other",
-    "id": "6LTAaKONuHKKWR8ljjIbCA",
-    "name": "MAXINO"
-   },
-   {
-    "group": "other",
-    "id": "2mLA48B366zkELXYx7hcDN",
-    "name": "Peggy Gou"
-   },
-   {
-    "group": "other",
-    "id": "3Huh90qZ5dI2w5I4JjaQtF",
-    "name": "Indi"
-   },
-   {
-    "group": "other",
-    "id": "2p1fiYHYiXz9qi0JJyxBzN",
-    "name": "Skepta"
-   },
-   {
-    "group": "other",
-    "id": "1hBSQ3xsR6kfPMi7yLNmnZ",
-    "name": "Aenyi"
-   },
-   {
-    "group": "other",
-    "id": "4M5b70A8aORXdyJVjRJ8du",
-    "name": "Fimiguerrero"
-   },
-   {
-    "group": "other",
-    "id": "1c61yiH4iYE7cHtjAYSUu3",
-    "name": "Banky W."
-   },
-   {
-    "group": "other",
-    "id": "2aWCLZqio9v0uUZEATR1Rv",
-    "name": "Semzi"
-   },
-   {
-    "group": "other",
-    "id": "4gzpq5DPGxSnKTe4SA8HAU",
-    "name": "Coldplay"
-   },
-   {
-    "group": "other",
-    "id": "5Jv1MsZBh0sqokFq7pU8Xg",
-    "name": "Pheelz"
-   },
-   {
-    "group": "UG",
-    "id": "5toMJY8OHE9np3f4Hh0wCy",
-    "name": "Ravington"
-   },
-   {
-    "group": "UG",
-    "id": "6CS6NjMmo93ligNiiZ97LZ",
-    "name": "Luwa.Mp4"
-   },
-   {
-    "group": "other",
-    "id": "3QJzdZJYIAcoET1GcfpNGi",
-    "name": "Damian Marley"
-   },
-   {
-    "group": "other",
-    "id": "3ZwrZQdYpAwdPXlKTictk8",
-    "name": "B Banks"
-   },
-   {
-    "group": "other",
-    "id": "2a0uxJgbvvIRI4GX8pYfcr",
-    "name": "J Hus"
-   },
-   {
-    "group": "other",
-    "id": "5jfQBS0O6dR6axaz0BGMgs",
-    "name": "Chinko Ekun"
-   },
-   {
-    "group": "other",
-    "id": "706XoyHcL5K4V09UY9L2BD",
-    "name": "Queen Moda"
-   },
-   {
-    "group": "other",
-    "id": "7ebBg3BuRFa2satTcY8whC",
-    "name": "Billy Lemos"
-   },
-   {
-    "group": "other",
-    "id": "36M1Z5OPFotaTTKNjSIuAX",
-    "name": "Viktoh"
-   },
-   {
-    "group": "other",
-    "id": "4IVAbR2w4JJNJDDRFP3E83",
-    "name": "6LACK"
-   },
-   {
-    "group": "other",
-    "id": "1GGdQAntXMPS3MoWPgSeCo",
-    "name": "DND 98"
-   },
-   {
-    "group": "other",
-    "id": "6uc997vTKJPHyK4i66liS4",
-    "name": "Hebron Ola"
-   },
-   {
-    "group": "other",
-    "id": "1kMPdZQVdUhMDKDWOJM5iK",
-    "name": "Tkay Maidza"
-   },
-   {
-    "group": "other",
-    "id": "6Ip8FS7vWT1uKkJSweANQK",
-    "name": "Dave"
-   },
-   {
-    "group": "other",
-    "id": "1CoZyIx7UvdxT5c8UkMzHd",
-    "name": "Jorja Smith"
-   },
-   {
-    "group": "other",
-    "id": "7rGdPKZx6tqAbclJ7llUbs",
-    "name": "Wana Sn"
-   },
-   {
-    "group": "other",
-    "id": "3GvLzHTwSpsLgPcYB9ywgJ",
-    "name": "vvsmygwen"
-   },
-   {
-    "group": "other",
-    "id": "0FK1hXdXst70HD11n5J26z",
-    "name": "FOLA"
-   },
-   {
-    "group": "other",
-    "id": "5ywjxFhmhHGQBsK3DundNf",
-    "name": "Peruzzi"
-   },
-   {
-    "group": "other",
-    "id": "11wVvKdFSo29HDH3JgqTYX",
-    "name": "Somawine"
-   },
-   {
-    "group": "UG",
-    "id": "5KbCVC6DvprtEp30AA093z",
-    "name": "DaveTheOracle"
-   },
-   {
-    "group": "other",
-    "id": "4wAqlYtTaaHELEgyCh9KjG",
-    "name": "FAVE"
-   },
-   {
-    "group": "other",
-    "id": "5L1Xcdtf6MxLmEvpGMw3g4",
-    "name": "Ayjay bobo"
-   },
-   {
-    "group": "other",
-    "id": "4YISTUJnoZtAy6LjgOpRL7",
-    "name": "Ovrkast."
-   },
-   {
-    "group": "other",
-    "id": "0EmeFodog0BfCgMzAIvKQp",
-    "name": "Shakira"
-   },
-   {
-    "group": "other",
-    "id": "1IMQHmBTqSwgqyK6nIYSZ2",
-    "name": "Monttei"
+    "id": "7c0XG5cIJTrrAgEC3ULPiq",
+    "name": "Ty Dolla $ign"
    },
    {
     "group": "other",
@@ -6621,93 +8059,43 @@
    },
    {
     "group": "other",
-    "id": "2GfYq2uTYP3vG4QbQkdSPm",
-    "name": "Davee Thompson"
+    "id": "11wVvKdFSo29HDH3JgqTYX",
+    "name": "Somawine"
    },
    {
     "group": "other",
-    "id": "68R39izwNAztATrXMOqkJS",
-    "name": "Bad Boy Timz"
+    "id": "3YZW6xRMNPj57dx36Eb2Yd",
+    "name": "Buff Lou"
    },
    {
     "group": "other",
-    "id": "2f8rjDwhSy9IDL6sB6BEEE",
-    "name": "YKB"
-   },
-   {
-    "group": "UG",
-    "id": "3CyKLwlqtYmQxNt4cWflKx",
-    "name": "scottyolorin"
-   },
-   {
-    "group": "UG",
-    "id": "4Z3LLYwCpB9OKKaSttnapP",
-    "name": "Priesst"
+    "id": "75yvKMzpIeYGyw5ElkoLYw",
+    "name": "Fergiee"
    },
    {
     "group": "other",
-    "id": "1vyhD5VmyZ7KMfW5gqLgo5",
-    "name": "J Balvin"
+    "id": "3GvLzHTwSpsLgPcYB9ywgJ",
+    "name": "vvsmygwen"
    },
    {
     "group": "other",
-    "id": "5RklmjJAxQsqQFyOTi9ih5",
-    "name": "Tammyagain"
+    "id": "7rGdPKZx6tqAbclJ7llUbs",
+    "name": "Wana Sn"
    },
    {
     "group": "other",
-    "id": "2hlmm7s2ICUX0LVIhVFlZQ",
-    "name": "Gunna"
+    "id": "6acbdy69rtlv8m9EW31MYl",
+    "name": "Phyno"
    },
    {
     "group": "other",
-    "id": "2k4BorccGemzBPjIRkT5Pa",
-    "name": "Txmmyily"
+    "id": "0FK1hXdXst70HD11n5J26z",
+    "name": "FOLA"
    },
    {
     "group": "other",
-    "id": "1igmgiNroMhNQQx9Rp4uoI",
-    "name": "Mamuzo"
-   },
-   {
-    "group": "other",
-    "id": "6Xgp2XMz1fhVYe7i6yNAax",
-    "name": "Trippie Redd"
-   },
-   {
-    "group": "other",
-    "id": "3l7SEJk2wlBU3OvrMWf1sj",
-    "name": "Pepenazi"
-   },
-   {
-    "group": "other",
-    "id": "0jIWKlfmD4Ew7HeVVrq03g",
-    "name": "Elyanna"
-   },
-   {
-    "group": "other",
-    "id": "0iEtIxbK0KxaSlF7G42ZOp",
-    "name": "Metro Boomin"
-   },
-   {
-    "group": "other",
-    "id": "1URnnhqYAYcrqrcwql10ft",
-    "name": "21 Savage"
-   },
-   {
-    "group": "other",
-    "id": "2SrSdSvpminqmStGELCSNd",
-    "name": "Stormzy"
-   },
-   {
-    "group": "other",
-    "id": "2IK173RXLiCSQ8fhDlAb3s",
-    "name": "Adekunle Gold"
-   },
-   {
-    "group": "other",
-    "id": "3zaDigUwjHvjOkSn0NDf9x",
-    "name": "BNXN"
+    "id": "4gzpq5DPGxSnKTe4SA8HAU",
+    "name": "Coldplay"
    },
    {
     "group": "other",
@@ -6715,9 +8103,34 @@
     "name": "R33NZO"
    },
    {
-    "group": "UG",
-    "id": "4Hz1UttsadDCW4xA41XKoV",
-    "name": "Egertton"
+    "group": "other",
+    "id": "6eGNSDjuuUepYdy32k1zXS",
+    "name": "Aibrid"
+   },
+   {
+    "group": "other",
+    "id": "1fctva4kpRbg2k3v7kwRuS",
+    "name": "Rvssian"
+   },
+   {
+    "group": "other",
+    "id": "33KPqwPnEKJY6Tm9WfJQKq",
+    "name": "TAR1Q"
+   },
+   {
+    "group": "other",
+    "id": "5Jv1MsZBh0sqokFq7pU8Xg",
+    "name": "Pheelz"
+   },
+   {
+    "group": "other",
+    "id": "1uNFoZAHBGtllmzznpCI3s",
+    "name": "Justin Bieber"
+   },
+   {
+    "group": "other",
+    "id": "1MsnDxqUP7LKWW9zEEs1J8",
+    "name": "Queen Izzy"
    },
    {
     "group": "other",
@@ -6726,13 +8139,68 @@
    },
    {
     "group": "other",
+    "id": "3ukrG1BmfEiuo0KDj8YTTS",
+    "name": "Teni"
+   },
+   {
+    "group": "other",
+    "id": "30SVAanrbFS6o0cIVDZ9ta",
+    "name": "Thisizlondon"
+   },
+   {
+    "group": "other",
+    "id": "6mS3szHDI9h4lICrQj3ge0",
+    "name": "Makopelly"
+   },
+   {
+    "group": "other",
     "id": "23R4AtMwVv0pbJYB1joioW",
     "name": "Shoday"
    },
    {
+    "group": "UG",
+    "id": "6eEW31SqGa8zKe3ibfTCdH",
+    "name": "Zaylevelten"
+   },
+   {
     "group": "other",
-    "id": "2hs1DM1Lbd7OA9VDQgeEbc",
-    "name": "KRL Soundz"
+    "id": "14HBQIzTET0elsL8NO3Xtl",
+    "name": "CloudyNotes"
+   },
+   {
+    "group": "other",
+    "id": "4YIOi9aFNviV1jRQeiNZgO",
+    "name": "Reminisce"
+   },
+   {
+    "group": "other",
+    "id": "7pcVZssnGHrZrzzbQtMpkF",
+    "name": "DaniTheeGreatt"
+   },
+   {
+    "group": "other",
+    "id": "38XiDu0kK3Z5jdHUDqBzNT",
+    "name": "Lil Kesh"
+   },
+   {
+    "group": "UG",
+    "id": "1VBjib1ykqXxss9Tw5YuR9",
+    "name": "Mavo"
+   },
+   {
+    "group": "other",
+    "id": "58JKLeDfIeeOYujvF1UMQS",
+    "name": "Muyeez"
+   },
+   {
+    "group": "other",
+    "id": "1igmgiNroMhNQQx9Rp4uoI",
+    "name": "Mamuzo"
+   },
+   {
+    "group": "other",
+    "id": "4mSWNal2Ixxf1zrXSTLoep",
+    "name": "Zlatan"
    }
   ]
  },
