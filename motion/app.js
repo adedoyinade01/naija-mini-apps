@@ -88,6 +88,25 @@
       </section>`).join("");
   }
 
+  // ---------- admin (only the owner sees the X thread tools) ----------
+  const ADMIN_HASH = "4cc488c5ec83b0f71887477e3c895cdb53bc7f80efe557433fd3b415d9ed24aa";
+  let isAdmin = false;
+  try { isAdmin = localStorage.getItem("motionAdmin") === ADMIN_HASH; } catch (e) {}
+  async function checkAdmin() {
+    const k = new URLSearchParams(location.search).get("admin");
+    if (k == null) return;
+    try {
+      if (k === "off") { localStorage.removeItem("motionAdmin"); isAdmin = false; }
+      else {
+        const buf = await crypto.subtle.digest("SHA-256", new TextEncoder().encode(k));
+        const hex = [...new Uint8Array(buf)].map((b) => b.toString(16).padStart(2, "0")).join("");
+        if (hex === ADMIN_HASH) { localStorage.setItem("motionAdmin", hex); isAdmin = true; }
+      }
+    } catch (e) {}
+    history.replaceState(null, "", location.pathname);  // hide the key from the address bar
+  }
+  const siteLink = () => location.origin + location.pathname;
+
   // ---------- Motion Report ----------
   let reports = [];
   function reportHTML(w, label) {
@@ -101,10 +120,10 @@
       ${sec("🆕 New drops", w.drops.map((x) => `<li><div><b>${esc(x.name)}</b><small>${esc(x.artist)} · ${esc(x.type || "release")} · ${fdate(x.date)}</small></div><div class="r">${x.plays ? `${fmt(x.plays)}<small>plays so far</small>` : `<small>streams not public yet</small>`}</div></li>`))}
       ${sec("🔀 Meter moves", w.meterMoves.map((x) => `<li><div><b>${esc(x.name)}</b><small>${esc(x.from)} → ${esc(x.to)}</small></div><div class="r">⬆️</div></li>`))}
       ${sec("👀 Names to watch", w.watch.map((x) => `<li><div><b>${esc(x.name)}</b><small>with ${esc(x.with.slice(0, 3).join(", "))}${x.with.length > 3 ? ` + ${x.with.length - 3} more` : ""}</small></div><div class="r">${x.tracks} songs</div></li>`))}
-      <div class="sec"><h4>📣 Ready-to-post X thread</h4>
-        <div class="thread">${w.thread.map((t, i) => `<div>${esc(i === w.thread.length - 1 ? t + "\n" + location.href : t)}</div>`).join("")}</div>
+      ${isAdmin ? `<div class="sec"><h4>📣 Ready-to-post X thread <small>(only you can see this)</small></h4>
+        <div class="thread">${w.thread.map((t, i) => `<div>${esc(i === w.thread.length - 1 ? t + "\n" + siteLink() : t)}</div>`).join("")}</div>
         <div class="row" style="margin-top:10px"><button class="btn" id="copyThread">Copy thread</button><button class="btn ghost" id="postFirst">Post first tweet</button></div>
-      </div>`;
+      </div>` : ""}`;
   }
   let shownReport = null;
   function renderReport(w, label) {
@@ -300,12 +319,12 @@
     if (t.dataset.poll) return share(`is ${t.dataset.poll} still UG? 🤔 the numbers say they've crossed over, the streets say otherwise. what do you think?\n\nvia MOTION ${location.href}`);
     if (t.dataset.share) { const a = D.artists.find((x) => x.id === t.dataset.share); return share(`${a.name}: ${a.summary} 📈\n\nvia MOTION ${location.href}`); }
     if (t.dataset.report) return openReport(t.dataset.report);
-    if (t.id === "copyThread" && shownReport) {
-      const txt = shownReport.thread.map((x, i) => i === shownReport.thread.length - 1 ? x + "\n" + location.href : x).join("\n\n---\n\n");
+    if (t.id === "copyThread" && shownReport && isAdmin) {
+      const txt = shownReport.thread.map((x, i) => i === shownReport.thread.length - 1 ? x + "\n" + siteLink() : x).join("\n\n---\n\n");
       navigator.clipboard && navigator.clipboard.writeText(txt).then(() => { t.textContent = "Copied ✓"; setTimeout(() => (t.textContent = "Copy thread"), 1500); });
       return;
     }
-    if (t.id === "postFirst" && shownReport) return share(shownReport.thread[0]);
+    if (t.id === "postFirst" && shownReport && isAdmin) return share(shownReport.thread[0]);
     if (t.classList.contains("close") || t.id === "overlay") closeSheet();
   });
   document.addEventListener("keydown", (e) => e.key === "Escape" && closeSheet());
@@ -321,7 +340,7 @@
       const ms = d.artists.filter((a) => a.group === "mainstream" && a.listeners).sort((a, b) => a.listeners - b.listeners);
       [...ug.slice(0, 2), ...ms.slice(0, 1)].forEach((a) => picked.add(a.id));
       $("dash").classList.remove("hidden");
-      renderStory(); renderSpotlight(); renderCards(); renderDebates(); renderCompare(); renderShare(); renderLists(); loadReports();
+      renderStory(); renderSpotlight(); renderCards(); renderDebates(); renderCompare(); renderShare(); renderLists(); checkAdmin().then(loadReports);
     })
     .catch(() => $("setup").classList.remove("hidden"));
 })();
