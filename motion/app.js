@@ -59,9 +59,45 @@
         <div class="big"><div><b>${fmt(a.listeners)}</b><span>monthly listeners</span></div><canvas data-spark="${a.id}"></canvas></div>
         <div class="gain">${gainText(a)}</div>
         ${a.meter ? `<div><div class="meterlbl"><span>UG → Mainstream motion</span><b>${a.meter.label} · ${a.meter.score}</b></div><div class="meterbar"><i style="width:${a.meter.score}%"></i></div></div>` : ""}
+        ${newDrop(a)}
         ${a.comparison ? `<div class="oneline">${esc(a.comparison[0].toUpperCase() + a.comparison.slice(1))}</div>` : ""}
       </button>`).join("");
     document.querySelectorAll("[data-spark]").forEach((c) => spark(c, D.artists.find((a) => a.id === c.dataset.spark)));
+  }
+
+  function newDrop(a) {
+    const l = a.songs && a.songs.latest;
+    if (!l) return "";
+    const days = (new Date(D.updated) - new Date(l.date)) / 864e5;
+    if (days > 30 || days < 0) return "";
+    return `<div class="newdrop">🆕 New ${esc(l.type || "release")}: "${esc(l.name)}" · ${fdate(l.date)}${l.daily ? ` · ${fmt(l.daily)} plays/day` : ""}</div>`;
+  }
+
+  function songRow(t, showFeat) {
+    const ch = t.change == null ? "" : `<span class="${t.change >= 0 ? "up" : "down"}">${t.change >= 0 ? "▲" : "▼"} ${Math.abs(t.change)}%</span>`;
+    if (t.total == null) return `<li><div>${esc(t.title)}<small>streams not public yet</small></div><div class="r"><small>–</small></div></li>`;
+    return `<li><div>${esc(t.title)}<small>${fmt(t.total)} total plays${t.gained ? ` · +${fmt(t.gained)} since ${fdate(t.since)}` : ""}</small></div>
+      <div class="r"><b>${fmt(t.daily)}</b>/day<small>${ch || "&nbsp;"}</small></div></li>`;
+  }
+
+  function songsSection(a) {
+    const s = a.songs || {};
+    let h = "";
+    if (s.latest) {
+      const l = s.latest;
+      h += `<h3 style="margin-top:18px">Latest release</h3>
+        <p class="hint" style="margin:2px 0 0"><b style="color:var(--text)">"${esc(l.name)}"</b> · ${esc(l.type || "release")} · ${fdateY(l.date)}${l.charting && l.daily ? ` · <span class="up">${fmt(l.daily)} plays a day</span>` : ""}</p>
+        <ul class="songs">${l.tracks.map((t) => songRow(t)).join("")}</ul>
+        ${l.charting ? "" : `<p class="hint" style="margin-top:6px">Spotify doesn't publish song streams for ${esc(a.name)} yet. They appear here automatically once they chart on kworb.</p>`}`;
+    }
+    if (s.top && s.top.length) {
+      h += `<h3 style="margin-top:18px">Most-streamed songs</h3><ul class="songs">${s.top.map((t) => songRow(t)).join("")}</ul>`;
+    }
+    if (s.features && s.features.length) {
+      h += `<h3 style="margin-top:18px">Biggest features & collabs</h3><p class="hint" style="margin:2px 0 0">Songs where ${esc(a.name)} is the featured artist.</p><ul class="songs">${s.features.map((t) => songRow(t)).join("")}</ul>`;
+    }
+    if (!s.charting && !s.latest) h += `<h3 style="margin-top:18px">Songs</h3><p class="hint">Song data appears once Spotify's catalog and stream charts include ${esc(a.name)}.</p>`;
+    return h;
   }
 
   function spark(el, a) {
@@ -113,6 +149,7 @@
       ${a.debate ? `<h3 style="margin-top:18px">${esc(a.debate.question)}</h3><div class="sides" style="margin-top:8px">
         <div class="side"><h4 style="color:var(--green)">✊ Still UG</h4><ul>${a.debate.still.map((s) => `<li>${esc(s)}</li>`).join("")}</ul></div>
         <div class="side"><h4 style="color:var(--gold)">🎓 Graduated</h4><ul>${a.debate.graduated.map((s) => `<li>${esc(s)}</li>`).join("")}</ul></div></div>` : ""}
+      ${songsSection(a)}
       <h3 style="margin-top:18px">Works with</h3>
       ${a.collaborators.length ? `<div class="collabs">${a.collaborators.map((c) => `<span class="${esc(c.group)}">${esc(c.name)} · ${c.songs}</span>`).join("")}</div>`
         : `<p class="hint">Features load from Spotify's catalog, usually within a day of adding an artist.</p>`}

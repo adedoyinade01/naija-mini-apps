@@ -123,7 +123,13 @@ def refresh_catalog(api, artists, catalog, meta, today, only_missing=False):
         pause(1, 2)
 
 
-def collect_numbers(artists, use_web, today, history):
+def latest_release_tracks(aid, catalog, albums, n_releases=2):
+    """Track IDs of an artist's newest releases, so we always keep their numbers."""
+    rel = sorted(catalog.get(aid, {}).get("releases", []), key=lambda r: r.get("date") or "", reverse=True)[:n_releases]
+    return {t["id"] for r in rel for t in albums.get(r["id"], [])}
+
+
+def collect_numbers(artists, use_web, today, history, catalog=None, albums=None):
     snap = history.setdefault(today, {})
     ok = {"kworb": 0, "web": 0}
     for a in artists:
@@ -132,9 +138,12 @@ def collect_numbers(artists, use_web, today, history):
         try:
             k = sources.kworb_artist(aid)
             if k:
-                top = sorted(k["tracks"], key=lambda t: -t["daily"])[:TRACKS_KEPT]
+                # keep: hottest right now, all-time biggest, and everything from their newest releases
+                keep = {t["id"] for t in sorted(k["tracks"], key=lambda t: -t["daily"])[:TRACKS_KEPT]}
+                keep |= {t["id"] for t in sorted(k["tracks"], key=lambda t: -t["total"])[:TRACKS_KEPT]}
+                keep |= latest_release_tracks(aid, catalog or {}, albums or {})
                 row.update(streams=k["total"], daily=k["daily"],
-                           tracks={t["id"]: [t["title"], t["total"], t["daily"]] for t in top})
+                           tracks={t["id"]: [t["title"], t["total"], t["daily"], t["feature"]] for t in k["tracks"] if t["id"] in keep})
                 ok["kworb"] += 1
         except Exception as e:  # keep going: one artist failing shouldn't kill the run
             log(f"  ✗ kworb {a['name']}: {e}")
@@ -192,13 +201,13 @@ def main():
 
         use_web = not args.no_web and os.getenv("ENABLE_WEB_SCRAPE", "1") != "0"
         log(f"Daily numbers: kworb{' + open.spotify.com' if use_web else ''}")
-        ok = collect_numbers(artists, use_web, today, history)
+        ok = collect_numbers(artists, use_web, today, history, catalog, load_json(ALBUMS, {}))
         save_json(HISTORY, history)
         log(f"Done: kworb {ok['kworb']}/{len(artists)}, web {ok['web']}/{len(artists) if use_web else 0}")
 
     images = meta.get("images", {})
     artists = [{**a, "image": images.get(a.get("spotify_id"))} for a in cfg["artists"]]
-    save_json(OUT, build(history, catalog, artists, today), indent=1)
+    save_json(OUT, build(history, catalog, artists, today, albums=load_json(ALBUMS, {})), indent=1)
     log(f"Wrote {OUT.relative_to(ROOT)}")
 
 

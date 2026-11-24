@@ -85,6 +85,11 @@ canvas.chart{width:100%;display:block}
 .kv small{display:block;font-size:12px;color:var(--muted);margin-top:2px}
 .collabs{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
 .collabs span{font-size:13px;padding:4px 10px;border-radius:99px;background:#0f1411;border:1px solid var(--line)}
+.songs{list-style:none;margin-top:8px}
+.songs li{display:grid;grid-template-columns:1fr auto;gap:10px;padding:9px 0;border-top:1px solid var(--line);font-size:14px}
+.songs li small{display:block;color:var(--muted);font-size:12px}
+.songs .r{text-align:right;white-space:nowrap}
+.newdrop{font-size:13px;color:var(--gold)}
 .collabs .UG{border-color:#24432f}.collabs .mainstream{border-color:#5a4720}
 .setup{line-height:1.7}.setup code{background:#0f1411;border:1px solid var(--line);padding:2px 6px;border-radius:6px;font-size:13px}
 .hidden{display:none!important}
@@ -95,7 +100,7 @@ canvas.chart{width:100%;display:block}
   <a class="back" href="../">← all apps</a>
   <span class="tag">📈 updated every morning</span>
   <h1>MOTION</h1>
-  <p class="sub"><b style="color:var(--text)">Who's moving in Naija music, measured daily.</b> The underground (UG) wave vs the mainstream on Spotify, explained in plain English.</p>
+  <p class="sub"><b style="color:var(--text)">Who's moving in Naija music, measured daily.</b> The underground (UG) wave vs the mainstream on Spotify.</p>
 
   <section class="card setup hidden" id="setup">
     <h3>No data yet</h3>
@@ -112,6 +117,7 @@ canvas.chart{width:100%;display:block}
           <div><dt>Monthly listeners</dt><dd>How many different people played the artist on Spotify in the last 28 days. It's the fairest way to compare UG and mainstream acts, because every artist has it.</dd></div>
           <div><dt>🚀 In Motion · ▲ Moving · ● Still · ▼ Slowing</dt><dd>How their listeners changed since the date shown on the card. In Motion means up 2% or more. Spotify rounds big numbers (Burna shows as "40.4M"), so small daily moves for big artists show as <i>Still</i>. Weekly changes appear once we have a week of data.</dd></div>
           <div><dt>Daily streams</dt><dd>Total plays per day across all their songs, from kworb.net. Spotify doesn't publish this for smaller artists, so many UG acts show "not on the charts yet". That's normal, and it changes once they're big enough.</dd></div>
+          <div><dt>Song streams</dt><dd>Total plays of each song on Spotify and plays per day, from kworb.net. The arrow shows how daily plays changed since the date given. Available once an artist charts on kworb.</dd></div>
           <div><dt>UG → Mainstream motion</dt><dd>A score out of 100: <b>reach</b> (listeners vs the smallest mainstream act we track, up to 50), <b>features</b> with mainstream stars (up to 30) and being on the <b>daily stream charts</b> (20). 0–39 Underground, 40–74 Breaking through, 75+ Crossed over.</dd></div>
         </dl>
       </details>

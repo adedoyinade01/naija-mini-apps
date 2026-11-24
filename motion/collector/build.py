@@ -31,7 +31,47 @@ def pct(new, old):
     return round(100 * (new - old) / old, 1)
 
 
-def build(history: dict, catalog: dict, artists: list[dict], today: str | None = None) -> dict:
+def song_stats(history, dates, aid, week_ago):
+    """Per-song numbers for one artist: {track_id: {title, total, daily, feature, change, gained}}."""
+    if not dates:
+        return {}
+    latest = history[dates[-1]].get(aid, {}).get("tracks", {})
+    then_date = max((d for d in dates if d <= week_ago), default=dates[0])
+    before = history[then_date].get(aid, {}).get("tracks", {}) if then_date != dates[-1] else {}
+    out = {}
+    for tid, rec in latest.items():
+        title, total, daily = rec[0], rec[1], rec[2]
+        feature = bool(rec[3]) if len(rec) > 3 else False
+        old = before.get(tid)
+        out[tid] = {"id": tid, "title": title, "total": total, "daily": daily, "feature": feature,
+                    "change": pct(daily, old[2]) if old else None,
+                    "gained": (total - old[1]) if old else None,
+                    "since": then_date if old else None}
+    return out
+
+
+def songs_block(aid, stats, catalog, albums):
+    """Latest release + most-streamed songs + biggest features for the artist detail view."""
+    releases = sorted(catalog.get(aid, {}).get("releases", []), key=lambda r: norm_date(r.get("date")), reverse=True)
+    latest = None
+    if releases:
+        r = releases[0]
+        tracks = []
+        for t in albums.get(r["id"], []):
+            s = stats.get(t["id"])
+            tracks.append(s if s else {"id": t["id"], "title": t["name"], "total": None, "daily": None, "change": None})
+        charting = [t for t in tracks if t.get("total") is not None]
+        latest = {"name": r["name"], "type": r.get("type"), "date": norm_date(r.get("date")), "id": r["id"],
+                  "tracks": tracks[:12], "charting": bool(charting),
+                  "daily": sum(t["daily"] or 0 for t in charting) or None,
+                  "total": sum(t["total"] or 0 for t in charting) or None}
+    own = sorted([s for s in stats.values() if not s["feature"]], key=lambda s: -s["total"])[:5]
+    feats = sorted([s for s in stats.values() if s["feature"]], key=lambda s: -s["total"])[:3]
+    return {"latest": latest, "top": own, "features": feats, "charting": bool(stats)}
+
+
+def build(history: dict, catalog: dict, artists: list[dict], today: str | None = None, albums: dict | None = None) -> dict:
+    albums = albums or {}
     dates = sorted(history)
     today = today or (dates[-1] if dates else date.today().isoformat())
     week_ago = (date.fromisoformat(today) - timedelta(days=7)).isoformat()
@@ -52,6 +92,7 @@ def build(history: dict, catalog: dict, artists: list[dict], today: str | None =
         gained = (lis - lis_then) if (lis is not None and lis_then is not None) else None
         span = (date.fromisoformat(lis_d) - date.fromisoformat(then_d)).days if (gained is not None and lis_d and then_d) else None
         rows.append({
+            "songs": songs_block(aid, song_stats(history, dates, aid, week_ago), catalog, albums),
             "id": aid, "name": a["name"], "group": a["group"], "image": a.get("image"),
             "listeners": lis, "listenersChange": pct(lis, lis_then), "changeSince": then_d,
             "listenersGained": gained, "changeDays": span,
@@ -85,7 +126,7 @@ def build(history: dict, catalog: dict, artists: list[dict], today: str | None =
             if aid not in tracked:
                 continue
             before = history[then_date].get(aid, {}).get("tracks", {})
-            for tid, (title, total, daily) in snap.get("tracks", {}).items():
+            for tid, (title, total, daily, *_) in snap.get("tracks", {}).items():
                 old = before.get(tid)
                 climbers.append({
                     "track": title, "id": tid, "artist": tracked[aid]["name"], "group": tracked[aid]["group"],
