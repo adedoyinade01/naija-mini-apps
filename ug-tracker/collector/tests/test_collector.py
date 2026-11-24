@@ -93,7 +93,8 @@ def test_build_growth_groups_and_climbers():
     mavo = next(a for a in out["artists"] if a["name"] == "Mavo")
     assert mavo["listenersChange"] == 20.0 and mavo["dailyChange"] == 20.0
     assert out["artists"][0]["name"] == "Wizkid"  # sorted by listeners
-    assert out["groupSeries"][-1] == {"date": "2026-11-08", "UG": 60_000, "mainstream": 880_000}
+    gs = out["groupSeries"][-1]
+    assert (gs["UG"], gs["mainstream"], gs["UGListeners"]) == (60_000, 880_000, 1_200_000)
     assert out["climbers"][0]["track"] == "Tumo Weto" and out["climbers"][0]["change"] == 50.0
     assert any(c["track"] == "New One" and c["new"] for c in out["climbers"])
 

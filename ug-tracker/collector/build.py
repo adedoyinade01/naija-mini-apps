@@ -4,6 +4,8 @@ from __future__ import annotations
 from collections import defaultdict
 from datetime import date, timedelta
 
+from insights import enrich
+
 
 def norm_date(d: str | None) -> str:
     """Spotify release dates can be '2025', '2025-06' or '2025-06-06'."""
@@ -47,9 +49,13 @@ def build(history: dict, catalog: dict, artists: list[dict], today: str | None =
         daily, _ = _value_on_or_before(history, dates, aid, "daily", today)
         daily_then, _ = _value_on_or_before(history, dates, aid, "daily", week_ago)
         streams, _ = _value_on_or_before(history, dates, aid, "streams", today)
+        gained = (lis - lis_then) if (lis is not None and lis_then is not None) else None
+        span = (date.fromisoformat(lis_d) - date.fromisoformat(then_d)).days if (gained is not None and lis_d and then_d) else None
         rows.append({
             "id": aid, "name": a["name"], "group": a["group"], "image": a.get("image"),
             "listeners": lis, "listenersChange": pct(lis, lis_then), "changeSince": then_d,
+            "listenersGained": gained, "changeDays": span,
+            "gainedPerDay": round(gained / span) if gained is not None and span else None,
             "dailyStreams": daily, "dailyChange": pct(daily, daily_then), "totalStreams": streams,
             "series": [[d, history[d].get(aid, {}).get("listeners"), history[d].get(aid, {}).get("daily")] for d in dates
                        if aid in history[d]],
@@ -65,6 +71,9 @@ def build(history: dict, catalog: dict, artists: list[dict], today: str | None =
             vals = [history[d][aid].get("daily") for aid in history[d] if group_of.get(aid) == g]
             vals = [v for v in vals if v is not None]
             point[g] = sum(vals) if vals else None
+            lis_vals = [history[d][aid].get("listeners") for aid in history[d] if group_of.get(aid) == g]
+            lis_vals = [v for v in lis_vals if v is not None]
+            point[g + "Listeners"] = sum(lis_vals) if lis_vals else None
         group_series.append(point)
 
     # ---------- climbing tracks ----------
@@ -165,7 +174,7 @@ def build(history: dict, catalog: dict, artists: list[dict], today: str | None =
                              "type": r.get("type"), "date": norm_date(r.get("date")), "id": r["id"]})
     releases.sort(key=lambda r: r["date"], reverse=True)
 
-    return {
+    return enrich({
         "updated": today,
         "days": len(dates),
         "firstDay": dates[0] if dates else None,
@@ -177,4 +186,4 @@ def build(history: dict, catalog: dict, artists: list[dict], today: str | None =
         "crossovers": crossovers[:20],
         "namesToWatch": names_to_watch,
         "releases": releases[:24],
-    }
+    })

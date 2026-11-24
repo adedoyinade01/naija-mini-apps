@@ -2,112 +2,172 @@
 <html lang="en">
 <head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>UG Wave Tracker · Nigeria's underground, measured daily</title>
-<meta name="description" content="Daily Spotify tracking of Nigeria's underground (UG) wave vs the mainstream: growth, climbing songs, crossovers and names to watch.">
+<title>MOTION · who's moving in Naija music</title>
+<meta name="description" content="MOTION: who's moving in Naija music, measured daily. Nigeria's underground (UG) wave vs the mainstream on Spotify, in plain English.">
 <link rel="stylesheet" href="../style.css">
 <style>
-.wrap{max-width:900px}
-.card+.card,.card+.grid2,.grid2+.card,.grid2+.grid2,.stats+.card{margin-top:14px}
-.grid2{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.wrap{max-width:920px}
+section+section,.grid2+section,section+.grid2,.grid2+.grid2{margin-top:16px}
+.grid2{display:grid;grid-template-columns:1fr 1fr;gap:16px}
 @media(max-width:760px){.grid2{grid-template-columns:1fr}}
+h2{font-size:20px;letter-spacing:-.01em;margin:30px 0 4px}
 h3{font-size:15px;margin-bottom:4px;display:flex;justify-content:space-between;align-items:center;gap:10px}
 .hint{color:var(--muted);font-size:13px;margin-bottom:14px}
-.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}
-@media(max-width:760px){.stats{grid-template-columns:1fr 1fr}}
-.stat{background:var(--card);border:1px solid var(--line);border-radius:14px;padding:14px}
-.stat span{display:block;font-size:12px;color:var(--muted)}.stat b{font-size:20px}
-.stat small{display:block;font-size:12px;color:var(--muted);margin-top:2px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+/* story */
+.story{background:linear-gradient(160deg,#16301f,#151a17 60%);border-color:#24432f}
+.story h3{font-size:13px;text-transform:uppercase;letter-spacing:.08em;color:var(--green)}
+.story ol{list-style:none;counter-reset:s;display:grid;gap:12px;margin-top:10px}
+.story li{counter-increment:s;display:grid;grid-template-columns:28px 1fr;gap:8px;font-size:16px;line-height:1.45}
+.story li::before{content:counter(s);width:24px;height:24px;border-radius:50%;background:#0f1411;border:1px solid #2b4a35;color:var(--green);font-size:12px;font-weight:700;display:grid;place-items:center;margin-top:1px}
+.story b{color:#fff}
+details.explain{margin-top:16px;border-top:1px solid #24432f;padding-top:12px;font-size:14px;color:var(--muted)}
+details.explain summary{cursor:pointer;color:var(--text);font-weight:600;list-style:none}
+details.explain summary::before{content:"ⓘ  "}
+details.explain dl{display:grid;gap:10px;margin-top:12px}
+details.explain dt{color:var(--text);font-weight:600}
+/* controls */
+.controls{display:flex;justify-content:space-between;gap:10px;flex-wrap:wrap;align-items:center;margin:8px 0 14px}
 .chips{display:flex;gap:6px;flex-wrap:wrap}
-.chip{background:none;border:1px solid var(--line);color:var(--muted);border-radius:999px;padding:5px 11px;font:inherit;font-size:13px;cursor:pointer}
+.chip{background:none;border:1px solid var(--line);color:var(--muted);border-radius:999px;padding:6px 12px;font:inherit;font-size:13px;cursor:pointer}
 .chip.on{color:var(--text);border-color:var(--green)}
-table{width:100%;border-collapse:collapse;font-size:14px}
-th{font-size:12px;color:var(--muted);font-weight:500;text-align:right;padding:6px 0;cursor:pointer;user-select:none}
-th:first-child{text-align:left}
-td{padding:9px 0;border-top:1px solid var(--line);text-align:right;font-variant-numeric:tabular-nums}
-td:first-child{text-align:left}
-tr.sel td{background:rgba(31,196,107,.06)}
-tbody tr{cursor:pointer}
-.who{display:flex;align-items:center;gap:10px}
-.who img,.who .ph{width:30px;height:30px;border-radius:50%;object-fit:cover;background:#26302a;flex-shrink:0}
-.pill{font-size:10px;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:99px;border:1px solid var(--line);color:var(--muted);margin-left:6px}
+select{background:#0f1411;border:1px solid var(--line);border-radius:10px;color:var(--text);font:inherit;font-size:13px;padding:7px 10px}
+/* cards */
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:12px}
+.acard{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px;cursor:pointer;text-align:left;color:var(--text);font:inherit;transition:border-color .15s,transform .12s;display:flex;flex-direction:column;gap:10px}
+.acard:hover{border-color:#3a4a40;transform:translateY(-2px)}
+.top{display:flex;gap:12px;align-items:center}
+.avatar{width:46px;height:46px;border-radius:50%;object-fit:cover;background:#26302a;flex-shrink:0;display:grid;place-items:center;font-weight:700;color:var(--muted)}
+.nm{font-weight:700;font-size:16px;line-height:1.2}
+.pill{display:inline-block;font-size:10px;letter-spacing:.06em;text-transform:uppercase;padding:2px 7px;border-radius:99px;border:1px solid var(--line);color:var(--muted);margin-top:4px}
 .pill.UG{border-color:var(--green);color:var(--green)}
 .pill.mainstream{border-color:var(--gold);color:var(--gold)}
+.status{margin-left:auto;font-size:12px;font-weight:700;padding:4px 9px;border-radius:99px;white-space:nowrap}
+.s-rising{background:rgba(31,196,107,.18);color:#4be08f}.s-growing{background:rgba(31,196,107,.1);color:var(--green)}
+.s-steady{background:#1f2823;color:var(--muted)}.s-dipping{background:rgba(242,180,58,.12);color:var(--gold)}
+.s-falling{background:rgba(255,93,93,.12);color:var(--red)}.s-new{background:#1f2823;color:var(--muted)}
+.big{display:flex;align-items:flex-end;justify-content:space-between;gap:8px}
+.big b{font-size:26px;letter-spacing:-.02em;line-height:1}
+.big span{display:block;font-size:12px;color:var(--muted);margin-top:4px}
+.big canvas{width:110px;height:36px}
+.gain{font-size:13px}
 .up{color:var(--green)}.down{color:var(--red)}.flat{color:var(--muted)}
-canvas{width:100%;display:block}
-.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:8px}
-.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
+.meterbar{height:7px;background:#0f1411;border-radius:99px;overflow:hidden;position:relative}
+.meterbar i{position:absolute;inset:0 auto 0 0;background:linear-gradient(90deg,#1f6b42,var(--green),var(--gold));border-radius:99px}
+.meterlbl{display:flex;justify-content:space-between;font-size:12px;color:var(--muted);margin-bottom:5px}
+.meterlbl b{color:var(--text);font-weight:600}
+.oneline{font-size:13px;color:var(--muted);line-height:1.4}
+/* debate */
+.debate .q{font-size:20px;font-weight:800;margin-bottom:12px}
+.sides{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media(max-width:600px){.sides{grid-template-columns:1fr}}
+.side{background:#0f1411;border-radius:12px;padding:14px;border:1px solid var(--line)}
+.side h4{font-size:13px;margin-bottom:8px}
+.side ul{padding-left:18px;font-size:14px;line-height:1.5;display:grid;gap:6px}
+/* lists */
 .list{list-style:none}
-.list li{display:flex;justify-content:space-between;gap:12px;padding:9px 0;border-top:1px solid var(--line);font-size:14px}
+.list li{display:flex;justify-content:space-between;gap:12px;padding:10px 0;border-top:1px solid var(--line);font-size:14px}
 .list li small{display:block;color:var(--muted);font-size:12px}
 .list li .r{text-align:right;white-space:nowrap}
-#tip{position:fixed;pointer-events:none;background:#0f1411;border:1px solid var(--line);border-radius:10px;padding:8px 10px;font-size:12px;display:none;max-width:240px;z-index:5}
+canvas.chart{width:100%;display:block}
+.legend{display:flex;gap:14px;flex-wrap:wrap;font-size:12px;color:var(--muted);margin-top:8px}
+.legend i{display:inline-block;width:9px;height:9px;border-radius:50%;margin-right:5px}
+/* sheet */
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.6);display:none;align-items:flex-end;justify-content:center;z-index:10}
+.overlay.open{display:flex}
+@media(min-width:700px){.overlay{align-items:center}}
+.sheet{background:var(--card);border:1px solid var(--line);border-radius:20px 20px 0 0;width:100%;max-width:620px;max-height:92vh;overflow:auto;padding:22px}
+@media(min-width:700px){.sheet{border-radius:20px}}
+.sheet .close{float:right;background:none;border:0;color:var(--muted);font-size:22px;cursor:pointer}
+.sheet h2{margin:0}
+.kv{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:16px 0}
+.kv div{background:#0f1411;border-radius:12px;padding:12px}
+.kv span{display:block;font-size:12px;color:var(--muted)}.kv b{font-size:18px}
+.kv small{display:block;font-size:12px;color:var(--muted);margin-top:2px}
+.collabs{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+.collabs span{font-size:13px;padding:4px 10px;border-radius:99px;background:#0f1411;border:1px solid var(--line)}
+.collabs .UG{border-color:#24432f}.collabs .mainstream{border-color:#5a4720}
 .setup{line-height:1.7}.setup code{background:#0f1411;border:1px solid var(--line);padding:2px 6px;border-radius:6px;font-size:13px}
-.note{font-size:12px;color:var(--muted);margin-top:10px}
 .hidden{display:none!important}
 </style>
 </head>
 <body>
 <main class="wrap">
   <a class="back" href="../">← all apps</a>
-  <span class="tag">📈 live data · updated daily</span>
-  <h1>UG Wave Tracker</h1>
-  <p class="sub">Nigeria's underground (UG) wave vs the mainstream, measured every day with Spotify data. Who's growing, which songs are climbing, who's featuring whom, and who's next.</p>
+  <span class="tag">📈 updated every morning</span>
+  <h1>MOTION</h1>
+  <p class="sub"><b style="color:var(--text)">Who's moving in Naija music, measured daily.</b> The underground (UG) wave vs the mainstream on Spotify, explained in plain English.</p>
 
   <section class="card setup hidden" id="setup">
     <h3>No data yet</h3>
-    <p class="hint">The tracker hasn't run yet. Add your Spotify keys and run <code>python3 collect.py</code> in <code>ug-tracker/collector</code>, or let the daily GitHub Action do it.</p>
+    <p class="hint">MOTION hasn't run yet. It updates every morning via GitHub Actions.</p>
   </section>
 
   <div id="dash" class="hidden">
-    <div class="stats" id="stats"></div>
-
-    <section class="card">
-      <h3>Leaderboard <div class="chips" id="filters"></div></h3>
-      <p class="hint">Spotify monthly listeners and daily streams. <span id="since"></span> Tap artists to compare them on the chart below.</p>
-      <table>
-        <thead><tr><th data-sort="name">Artist</th><th data-sort="listeners">Listeners</th><th data-sort="listenersChange">Change</th><th data-sort="dailyStreams">Daily streams</th></tr></thead>
-        <tbody id="board"></tbody>
-      </table>
+    <section class="card story">
+      <h3>Today's Motion <small id="updated" style="color:var(--muted);text-transform:none;letter-spacing:0;font-weight:400"></small></h3>
+      <ol id="story"></ol>
+      <details class="explain">
+        <summary>How to read this page</summary>
+        <dl>
+          <div><dt>Monthly listeners</dt><dd>How many different people played the artist on Spotify in the last 28 days. It's the fairest way to compare UG and mainstream acts, because every artist has it.</dd></div>
+          <div><dt>🚀 In Motion · ▲ Moving · ● Still · ▼ Slowing</dt><dd>How their listeners changed since the date shown on the card. In Motion means up 2% or more. Spotify rounds big numbers (Burna shows as "40.4M"), so small daily moves for big artists show as <i>Still</i>. Weekly changes appear once we have a week of data.</dd></div>
+          <div><dt>Daily streams</dt><dd>Total plays per day across all their songs, from kworb.net. Spotify doesn't publish this for smaller artists, so many UG acts show "not on the charts yet". That's normal, and it changes once they're big enough.</dd></div>
+          <div><dt>UG → Mainstream motion</dt><dd>A score out of 100: <b>reach</b> (listeners vs the smallest mainstream act we track, up to 50), <b>features</b> with mainstream stars (up to 30) and being on the <b>daily stream charts</b> (20). 0–39 Underground, 40–74 Breaking through, 75+ Crossed over.</dd></div>
+        </dl>
+      </details>
     </section>
 
-    <section class="card">
-      <h3>Growth <div class="chips"><button class="chip on" data-mode="pct">% change</button><button class="chip" data-mode="abs">listeners</button></div></h3>
-      <p class="hint" id="growthHint">Monthly listeners over time for the selected artists.</p>
-      <canvas id="growth"></canvas>
-      <div class="legend" id="growthLegend"></div>
-    </section>
+    <h2>The artists</h2>
+    <p class="hint">Tap anyone for their full story.</p>
+    <div class="controls">
+      <div class="chips" id="filters"></div>
+      <select id="sort" aria-label="Sort artists">
+        <option value="listeners">Biggest audience</option>
+        <option value="change">Most in motion</option>
+        <option value="gained">Most new listeners</option>
+        <option value="meter">Closest to mainstream (UG)</option>
+      </select>
+    </div>
+    <div class="cards" id="cards"></div>
 
-    <div class="grid2">
-      <section class="card">
-        <h3>UG vs mainstream</h3>
-        <p class="hint">UG share of all daily streams across the tracked artists.</p>
-        <canvas id="share"></canvas>
-        <div class="note" id="shareNote"></div>
-      </section>
-      <section class="card">
-        <h3>Climbing songs</h3>
-        <p class="hint">Biggest week-on-week jump in daily streams.</p>
-        <ul class="list" id="climbers"></ul>
-      </section>
+    <div id="debateWrap">
+      <h2>Still UG? 🤔</h2>
+      <p class="hint">These UG acts have mainstream-level numbers now. Are they still underground? Here's the case both ways.</p>
+      <div id="debates"></div>
     </div>
 
+    <h2>Compare growth</h2>
     <section class="card">
-      <h3>Who's featuring whom</h3>
-      <p class="hint">Every line is a song they share, from Spotify's official catalog. Hover or tap a name.</p>
-      <canvas id="net"></canvas>
-      <div class="legend"><span><i style="background:var(--green)"></i>UG</span><span><i style="background:var(--gold)"></i>mainstream</span><span><i style="background:#5b6b62"></i>other</span></div>
+      <h3>Monthly listeners over time <div class="chips"><button class="chip on" data-mode="pct">% change</button><button class="chip" data-mode="abs">listeners</button></div></h3>
+      <p class="hint">Tap names to add or remove them.</p>
+      <div class="chips" id="pickers" style="margin-bottom:12px"></div>
+      <canvas id="growth" class="chart"></canvas>
     </section>
 
     <div class="grid2">
+      <section class="card">
+        <h3>UG's share of listeners</h3>
+        <p class="hint">UG acts' monthly listeners as a share of everyone we track.</p>
+        <canvas id="share" class="chart"></canvas>
+        <div class="hint" id="shareNote" style="margin:8px 0 0"></div>
+      </section>
       <section class="card">
         <h3>Crossovers</h3>
         <p class="hint">When each UG act first landed a song with a mainstream star.</p>
         <ul class="list" id="crossovers"></ul>
       </section>
+    </div>
+
+    <div class="grid2">
       <section class="card">
         <h3>Names to watch 👀</h3>
-        <p class="hint">Not on our list yet, but keep showing up on UG tracks.</p>
+        <p class="hint">Not on our list, but they keep showing up on UG songs.</p>
         <ul class="list" id="watch"></ul>
+      </section>
+      <section class="card">
+        <h3>Climbing songs</h3>
+        <p class="hint">Biggest week-on-week jump in daily plays (charting artists only).</p>
+        <ul class="list" id="climbers"></ul>
       </section>
     </div>
 
@@ -117,9 +177,10 @@ canvas{width:100%;display:block}
     </section>
   </div>
 
-  <p class="foot">built by <a href="https://x.com/Aded0yin_">@Aded0yin_</a> · Python collector + GitHub Actions · data: Spotify Web API, kworb.net, open.spotify.com · <span id="updated"></span></p>
+  <p class="foot">built by <a href="https://x.com/Aded0yin_">@Aded0yin_</a> · MOTION runs on Python + GitHub Actions · data: Spotify, kworb.net</p>
 </main>
-<div id="tip"></div>
+
+<div class="overlay" id="overlay"><div class="sheet" id="sheet" role="dialog" aria-modal="true"></div></div>
 <script src="app.js"></script>
 </body>
 </html>

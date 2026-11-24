@@ -1,221 +1,224 @@
-/* UG Wave Tracker dashboard. Reads data/ug.json written by collector/collect.py. */
+/* MOTION dashboard (UG Wave Tracker). Reads data/ug.json written by collector/collect.py (plain-English layer in insights.py). */
 (function () {
   "use strict";
   const $ = (id) => document.getElementById(id);
   const esc = (s) => String(s ?? "").replace(/[&<>"']/g, (c) => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;", "'": "&#39;" }[c]));
-  const GROUP_COLOR = { UG: "#1fc46b", mainstream: "#f2b43a", other: "#5b6b62" };
-  const LINE_COLORS = ["#1fc46b", "#f2b43a", "#38bdf8", "#e879f9", "#fb7185", "#a3e635", "#f97316", "#8b5cf6"];
-  const fmt = (n) => n == null ? "–" : n >= 1e6 ? (n / 1e6).toFixed(n >= 1e7 ? 1 : 2) + "M" : n >= 1e3 ? (n / 1e3).toFixed(n >= 1e5 ? 0 : 1) + "K" : String(n);
-  const chg = (v) => v == null ? `<span class="flat">–</span>` : `<span class="${v > 0 ? "up" : v < 0 ? "down" : "flat"}">${v > 0 ? "▲" : v < 0 ? "▼" : ""} ${Math.abs(v)}%</span>`;
-  const fdate = (d) => d ? new Date(d + "T00:00:00").toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" }) : "";
+  const COLORS = ["#1fc46b", "#f2b43a", "#38bdf8", "#e879f9", "#fb7185", "#a3e635", "#f97316", "#8b5cf6"];
+  const fmt = (n) => n == null ? "–" : Math.abs(n) >= 1e6 ? (n / 1e6).toFixed(1).replace(".0", "") + "M"
+    : Math.abs(n) >= 1e4 ? Math.round(n / 1e3) + "K" : Math.abs(n) >= 1e3 ? (n / 1e3).toFixed(1).replace(".0", "") + "K" : String(n);
+  const fdate = (d) => d ? new Date(d + "T00:00:00").toLocaleDateString(undefined, { day: "numeric", month: "short" }) : "";
+  const fdateY = (d) => d ? new Date(d + "T00:00:00").toLocaleDateString(undefined, { day: "numeric", month: "short", year: "numeric" }) : "";
 
-  let D, filter = "all", sortKey = "listeners", sortDir = -1, mode = "pct";
-  const selected = new Set();
+  let D, filter = "all", sortKey = "listeners", mode = "pct";
+  const picked = new Set();
 
   function canvas(el, h) {
-    const dpr = window.devicePixelRatio || 1, w = el.clientWidth;
+    const dpr = window.devicePixelRatio || 1, w = el.clientWidth || 110;
     el.width = w * dpr; el.height = h * dpr; el.style.height = h + "px";
     const ctx = el.getContext("2d"); ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
     ctx.font = "11px -apple-system, Inter, sans-serif";
     return { ctx, w, h };
   }
-  const tip = (e, html) => { const t = $("tip"); if (!html) { t.style.display = "none"; return; } t.innerHTML = html; t.style.display = "block"; t.style.left = e.clientX + 14 + "px"; t.style.top = e.clientY + 14 + "px"; };
+  const avatar = (a, size = 46) => a.image
+    ? `<img class="avatar" src="${esc(a.image)}" alt="" loading="lazy" style="width:${size}px;height:${size}px">`
+    : `<span class="avatar" style="width:${size}px;height:${size}px">${esc(a.name[0])}</span>`;
+  const gainText = (a) => {
+    if (a.listenersGained == null) return `<span class="flat">growth shows from day 2</span>`;
+    if (!a.listenersGained || a.listenersChange === 0) return `<span class="flat">steady since ${fdate(a.changeSince)}</span>`;
+    const up = a.listenersGained > 0;
+    return `<span class="${up ? "up" : "down"}">${up ? "+" : "−"}${fmt(Math.abs(a.listenersGained))} listeners (${up ? "+" : ""}${a.listenersChange}%)</span> <span class="flat">since ${fdate(a.changeSince)}</span>`;
+  };
 
-  // ---------- headline ----------
-  function renderStats() {
-    const A = D.artists.filter((a) => a.listeners != null);
-    const fastest = [...A].filter((a) => a.listenersChange != null).sort((a, b) => b.listenersChange - a.listenersChange)[0];
-    const ug = A.filter((a) => a.group === "UG");
-    const last = D.groupSeries[D.groupSeries.length - 1] || {};
-    const share = last.UG != null && last.mainstream ? Math.round((100 * last.UG) / (last.UG + last.mainstream)) : null;
-    const stats = [
-      ["Artists tracked", D.artists.length, `${D.days} day${D.days === 1 ? "" : "s"} of data`],
-      ["Fastest growing", fastest ? fastest.name : "–", fastest ? `${fastest.listenersChange > 0 ? "+" : ""}${fastest.listenersChange}% listeners` : "needs 2+ days"],
-      ["Biggest UG act", ug[0] ? ug[0].name : "–", ug[0] ? fmt(ug[0].listeners) + " monthly listeners" : ""],
-      ["UG share of streams", share != null ? share + "%" : "–", "of daily streams, latest"],
-    ];
-    $("stats").innerHTML = stats.map(([k, v, s]) => `<div class="stat"><span>${k}</span><b>${esc(v)}</b><small>${esc(s)}</small></div>`).join("");
+  // ---------- story ----------
+  function renderStory() {
+    const names = D.artists.map((a) => a.name).concat(D.namesToWatch.map((n) => n.name)).sort((a, b) => b.length - a.length);
+    const bold = (t) => names.reduce((s, n) => s.split(n).join(`\u0000${n}\u0001`), esc(t)).replace(/\u0000/g, "<b>").replace(/\u0001/g, "</b>");
+    $("story").innerHTML = D.story.map((s) => `<li><span>${bold(s)}</span></li>`).join("");
+    $("updated").textContent = "· updated " + fdateY(D.updated);
   }
 
-  // ---------- leaderboard ----------
-  function renderBoard() {
-    const groups = ["all", ...D.groups];
-    $("filters").innerHTML = groups.map((g) => `<button class="chip ${g === filter ? "on" : ""}" data-f="${g}">${g === "all" ? "All" : g}</button>`).join("");
-    const rows = D.artists.filter((a) => filter === "all" || a.group === filter).sort((a, b) => {
-      const x = a[sortKey], y = b[sortKey];
-      if (sortKey === "name") return sortDir * String(x).localeCompare(String(y));
-      return sortDir * ((x ?? -Infinity) - (y ?? -Infinity));
-    });
-    $("board").innerHTML = rows.map((a) => `
-      <tr data-id="${a.id}" class="${selected.has(a.id) ? "sel" : ""}">
-        <td><div class="who">${a.image ? `<img src="${esc(a.image)}" alt="" loading="lazy">` : `<span class="ph"></span>`}<span>${esc(a.name)}<span class="pill ${esc(a.group)}">${esc(a.group)}</span></span></div></td>
-        <td>${fmt(a.listeners)}</td><td>${chg(a.listenersChange)}</td><td>${fmt(a.dailyStreams)}</td></tr>`).join("");
-    const since = D.artists.find((a) => a.changeSince)?.changeSince;
-    $("since").textContent = since ? `Change is since ${fdate(since)}.` : "Change appears after the second day of data.";
+  // ---------- cards ----------
+  function sorted() {
+    const list = D.artists.filter((a) => filter === "all" || a.group === filter);
+    const key = {
+      listeners: (a) => a.listeners ?? -1,
+      change: (a) => (a.listeners || 0) >= 10000 ? a.listenersChange ?? -999 : -999,
+      gained: (a) => a.listenersGained ?? -Infinity,
+      meter: (a) => a.meter ? a.meter.score : -1,
+    }[sortKey];
+    return [...list].sort((a, b) => key(b) - key(a));
   }
 
-  // ---------- growth chart ----------
-  function renderGrowth() {
-    const picks = D.artists.filter((a) => selected.has(a.id));
-    const { ctx, w, h } = canvas($("growth"), 240);
-    const dates = [...new Set(D.artists.flatMap((a) => a.series.map((s) => s[0])))].sort();
-    if (dates.length < 2 || !picks.length) {
-      ctx.fillStyle = "#8fa197"; ctx.textAlign = "center";
-      ctx.fillText(dates.length < 2 ? "The chart fills in from the second day of data." : "Tap artists in the leaderboard to compare them.", w / 2, h / 2);
-      $("growthLegend").innerHTML = ""; return;
-    }
-    const lines = picks.map((a, i) => {
-      const pts = a.series.filter((s) => s[1] != null);
-      const base = pts[0] ? pts[0][1] : null;
-      return { a, color: LINE_COLORS[i % LINE_COLORS.length], pts: pts.map(([d, v]) => [dates.indexOf(d), mode === "pct" ? (100 * (v - base)) / base : v]) };
-    });
-    const vals = lines.flatMap((l) => l.pts.map((p) => p[1]));
-    let min = Math.min(...vals, mode === "pct" ? 0 : Infinity), max = Math.max(...vals, mode === "pct" ? 0 : -Infinity);
-    if (min === max) { min -= 1; max += 1; }
-    const pad = { l: 52, r: 34, t: 10, b: 24 }, iw = w - pad.l - pad.r, ih = h - pad.t - pad.b;
+  function renderCards() {
+    $("filters").innerHTML = [["all", "All"], ...D.groups.map((g) => [g, g === "UG" ? "UG" : g[0].toUpperCase() + g.slice(1)])]
+      .map(([k, l]) => `<button class="chip ${k === filter ? "on" : ""}" data-f="${k}">${l}</button>`).join("");
+    $("cards").innerHTML = sorted().map((a) => `
+      <button class="acard" data-id="${a.id}">
+        <div class="top">${avatar(a)}<div><div class="nm">${esc(a.name)}</div><span class="pill ${esc(a.group)}">${esc(a.group)}</span></div>
+          <span class="status s-${a.status.key}">${a.status.icon} ${a.status.label}</span></div>
+        <div class="big"><div><b>${fmt(a.listeners)}</b><span>monthly listeners</span></div><canvas data-spark="${a.id}"></canvas></div>
+        <div class="gain">${gainText(a)}</div>
+        ${a.meter ? `<div><div class="meterlbl"><span>UG → Mainstream motion</span><b>${a.meter.label} · ${a.meter.score}</b></div><div class="meterbar"><i style="width:${a.meter.score}%"></i></div></div>` : ""}
+        ${a.comparison ? `<div class="oneline">${esc(a.comparison[0].toUpperCase() + a.comparison.slice(1))}</div>` : ""}
+      </button>`).join("");
+    document.querySelectorAll("[data-spark]").forEach((c) => spark(c, D.artists.find((a) => a.id === c.dataset.spark)));
+  }
+
+  function spark(el, a) {
+    const pts = a.series.map((s) => s[1]).filter((v) => v != null);
+    const { ctx, w, h } = canvas(el, 36);
+    if (pts.length < 2) { ctx.fillStyle = "#3a4a40"; ctx.fillRect(0, h / 2, w, 2); return; }
+    const min = Math.min(...pts), max = Math.max(...pts), span = max - min || 1;
+    const up = pts[pts.length - 1] >= pts[0];
+    ctx.strokeStyle = pts[pts.length - 1] === pts[0] ? "#5b6b62" : up ? "#1fc46b" : "#ff5d5d"; ctx.lineWidth = 2; ctx.lineJoin = "round";
+    ctx.beginPath();
+    pts.forEach((v, i) => { const x = 2 + (i / (pts.length - 1)) * (w - 4), y = h - 4 - ((v - min) / span) * (h - 8); i ? ctx.lineTo(x, y) : ctx.moveTo(x, y); });
+    ctx.stroke();
+  }
+
+  // ---------- debates ----------
+  function renderDebates() {
+    $("debateWrap").classList.toggle("hidden", !D.debates.length);
+    $("debates").innerHTML = D.debates.map((d) => `
+      <section class="card debate">
+        <div class="q">${esc(d.question)}</div>
+        <div class="sides">
+          <div class="side"><h4 style="color:var(--green)">✊ Still UG</h4><ul>${d.still.map((s) => `<li>${esc(s)}</li>`).join("")}</ul></div>
+          <div class="side"><h4 style="color:var(--gold)">🎓 Graduated</h4><ul>${d.graduated.map((s) => `<li>${esc(s)}</li>`).join("")}</ul></div>
+        </div>
+        <div class="row" style="margin-top:14px"><button class="btn" data-poll="${esc(d.name)}">Ask my followers on X</button><button class="btn ghost" data-open="${d.id}">See ${esc(d.name)}'s numbers</button></div>
+      </section>`).join("");
+  }
+
+  // ---------- detail sheet ----------
+  function openArtist(id) {
+    const a = D.artists.find((x) => x.id === id); if (!a) return;
+    const streams = a.dailyStreams != null
+      ? `<b>${fmt(a.dailyStreams)}</b><small>plays a day across their songs</small>`
+      : `<b style="font-size:15px">Not on the charts yet</b><small>Spotify doesn't publish streams for smaller artists</small>`;
+    $("sheet").innerHTML = `
+      <button class="close" aria-label="Close">×</button>
+      <div class="top">${avatar(a, 56)}<div><h2>${esc(a.name)}</h2><span class="pill ${esc(a.group)}">${esc(a.group)}</span></div></div>
+      <p style="margin-top:14px;font-size:16px">${esc(a.summary)}.</p>
+      <div class="kv">
+        <div><span>Monthly listeners</span><b>${fmt(a.listeners)}</b><small>${a.status.icon} ${a.status.label}</small></div>
+        <div><span>New listeners</span><b>${a.listenersGained == null ? "–" : (a.listenersGained > 0 ? "+" : "") + fmt(a.listenersGained)}</b><small>${a.changeSince ? "since " + fdate(a.changeSince) : "from day 2"}${a.gainedPerDay && a.changeDays > 1 ? ` · ~${fmt(a.gainedPerDay)}/day` : ""}</small></div>
+        <div><span>Daily streams</span>${streams}</div>
+        <div><span>Rank</span><b>#${[...D.artists].sort((x, y) => (y.listeners || 0) - (x.listeners || 0)).findIndex((x) => x.id === a.id) + 1}</b><small>of ${D.artists.filter((x) => x.listeners).length} tracked</small></div>
+      </div>
+      <h3>Listeners over time</h3><canvas id="sheetChart" class="chart"></canvas>
+      ${a.meter ? `<h3 style="margin-top:18px">UG → Mainstream motion: ${a.meter.label} (${a.meter.score}/100)</h3>
+        <div class="meterbar" style="margin:8px 0 10px"><i style="width:${a.meter.score}%"></i></div>
+        <ul class="hint" style="padding-left:18px;display:grid;gap:4px;margin:0">${a.meter.evidence.map((e) => `<li>${esc(e)}</li>`).join("")}</ul>` : ""}
+      ${a.debate ? `<h3 style="margin-top:18px">${esc(a.debate.question)}</h3><div class="sides" style="margin-top:8px">
+        <div class="side"><h4 style="color:var(--green)">✊ Still UG</h4><ul>${a.debate.still.map((s) => `<li>${esc(s)}</li>`).join("")}</ul></div>
+        <div class="side"><h4 style="color:var(--gold)">🎓 Graduated</h4><ul>${a.debate.graduated.map((s) => `<li>${esc(s)}</li>`).join("")}</ul></div></div>` : ""}
+      <h3 style="margin-top:18px">Works with</h3>
+      ${a.collaborators.length ? `<div class="collabs">${a.collaborators.map((c) => `<span class="${esc(c.group)}">${esc(c.name)} · ${c.songs}</span>`).join("")}</div>`
+        : `<p class="hint">Features load from Spotify's catalog, usually within a day of adding an artist.</p>`}
+      <div class="row" style="margin-top:18px">
+        <a class="btn" href="https://open.spotify.com/artist/${esc(a.id)}" target="_blank" rel="noopener">Open on Spotify</a>
+        <button class="btn ghost" data-share="${a.id}">Share on X</button>
+      </div>`;
+    $("overlay").classList.add("open");
+    document.body.style.overflow = "hidden";
+    lineChart($("sheetChart"), [{ name: a.name, color: "#1fc46b", pts: a.series.filter((s) => s[1] != null).map((s) => [s[0], s[1]]) }], "abs", 180);
+  }
+  function closeSheet() { $("overlay").classList.remove("open"); document.body.style.overflow = ""; }
+
+  // ---------- charts ----------
+  function lineChart(el, lines, m, height) {
+    const { ctx, w, h } = canvas(el, height);
+    const dates = [...new Set(lines.flatMap((l) => l.pts.map((p) => p[0])))].sort();
+    if (dates.length < 2) { ctx.fillStyle = "#8fa197"; ctx.textAlign = "center"; ctx.fillText("The line appears from the second day of data.", w / 2, h / 2); return; }
+    const L = lines.map((l) => { const base = l.pts[0] ? l.pts[0][1] : 1; return { ...l, v: l.pts.map(([d, v]) => [dates.indexOf(d), m === "pct" ? (100 * (v - base)) / base : v]) }; });
+    const vals = L.flatMap((l) => l.v.map((p) => p[1]));
+    let min = Math.min(...vals, m === "pct" ? 0 : Infinity), max = Math.max(...vals, m === "pct" ? 0 : -Infinity);
+    if (min === max) { const pad = m === "pct" ? 1 : Math.max(1, min * 0.01); min -= pad; max += pad; }
+    const pad = { l: 52, r: 36, t: 10, b: 24 }, iw = w - pad.l - pad.r, ih = h - pad.t - pad.b;
     const x = (i) => pad.l + (i / (dates.length - 1)) * iw, y = (v) => pad.t + (1 - (v - min) / (max - min)) * ih;
     ctx.strokeStyle = "#1f2823"; ctx.fillStyle = "#8fa197";
-    for (let k = 0; k <= 4; k++) {
-      const v = min + ((max - min) * k) / 4;
+    for (let k = 0; k <= 3; k++) {
+      const v = min + ((max - min) * k) / 3;
       ctx.beginPath(); ctx.moveTo(pad.l, y(v)); ctx.lineTo(w - pad.r, y(v)); ctx.stroke();
-      ctx.textAlign = "right"; ctx.fillText(mode === "pct" ? v.toFixed(1) + "%" : fmt(Math.round(v)), pad.l - 6, y(v) + 4);
+      ctx.textAlign = "right"; ctx.fillText(m === "pct" ? v.toFixed(1) + "%" : (max - min < 2e5 && max >= 1e6 ? (v / 1e6).toFixed(2) + "M" : fmt(Math.round(v))), pad.l - 6, y(v) + 4);
     }
     ctx.textAlign = "center";
-    [0, Math.floor((dates.length - 1) / 2), dates.length - 1].forEach((i) => ctx.fillText(fdate(dates[i]).replace(/ \d{4}$/, ""), x(i), h - 6));
-    lines.forEach((l) => {
+    [...new Set([0, Math.floor((dates.length - 1) / 2), dates.length - 1])].forEach((i) => ctx.fillText(fdate(dates[i]), x(i), h - 6));
+    L.forEach((l) => {
       ctx.strokeStyle = l.color; ctx.lineWidth = 2.5; ctx.beginPath();
-      l.pts.forEach(([i, v], k) => (k ? ctx.lineTo(x(i), y(v)) : ctx.moveTo(x(i), y(v)))); ctx.stroke();
+      l.v.forEach(([i, v], k) => (k ? ctx.lineTo(x(i), y(v)) : ctx.moveTo(x(i), y(v)))); ctx.stroke();
+      l.v.forEach(([i, v]) => { ctx.beginPath(); ctx.arc(x(i), y(v), 3, 0, 7); ctx.fillStyle = l.color; ctx.fill(); });
     });
-    $("growthLegend").innerHTML = lines.map((l) => `<span><i style="background:${l.color}"></i>${esc(l.a.name)}</span>`).join("");
   }
 
-  // ---------- UG share ----------
+  function renderCompare() {
+    $("pickers").innerHTML = [...D.artists].sort((a, b) => (b.listeners || 0) - (a.listeners || 0)).map((a) => {
+      const i = [...picked].indexOf(a.id);
+      return `<button class="chip ${i >= 0 ? "on" : ""}" data-pick="${a.id}" style="${i >= 0 ? `border-color:${COLORS[i % COLORS.length]};color:${COLORS[i % COLORS.length]}` : ""}">${esc(a.name)}</button>`;
+    }).join("");
+    const lines = [...picked].map((id, i) => {
+      const a = D.artists.find((x) => x.id === id);
+      return { name: a.name, color: COLORS[i % COLORS.length], pts: a.series.filter((s) => s[1] != null).map((s) => [s[0], s[1]]) };
+    });
+    lineChart($("growth"), lines, mode, 240);
+  }
+
   function renderShare() {
-    const S = D.groupSeries.filter((p) => p.UG != null && p.mainstream != null);
-    const { ctx, w, h } = canvas($("share"), 180);
-    if (!S.length) { ctx.fillStyle = "#8fa197"; ctx.textAlign = "center"; ctx.fillText("No stream data yet", w / 2, h / 2); return; }
-    const vals = S.map((p) => (100 * p.UG) / (p.UG + p.mainstream));
-    const pad = { l: 36, r: 10, t: 10, b: 22 }, iw = w - pad.l - pad.r, ih = h - pad.t - pad.b;
+    const S = D.groupSeries.filter((p) => p.UGListeners != null && p.mainstreamListeners != null);
+    const { ctx, w, h } = canvas($("share"), 170);
+    if (!S.length) { ctx.fillStyle = "#8fa197"; ctx.textAlign = "center"; ctx.fillText("No data yet", w / 2, h / 2); return; }
+    const vals = S.map((p) => (100 * p.UGListeners) / (p.UGListeners + p.mainstreamListeners));
+    const pad = { l: 36, r: 12, t: 10, b: 22 }, iw = w - pad.l - pad.r, ih = h - pad.t - pad.b;
     const max = Math.max(5, Math.ceil(Math.max(...vals) / 5) * 5);
     const x = (i) => pad.l + (S.length === 1 ? iw / 2 : (i / (S.length - 1)) * iw), y = (v) => pad.t + (1 - v / max) * ih;
     ctx.fillStyle = "#8fa197"; ctx.strokeStyle = "#1f2823";
     [0, max / 2, max].forEach((v) => { ctx.beginPath(); ctx.moveTo(pad.l, y(v)); ctx.lineTo(w - pad.r, y(v)); ctx.stroke(); ctx.textAlign = "right"; ctx.fillText(v + "%", pad.l - 6, y(v) + 4); });
-    const g = ctx.createLinearGradient(0, pad.t, 0, pad.t + ih); g.addColorStop(0, "rgba(31,196,107,.35)"); g.addColorStop(1, "rgba(31,196,107,0)");
-    ctx.beginPath(); ctx.moveTo(x(0), y(0)); vals.forEach((v, i) => ctx.lineTo(x(i), y(v))); ctx.lineTo(x(vals.length - 1), y(0)); ctx.fillStyle = g; ctx.fill();
     ctx.strokeStyle = "#1fc46b"; ctx.lineWidth = 2.5; ctx.beginPath(); vals.forEach((v, i) => (i ? ctx.lineTo(x(i), y(v)) : ctx.moveTo(x(i), y(v)))); ctx.stroke();
     vals.forEach((v, i) => { ctx.beginPath(); ctx.arc(x(i), y(v), 3, 0, 7); ctx.fillStyle = "#1fc46b"; ctx.fill(); });
-    const first = vals[0], last = vals[vals.length - 1];
-    $("shareNote").textContent = S.length > 1 ? `${last.toFixed(1)}% now vs ${first.toFixed(1)}% on ${fdate(S[0].date)}.` : `${last.toFixed(1)}% today.`;
+    const last = vals[vals.length - 1], first = vals[0];
+    $("shareNote").textContent = S.length > 1 ? `${last.toFixed(1)}% now, vs ${first.toFixed(1)}% on ${fdate(S[0].date)}.` : `${last.toFixed(1)}% of all monthly listeners we track.`;
   }
 
-  // ---------- lists ----------
   function renderLists() {
-    $("climbers").innerHTML = D.climbers.length ? D.climbers.map((c) => `
-      <li><div><b>${esc(c.track)}</b><small>${esc(c.artist)}<span class="pill ${esc(c.group)}">${esc(c.group)}</span></small></div>
-      <div class="r">${c.new ? `<span class="up">NEW</span>` : chg(c.change)}<small>${fmt(c.daily)}/day</small></div></li>`).join("")
-      : `<li><span style="color:var(--muted)">Needs a week of data.</span></li>`;
+    const empty = (t) => `<li><span style="color:var(--muted)">${t}</span></li>`;
     $("crossovers").innerHTML = D.crossovers.length ? D.crossovers.map((c) => `
-      <li><div><b>${esc(c.ug)} × ${esc(c.mainstream)}</b><small>${esc(c.track)}${c.tracks > 1 ? ` + ${c.tracks - 1} more` : ""}</small></div><div class="r"><small>${fdate(c.date)}</small></div></li>`).join("")
-      : `<li><span style="color:var(--muted)">No UG × mainstream songs found yet.</span></li>`;
+      <li><div><b>${esc(c.ug)} × ${esc(c.mainstream)}</b><small>"${esc(c.track)}"${c.tracks > 1 ? ` + ${c.tracks - 1} more` : ""}</small></div><div class="r"><small>${fdateY(c.date)}</small></div></li>`).join("") : empty("No UG × mainstream songs found yet.");
     $("watch").innerHTML = D.namesToWatch.length ? D.namesToWatch.map((n) => `
-      <li><div><b>${esc(n.name)}</b><small>with ${esc(n.with.join(", "))}</small></div><div class="r">${n.tracks} songs<small>latest ${fdate(n.latest)}</small></div></li>`).join("")
-      : `<li><span style="color:var(--muted)">Nobody new yet.</span></li>`;
-    $("releases").innerHTML = D.releases.length ? D.releases.slice(0, 12).map((r) => `
-      <li><div><b>${esc(r.name)}</b><small>${esc(r.artist)}<span class="pill ${esc(r.group)}">${esc(r.group)}</span> · ${esc(r.type || "")}</small></div><div class="r"><small>${fdate(r.date)}</small></div></li>`).join("")
-      : `<li><span style="color:var(--muted)">Releases load from the Spotify API.</span></li>`;
-  }
-
-  // ---------- collaboration network (force-directed) ----------
-  let net = null;
-  function layoutNetwork() {
-    const { nodes, edges } = D.network;
-    const N = nodes.map((n, i) => ({ ...n, x: Math.cos(i) * 100, y: Math.sin(i * 1.7) * 100, vx: 0, vy: 0, deg: 0 }));
-    const idx = Object.fromEntries(N.map((n, i) => [n.id, i]));
-    const E = edges.filter((e) => e.a in idx && e.b in idx).map((e) => ({ ...e, s: idx[e.a], t: idx[e.b] }));
-    E.forEach((e) => { N[e.s].deg += e.weight; N[e.t].deg += e.weight; });
-    for (let it = 0; it < 300; it++) {
-      const k = 1 - it / 300;
-      for (let i = 0; i < N.length; i++) for (let j = i + 1; j < N.length; j++) {
-        const a = N[i], b = N[j]; let dx = a.x - b.x, dy = a.y - b.y; const d2 = dx * dx + dy * dy + 0.01;
-        const f = 1800 / d2; dx *= f / Math.sqrt(d2); dy *= f / Math.sqrt(d2);
-        a.vx += dx; a.vy += dy; b.vx -= dx; b.vy -= dy;
-      }
-      E.forEach((e) => { const a = N[e.s], b = N[e.t]; const dx = b.x - a.x, dy = b.y - a.y; const f = 0.02 * Math.min(3, e.weight);
-        a.vx += dx * f; a.vy += dy * f; b.vx -= dx * f; b.vy -= dy * f; });
-      N.forEach((n) => { n.vx -= n.x * 0.01; n.vy -= n.y * 0.01; n.x += n.vx * k * 0.5; n.y += n.vy * k * 0.5; n.vx *= 0.6; n.vy *= 0.6; });
-    }
-    net = { N, E, hover: null };
-  }
-  function drawNetwork() {
-    if (!net) layoutNetwork();
-    const { ctx, w, h } = canvas($("net"), 380);
-    const { N, E } = net;
-    if (!N.length || !E.length) { ctx.fillStyle = "#8fa197"; ctx.textAlign = "center"; ctx.fillText("The network loads from the Spotify API catalog.", w / 2, h / 2); return; }
-    const xs = N.map((n) => n.x), ys = N.map((n) => n.y);
-    const minX = Math.min(...xs), maxX = Math.max(...xs), minY = Math.min(...ys), maxY = Math.max(...ys);
-    const s = Math.min((w - 80) / (maxX - minX || 1), (h - 50) / (maxY - minY || 1));
-    N.forEach((n) => { n.sx = 40 + (n.x - minX) * s + ((w - 80) - (maxX - minX) * s) / 2; n.sy = 25 + (n.y - minY) * s + ((h - 50) - (maxY - minY) * s) / 2; n.r = 4 + Math.min(10, Math.sqrt(n.deg) * 2); });
-    const hv = net.hover;
-    E.forEach((e) => {
-      const lit = hv != null && (e.s === hv || e.t === hv);
-      ctx.strokeStyle = lit ? "rgba(238,243,239,.7)" : hv != null ? "rgba(143,161,151,.08)" : "rgba(143,161,151,.25)";
-      ctx.lineWidth = Math.min(4, 0.8 + e.weight * 0.6);
-      ctx.beginPath(); ctx.moveTo(N[e.s].sx, N[e.s].sy); ctx.lineTo(N[e.t].sx, N[e.t].sy); ctx.stroke();
-    });
-    N.forEach((n, i) => {
-      const dim = hv != null && i !== hv && !E.some((e) => (e.s === hv && e.t === i) || (e.t === hv && e.s === i));
-      ctx.globalAlpha = dim ? 0.25 : 1;
-      ctx.beginPath(); ctx.arc(n.sx, n.sy, n.r, 0, 7); ctx.fillStyle = GROUP_COLOR[n.group] || GROUP_COLOR.other; ctx.fill();
-      if (n.group !== "other" || i === hv || n.deg >= 3) {
-        ctx.fillStyle = "#eef3ef"; ctx.textAlign = "center"; ctx.font = (n.group !== "other" ? "600 " : "") + "11px -apple-system, Inter, sans-serif";
-        ctx.fillText(n.name, n.sx, n.sy - n.r - 4);
-      }
-      ctx.globalAlpha = 1;
-    });
-  }
-  function netHover(e) {
-    if (!net) return;
-    const r = $("net").getBoundingClientRect(), px = (e.touches ? e.touches[0].clientX : e.clientX) - r.left, py = (e.touches ? e.touches[0].clientY : e.clientY) - r.top;
-    let best = null, bd = 400;
-    net.N.forEach((n, i) => { const d = (n.sx - px) ** 2 + (n.sy - py) ** 2; if (d < bd) { bd = d; best = i; } });
-    if (best !== net.hover) { net.hover = best; drawNetwork(); }
-    if (best == null) return tip(e, null);
-    const n = net.N[best];
-    const links = net.E.filter((x) => x.s === best || x.t === best).map((x) => ({ o: net.N[x.s === best ? x.t : x.s].name, w: x.weight })).sort((a, b) => b.w - a.w);
-    tip(e.touches ? e.touches[0] : e, `<b>${esc(n.name)}</b><br>${links.slice(0, 6).map((l) => `${esc(l.o)} · ${l.w} song${l.w > 1 ? "s" : ""}`).join("<br>")}`);
+      <li><div><b>${esc(n.name)}</b><small>with ${esc(n.with.join(", "))}</small></div><div class="r">${n.tracks} songs<small>latest ${fdateY(n.latest)}</small></div></li>`).join("") : empty("Nobody new yet.");
+    $("climbers").innerHTML = D.climbers.length ? D.climbers.map((c) => `
+      <li><div><b>${esc(c.track)}</b><small>${esc(c.artist)}</small></div><div class="r">${c.new ? `<span class="up">NEW</span>` : c.change == null ? "" : `<span class="${c.change >= 0 ? "up" : "down"}">${c.change >= 0 ? "+" : ""}${c.change}%</span>`}<small>${fmt(c.daily)}/day</small></div></li>`).join("") : empty("Needs about a week of data.");
+    $("releases").innerHTML = D.releases.length ? D.releases.slice(0, 10).map((r) => `
+      <li><div><b>${esc(r.name)}</b><small>${esc(r.artist)} · ${esc(r.type || "")}</small></div><div class="r"><small>${fdateY(r.date)}</small></div></li>`).join("") : empty("Releases load from Spotify's catalog.");
   }
 
   // ---------- wiring ----------
-  function renderAll() { renderStats(); renderBoard(); renderGrowth(); renderShare(); renderLists(); drawNetwork(); }
-
-  $("filters").onclick = (e) => { const f = e.target.dataset.f; if (f) { filter = f; renderBoard(); } };
-  document.querySelector("thead").onclick = (e) => {
-    const k = e.target.dataset.sort; if (!k) return;
-    sortDir = sortKey === k ? -sortDir : k === "name" ? 1 : -1; sortKey = k; renderBoard();
-  };
-  $("board").onclick = (e) => {
-    const tr = e.target.closest("tr[data-id]"); if (!tr) return;
-    const id = tr.dataset.id; selected.has(id) ? selected.delete(id) : selected.size < 8 && selected.add(id);
-    renderBoard(); renderGrowth();
-  };
-  document.querySelectorAll("[data-mode]").forEach((b) => (b.onclick = () => {
-    mode = b.dataset.mode; document.querySelectorAll("[data-mode]").forEach((x) => x.classList.toggle("on", x === b)); renderGrowth();
-  }));
-  $("net").addEventListener("mousemove", netHover);
-  $("net").addEventListener("touchstart", netHover, { passive: true });
-  $("net").addEventListener("mouseleave", (e) => { if (net) { net.hover = null; drawNetwork(); } tip(e, null); });
-  window.addEventListener("resize", () => D && (renderGrowth(), renderShare(), drawNetwork()));
+  function share(text) { window.open("https://twitter.com/intent/tweet?text=" + encodeURIComponent(text), "_blank"); }
+  document.addEventListener("click", (e) => {
+    const t = e.target;
+    const card = t.closest("[data-id]"); if (card && card.classList.contains("acard")) return openArtist(card.dataset.id);
+    if (t.closest("[data-open]")) return openArtist(t.closest("[data-open]").dataset.open);
+    if (t.dataset.f) { filter = t.dataset.f; return renderCards(); }
+    if (t.dataset.pick) { const id = t.dataset.pick; picked.has(id) ? picked.delete(id) : picked.size < 8 && picked.add(id); return renderCompare(); }
+    if (t.dataset.mode) { mode = t.dataset.mode; document.querySelectorAll("[data-mode]").forEach((b) => b.classList.toggle("on", b === t)); return renderCompare(); }
+    if (t.dataset.poll) return share(`is ${t.dataset.poll} still UG? 🤔 the numbers say they've crossed over, the streets say otherwise. what do you think?\n\nvia MOTION ${location.href}`);
+    if (t.dataset.share) { const a = D.artists.find((x) => x.id === t.dataset.share); return share(`${a.name}: ${a.summary} 📈\n\nvia MOTION ${location.href}`); }
+    if (t.classList.contains("close") || t.id === "overlay") closeSheet();
+  });
+  document.addEventListener("keydown", (e) => e.key === "Escape" && closeSheet());
+  $("sort").onchange = (e) => { sortKey = e.target.value; renderCards(); };
+  window.addEventListener("resize", () => D && (renderCards(), renderCompare(), renderShare()));
 
   fetch("data/ug.json", { cache: "no-cache" })
     .then((r) => { if (!r.ok) throw new Error("missing"); return r.json(); })
     .then((d) => {
+      if (!d.artists || !d.story) throw new Error("old format");
       D = d;
-      if (!d.artists.some((a) => a.listeners != null || a.dailyStreams != null) && !d.network.edges.length) throw new Error("empty");
-      // preselect the top 2 UG + top mainstream act
-      [...d.artists.filter((a) => a.group === "UG").slice(0, 2), ...d.artists.filter((a) => a.group === "mainstream").slice(0, 1)].forEach((a) => selected.add(a.id));
-      $("updated").textContent = "updated " + fdate(d.updated);
+      const ug = d.artists.filter((a) => a.group === "UG" && a.listeners).sort((a, b) => b.listeners - a.listeners);
+      const ms = d.artists.filter((a) => a.group === "mainstream" && a.listeners).sort((a, b) => a.listeners - b.listeners);
+      [...ug.slice(0, 2), ...ms.slice(0, 1)].forEach((a) => picked.add(a.id));
       $("dash").classList.remove("hidden");
-      renderAll();
+      renderStory(); renderCards(); renderDebates(); renderCompare(); renderShare(); renderLists();
     })
     .catch(() => $("setup").classList.remove("hidden"));
 })();
