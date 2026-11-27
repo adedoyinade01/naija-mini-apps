@@ -1,0 +1,184 @@
+{
+ "biggestGain": {
+  "change": 1.5,
+  "driver": {
+   "change": null,
+   "delta": 284344,
+   "fromRelease": null,
+   "kind": "song",
+   "new": true,
+   "title": "Velvet"
+  },
+  "from": 26600000,
+  "gained": 400000,
+  "group": "mainstream",
+  "name": "Rema",
+  "to": 27000000
+ },
+ "days": 4,
+ "drops": [],
+ "end": "2026-11-27",
+ "meterMoves": [],
+ "note": "Covers 4 days (tracking started 23 Nov).",
+ "songs": [
+  {
+   "artist": "Burna Boy",
+   "daily": 1590266,
+   "gained": 6061390,
+   "group": "mainstream",
+   "title": "Dai Dai"
+  },
+  {
+   "artist": "Wizkid",
+   "daily": 1516350,
+   "gained": 5856384,
+   "group": "mainstream",
+   "title": "One Dance"
+  },
+  {
+   "artist": "Rema",
+   "daily": 674818,
+   "gained": 2787816,
+   "group": "mainstream",
+   "title": "Secondhand (feat. Rema)"
+  },
+  {
+   "artist": "Rema",
+   "daily": 536696,
+   "gained": 1994473,
+   "group": "mainstream",
+   "title": "Calm Down (with Selena Gomez)"
+  },
+  {
+   "artist": "Burna Boy",
+   "daily": 510097,
+   "gained": 1771508,
+   "group": "mainstream",
+   "title": "wgft (feat. Burna Boy)"
+  }
+ ],
+ "start": "2026-11-23",
+ "thread": [
+  "MOTION REPORT 📈 23 nov – 27 nov\n\nwho moved in naija music this week, measured daily on spotify 🧵",
+  "top movers this week:\n\n1. Egertton +10.8% (+32K)\n2. scottyolorin +7.4% (+49K)\n3. Luwa.Mp4 +3.2% (+1.7K)\n4. Priesst +2.1% (+14K)\n5. Rema +1.5% (+400K)",
+  "songs of the week:\n\n• \"Dai Dai\" by Burna Boy: +6.1M plays\n• \"One Dance\" by Wizkid: +5.9M plays\n• \"Secondhand (feat. Rema)\" by Rema: +2.8M plays\n• \"Calm Down (with Selena Gomez)\" by Rema: +2M plays",
+  "name to watch 👀 ARTSALGHUL: on 9 songs with 6 UG acts and nobody's talking about it",
+  "full numbers, every artist, updated every morning 👇"
+ ],
+ "title": "Motion Report · 23 Nov – 27 Nov",
+ "topMovers": [
+  {
+   "change": 10.8,
+   "driver": {
+    "date": "2026-11-19",
+    "kind": "likely",
+    "title": "Big Professor",
+    "type": "single"
+   },
+   "from": 293300,
+   "gained": 31700,
+   "group": "UG",
+   "name": "Egertton",
+   "to": 325000
+  },
+  {
+   "change": 7.4,
+   "driver": {
+    "date": "2026-11-20",
+    "kind": "likely",
+    "title": "GLACIER BOY",
+    "type": "album"
+   },
+   "from": 659100,
+   "gained": 48600,
+   "group": "UG",
+   "name": "scottyolorin",
+   "to": 707700
+  },
+  {
+   "change": 3.2,
+   "driver": {
+    "date": "2026-11-13",
+    "kind": "likely",
+    "title": "YoungRiot!",
+    "type": "single"
+   },
+   "from": 52400,
+   "gained": 1700,
+   "group": "UG",
+   "name": "Luwa.Mp4",
+   "to": 54100
+  },
+  {
+   "change": 2.1,
+   "driver": {
+    "date": "2026-11-13",
+    "kind": "likely",
+    "title": "Offline",
+    "type": "single"
+   },
+   "from": 682200,
+   "gained": 14000,
+   "group": "UG",
+   "name": "Priesst",
+   "to": 696200
+  },
+  {
+   "change": 1.5,
+   "driver": {
+    "change": null,
+    "delta": 284344,
+    "fromRelease": null,
+    "kind": "song",
+    "new": true,
+    "title": "Velvet"
+   },
+   "from": 26600000,
+   "gained": 400000,
+   "group": "mainstream",
+   "name": "Rema",
+   "to": 27000000
+  }
+ ],
+ "watch": [
+  {
+   "id": "3hXlGRJuBMCg9xJ41BSWkf",
+   "latest": "2026-11-16",
+   "name": "ARTSALGHUL",
+   "tracks": 9,
+   "with": [
+    "Danpapa GTA",
+    "DaveTheOracle",
+    "Egertton",
+    "Igwe Aka",
+    "Wave$tar",
+    "scottyolorin"
+   ]
+  },
+  {
+   "id": "6HsmnOUuab7e2X11UKrZ9Y",
+   "latest": "2026-07-31",
+   "name": "JoeyXcv",
+   "tracks": 11,
+   "with": [
+    "DaveTheOracle",
+    "Egertton",
+    "Kobilou",
+    "Luwa.Mp4",
+    "scottyolorin"
+   ]
+  },
+  {
+   "id": "5L1Xcdtf6MxLmEvpGMw3g4",
+   "latest": "2026-08-14",
+   "name": "Ayjay bobo",
+   "tracks": 4,
+   "with": [
+    "DaveTheOracle",
+    "Kobilou",
+    "Zaylevelten",
+    "scottyolorin"
+   ]
+  }
+ ]
+}
